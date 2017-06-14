@@ -1,0 +1,9 @@
+<WOAResponse>
+<accountCode>ASF</accountCode>
+<status>APPROVED</status>
+<aid>JORS708</aid>
+<manuscriptId>jors-09-126</manuscriptId>
+<journalCode>ACEM</journalCode>
+<responseDescription>SUCCESS</responseDescription>
+</WOAResponse>
+

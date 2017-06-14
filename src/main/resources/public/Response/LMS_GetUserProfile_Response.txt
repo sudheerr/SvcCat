@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<getUserProfileResponsetJSON>
+<product_title>Halliday, Fundamentals of Physics Extended, 8e (ISBNEPROF01388)
+</product_title>
+<course_id>crs20002</course_id>
+<domain_name>CANVAS: virtusa: Halliday, Fundamentals of Physics Extended, 8e (ISBNEPROF01388)</domain_name>
+<domain_number>11124</domain_number>
+<domain_id>dmn11124</domain_id>
+<domain_time_zone>-09:00</domain_time_zone>
+<domain_access_type>standard</domain_access_type>
+<domain_regcode_required>yes</domain_regcode_required>
+<domain_grace_period>0</domain_grace_period>
+<domain_multiterm>no</domain_multiterm>
+<domain_assignment_sharing>yes</domain_assignment_sharing>
+<product_type>E4</product_type>
+<app_version>WP</app_version>
+</getUserProfileResponsetJSON>

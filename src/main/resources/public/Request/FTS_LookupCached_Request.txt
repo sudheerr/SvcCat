@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetLookUpCodeServiceRequest xmlns="http://wiley.foundationservices.com/MessageObjects/Foundation/LookupService/Business/V1"; xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">;
+<applicationId>GLOBAL</applicationId>
+<domainName>Address_Type</domainName>
+<domainCode>SEC_BUS_ADDR</domainCode>
+<langCode>EN</langCode>
+</GetLookUpCodeServiceRequest>

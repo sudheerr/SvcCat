@@ -1,0 +1,2 @@
+2015 Nov 05 06:52:26:505 GMT -0500 BW.PTPVendorMaster01-PTPVendorMaster01 ISS-Info [BW-User] - D77DA20C-0AC8-209C-2B49-8AB127A09D0F~Started_Main~BusinessProcesses/Updat
+eRTRMasterDataToAriba/Processes/StarterProcesses/Poller/Poller_UpdateRTRMasterDataToAriba.process~Received TRG file : batch6.trg

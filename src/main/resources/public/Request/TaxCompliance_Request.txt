@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://xmlns.wiley.com/EnterpriseBusinessObjects/TaxEBO/V1" xmlns:v11="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/Meta/V1" xmlns:v12="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/DataTypes/V1" xmlns:ns="http://www.sabrix.com/services/taxcalculationservice/2011-09-01">
+  <soapenv:Header>
+  </soapenv:Header>
+  <soapenv:Body>
+    <v1:TaxCalculationRequestEBM>
+      <v11:EBMName languageCode="" languageLocaleCode="">
+      </v11:EBMName>
+      <v11:TargetSystem>
+        <v11:ServiceName languageCode="" languageLocaleCode="">
+        </v11:ServiceName>
+      </v11:TargetSystem>
+      <v1:UserData>
+        <v1:SourceSystemAppID>JCO</v1:SourceSystemAppID>
+        <v1:SourceSystemAppName>JCO</v1:SourceSystemAppName>
+        <v1:UniqueRequestIdentifier>65171</v1:UniqueRequestIdentifier>
+      </v1:UserData>
+      <ns:taxCalculationRequest>
+        <ns:INDATA version="G">
+          <ns:COMPANY_ROLE>S</ns:COMPANY_ROLE>
+          <ns:HOST_SYSTEM>JCO</ns:HOST_SYSTEM>
+          <ns:CALLING_SYSTEM_NUMBER>JCO</ns:CALLING_SYSTEM_NUMBER>
+          <ns:INVOICE>
+            <ns:BILL_TO>
+              <ns:COUNTRY>ZA</ns:COUNTRY>
+              <ns:CITY>UMHLANGA ROCKS 4320</ns:CITY>
+              <ns:POSTCODE>4320</ns:POSTCODE>
+            </ns:BILL_TO>
+            <ns:BUYER_PRIMARY>
+              <ns:COUNTRY>ZA</ns:COUNTRY>
+              <ns:CITY>UMHLANGA ROCKS 4320</ns:CITY>
+              <ns:POSTCODE>4320</ns:POSTCODE>
+            </ns:BUYER_PRIMARY>
+            <ns:CALLING_SYSTEM_NUMBER>JCO</ns:CALLING_SYSTEM_NUMBER>
+            <ns:CALCULATION_DIRECTION>F</ns:CALCULATION_DIRECTION>
+            <ns:COMPANY_ROLE>S</ns:COMPANY_ROLE>
+            <ns:CURRENCY_CODE>USD</ns:CURRENCY_CODE>
+            <ns:CUSTOMER_NAME>Dr B D Warman</ns:CUSTOMER_NAME>
+            <ns:CUSTOMER_NUMBER>WARMAN 003 000 000</ns:CUSTOMER_NUMBER>
+            <ns:EXTERNAL_COMPANY_ID>JWSL_UK</ns:EXTERNAL_COMPANY_ID>
+            <ns:INVOICE_DATE>2013-09-04</ns:INVOICE_DATE>
+            <ns:INVOICE_NUMBER>SB0577203</ns:INVOICE_NUMBER>
+            <ns:IS_AUDITED>N</ns:IS_AUDITED>
+            <ns:IS_CREDIT>N</ns:IS_CREDIT>
+            <ns:TRANSACTION_TYPE>GS</ns:TRANSACTION_TYPE>
+            <ns:UNIQUE_INVOICE_NUMBER>SB0577203</ns:UNIQUE_INVOICE_NUMBER>
+            <ns:LINE ID="86893">
+              <ns:BUYER_PRIMARY>
+                <ns:COUNTRY>ZA</ns:COUNTRY>
+                <ns:CITY>UMHLANGA ROCKS 4320</ns:CITY>
+                <ns:POSTCODE>4320</ns:POSTCODE>
+              </ns:BUYER_PRIMARY>
+              <ns:DELIVERY_TERMS>FOB</ns:DELIVERY_TERMS>
+              <ns:GROSS_AMOUNT>170.00</ns:GROSS_AMOUNT>
+              <ns:ITEM_VALUE>170.00</ns:ITEM_VALUE>
+              <ns:LINE_NUMBER>86893</ns:LINE_NUMBER>
+              <ns:ORDER_ACCEPTANCE>
+                <ns:COUNTRY>ZA</ns:COUNTRY>
+                <ns:CITY>UMHLANGA ROCKS 4320</ns:CITY>
+                <ns:POSTCODE>4320</ns:POSTCODE>
+              </ns:ORDER_ACCEPTANCE>
+              <ns:PART_NUMBER>BJS</ns:PART_NUMBER>
+              <ns:FULFILMENT_TYPE>0</ns:FULFILMENT_TYPE>
+              <ns:MEDIA_TYPE>A</ns:MEDIA_TYPE>
+              <ns:QUANTITY>1</ns:QUANTITY>
+              <ns:SELLER_PRIMARY>
+                <ns:COUNTRY>SG</ns:COUNTRY>
+                <ns:POSTCODE>408600</ns:POSTCODE>
+              </ns:SELLER_PRIMARY>
+              <ns:SHIP_FROM>
+                <ns:COUNTRY>SG</ns:COUNTRY>
+                <ns:CITY>SINGAPORE</ns:CITY>
+                <ns:POSTCODE>408600</ns:POSTCODE>
+              </ns:SHIP_FROM>
+              <ns:SHIP_TO>
+                <ns:COUNTRY>ZA</ns:COUNTRY>
+                <ns:CITY>UMHLANGA ROCKS 4320</ns:CITY>
+                <ns:POSTCODE>4320</ns:POSTCODE>
+              </ns:SHIP_TO>
+              <ns:SUPPLY>
+                <ns:COUNTRY>GB</ns:COUNTRY>
+              </ns:SUPPLY>
+              <ns:TRANSACTION_TYPE>GS</ns:TRANSACTION_TYPE>
+              <ns:UNIQUE_LINE_NUMBER>86893</ns:UNIQUE_LINE_NUMBER>
+            </ns:LINE>
+          </ns:INVOICE>
+          <ns:INVOICE>
+            <ns:BILL_TO>
+              <ns:COUNTRY>ZA</ns:COUNTRY>
+              <ns:CITY>UMHLANGA ROCKS 4320</ns:CITY>
+              <ns:POSTCODE>4320</ns:POSTCODE>
+            </ns:BILL_TO>
+            <ns:BUYER_PRIMARY>
+              <ns:COUNTRY>ZA</ns:COUNTRY>
+              <ns:CITY>UMHLANGA ROCKS 4320</ns:CITY>
+              <ns:POSTCODE>4320</ns:POSTCODE>
+            </ns:BUYER_PRIMARY>
+            <ns:CALLING_SYSTEM_NUMBER>JCO</ns:CALLING_SYSTEM_NUMBER>
+            <ns:CALCULATION_DIRECTION>F</ns:CALCULATION_DIRECTION>
+            <ns:COMPANY_ROLE>S</ns:COMPANY_ROLE>
+            <ns:CURRENCY_CODE>USD</ns:CURRENCY_CODE>
+            <ns:CUSTOMER_NAME>Dr B D Warman</ns:CUSTOMER_NAME>
+            <ns:CUSTOMER_NUMBER>WARMAN 003 000 000</ns:CUSTOMER_NUMBER>
+            <ns:EXTERNAL_COMPANY_ID>WSSI_US</ns:EXTERNAL_COMPANY_ID>
+            <ns:INVOICE_DATE>2013-09-04</ns:INVOICE_DATE>
+            <ns:INVOICE_NUMBER>SB0577203</ns:INVOICE_NUMBER>
+            <ns:IS_AUDITED>N</ns:IS_AUDITED>
+            <ns:IS_CREDIT>N</ns:IS_CREDIT>
+            <ns:TRANSACTION_TYPE>ES</ns:TRANSACTION_TYPE>
+            <ns:UNIQUE_INVOICE_NUMBER>SB0577203</ns:UNIQUE_INVOICE_NUMBER>
+            <ns:LINE ID="86894">
+              <ns:BUYER_PRIMARY>
+                <ns:COUNTRY>ZA</ns:COUNTRY>
+                <ns:CITY>UMHLANGA ROCKS 4320</ns:CITY>
+                <ns:POSTCODE>4320</ns:POSTCODE>
+              </ns:BUYER_PRIMARY>
+              <ns:GROSS_AMOUNT>170.00</ns:GROSS_AMOUNT>
+              <ns:ITEM_VALUE>170.00</ns:ITEM_VALUE>
+              <ns:LINE_NUMBER>86894</ns:LINE_NUMBER>
+              <ns:ORDER_ACCEPTANCE>
+                <ns:COUNTRY>ZA</ns:COUNTRY>
+                <ns:CITY>UMHLANGA ROCKS 4320</ns:CITY>
+                <ns:POSTCODE>4320</ns:POSTCODE>
+              </ns:ORDER_ACCEPTANCE>
+              <ns:PART_NUMBER>BJS2</ns:PART_NUMBER>
+              <ns:FULFILMENT_TYPE>0</ns:FULFILMENT_TYPE>
+              <ns:MEDIA_TYPE>G</ns:MEDIA_TYPE>
+              <ns:QUANTITY>1</ns:QUANTITY>
+              <ns:SELLER_PRIMARY>
+                <ns:COUNTRY>US</ns:COUNTRY>
+                <ns:STATE>NJ</ns:STATE>
+                <ns:POSTCODE>07039</ns:POSTCODE>
+              </ns:SELLER_PRIMARY>
+              <ns:SHIP_FROM>
+                <ns:COUNTRY>US</ns:COUNTRY>
+                <ns:STATE>NJ</ns:STATE>
+                <ns:CITY>HOBOKEN</ns:CITY>
+                <ns:POSTCODE>07039</ns:POSTCODE>
+              </ns:SHIP_FROM>
+              <ns:SHIP_TO>
+                <ns:COUNTRY>ZA</ns:COUNTRY>
+                <ns:CITY>UMHLANGA ROCKS 4320</ns:CITY>
+                <ns:POSTCODE>4320</ns:POSTCODE>
+              </ns:SHIP_TO>
+              <ns:SUPPLY>
+                <ns:COUNTRY>US</ns:COUNTRY>
+                <ns:STATE>NJ</ns:STATE>
+                <ns:CITY>HOBOKEN</ns:CITY>
+                <ns:POSTCODE>07039</ns:POSTCODE>
+              </ns:SUPPLY>
+              <ns:TRANSACTION_TYPE>ES</ns:TRANSACTION_TYPE>
+              <ns:UNIQUE_LINE_NUMBER>86894</ns:UNIQUE_LINE_NUMBER>
+            </ns:LINE>
+          </ns:INVOICE>
+        </ns:INDATA>
+      </ns:taxCalculationRequest>
+    </v1:TaxCalculationRequestEBM>
+  </soapenv:Body>
+</soapenv:Envelope>

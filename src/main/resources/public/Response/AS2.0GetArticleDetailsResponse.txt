@@ -1,0 +1,26 @@
+﻿{
+  "article":{
+    "art":{
+      "title":"A Case Study of AC Power Converse In A Three-infeed HVDC System",
+      "edRefCode":"ETEP-12-0601.R2",
+      "aid":"ETEP1751",
+      "jpcmsInternalId":"3-5291011",
+      "doi":"10.1002/etep.1751",
+      "issAcronym":null,
+      "wileyReceivedDt":"2013-03-19T20:00:00-04:00",
+      "authServEnabled":"Do not know",
+      "copyrightLine":"Copyright © 2013 John Wiley & Sons, Ltd.",
+      "correspondingAuthorFirstName":"Guangliang",
+      "correspondingAuthorLastName":"Yang",
+      "firstAuthorFirstName":"Guangliang",
+      "firstAuthorLastName":"Yang",
+      "adminOverrideArticleWALSParticipation":"No override",
+      "multipleSingedLicensesAvailable":"No",
+      "jrnlTitle":"International Transactions on Electrical Energy Systems",
+      "jrnlId":"ETEP",
+      "jrnlPissn":"2050-7038",
+      "jrnlEissn":"2050-7038",
+      "participateInWALS":"Yes"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	 xmlns:orq="http://www.wiley.com/schemas/eis/orderRequest"
+	 xmlns:ord="http://www.wiley.com/schemas/eis/order"
+	 xmlns:cmn="http://www.wiley.com/schemas/eis/common"
+	 targetNamespace="http://www.wiley.com/schemas/eis/orderRequest"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+	<xs:import namespace="http://www.wiley.com/schemas/eis/order" schemaLocation="order.xsd"/>
+	<xs:import namespace="http://www.wiley.com/schemas/eis/common" schemaLocation="common.xsd"/>
+	<xs:element name="orderRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="requester" type="cmn:commonDetail" minOccurs="0"/>
+				<xs:element name="order" type="ord:order" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

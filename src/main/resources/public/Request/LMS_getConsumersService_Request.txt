@@ -1,0 +1,15 @@
+RequestPayload1:
+
+url: http://ZSOMVMJITENS1.som.wiley.com:9054/lmsfoundation/consumers
+
+postdata:
+{
+    "page_size": 10,
+    "start_record": 1,
+    "result_field_set": "oauth_consumer_key,consumer_secret,lms_type,lms_time_zone,lms_institution_name,lms_admin_firstname,lms_admin_lastname,lms_admin_role,lms_admin_email,creation_date,lms_install_type,consumer_notes,lms_sprawl,lms_integration_level,lms_ecommerce",
+    "lms_type": "CANVAS",
+    "provider": "WileyPlus",
+    "created_before": "29.04.2014",
+    "created_after": "01.04.2014",
+    "lms_install_type": "Staging"
+}

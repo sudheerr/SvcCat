@@ -1,0 +1,12 @@
+	<Body>
+		<ESB_Fice_Information xmlns:xalan = "http://xml.apache.org/xslt">
+			<ESB_Unique_Message_ID>6B7D46B0-0A04-D745-3E3D-9848A6045D2B</ESB_Unique_Message_ID>
+			<Source_System_Making_Req>SFDC</Source_System_Making_Req>
+			<Source_System_Id>a1PZ0000000lHAKMA2|001Z000000vMrcoIAC</Source_System_Id>
+			<Fice_Prefix>A</Fice_Prefix>
+			<Fice_Number>101820</Fice_Number>
+			<Fice_Suffix>01</Fice_Suffix>
+			<Status>00</Status>
+			<Status_Desc>FICE CREATED SUCCESSFULLY</Status_Desc>
+		</ESB_Fice_Information>
+	</Body>

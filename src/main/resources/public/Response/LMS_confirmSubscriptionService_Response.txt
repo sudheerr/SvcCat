@@ -1,0 +1,2 @@
+From middleware to Wileyplus the data will be sent as json
+{   "username":"29bbb9f8f11e4ab2ddc2e6b779aff9c1e3d2e64a@Canvas.rakeshkey11",   "class_section_id":"cls19598",   "user_regcode":"sdfaasdfsdfasfd",   "user_grace_period":"active",   "product_sku":"EPROF00012" }

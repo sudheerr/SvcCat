@@ -1,0 +1,6 @@
+createUser:
+http://esbqa.wiley.com:11000/createUser?accessKey=ABCDEFABCDEFCCCC&timeStamp=1412847682282&secretToken=778e2d554c4e4f4d197b99c797712be960be21f1e52a2ac0bc9a15d6157746b8&isEncrypted=false&email=bpaadmin10%40wiley.com&password=bpaadmin10%40wiley.com
+
+authenticateUser:
+http://esbqa.wiley.com:11000/authenticateUser?accessKey=ABCDEFABCDEFCCCC&timeStamp=1412847682282&secretToken=778e2d554c4e4f4d197b99c797712be960be21f1e52a2ac0bc9a15d6157746b8&isEncrypted=false&email=bpaadmin10%40wiley.com&password=bpaadmin10%40wiley.com
+

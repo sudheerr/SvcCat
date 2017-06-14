@@ -1,0 +1,62 @@
+{
+  "Order":{
+    "orderStatusDate":"2016-02-12T03:50:07-05:00",
+    "orderStatusCode":"ORDER_CANCELLED",
+    "ooUniqueId":800001263,
+    "orderSource":"AS",
+    "orderType":"FUNDER_PAID",
+    "orderDate":"2016-02-10T09:53:33-05:00",
+    "enteredBy":"Eugene Shishkin",
+    "article":{
+      "journal":{
+        "DH_ID":892199,
+        "journalTitle":"European Journal of Neurology",
+        "journalCodeAbbreviation":"ENE",
+        "issn":"13515101",
+        "electronicIssn":"14681331"
+      },
+      "DH_ID":1040321,
+      "aidECORE":"ENE2666",
+      "articleTitle":"(Publish with ENE2665) Knowledge and Perception of Stroke among Hospital Workers in an African Community.",
+      "authors":{
+        "author":[
+          {
+            "firstName":"Eugene",
+            "lastName":"Shishkin"
+          }
+        ]
+      }
+    },
+    "customer":{
+      "participantId":"43b0d04b-c8c7-4477-b6d3-1f790461ac55"
+    },
+    "woaAccountHolder":[
+      {
+        "code":"WP",
+        "name":"Wellcome plus"
+      }
+    ],
+    "pricing":{
+      "productBasePrice":2000.0,
+      "amountToBePaid":2000.0,
+      "currency":"GBP"
+    },
+    "payment":{
+      "paymentMethod":"INVOICE",
+      "creditCard":null
+    },
+    "taxDetails":null,
+    "contactAddress":{
+      "name":"Eugene Shishkin",
+      "department":"XXX",
+      "institute":"UDMURTIA STATE UNIVERSITY",
+      "street":"Baker st",
+      "city":"Moscow",
+      "state":"Moskva",
+      "zip":"426426",
+      "country":"643",
+      "phoneNumber":"+7 (000) 000 00 00",
+      "email":"eshishkin@mailinator.com"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+2015 Sep 30 16:28:49:544 GMT -0400 BW.RTRGeneralLedger02-RTRGeneralLedger02 ISS-Info [BW-User] - 1FECF472-0AC8-209C-0D4A-25627E061847~Finished_Main_Success~BusinessProcesses/UpdateGLTransactionAssetDeprToIAS/Processes/StarterProcesses/FilePoller/UpdateGLTransactionAssetDeprToIAS_FilePollerStarter.process~i063_assetsdpr_ias_20150930_162341.txt~

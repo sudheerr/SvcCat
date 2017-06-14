@@ -1,0 +1,1 @@
+2015 Sep 29 19:13:29:191 GMT -0400 BW.PTPBankTransfer01-PTPBankTransfer01 ISS-Info [BW-User] - 1B61D9C9-0AC8-209C-4F02-DBFA6FB2D22B~Started_Main~BusinessProcesses/TransferPaymentFileToPNC/Processes/StarterProcesses/FilePoller/TransferPaymentFileToPNC_FilePoller.process~paymentspnc.trg~ 

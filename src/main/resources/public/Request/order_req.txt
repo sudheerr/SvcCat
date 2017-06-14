@@ -1,0 +1,78 @@
+http://localhost:15024/CoreOrderCreate?service=REST-CoreOrderCreate&TYPE=XML&request=<?xml version="1.0" encoding="utf-8"?>                                        
+<ESB_Order_Request xmlns="http://wiley.com/CoreOrderCreate/Request/V1.0"> 
+<Header>                                                         
+		<ESB_Unique_Message_ID/>
+		<Order_Tran_ISO_Ctry_Code>036</Order_Tran_ISO_Ctry_Code>
+		<ESB_Action_Code>INS</ESB_Action_Code>
+		<Source_System_Making_Req>SFDC</Source_System_Making_Req>
+		<Source_System_ID>003K0000010huZHIAY</Source_System_ID>
+		<Source_System_RequestId>a1iK0000003yNOfIAM</Source_System_RequestId>
+		<Target_System>AUCORE</Target_System>
+		<ECID>2324359</ECID>
+		<Ship_To_Corporation_Code>01</Ship_To_Corporation_Code>
+		<Ship_To_Account_Number_Part1>1025878</Ship_To_Account_Number_Part1>
+		<Ship_To_Account_Number_Part2/>
+		<Ship_To_First_Name>John</Ship_To_First_Name>
+		<Ship_To_Last_Name>Cross</Ship_To_Last_Name>
+		<Ship_To_Customer_Name2> </Ship_To_Customer_Name2>
+		<Ship_To_Address_Line1>75 AUSTRAL PDE</Ship_To_Address_Line1>
+		<Ship_To_Address_Line2/>
+		<Ship_To_Address_Line3/>
+		<Ship_To_City>EAST BUNBURY</Ship_To_City>
+		<Ship_To_State_Code>WA</Ship_To_State_Code>
+		<Ship_To_Post_Code>6230</Ship_To_Post_Code>
+		<Ship_To_Telephone/>
+		<Ship_To_Attention> </Ship_To_Attention>
+		<Ship_To_Method> </Ship_To_Method>
+		<Ship_To_Priority> </Ship_To_Priority>
+		<Ship_To_Order_Request_Type>BB</Ship_To_Order_Request_Type>
+		<Ship_To_Future_Order_Date>20150629</Ship_To_Future_Order_Date>
+		<Ship_To_Express_Order> </Ship_To_Express_Order>
+		<Ship_To_Salesperson_Code>1001</Ship_To_Salesperson_Code>
+		<Ship_To_Chargeto_Point_Code/>
+	</Header>
+	<Customer>
+		<Ord_Acct_Source_System_ID_Cust>003K0000010huZHIAY</Ord_Acct_Source_System_ID_Cust>
+		<Ord_Acct_Source_System_RequestId_Cust>a1PK0000001nHcxMAE</Ord_Acct_Source_System_RequestId_Cust>
+		<Ord_Acct_First_Name>John</Ord_Acct_First_Name>
+		<Ord_Acct_Middle_Initial> </Ord_Acct_Middle_Initial>
+		<Ord_Acct_Last_Name>Cross</Ord_Acct_Last_Name>
+		<Ord_Acct_Email_Address>john@gmail.com</Ord_Acct_Email_Address>
+		<Ord_Acct_Address_Line1>75 AUSTRAL PDE</Ord_Acct_Address_Line1>
+		<Ord_Acct_Address_Line2>null</Ord_Acct_Address_Line2>
+		<Ord_Acct_Address_Line3>null</Ord_Acct_Address_Line3>
+		<Ord_Acct_Attention_Line> </Ord_Acct_Attention_Line>
+		<Ord_Acct_City>EAST BUNBURY</Ord_Acct_City>
+		<Ord_Acct_State_Code>WA</Ord_Acct_State_Code>
+		<Ord_Acct_Post_Code>6230</Ord_Acct_Post_Code>
+		<Ord_Acct_Company_Name> </Ord_Acct_Company_Name>
+		<Ord_Acct_Currency_Code/>
+		<Ord_Acct_Market_Outlet_Code/>
+		<Ord_Acct_Salesperson_Code>1001</Ord_Acct_Salesperson_Code>
+		<Ord_Acct_Comp_Customer_Type>P</Ord_Acct_Comp_Customer_Type>
+		<Ord_Acct_Comp_Grabber> </Ord_Acct_Comp_Grabber>
+		<Ord_Acct_Email_Do_Not_Solicit> </Ord_Acct_Email_Do_Not_Solicit>
+		<Ord_Acct_Telephone/>
+		<Ord_Acct_Telephone_Ext/>
+		<Ord_Acct_Fax> </Ord_Acct_Fax>
+		<Ord_Acct_Telex> </Ord_Acct_Telex>
+		<Ord_Acct_Acquisition_EDI_No> </Ord_Acct_Acquisition_EDI_No>
+		<Ord_Acct_Wiley_EDI_No> </Ord_Acct_Wiley_EDI_No>
+		<Ord_Acct_Acquisition_Account_No> </Ord_Acct_Acquisition_Account_No>
+		<Ord_Acct_Customer_Vat_Code> </Ord_Acct_Customer_Vat_Code>
+		<Ord_Acct_Branch_Code> </Ord_Acct_Branch_Code>
+		<Ord_Acct_Charge_Forward_Ind> </Ord_Acct_Charge_Forward_Ind>
+		<Ord_Acct_Surcharge_Ind> </Ord_Acct_Surcharge_Ind>
+		<Ord_Acct_Key_Customer> </Ord_Acct_Key_Customer>
+	</Customer>
+	<Detail>
+		<Ship_To_Item_Number>1</Ship_To_Item_Number>
+		<Ship_To_ISBN13>9780631208600</Ship_To_ISBN13>
+		<Ship_To_Order_Quantity>3</Ship_To_Order_Quantity>
+	</Detail>
+	<Detail>
+		<Ship_To_Item_Number>2</Ship_To_Item_Number>
+		<Ship_To_ISBN13>9780470546000</Ship_To_ISBN13>
+		<Ship_To_Order_Quantity>2</Ship_To_Order_Quantity>
+	</Detail>
+</ESB_Order_Request>

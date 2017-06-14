@@ -1,0 +1,23 @@
+Request1: with OrderID 
+------------------------------
+
+{
+  "requestType":"GET_INVOICE",
+  "requestCreatedTimestamp":"2014-12-12 10:12:12",
+  "ooUniqueId":"120809"
+}
+
+
+
+Request 2: with article
+------------------------------
+
+{
+    "requestType": "GET_INVOICE",
+    "requestCreatedTimestamp": "2014-12-12 10:12:12",
+    "article": {
+        "journalPrintISSN": "20458827",
+        "articleID": "6441540"
+    }
+}
+

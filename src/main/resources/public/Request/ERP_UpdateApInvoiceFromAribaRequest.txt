@@ -1,0 +1,1 @@
+2016 Mar 18 06:19:43:564 GMT -0400 BW.PTPVendorMaster01-PTPVendorMaster01 ISS-Info [BW-User] - 893CE845-0AC8-4053-46EA-26FC1750CFB7~Started_Main~BusinessProcesses/UpdateApInvoiceFromAriba/Processes/StarterProcesses/JMS/UpdateAPInvoiceFromAriba_SAP_JMSStarter_RedWood.process~RWJobID: Test-I027~JMSMessageID: ID:EMS-SERVER-R1B.4A0A568F5C6D1345:2~

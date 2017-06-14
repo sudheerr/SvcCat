@@ -1,0 +1,97 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<p:NotificationCollection xmlns:p = "http://wiley.foundationservices.com/MessageObjects/Foundation/Notification/Service/Business/V1" xmlns:p1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1" xmlns:p2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Notification/Common/V1" xmlns:p3 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/Codelist/V1" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1 ../../../Common/xsd/V1.0/FoundationDataTypes.xsd http://wiley.foundationservices.com/MessageObjects/Foundation/Notification/Service/Business/V1 ../Schemas/foundation/Notification/xsd/V1.0/NotificationService.xsd http://wiley.foundationservices.com/MessageObjects/Foundation/Notification/Common/V1 NotificationMeta.xsd http://wiley.foundationservices.com/MessageObjects/Foundation/Common/Codelist/V1 ../../../Common/xsd/V1.0/CodeList.xsd"> 
+<p:NotificationRequest>
+<p:SenderSystem>   
+<p1:SystemID>FTSEHS_ESB_APPLN</p1:SystemID>   
+<p1:SystemName>Subscription Management ESB Services</p1:SystemName>   
+<p1:IPAddress>10.4.5.29</p1:IPAddress>  
+</p:SenderSystem> 
+<p:ServiceContext>   
+<p1:BusinessProcessName/>   
+<p1:Activity/>   
+<p1:ServiceName>ACS_TO_JDEdwards</p1:ServiceName>  
+<p1:ComponentName>JMSGet_Sales</p1:ComponentName>   
+<p1:MethodName/> 
+</p:ServiceContext> 
+<p:NotificationEvent>   
+<p2:GUID/>   
+<p2:ProcessInstanceID/>   
+<p2:ServiceInstanceID/>   
+<p2:ComponentInstanceID/>   
+<p2:NotificationCorrelationID/> 
+</p:NotificationEvent> 
+<p:NotificationDataDetails>   
+<p2:NotificationDateTime>2001-12-31T12:00:00</p2:NotificationDateTime>   
+<p2:NotificationCategory>ErrorNotification</p2:NotificationCategory>   
+<p2:NotificationPriority>HIGH</p2:NotificationPriority>   
+<p2:UserDetails>                 
+<p1:UserID>bvenkappan</p1:UserID>                 
+<p1:UserName>Ramesh babu Palani</p1:UserName>                 
+<p1:UserDept>SM</p1:UserDept>   
+</p2:UserDetails>       
+<p2:NotificationMessageNameValue NotoficationType = "NameValue">                 
+<p2:NameValueMessage>                        
+<p1:Item>                                      
+<p1:Name>ApplicationID</p1:Name>                                             
+<p1:Value>SUBSMGMT_ESB_APPLN</p1:Value>                               
+</p1:Item>                          
+<p1:Item>                                      
+<p1:Name>ServiceName</p1:Name>                                             
+<p1:Value>ACS_TO_JDEdwards</p1:Value>                               
+</p1:Item>                          
+<p1:Item>                                      
+<p1:Name>ErrorCode</p1:Name>                                             
+<p1:Value>DATA_VALDN_E1000</p1:Value>                               
+</p1:Item>                          
+<p1:Item>                                      
+<p1:Name>ErrorDescription</p1:Name>                                             
+<p1:Value>Data Validation Error in BW Process</p1:Value>                               
+</p1:Item>                          
+<p1:Item>                                      
+<p1:Name>ErrorType</p1:Name>                                             
+<p1:Value>DATA_ERROR</p1:Value>                               
+</p1:Item>                          
+<p1:Item>                                      <p1:Name>ErrorGUID</p1:Name><p1:Value>A70AE17F-68F3-4DBC-AA9E-3B0E64FA812B</p1:Value>                               
+</p1:Item>                          
+<p1:Item>                                      
+<p1:Name>ErrorDateTime</p1:Name>                                             
+<p1:Value>2012-06-16T11:00:00+05:00</p1:Value>                               
+</p1:Item>                          
+<p1:Item>                                      
+<p1:Name>ErrorStack</p1:Name>                                             
+<p1:Value>Invalid date as input 2002-13-12. Correct the data and resubmit the operation</p1:Value>                               </p1:Item>                        
+<p1:Item>                                      
+<p1:Name>WorkflowDetails</p1:Name><p1:Value>BPM Error Code: BPM-ERR-0001
+BPM Error Message: Login Exception: Metastorm session not created                                    
+</p1:Value>                               
+</p1:Item>             
+</p2:NameValueMessage>                 
+<p2:ReceiverChannelList>                               
+<p2:EmailChannel TemplateType = "VELOCITY" templateid = "ErrorNotification" type = "EMAIL">                                             <p1:MailSenderDetails>           
+<p1:FromName>Ramesh Babu</p1:FromName>           
+<p1:ReplyToAddress/></p1:MailSenderDetails>
+<p1:MailReceiverDetails>           
+<p1:ToList>             
+<p1:MailAddress>bvenkappan@wiley.com</p1:MailAddress>           
+</p1:ToList>           
+<p1:CCList>              
+<p1:MailAddress>bvenkappan@wiley.com</p1:MailAddress>           
+</p1:CCList>           
+<p1:BCCList>             
+<p1:MailAddress/>           
+</p1:BCCList>           
+<p1:Subject_Line>Error Notification</p1:Subject_Line>                                             
+</p1:MailReceiverDetails>         
+</p2:EmailChannel>                 
+</p2:ReceiverChannelList>   
+</p2:NotificationMessageNameValue>  
+</p:NotificationDataDetails> 
+<p:BusinessKeys>   
+<p1:Item>                 
+<p1:Name>ORDER_NO</p1:Name>                 
+<p1:Value>1234567</p1:Value>   
+</p1:Item> 
+</p:BusinessKeys>
+</p:NotificationRequest>
+</p:NotificationCollection>

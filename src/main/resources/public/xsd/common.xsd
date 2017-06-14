@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ ********************************************************************************
+ * Change History
+ * Aug 28 2016 - 1.0 - Initial draft.
+ * Sep 01 2016 - 1.1 - Updated naming notation.
+ ********************************************************************************
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	 xmlns:cmn="http://www.wiley.com/schemas/eis/common"
+	 xmlns:adr="http://www.wiley.com/schemas/eis/address"
+	 targetNamespace="http://www.wiley.com/schemas/eis/common"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+	<annotation>
+		<documentation>EIS common Schema which is referred from other entity schemas.</documentation>
+	</annotation>
+	<import namespace="http://www.wiley.com/schemas/eis/address" schemaLocation="address.xsd"/>
+	<complexType name="commonDetail">
+		<annotation>
+			<documentation>Contains common types of details</documentation>
+		</annotation>
+		<sequence>
+			<element name="name" type="string" minOccurs="0"/>
+			<element name="id" type="string" minOccurs="0"/>
+			<element name="type" type="string" minOccurs="0"/>
+			<element name="number" type="string" minOccurs="0"/>
+			<element name="code" type="string" minOccurs="0"/>
+			<element name="detail" type="string" minOccurs="0"/>
+			<element ref="cmn:property" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	<complexType name="extensions">
+		<annotation>
+			<documentation>used when any other attribute or other data types are required to extend in the schema entity</documentation>
+		</annotation>
+		<sequence>
+			<element ref="cmn:property" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="data" type="anyType" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	<complexType name="identity">
+		<annotation>
+			<documentation>Contains identity of a person, agent, customer, or organization.</documentation>
+		</annotation>
+		<sequence>
+			<element name="id" type="string" minOccurs="0"/>
+			<element name="ecId" type="string" minOccurs="0"/>
+			<element name="bpId" type="string" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="taxId" type="string" minOccurs="0"/>
+			<element name="ssn" type="string" minOccurs="0"/>
+			<element name="type" type="string" minOccurs="0"/>
+			<element name="role" type="string" minOccurs="0"/>
+			<element name="status" type="string" minOccurs="0"/>
+			<element ref="cmn:property" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	<complexType name="activation">
+		<annotation>
+			<documentation>Contains activation details</documentation>
+		</annotation>
+		<sequence>
+			<element name="startDate" type="string" minOccurs="0"/>
+			<element name="endDate" type="string" minOccurs="0"/>
+			<element name="status" type="string" minOccurs="0"/>
+			<element ref="cmn:property" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	<complexType name="name">
+		<annotation>
+			<documentation>Contains name details</documentation>
+		</annotation>
+		<sequence>
+			<element name="salutation" type="string" minOccurs="0"/>
+			<element name="firstName" type="string" minOccurs="0"/>
+			<element name="middleName" type="string" minOccurs="0"/>
+			<element name="lastName" type="string" minOccurs="0"/>
+			<element ref="cmn:property" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	<complexType name="account">
+		<annotation>
+			<documentation>Contains account detail</documentation>
+		</annotation>
+		<sequence>
+			<element name="common" type="cmn:commonDetail" minOccurs="0"/>
+			<element name="activation" type="cmn:activation" minOccurs="0"/>
+			<element name="address" type="adr:address" minOccurs="0"/>
+			<element ref="cmn:property" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	<complexType name="payment">
+		<annotation>
+			<documentation>Contains payment related detail</documentation>
+		</annotation>
+		<sequence>
+			<element name="common" type="cmn:commonDetail" minOccurs="0"/>
+			<element name="amount" type="string" minOccurs="0"/>
+			<element name="method" minOccurs="0">
+				<complexType>
+					<sequence>
+						<element name="card" type="cmn:card" minOccurs="0" maxOccurs="unbounded"/>
+						<element name="cash" type="string" minOccurs="0"/>
+						<element name="other" type="cmn:extensions"/>
+					</sequence>
+				</complexType>
+			</element>
+			<element ref="cmn:property" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	<complexType name="card">
+		<annotation>
+			<documentation>Contains Card related details</documentation>
+		</annotation>
+		<sequence>
+			<element name="common" type="cmn:commonDetail" minOccurs="0"/>
+			<element name="activation" type="cmn:activation" minOccurs="0"/>
+			<element name="address" type="adr:address" minOccurs="0"/>
+			<element ref="cmn:property" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	<complexType name="order">
+		<annotation>
+			<documentation>Contains customer order related details</documentation>
+		</annotation>
+		<sequence>
+			<element name="common" type="cmn:commonDetail" minOccurs="0"/>
+			<element name="quantity" type="string" minOccurs="0"/>
+			<element name="date" type="cmn:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="reference" type="cmn:propertyType" minOccurs="0"/>
+			<element name="status" type="cmn:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="shipment" type="cmn:shipment" minOccurs="0"/>
+			<element name="cost" type="cmn:cost" minOccurs="0"/>
+			<element name="payment" type="cmn:payment" minOccurs="0"/>
+			<element name="extensions" type="cmn:extensions" minOccurs="0"/>
+		</sequence>
+	</complexType>
+	<complexType name="sales">
+		<annotation>
+			<documentation>Contains sales related details</documentation>
+		</annotation>
+		<sequence>
+			<element name="organisation" type="string" minOccurs="0"/>
+			<element name="channel" type="string" minOccurs="0">
+				<annotation>
+					<documentation>Distribution Channel</documentation>
+				</annotation>
+			</element>
+			<element name="division" type="string" minOccurs="0"/>
+			<element name="department" type="string" minOccurs="0"/>
+			<element name="docType" type="string" minOccurs="0"/>
+			<element name="extensions" type="cmn:extensions" minOccurs="0"/>
+		</sequence>
+	</complexType>
+	<complexType name="shipment">
+		<annotation>
+			<documentation>Shipment related details</documentation>
+		</annotation>
+		<sequence>
+			<element name="method" type="string" minOccurs="0"/>
+			<element name="id" type="string" minOccurs="0"/>
+			<element name="detail" type="string" minOccurs="0"/>
+			<element name="date" type="cmn:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="priority" type="string" minOccurs="0"/>
+			<element name="provider" type="string" minOccurs="0"/>
+			<element name="address" type="adr:address" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="email" type="cmn:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="status" type="cmn:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+			<element ref="cmn:property" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	<complexType name="registration">
+		<annotation>
+			<documentation>Contains registration related details</documentation>
+		</annotation>
+		<sequence>
+			<element name="common" type="cmn:commonDetail" minOccurs="0"/>
+			<element name="date" type="cmn:propertyType" minOccurs="0"/>
+			<element name="status" type="cmn:propertyType" minOccurs="0"/>
+			<element ref="cmn:property" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	<complexType name="reference">
+		<annotation>
+			<documentation>Contains reference related details</documentation>
+		</annotation>
+		<sequence>
+			<element name="common" type="cmn:commonDetail" minOccurs="0"/>
+			<element ref="cmn:property" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	<complexType name="employee">
+		<annotation>
+			<documentation>Contains employee related details</documentation>
+		</annotation>
+		<sequence>
+			<element name="id" type="string" minOccurs="0"/>
+			<element name="code" type="string" minOccurs="0"/>
+			<element name="name" type="string" minOccurs="0"/>
+			<element ref="cmn:property" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	<complexType name="propertyType">
+		<sequence>
+			<element name="name" type="string" minOccurs="0"/>
+			<element name="value" type="string" minOccurs="0"/>
+			<element name="type" type="string" minOccurs="0"/>
+		</sequence>
+	</complexType>
+	<element name="property" type="cmn:propertyType"/>
+	<complexType name="cost">
+		<sequence>
+			<element name="price" type="cmn:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="tax" type="cmn:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="fee" type="cmn:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="discount" type="cmn:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="promotion" type="cmn:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="currency" type="cmn:propertyType" minOccurs="0"/>
+			<element ref="cmn:property" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	<element name="commonDetail" type="cmn:commonDetail"/>
+	<complexType name="response">
+		<sequence>
+			<element name="code" type="string" minOccurs="0"/>
+			<element name="message" type="string" minOccurs="0"/>
+			<element name="guid" type="string" minOccurs="0"/>
+		</sequence>
+	</complexType>
+</schema>

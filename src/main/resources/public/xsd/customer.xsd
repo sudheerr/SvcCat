@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ ********************************************************************************
+ * Change History
+ * Aug 28 2016 - 1.0 - Initial draft.
+ * Sep 01 2016 - 1.1 - Updated naming notation.
+ ********************************************************************************
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	 xmlns:cmn="http://www.wiley.com/schemas/eis/common"
+	 xmlns:adr="http://www.wiley.com/schemas/eis/address"
+	 xmlns:cnt="http://www.wiley.com/schemas/eis/contact"
+	 xmlns:cst="http://www.wiley.com/schemas/eis/customer"
+	 targetNamespace="http://www.wiley.com/schemas/eis/customer"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+	<annotation>
+		<documentation>represents company level details</documentation>
+	</annotation>
+	<import namespace="http://www.wiley.com/schemas/eis/common" schemaLocation="common.xsd"/>
+	<import namespace="http://www.wiley.com/schemas/eis/address" schemaLocation="address.xsd"/>
+	<import namespace="http://www.wiley.com/schemas/eis/contact" schemaLocation="contactInfo.xsd"/>
+	<complexType name="customer">
+		<annotation>
+			<documentation>Contains company detail</documentation>
+		</annotation>
+		<sequence>
+			<element ref="cst:contactInfo" minOccurs="0"/>
+			<element name="companyData" type="cmn:sales" minOccurs="0" maxOccurs="unbounded"/>
+			<element ref="cst:contacts" minOccurs="0"/>
+			<element name="payment" type="cmn:payment" minOccurs="0" maxOccurs="unbounded">
+				<annotation>
+					<documentation>Refers payment element from common schema</documentation>
+				</annotation>
+			</element>
+			<element name="account" type="cmn:account" minOccurs="0" maxOccurs="unbounded">
+				<annotation>
+					<documentation>Refers account element from common schema</documentation>
+				</annotation>
+			</element>
+			<element name="extensions" type="cmn:extensions" minOccurs="0">
+				<annotation>
+					<documentation>Additional subsidiaries for the company should be added under extensions/data and coerced to company. This is to ensure that there is no cyclic reference in the schema
+</documentation>
+				</annotation>
+			</element>
+		</sequence>
+	</complexType>
+	<element name="customers" type="cst:customerList">
+		<annotation>
+			<documentation>Contains company detail list</documentation>
+		</annotation>
+	</element>
+	<complexType name="customerList">
+		<sequence>
+			<element name="customer" type="cst:customer" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	<element name="contact" type="cnt:contactInfo">
+		<annotation>
+			<documentation>This represents the individual contacts of a company</documentation>
+		</annotation>
+	</element>
+	<element name="identity" type="cmn:identity"/>
+	<element name="contactInfo" type="cnt:contactInfo">
+		<annotation>
+			<documentation>This represents the contact information of the company itself, like its BPID, ECID, physical location, mailing address etc. In case of individual customer, it represents contact information for the customer</documentation>
+		</annotation>
+	</element>
+	<element name="contacts">
+		<annotation>
+			<documentation>This is only applicable to organizational customers. This will represent individual contacts for a given organizational customer</documentation>
+		</annotation>
+		<complexType>
+			<sequence>
+				<element ref="cst:contact" minOccurs="0" maxOccurs="unbounded"/>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

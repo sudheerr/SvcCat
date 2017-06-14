@@ -1,0 +1,21 @@
+{
+  "requestType":"TAX_CALCULATION",
+  "responseCode":"200",
+  "responseDescription":"VAT/Tax amount has been calculated successfully",
+  "item":[
+    {
+      "id":1,
+      "journalPrintISSN":"1470-6423",
+      "journalElectronicISSN":"1470-6431",
+      "productCode":null,
+      "taxAmount":200.0
+    },
+    {
+      "id":2,
+      "journalPrintISSN":"1470-6423",
+      "journalElectronicISSN":"1470-6431",
+      "productCode":null,
+      "taxAmount":400.0
+    }
+  ]
+}

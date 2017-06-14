@@ -1,0 +1,18 @@
+RequestPayload:
+
+Oauth_consumer_key=key02
+Lms_context_id= 5b48d8003e8830ced06c87b3bd2e0817f9f306b8
+Lms_type= ANGEL
+Lms_user_id= 2f673fef2c974592fc2127b2575b63614e488e04
+Product_sku= ISBNEPROF11278
+Integration_id= 828
+Resource_link_id= 265ae54cfb1800deed57dda591839bd532618c1c
+User_id= 2f673fef2c974592fc2127b2575b63614e488e04
+Lms_country_code= 840
+Lms_fice_code= B03302001
+Lms_type= ANGEL
+Custom_courseid= ISBNEPROF11278
+Presentation_target= iframe
+Lms_callback= https://canvas.instructure.com/courses/830773/external_tools/25864/finished
+Ecommerce=1
+Request_id= D5A347C9-0A05-0212-009B-E1C45A3B3016

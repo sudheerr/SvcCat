@@ -1,0 +1,7 @@
+{
+  "resetLicenseResponse":{
+    "DH_ID":123321,
+    "responseCode":404,
+    "responseDescription":"Signed license is not found for the article with dhid = 123321"
+  }
+}

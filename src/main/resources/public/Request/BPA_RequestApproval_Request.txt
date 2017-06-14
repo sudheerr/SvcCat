@@ -1,0 +1,14 @@
+startWorkflow :
+http://10.6.4.36:11030/startWorkflow?authId=sbhaduri%40wiley.com&exportRequestId=f744986d-ef06-48b7-af97-43bc3a0bc809
+
+searchTasks :
+http://10.6.4.36:11030/searchTasks?previousNumberOfDays=-7&taskStatus=WAITING+FOR+APPROVAL&authId=sbhaduri%40wiley.com
+
+claimTask :
+http://10.6.4.36:11030/claimTask?authId=asamal%40wiley.com&workflowInstanceId=143601&userName=asamal&exportRequestId=f744986d-ef06-48b7-af97-43bc3a0bc809
+
+deliverPackages :
+http://10.6.4.36:11030/deliverPackages?maxFtpSize=10240000000&authId=bpaadmin10%40wiley.com&isbn=9780470847480&maxEmailSize=5120000&authenticationTokenId=d17ba203e6cc9884d79805e9c22a83cbde449bf8e9a19b562ae98671c038d70a&assemblyId=f8112a34-7c01-4108-86e6-5dd638546a1f
+
+reprintAmend :
+http://10.6.4.36:11030/reprintAmend?operation=REPRINT&authId=asadhu%40wiley.com&userName=asadhu&repoId=REP000005&authenticationTokenId=1a0730736f9d516e61ec5c7f979a2213ce3560da340838f484d1fd83a13f4714&contentId=d1a63595-28ac-439d-b9cd-5d8e75ded299

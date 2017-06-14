@@ -1,0 +1,17 @@
+savedQuery:
+http://10.6.4.36:11028/savedQuery?authId=kdatta%40wiley.com&authenticationTokenId=f1f7743e2de41e273de30ae9e4489d0e0360fdb5d4b5f1dc55b1c1b87e7f8bf7
+
+getQuery:
+http://10.6.4.36:11028/getQuery?authId=kdatta%40wiley.com&authenticationTokenId=f1f7743e2de41e273de30ae9e4489d0e0360fdb5d4b5f1dc55b1c1b87e7f8bf7
+
+loadQuery:
+http://10.6.4.36:11028/loadQuery?authId=kdatta%40wiley.com&userId=kdatta&authenticationTokenId=f1f7743e2de41e273de30ae9e4489d0e0360fdb5d4b5f1dc55b1c1b87e7f8bf7&queryId=39098960-ae0c-4118-a745-2d3385bcc78b
+
+deleteQuery:
+http://10.6.4.36:11028/deleteQuery?authId=kdatta%40wiley.com&authenticationTokenId=f1f7743e2de41e273de30ae9e4489d0e0360fdb5d4b5f1dc55b1c1b87e7f8bf7&queryId=39098960-ae0c-4118-a745-2d3385bcc78b
+
+getQueryByUser:
+http://10.6.4.36:11028/getQryByUser?authId=kdatta%40wiley.com&authenticationTokenId=f1f7743e2de41e273de30ae9e4489d0e0360fdb5d4b5f1dc55b1c1b87e7f8bf7
+
+uploadToBpa:
+http://10.6.4.36:11028/uploadToBpa?responseId=c2cdd862-5a96-4d05-b691-20d1d1819fdf&authId=asadhu%40wiley.com&authenticationTokenId=832290adf976de6d529978b90c1e0ed474d76acc16d2b272df9351d64b0ab4df

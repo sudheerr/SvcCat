@@ -1,0 +1,1 @@
+2016 Jun 08 08:16:01:057 GMT -0400 BW.ARCreditInvoiceData02-ARCreditInvoiceData02 ISS-Info [BW-User] - 2FF0D47D-0AC8-4053-2AC4-FD7654F50672~Finished_Main_Success~BusinessProcesses/CreateAndClearDownPmntsFromGRCore/Processes/StarterProcesses/MQ/CustomerClearDownPmntsFromGRGcoreNA_MQStarter.process~

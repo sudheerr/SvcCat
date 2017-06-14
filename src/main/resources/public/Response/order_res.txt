@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+-<ESB_Order_Information xmlns:xalan="http://xml.apache.org/xslt">
+
+<ESB_Unique_Message_ID>56976E88-0A04-D77B-51D9-A08587894D5A</ESB_Unique_Message_ID>
+
+<Source_System_Making_Req>CORPSFDC</Source_System_Making_Req>
+
+<Source_System_Id>a1PK0000001m3FsMAI|SR000789</Source_System_Id>
+
+<ECID>ECID0000001</ECID>
+
+<Order_Number>926</Order_Number>
+
+<Status>00</Status>
+
+<Status_Desc>ORDER CREATED SUCCESSFULLY</Status_Desc>
+
+</ESB_Order_Information>

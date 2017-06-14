@@ -1,0 +1,1 @@
+2015 Oct 15 10:07:43:900 GMT -0400 BW.PTPVendorMaster01-PTPVendorMaster01 ISS-Info [BW-User] - 6BD3F2A5-0AC8-209C-142F-C144D2526469~Started_Main~BusinessProcesses/UpdateVendorDataToAriba/Processes/StarterProcesses/Poller/Poller_UpdateVendorDataToAriba.process~Received TRG file : batch7.trg~

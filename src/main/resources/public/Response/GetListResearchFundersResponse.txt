@@ -1,0 +1,29 @@
+<funder uri="<server.path>/funders/<funderUUID>">
+<id>24910912-cb61-39df-97ba-af097d338d67</id>
+<secondaryIds>
+    <id type="doi">1010.13039/100005537</id>
+</secondaryIds>
+	<name>National Association of Broadcasters</name>
+	<altName>NAB</altName>
+
+<parent uri="<server.path>/funders/83bb3ac6-194b-3bb9-9e3f-a53d3a957a20">
+     <id>83bb3ac6-194b-3bb9-9e3f-a53d3a957a20</id>
+<secondaryIds>
+    <id type="doi">1010.13039/500005298</id>
+</secondaryIds>
+</parent>
+
+<ultimateParent uri="<server.path>/funders/34525285-cf7a-319e-935d-721480668ad5">
+<id>34525285-cf7a-319e-935d-721480668ad5</id>
+<secondaryIds>
+    <id type="doi">1010.13039/100001245</id>
+</secondaryIds>
+<ultimateParent>
+
+<mandates>
+	<mandate start='2014-01-10' end='2020-01-10'>
+		<name>CHORUS</name>			
+		<embargoDays>180</embargoDays>
+</mandate>
+</mandates>
+</funder>

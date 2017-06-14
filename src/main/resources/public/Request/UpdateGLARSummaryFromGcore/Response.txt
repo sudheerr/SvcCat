@@ -1,0 +1,1 @@
+2015 Nov 19 10:44:33:377 GMT -0500 BW.RTRGeneralLedger01-RTRGeneralLedger01 ISS-Info [BW-User] - 206B2B46-0AC8-209C-7958-30F222AA78D7~Finished_Main_Success~BusinessProcesses/UpdateGeneralLedgerFromCore/Processes/StarterProcesses/MQ/UpdateGL_RoyaltyCost_Gcore_MQ.process~ 

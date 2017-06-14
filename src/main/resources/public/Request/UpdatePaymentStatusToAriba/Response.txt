@@ -1,0 +1,1 @@
+2015 Nov 05 06:52:26:622 GMT -0500 BW.PTPVendorMaster01-PTPVendorMaster01 ISS-Info [BW-User] - D77DA20C-0AC8-209C-2B49-8AB10163226E~Finished_SubProcess_Invoke~BusinessProcesses/CommonProcesses/Subprocesses/MultipleFolderCheck.process~batch8.trg placed at /intf/tib/uat/ariba/prc/ and empty folder processed20151105044005 moved at : /intf/tib/uat/ariba/prc/

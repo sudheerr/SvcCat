@@ -1,0 +1,1 @@
+2016 Mar 07 18:24:01:734 GMT +0530 BW.RTRGeneralLedger02 ISS-Info [BW-User] - 51243388-0A04-D788-175E-F9B993C126C4~Started_Main~BusinessProcesses/UpdateGLTransactionToCore/Processes/StarterProcesses/FilePoller/UpdateGLTransactionToRoyaltyUK_FilePollerStarter.process~C:\intf\tib\dev\eis\in\i046_gltxn_royalty_uk_20160223_185100.trg~ 

@@ -1,0 +1,2 @@
+2016 Aug 10 19:31:01:057 GMT +0530 BW.RTRGeneralLedger03 ISS-Info [BW-User] –
+24BD2FE1-0A04-D6AA-62FA-3D6661472886~Finished_Main_Success~BusinessProcesses/GeneralLedgerPosting/Processes/StarterProcesses/MQ/GLIncomeFromJcore_MQStarter.process~[MessageType :F0911Z1][MessageSchema :F0911Z1][DataId :GLTEST160890192597][MessageSequence :0000000006][TotalMessage :0000000006~ 

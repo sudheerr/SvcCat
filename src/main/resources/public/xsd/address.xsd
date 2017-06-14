@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ ********************************************************************************
+ * Change History
+ * Aug 28 2016 - 1.0 - Initial draft.
+ * Sep 01 2016 - 1.1 - Updated naming notation.
+ ********************************************************************************
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	 xmlns:adr="http://www.wiley.com/schemas/eis/address"
+	 xmlns:cmn="http://www.wiley.com/schemas/eis/common"
+	 targetNamespace="http://www.wiley.com/schemas/eis/address"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+	<import namespace="http://www.wiley.com/schemas/eis/common" schemaLocation="common.xsd"/>
+	<complexType name="address">
+		<sequence>
+			<element name="street" type="adr:street" minOccurs="0"/>
+			<element name="city" type="string" minOccurs="0"/>
+			<element name="region" type="adr:region" minOccurs="0"/>
+			<element name="postalZip" type="adr:postDetail" minOccurs="0"/>
+			<element name="country" type="adr:country" minOccurs="0"/>
+			<element name="extensions" type="cmn:extensions" minOccurs="0"/>
+		</sequence>
+	</complexType>
+	<complexType name="street">
+		<sequence>
+			<element name="addressLine" type="string" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="property" type="cmn:propertyType" minOccurs="0"/>
+		</sequence>
+	</complexType>
+	<complexType name="region">
+		<sequence>
+			<element name="stateName" type="string" minOccurs="0"/>
+			<element name="stateCode" type="string" minOccurs="0"/>
+			<element name="provinceName" type="string" minOccurs="0"/>
+			<element name="provinceCode" type="string" minOccurs="0"/>
+			<element name="countyName" type="string" minOccurs="0"/>
+			<element name="countyCode" type="string" minOccurs="0"/>
+			<element name="district" type="string" minOccurs="0"/>
+			<element name="property" type="cmn:propertyType" minOccurs="0"/>
+		</sequence>
+	</complexType>
+	<complexType name="postDetail">
+		<sequence>
+			<element name="postalCode" type="string" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="zipCode" type="string" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="property" type="cmn:propertyType" minOccurs="0"/>
+		</sequence>
+	</complexType>
+	<complexType name="country">
+		<sequence>
+			<element name="countryName" type="string" minOccurs="0"/>
+			<element name="countryCode" type="string" minOccurs="0"/>
+			<element name="property" type="cmn:propertyType" minOccurs="0"/>
+		</sequence>
+	</complexType>
+	<element name="region" type="adr:region"/>
+	<element name="country" type="adr:country"/>
+	<element name="extensions" type="cmn:extensions"/>
+	<complexType name="addressList">
+		<sequence>
+			<element name="address" type="adr:address" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	<element name="addresses" type="adr:addressList"/>
+</schema>

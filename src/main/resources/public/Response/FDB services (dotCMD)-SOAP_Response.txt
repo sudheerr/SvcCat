@@ -1,0 +1,34 @@
+<WOADashboardResponse>
+<WOAArticle>
+<id>1</id>
+<aid>ACEM12126</aid>
+<manuscriptId>AEMJ-12-573</manuscriptId>
+<name>Development of Emergency Medicine in Europe</name>
+<journalCode>ACEM</journalCode>
+<journalName>Academic Emergency Medicine</journalName>
+<subscriptionType>Online Open</subscriptionType>
+<allAuthors>Abdelouahab Bellou (abdel.bellou@voila.fr), &lt;b>Vicken Y. Totten (Vicken.totten@case.edu)&lt;/b></allAuthors>
+<publicationStatus>Published in Issue</publicationStatus>
+<publicationStatusDate>2013-04-26T00:00:00-04:00</publicationStatusDate>
+<doi>10.1111/acem.12126</doi>
+<jpcmsLicenseType>Online Open (hybrid)</jpcmsLicenseType>
+<jpcmsClassification>Original Article</jpcmsClassification>
+<jpcmsVolNum>20</jpcmsVolNum>
+<jpcmsIssNum>5</jpcmsIssNum>
+<WOAAuthors>
+<WOAAuthor>
+<email>abdel.bellou@voila.fr</email>
+<firstName>Abdelouahab</firstName>
+<lastName>Bellou</lastName>
+<isCorresponding>false</isCorresponding>
+</WOAAuthor>
+<WOAAuthor>
+<email>Vicken.totten@case.edu</email>
+<firstName>Vicken Y.</firstName>
+<lastName>Totten</lastName>
+<isCorresponding>true</isCorresponding>
+</WOAAuthor>
+</WOAAuthors>
+</WOAArticle>
+</WOADashboardResponse>
+

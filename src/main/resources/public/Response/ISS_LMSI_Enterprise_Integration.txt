@@ -1,0 +1,3 @@
+WX will send the credentials along with additional field callback URI to ES. Once the response is received, WX will look for success result in the response and calls WileyPlus by sending SSOToken, username in the query string as below
+
+http://dev.edugen.wileyplus.com/edugen/classlist?user=someuser@somecompany.com&WPSSO=SSO12345

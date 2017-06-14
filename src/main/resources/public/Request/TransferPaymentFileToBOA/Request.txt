@@ -1,0 +1,1 @@
+2015 Sep 24 17:44:09:190 GMT -0400 BW.PTPBankTransfer01-PTPBankTransfer01 ISS-Info [BW-User] - 01504449-0AC8-209C-4F02-DBFA53E5B2FF~Started_Main~BusinessProcesses/TransferPaymentFileToBOA/Processes/StarterProcesses/FilePoller/TransferPaymentFileToBOA_FilePoller.process~paymentsbofa.trg~ 

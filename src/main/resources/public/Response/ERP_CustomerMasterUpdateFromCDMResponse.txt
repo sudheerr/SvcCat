@@ -1,0 +1,1 @@
+2016 Jun 16 18:30:03:101 GMT +0530 BW.ARCDMDataMaster01 ISS-Info [BW-User] - 594B7B63-0A04-D620-17DC-C42B3330ECD6~Finished_Main_Success~BusinessProcesses/CustomerMasterUpdateFromCDM/Processes/StarterProcesses/JMS/CustomerMasterUpdateFromCDM_JMSStarter.process~ECID: 12345678901234~ 

@@ -1,0 +1,9 @@
+http://localhost:15021/CompetitorProductSearch?service=REST-CompetitorProductSearch&TYPE=XML&request=
+<?xml version = "1.0" encoding = "UTF-8"?>
+<ns0:ProductSearchRequest xmlns:ns0="http://wiley.com/ProductSearch/Request/V1.0">
+                <ns0:QueryString>Chemistry</ns0:QueryString>
+                <ns0:ResultType>JSON</ns0:ResultType>
+                <ns0:SortField>newest</ns0:SortField>
+                <ns0:NumberOfRecords>20</ns0:NumberOfRecords>
+                <ns0:StartingRecord>1</ns0:StartingRecord>
+</ns0:ProductSearchRequest>

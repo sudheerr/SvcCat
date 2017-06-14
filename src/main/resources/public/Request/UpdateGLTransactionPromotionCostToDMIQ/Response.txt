@@ -1,0 +1,1 @@
+2015 Sep 28 14:07:14:653 GMT -0400 BW.RTRGeneralLedger02-RTRGeneralLedger02 ISS-Info [BW-User] - 15230D1F-0AC8-209C-5308-CD15C7917576~Finished_Main_Success~BusinessProcesses/UpdateGLTransactionToCore/Processes/StarterProcesses/FilePoller/UpdateGLTransactionToIASnPaperStock_FilePollerStarter.process

@@ -1,0 +1,10 @@
+
+URL - https://dev.gmacintegration.wiley.com/REGISTER/?redirectUrl=https://www.amazon.com?name=d
+
+REGISTER NEW USER Page Request data
+
+First Name:- heena
+
+Last Name:- Khanna
+
+Email Id:- hkhanna@gmail.com

@@ -1,0 +1,12 @@
+ResponsePayload:
+
+{
+  "product_title":"Kimmel, Financial Accounting, 7e",
+  "product_author":"Kimmel",
+  "product_edition":"Kimmel, Financial Accounting, 7e",
+  "product_icon":"http:\/\/192.168.108.179:9080\/edugen\/courses\/crs20000\/common\/art\/cover.gif",
+  "product_type":"E4ORION",
+  "app_version":"WP",
+  "token":"ac138f50-439d-4167-b72f-af6a5206f081$$0411E3CB-0A05-02A5-00A4-B5105381B204",
+  "hashedToken":"YWMxMzhmNTAtNDM5ZC00MTY3LWI3MmYtYWY2YTUyMDZmMDgxQ2FudmFz"
+}

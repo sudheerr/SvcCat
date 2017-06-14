@@ -1,0 +1,3 @@
+015 Dec 14 22:00:00:138 GMT -0500 BW.PDMRTRData01-PDMRTRData01 ISS-Info [BW-User] - A3948B83-0AC8-209C-5532-159069B141C1~Started_Main~BusinessProcesses/MaintainExchangeRateFromOanda/Processes/StarterProcesses/Timer/MaintainExchangeRateFromOandaMonthly_Timer.process~<?xml version="1.0" encoding="UTF-8"?>
+<timer:TimerOutputSchema xmlns:timer="www.tibco.com/plugin/Timer"><Now>1450148400001</Now><Hour>10</Hour><Minute>0</Minute><Second>0</Second><Week>51</Week><Month>12</Month><Year>2015</Year><Date>2015-12-14</Date><Time>10:00:00 PM</Time><Day_Of_Month>14</Day_Of_Month></timer:TimerOutputSchema>~
+ 

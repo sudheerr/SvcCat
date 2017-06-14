@@ -1,0 +1,16 @@
+{
+  "licenseChoiceRequest":{
+    "requestCreatedTimestamp":"2012-12-13T12:12:12",
+    "DH_ID":"123321",
+    "onlineOpen":true,
+    "funders":{
+      "funder":[
+        {
+          "id":12345,
+          "fundRefId":222,
+          "name":"FunderName"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+This service is invoked by CustomerChangeEventBroadcast. So for testing this service and the flow as a whole input data into CustomerChangeEventBroadcast and then can see the accountDataCUDService flow.

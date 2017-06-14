@@ -1,0 +1,2 @@
+2015 Oct 15 10:02:20:829 GMT -0400 BW.PTPVendorMaster01-PTPVendorMaster01 ISS-Info [BW-User] - 6BCEFCD2-0AC8-209C-142F-C144C0878F3D~Finished_SubProcess_Invoke~BusinessP
+rocesses/UpdateVendorMasterToRoyalty/Processes/MainProcesses/UpdateRoyaltyFromSAP_Main.process~APVendor processed to Royalty:50031993~

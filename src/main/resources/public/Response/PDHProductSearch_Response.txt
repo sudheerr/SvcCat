@@ -1,0 +1,840 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Body>
+      <ns0:CompetitorProductSearchResponse xmlns:ns0="http://wiley.com/PDH_Serch/Response/V1.0">
+         <ns0:Result><![CDATA[{
+ "kind": "books#volumes",
+ "totalItems": 1538,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "uIubBgAAQBAJ",
+   "etag": "W5topZ850nA",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/uIubBgAAQBAJ",
+   "volumeInfo": {
+    "title": "Historical Dictionary of Judaism",
+    "authors": [
+     "Norman Solomon"
+    ],
+    "publisher": "Rowman & Littlefield",
+    "publishedDate": "2015-01-30",
+    "description": "This third edition of Historical Dictionary of Judaism covers the history of the Jewish religion through a chronology, an introductory essay, appendixes, and an extensive bibliography. The dictionary section has over 800 cross-referenced entries on important personalities in Jewish religious history.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781442241428"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "144224142X"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 640,
+    "printType": "BOOK",
+    "categories": [
+     "Religion"
+    ],
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=uIubBgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=uIubBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.in/books?id=uIubBgAAQBAJ&pg=PA376&dq=ravina&hl=&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.co.in/books?id=uIubBgAAQBAJ&dq=ravina&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.co.in/books/about/Historical_Dictionary_of_Judaism.html?hl=&id=uIubBgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "IN",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 8199.91,
+     "currencyCode": "INR"
+    },
+    "retailPrice": {
+     "amount": 8199.91,
+     "currencyCode": "INR"
+    },
+    "buyLink": "http://books.google.co.in/books?id=uIubBgAAQBAJ&dq=ravina&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 8.19991E9,
+       "currencyCode": "INR"
+      },
+      "retailPrice": {
+       "amountInMicros": 8.19991E9,
+       "currencyCode": "INR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "IN",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.co.in/books/download/Historical_Dictionary_of_Judaism-sample-epub.acsm?id=uIubBgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.co.in/books/download/Historical_Dictionary_of_Judaism-sample-pdf.acsm?id=uIubBgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.co.in/books/reader?id=uIubBgAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "See also SOFERIM. \u003cb\u003eRAVINA\u003c/b\u003e. \u003cb\u003eRavina\u003c/b\u003e (Rabina) is an abbreviation of Rav Avina \u003cbr\u003e\nand is the name of several Babylonian Amoraim, of whom the two best known are \u003cbr\u003e\n\u003cb\u003eRavina\u003c/b\u003e I (d. ca. 422), a disciple of Rava (BT Ber 20b), and his nephew \u003cb\u003eRavina\u003c/b\u003e II&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "lsFvBgAAQBAJ",
+   "etag": "g/WeucNdS40",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/lsFvBgAAQBAJ",
+   "volumeInfo": {
+    "title": "Silence, Scapegoats, Self-reflection",
+    "subtitle": "The Shadow of Nazi Medical Crimes on Medicine and Bioethics",
+    "authors": [
+     "Volker Roelcke",
+     "Sascha Topp",
+     "Etienne Lepicard"
+    ],
+    "publisher": "Vandenhoeck & Ruprecht",
+    "publishedDate": "2015-01-28",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9783847003656"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "3847003658"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 379,
+    "printType": "BOOK",
+    "categories": [
+     "History"
+    ],
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=lsFvBgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=lsFvBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.in/books?id=lsFvBgAAQBAJ&pg=PA63&dq=ravina&hl=&cd=2&source=gbs_api",
+    "infoLink": "http://books.google.co.in/books?id=lsFvBgAAQBAJ&dq=ravina&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.co.in/books/about/Silence_Scapegoats_Self_reflection.html?hl=&id=lsFvBgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "IN",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 2785.62,
+     "currencyCode": "INR"
+    },
+    "retailPrice": {
+     "amount": 2785.62,
+     "currencyCode": "INR"
+    },
+    "buyLink": "http://books.google.co.in/books?id=lsFvBgAAQBAJ&dq=ravina&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 2.78562E9,
+       "currencyCode": "INR"
+      },
+      "retailPrice": {
+       "amountInMicros": 2.78562E9,
+       "currencyCode": "INR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "IN",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.co.in/books/download/Silence_Scapegoats_Self_reflection-sample-pdf.acsm?id=lsFvBgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.co.in/books/reader?id=lsFvBgAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "On 18 October 1947, another article on the NMT appeared in La Presse \u003cbr\u003e\nmØdicale, describing the atmosphere and what happened during the last days of \u003cbr\u003e\nthe trial (19–20 August 1947).71 The author, AndrØ \u003cb\u003eRavina\u003c/b\u003e, who had written a \u003cbr\u003e\nprevious&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "hGXXBQAAQBAJ",
+   "etag": "6cCC3nmnoBk",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/hGXXBQAAQBAJ",
+   "volumeInfo": {
+    "title": "Brave Leap to Freedom",
+    "subtitle": "Integrating Mind, Body, and Spirit to Cultivate Healthy Relationships",
+    "authors": [
+     "Felesha Love, MBA"
+    ],
+    "publisher": "Balboa Press",
+    "publishedDate": "2014-12-03",
+    "description": "We can only express to others what we are inside. If your life is not as it should be or if you are tired of dealing with certain people, then it is time for a good self-examination. Discover why you attract the same kind of relationships. Find out how to balance work and family so that your vitality is not depleted. Find out how to become a more supportive leader. Find out why you feel empty inside when all signs say that you should be happy. Find out why the very thing you try to avoid comes to haunt you despite your best intentions. A toxic relationship, no matter if they appear in your personal or professional life, is your test of the dark night of the soul. Let’s explore what could be getting in the way of living free of generational and habitual cycles that cause chaos. This book is filled with relatable stories and self-help exercises to help you bridge over to your highest good.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781452598772"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1452598770"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 232,
+    "printType": "BOOK",
+    "categories": [
+     "Biography & Autobiography"
+    ],
+    "contentVersion": "1.1.1.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=hGXXBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=hGXXBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.in/books?id=hGXXBQAAQBAJ&pg=PT78&dq=ravina&hl=&cd=3&source=gbs_api",
+    "infoLink": "http://books.google.co.in/books?id=hGXXBQAAQBAJ&dq=ravina&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.co.in/books/about/Brave_Leap_to_Freedom.html?hl=&id=hGXXBQAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "IN",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 318.0,
+     "currencyCode": "INR"
+    },
+    "retailPrice": {
+     "amount": 222.6,
+     "currencyCode": "INR"
+    },
+    "buyLink": "http://books.google.co.in/books?id=hGXXBQAAQBAJ&dq=ravina&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 3.18E8,
+       "currencyCode": "INR"
+      },
+      "retailPrice": {
+       "amountInMicros": 2.226E8,
+       "currencyCode": "INR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "IN",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.co.in/books/download/Brave_Leap_to_Freedom-sample-epub.acsm?id=hGXXBQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.co.in/books/download/Brave_Leap_to_Freedom-sample-pdf.acsm?id=hGXXBQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.co.in/books/reader?id=hGXXBQAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Archetypal Vignette 9: The Nurturer Repeating Generational Patterns \u003cb\u003eRavina\u003c/b\u003e \u003cbr\u003e\nheard repeatedly that men were no good, that they were slackers who didn&#39;t \u003cbr\u003e\nknow how to provide for their families,that they werecheaters and acted like \u003cbr\u003e\nchildren."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "K8W7BQAAQBAJ",
+   "etag": "D+fsO3dHE5M",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/K8W7BQAAQBAJ",
+   "volumeInfo": {
+    "title": "Brave Leap to Freedom",
+    "authors": [
+     "Felesha Love, MBA"
+    ],
+    "publisher": "Balboa Press",
+    "publishedDate": "2014-12-03",
+    "description": "We can only express to others what we are inside. If your life is not as it should be or if you are tired of dealing with certain people, then it is time for a good self-examination. Discover why you attract the same kind of relationships. Find out how to balance work and family so that your vitality is not depleted. Find out how to become a more supportive leader. Find out why you feel empty inside when all signs say that you should be happy. Find out why the very thing you try to avoid comes to haunt you despite your best intentions. A toxic relationship, no matter if they appear in your personal or professional life, is your test of the dark night of the soul. Let's explore what could be getting in the way of living free of generational and habitual cycles that cause chaos. This book is filled with relatable stories and self-help exercises to help you bridge over to your highest good.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781452598765"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1452598762"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 232,
+    "printType": "BOOK",
+    "categories": [
+     "Biography & Autobiography"
+    ],
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=K8W7BQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=K8W7BQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.in/books?id=K8W7BQAAQBAJ&pg=PA74&dq=ravina&hl=&cd=4&source=gbs_api",
+    "infoLink": "http://books.google.co.in/books?id=K8W7BQAAQBAJ&dq=ravina&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.co.in/books/about/Brave_Leap_to_Freedom.html?hl=&id=K8W7BQAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "IN",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "IN",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.co.in/books/reader?id=K8W7BQAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Archetypal Vignette 9: The Nurturer Repeating Generational Patterns \u003cb\u003eRavina\u003c/b\u003e \u003cbr\u003e\nheard repeatedly that men were no good, that they were slackers who didn&#39;t \u003cbr\u003e\nknow how to provide for their families, that they were cheaters and acted like \u003cbr\u003e\nchildren."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "xPgLCAAAQBAJ",
+   "etag": "3tKwcPJifK4",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/xPgLCAAAQBAJ",
+   "volumeInfo": {
+    "title": "Apellido Ravina",
+    "subtitle": "Origen, Historia y heráldica de los Apellidos Españoles e Hispanoamericanos",
+    "authors": [
+     "AA.VV.",
+     "Instituto de Historia y Heráldica Familiar"
+    ],
+    "publisher": "Instituto de Historia y Heráldica Familiar",
+    "publishedDate": "2014-10-22",
+    "description": "Origen, significado y datos históricos más relevantes del apellido, así como la heráldica (escudo de armas) del linaje. Para la documentación y edición de todas nuestras láminas nos regimos por un estricto protocolo cuya finalidad es la de garantizar la veracidad y utilidad de la información. Incluye descripción y simbolismo de los principales esmaltes, metales y piezas heráldicas.",
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 8,
+    "printType": "BOOK",
+    "categories": [
+     "Reference"
+    ],
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=xPgLCAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=xPgLCAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "es",
+    "previewLink": "http://books.google.co.in/books?id=xPgLCAAAQBAJ&pg=PP1&dq=ravina&hl=&cd=5&source=gbs_api",
+    "infoLink": "http://books.google.co.in/books?id=xPgLCAAAQBAJ&dq=ravina&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.co.in/books/about/Apellido_Ravina.html?hl=&id=xPgLCAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "IN",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 156.83,
+     "currencyCode": "INR"
+    },
+    "retailPrice": {
+     "amount": 109.78,
+     "currencyCode": "INR"
+    },
+    "buyLink": "http://books.google.co.in/books?id=xPgLCAAAQBAJ&dq=ravina&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.5683E8,
+       "currencyCode": "INR"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.0978E8,
+       "currencyCode": "INR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "IN",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.co.in/books/download/Apellido_Ravina-sample-pdf.acsm?id=xPgLCAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.co.in/books/reader?id=xPgLCAAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Origen, Historia y heráldica de los Apellidos Españoles e Hispanoamericanos \u003cbr\u003e\nAA.VV., Instituto de Historia y Heráldica Familiar. de. los. Apellidos. Españoles. e. \u003cbr\u003e\nHispanoamericanos. Apellido. \u003cb\u003eRavina\u003c/b\u003e. Instituto de Historia y Heráldica Familiar&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "UJObBAAAQBAJ",
+   "etag": "6Ey4pqvZzhI",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/UJObBAAAQBAJ",
+   "volumeInfo": {
+    "title": "Learning and Literacy Over Time",
+    "subtitle": "Longitudinal Perspectives",
+    "authors": [
+     "Julian Sefton-Green",
+     "Jennifer Rowsell"
+    ],
+    "publisher": "Routledge",
+    "publishedDate": "2014-09-25",
+    "description": "Learning and Literacy over Time addresses two gaps in literacy research—studies offering longitudinal perspectives on learners and the trajectory of their learning lives inside and outside of school, and studies revealing how past experiences with literacy and learning inform future experiences and practices. It does so by bringing together researchers who revisited subjects of their initial research conducted over the past 10-20 years with people whom they encountered through ethnographic or classroom-based investigations and are the subjects of previous published accounts. The case studies, drawn from countries in three continents and covering a range of social worlds, offer an original and at times quite an emotive interpretation of the effects of long-term social change in the UK, the US, Australia and Canada; the claims and aspirations made by and for certain kinds of educational interventions; how research subjects reflect on and learn from the processes of being co-opted into classroom research as well as how they make sense of school experiences; some of the widespread changes in literacy practices as a result of our move into the digital era; and above all, how academic research can learn from these life stories raising a number of challenges about methodology and our claims to 'know’ the people we research. In many cases the process of revisiting led to important reconceptualizations of the earlier work and a sense of 'seeing with new eyes’ what was missed in the past. The reflections on methodology and research processes will interest postgraduate and academic researchers. The studies of change and of long-term effects are widely relevant to teacher educators and scholars in language and literacy education, educational anthropology, life history research, media and cultural studies, and sociology.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781317814825"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1317814827"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 218,
+    "printType": "BOOK",
+    "categories": [
+     "Education"
+    ],
+    "contentVersion": "1.1.1.0.preview.1",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=UJObBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=UJObBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.in/books?id=UJObBAAAQBAJ&pg=PA123&dq=ravina&hl=&cd=6&source=gbs_api",
+    "infoLink": "http://books.google.co.in/books?id=UJObBAAAQBAJ&dq=ravina&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.co.in/books/about/Learning_and_Literacy_Over_Time.html?hl=&id=UJObBAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "IN",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "IN",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.co.in/books/reader?id=UJObBAAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "\u003cb\u003eRavina\u003c/b\u003e, in an interview with Kate, also commented about her mother&#39;s (Aliya&#39;s \u003cbr\u003e\ngrandmother&#39;s) literacy practices and how she was able to use these when she \u003cbr\u003e\ncame to the UK: Mum&#39;s 77 isn&#39;t she, and Aliya&#39;s mother is 43, so mum&#39;s time, it \u003cbr\u003e\nwas&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "U8BpAwAAQBAJ",
+   "etag": "0LFTnnY7eIA",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/U8BpAwAAQBAJ",
+   "volumeInfo": {
+    "title": "Snow Day",
+    "authors": [
+     "Ravina, Selina & Avi Budhan"
+    ],
+    "publisher": "Author House",
+    "publishedDate": "2014-04",
+    "description": "The story is all about a snow storm & the Budhan family having fun outside",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781496905871"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1496905873"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 18,
+    "printType": "BOOK",
+    "categories": [
+     "Family & Relationships"
+    ],
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=U8BpAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=U8BpAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.in/books?id=U8BpAwAAQBAJ&printsec=frontcover&dq=ravina&hl=&cd=7&source=gbs_api",
+    "infoLink": "http://books.google.co.in/books?id=U8BpAwAAQBAJ&dq=ravina&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.co.in/books/about/Snow_Day.html?hl=&id=U8BpAwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "IN",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "IN",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.co.in/books/download/Snow_Day-sample-pdf.acsm?id=U8BpAwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.co.in/books/reader?id=U8BpAwAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The story is all about a snow storm &amp; the Budhan family having fun outside"
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "zvp4AgAAQBAJ",
+   "etag": "+DeNh+d5Y9k",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/zvp4AgAAQBAJ",
+   "volumeInfo": {
+    "title": "Grains of Truth",
+    "subtitle": "Reading Tractate Menachot of the Babylonian Talmud",
+    "authors": [
+     "Joshua A. Fogel"
+    ],
+    "publisher": "Rowman & Littlefield",
+    "publishedDate": "2013-12-31",
+    "description": "Following the destruction of the Second Temple in 70 C.E., Judaism faced a serious crossroads. The rabbis of late antiquity spent the next few centuries immersed in extensive debates in an effort to create an ethical and practical basis for a Torah-based faith. Their discussions constitute the bulk of what we know as the Talmud. This collection is not only massive; it is forbidding difficult, having accumulated numerous commentaries over the centuries since it first appeared. Recent translations have made it somewhat more accessible to English-language readers, but textual difficulties remain. This volume looks at tractate Menachot (grain offerings), which is concerned mostly with grain offered at the Temple (when it stood) to atone for various misdeeds. Joshua A. Fogel approaches the text, page by page, commenting with doses of humor and comparisons in a manner meant to explain and humanize the text for contemporary readers.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780761863021"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0761863028"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 390,
+    "printType": "BOOK",
+    "categories": [
+     "Religion"
+    ],
+    "contentVersion": "1.2.2.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=zvp4AgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=zvp4AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.in/books?id=zvp4AgAAQBAJ&pg=PA125&dq=ravina&hl=&cd=8&source=gbs_api",
+    "infoLink": "http://books.google.co.in/books?id=zvp4AgAAQBAJ&dq=ravina&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.co.in/books/about/Grains_of_Truth.html?hl=&id=zvp4AgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "IN",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 2518.14,
+     "currencyCode": "INR"
+    },
+    "retailPrice": {
+     "amount": 2518.14,
+     "currencyCode": "INR"
+    },
+    "buyLink": "http://books.google.co.in/books?id=zvp4AgAAQBAJ&dq=ravina&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 2.51814E9,
+       "currencyCode": "INR"
+      },
+      "retailPrice": {
+       "amountInMicros": 2.51814E9,
+       "currencyCode": "INR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "IN",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.co.in/books/download/Grains_of_Truth-sample-epub.acsm?id=zvp4AgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.co.in/books/download/Grains_of_Truth-sample-pdf.acsm?id=zvp4AgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.co.in/books/reader?id=zvp4AgAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "When Mar bar Rav Ashi arrived home, \u003cb\u003eRavina\u003c/b\u003e explained what had happened, \u003cbr\u003e\nand Mar bar Rav Ashi exclaimed that he&#39;d have thrown his garment off right then \u003cbr\u003e\nand there in the street if \u003cb\u003eRavina\u003c/b\u003e had pointed out the issue at the time. This would\u003cbr\u003e\n&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "yIRtAwAAQBAJ",
+   "etag": "xdxctPjGz9E",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/yIRtAwAAQBAJ",
+   "volumeInfo": {
+    "title": "Snow Day",
+    "authors": [
+     "Ravina, Selina & Avi Budhan"
+    ],
+    "publisher": "AuthorHouse",
+    "publishedDate": "2014-04-18",
+    "description": "The story is all about a snow storm & the Budhan family having fun outside",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781496905895"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "149690589X"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "printType": "BOOK",
+    "categories": [
+     "Family & Relationships"
+    ],
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=yIRtAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=yIRtAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.in/books?id=yIRtAwAAQBAJ&printsec=frontcover&dq=ravina&hl=&cd=9&source=gbs_api",
+    "infoLink": "http://books.google.co.in/books?id=yIRtAwAAQBAJ&dq=ravina&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.co.in/books/about/Snow_Day.html?hl=&id=yIRtAwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "IN",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 266.0,
+     "currencyCode": "INR"
+    },
+    "retailPrice": {
+     "amount": 186.2,
+     "currencyCode": "INR"
+    },
+    "buyLink": "http://books.google.co.in/books?id=yIRtAwAAQBAJ&dq=ravina&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 2.66E8,
+       "currencyCode": "INR"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.862E8,
+       "currencyCode": "INR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "IN",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.co.in/books/download/Snow_Day-sample-epub.acsm?id=yIRtAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.co.in/books/download/Snow_Day-sample-pdf.acsm?id=yIRtAwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.co.in/books/reader?id=yIRtAwAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The story is all about a snow storm &amp; the Budhan family having fun outside"
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "l-y5BAAAQBAJ",
+   "etag": "vfQNdC1kfKk",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/l-y5BAAAQBAJ",
+   "volumeInfo": {
+    "title": "Cement Replacement Materials",
+    "subtitle": "Properties, Durability, Sustainability",
+    "authors": [
+     "Ali Akbar Ramezanianpour"
+    ],
+    "publisher": "Springer Science & Business Media",
+    "publishedDate": "2013-09-24",
+    "description": "The aim of this book is to present the latest findings in the properties and application of Supplementary Cementing Materials and blended cements currently used in the world in concrete. Sustainability is an important issue all over the world. Carbon dioxide emission has been a serious problem in the world due to the greenhouse effect. Today many countries agreed to reduce the emission of CO2. Many phases of cement and concrete technology can affect sustainability. Cement and concrete industry is responsible for the production of 7% carbon dioxide of the total world CO2 emission. The use of supplementary cementing materials (SCM), design of concrete mixtures with optimum content of cement and enhancement of concrete durability are the main issues towards sustainability in concrete industry.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9783642367212"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "3642367216"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 349,
+    "printType": "BOOK",
+    "categories": [
+     "Technology & Engineering"
+    ],
+    "contentVersion": "2.6.5.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=l-y5BAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=l-y5BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.in/books?id=l-y5BAAAQBAJ&pg=PA79&dq=ravina&hl=&cd=10&source=gbs_api",
+    "infoLink": "http://books.google.co.in/books?id=l-y5BAAAQBAJ&dq=ravina&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.co.in/books/about/Cement_Replacement_Materials.html?hl=&id=l-y5BAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "IN",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 9312.64,
+     "currencyCode": "INR"
+    },
+    "retailPrice": {
+     "amount": 9312.64,
+     "currencyCode": "INR"
+    },
+    "buyLink": "http://books.google.co.in/books?id=l-y5BAAAQBAJ&dq=ravina&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 9.31264E9,
+       "currencyCode": "INR"
+      },
+      "retailPrice": {
+       "amountInMicros": 9.31264E9,
+       "currencyCode": "INR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "IN",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.co.in/books/download/Cement_Replacement_Materials-sample-epub.acsm?id=l-y5BAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.co.in/books/download/Cement_Replacement_Materials-sample-pdf.acsm?id=l-y5BAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.co.in/books/reader?id=l-y5BAAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "\u003cb\u003eRavina\u003c/b\u003e [66] discussed bow the effects of fly ash in concrete cured at moderately \u003cbr\u003e

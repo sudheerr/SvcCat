@@ -1,0 +1,1 @@
+ 2016 Aug 10 19:25:54:754 GMT +0530 BW.RTRGeneralLedger03 ISS-Info [BW-User] - 74BCE9FA-0A04-D6AA-62FA-3D6617ECC548~Started_Main~BusinessProcesses/GeneralLedgerPosting/Processes/StarterProcesses/MQ/GLAccrualsFromUKRoyalty_MQStarter.process~[MessageType :F0911Z1][MessageSchema :F0911Z1][DataId :GLTEST160660192547][MessageSequence :0000000001][TotalMessage :0000000006~ 

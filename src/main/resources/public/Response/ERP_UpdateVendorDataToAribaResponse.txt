@@ -1,0 +1,1 @@
+2016 Jun 06 20:21:24:569 GMT +0530 BW.PTPVendorMaster01 ISS-Info [BW-User] - 263233EA-0A04-D703-03A9-179686054C92~Finished_Main_Success~BusinessProcesses\CommonProcesses\Subprocesses\UpdateDataToAriba_Main.processs~ [MessageType :F0911Z1][MessageSchema :F0911Z1][DataId :GLTEST160660192547][MessageSequence :0000000001][TotalMessage :0000000006~ 

@@ -1,0 +1,12 @@
+Request Data
+
+{
+"operation": "Revoke",
+"reason": "PAYMENT_PROBLEM",
+"productId": "9781119070177",                                                             
+"userId": "1232",
+"purchaseToken":"6f3092e5-0326-42b7-a107-416234d548d8"
+}
+
+
+

@@ -1,0 +1,1 @@
+2015 Dec 09 14:07:44:955 GMT -0500 BW.RTRLotData01-RTRLotData01 ISS-Info [BW-User] - 88246179-0AC8-209C-0E28-1A08064F2546~Finished_Main_Success~BusinessProcesses/UpdateGBPMLotDataFromIAS/Processes/StarterProcesses/MQ/UpdateGBPMLotDataFromIAS_MQStarter.process~

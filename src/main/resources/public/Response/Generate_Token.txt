@@ -1,0 +1,6 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<root>
+<token>44e7a760-9a97-414a-b98a-cb6b1d6d6694$$B00EDC81-0A05-0199-0085-780433312DF4</token>
+<hashedtoken>NDRlN2E3NjAtOWE5Ny00MTRhLWI5OGEtY2I2YjFkNmQ2Njk0Q2FudmFz</hashedtoken>
+
+</root>

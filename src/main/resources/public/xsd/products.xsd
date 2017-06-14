@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	 xmlns:prd="http://www.wiley.com/schemas/eis/product"
+	 targetNamespace="http://www.wiley.com/schemas/eis/product"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+	<complexType name="productList">
+		<annotation>
+			<documentation>Contains list of products</documentation>
+		</annotation>
+		<sequence>
+			<element name="product" type="prd:product" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	<complexType name="product">
+		<sequence>
+			<element name="details" type="prd:productDetails" minOccurs="0"/>
+			<element name="identity" type="prd:identity" minOccurs="0"/>
+			<element name="status" type="prd:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="date" minOccurs="0">
+				<complexType>
+					<sequence>
+						<element name="publicationDate" minOccurs="0">
+							<complexType>
+								<simpleContent>
+									<extension base="string">
+										<attribute name="mod" type="string"/>
+									</extension>
+								</simpleContent>
+							</complexType>
+						</element>
+						<element name="activationDate" minOccurs="0">
+							<complexType>
+								<simpleContent>
+									<extension base="string">
+										<attribute name="mod" type="string"/>
+									</extension>
+								</simpleContent>
+							</complexType>
+						</element>
+						<element name="expiryDate" minOccurs="0">
+							<complexType>
+								<simpleContent>
+									<extension base="string">
+										<attribute name="mod" type="string"/>
+									</extension>
+								</simpleContent>
+							</complexType>
+						</element>
+						<element ref="prd:extensions" minOccurs="0"/>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="issue" minOccurs="0">
+				<complexType>
+					<sequence>
+						<element name="type" minOccurs="0">
+							<complexType>
+								<simpleContent>
+									<extension base="string">
+										<attribute name="mod" type="string"/>
+									</extension>
+								</simpleContent>
+							</complexType>
+						</element>
+						<element name="number" minOccurs="0">
+							<complexType>
+								<simpleContent>
+									<extension base="string">
+										<attribute name="mod" type="string"/>
+									</extension>
+								</simpleContent>
+							</complexType>
+						</element>
+						<element name="yearNumber" minOccurs="0">
+							<complexType>
+								<simpleContent>
+									<extension base="string">
+										<attribute name="mod" type="string"/>
+									</extension>
+								</simpleContent>
+							</complexType>
+						</element>
+						<element name="copyNumber" minOccurs="0">
+							<complexType>
+								<simpleContent>
+									<extension base="string">
+										<attribute name="mod" type="string"/>
+									</extension>
+								</simpleContent>
+							</complexType>
+						</element>
+						<element name="runDate" minOccurs="0">
+							<complexType>
+								<simpleContent>
+									<extension base="string">
+										<attribute name="mod" type="string"/>
+									</extension>
+								</simpleContent>
+							</complexType>
+						</element>
+						<element ref="prd:extensions" minOccurs="0"/>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="cost" minOccurs="0">
+				<complexType>
+					<sequence>
+						<element name="price" type="prd:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+						<element name="tax" type="prd:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+						<element name="fee" type="prd:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+						<element name="discount" type="prd:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+						<element name="promotion" type="prd:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+						<element name="currency" type="prd:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+						<element ref="prd:extensions" minOccurs="0"/>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="categorization" minOccurs="0">
+				<complexType>
+					<sequence>
+						<element name="type" minOccurs="0">
+							<complexType>
+								<simpleContent>
+									<extension base="string">
+										<attribute name="mod" type="string"/>
+									</extension>
+								</simpleContent>
+							</complexType>
+						</element>
+						<element name="profitCenter" minOccurs="0">
+							<complexType>
+								<simpleContent>
+									<extension base="string">
+										<attribute name="mod" type="string"/>
+									</extension>
+								</simpleContent>
+							</complexType>
+						</element>
+						<element name="division" minOccurs="0">
+							<complexType>
+								<simpleContent>
+									<extension base="string">
+										<attribute name="mod" type="string"/>
+									</extension>
+								</simpleContent>
+							</complexType>
+						</element>
+						<element name="contentCategory" minOccurs="0">
+							<complexType>
+								<simpleContent>
+									<extension base="string">
+										<attribute name="mod" type="string"/>
+									</extension>
+								</simpleContent>
+							</complexType>
+						</element>
+						<element name="publicationType" minOccurs="0">
+							<complexType>
+								<simpleContent>
+									<extension base="string">
+										<attribute name="mod" type="string"/>
+									</extension>
+								</simpleContent>
+							</complexType>
+						</element>
+						<element name="renewSubType" minOccurs="0">
+							<complexType>
+								<simpleContent>
+									<extension base="string">
+										<attribute name="mod" type="string"/>
+									</extension>
+								</simpleContent>
+							</complexType>
+						</element>
+						<element name="pubSource" minOccurs="0">
+							<complexType>
+								<simpleContent>
+									<extension base="string">
+										<attribute name="mod" type="string"/>
+									</extension>
+								</simpleContent>
+							</complexType>
+						</element>
+						<element name="societyName" minOccurs="0">
+							<complexType>
+								<simpleContent>
+									<extension base="string">
+										<attribute name="mod" type="string"/>
+									</extension>
+								</simpleContent>
+							</complexType>
+						</element>
+						<element name="ipOwningComp" minOccurs="0">
+							<complexType>
+								<simpleContent>
+									<extension base="string">
+										<attribute name="mod" type="string"/>
+									</extension>
+								</simpleContent>
+							</complexType>
+						</element>
+						<element name="author" type="prd:propertyType" minOccurs="0"/>
+						<element name="sponsor" minOccurs="0">
+							<complexType>
+								<simpleContent>
+									<extension base="string">
+										<attribute name="mod" type="string"/>
+									</extension>
+								</simpleContent>
+							</complexType>
+						</element>
+						<element ref="prd:extensions" minOccurs="0"/>
+					</sequence>
+				</complexType>
+			</element>
+			<element ref="prd:extensions" minOccurs="0"/>
+		</sequence>
+	</complexType>
+	<complexType name="propertyType">
+		<sequence>
+			<element name="name" minOccurs="0">
+				<complexType>
+					<simpleContent>
+						<extension base="string">
+							<attribute name="mod" type="string"/>
+						</extension>
+					</simpleContent>
+				</complexType>
+			</element>
+			<element name="value" minOccurs="0">
+				<complexType>
+					<simpleContent>
+						<extension base="string">
+							<attribute name="mod" type="string"/>
+						</extension>
+					</simpleContent>
+				</complexType>
+			</element>
+			<element name="type" minOccurs="0">
+				<complexType>
+					<simpleContent>
+						<extension base="string">
+							<attribute name="mod" type="string"/>
+						</extension>
+					</simpleContent>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+	<complexType name="productDetails">
+		<sequence>
+			<element name="name" minOccurs="0">
+				<complexType>
+					<simpleContent>
+						<extension base="string">
+							<attribute name="mod" type="string"/>
+						</extension>
+					</simpleContent>
+				</complexType>
+			</element>
+			<element name="title" minOccurs="0">
+				<complexType>
+					<sequence>
+						<element name="shortTitle" minOccurs="0">
+							<complexType>
+								<simpleContent>
+									<extension base="string">
+										<attribute name="mod" type="string"/>
+									</extension>
+								</simpleContent>
+							</complexType>
+						</element>
+						<element name="longTitle" minOccurs="0">
+							<complexType>
+								<simpleContent>
+									<extension base="string">
+										<attribute name="mod" type="string"/>
+									</extension>
+								</simpleContent>
+							</complexType>
+						</element>
+						<element name="fullTitle" minOccurs="0">
+							<complexType>
+								<simpleContent>
+									<extension base="string">
+										<attribute name="mod" type="string"/>
+									</extension>
+								</simpleContent>
+							</complexType>
+						</element>
+						<element ref="prd:extension" minOccurs="0" maxOccurs="unbounded"/>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="id" minOccurs="0">
+				<complexType>
+					<simpleContent>
+						<extension base="string">
+							<attribute name="mod" type="string"/>
+						</extension>
+					</simpleContent>
+				</complexType>
+			</element>
+			<element name="code" type="prd:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="type" minOccurs="0">
+				<complexType>
+					<simpleContent>
+						<extension base="string">
+							<attribute name="mod" type="string"/>
+						</extension>
+					</simpleContent>
+				</complexType>
+			</element>
+			<element name="description" minOccurs="0">
+				<complexType>
+					<simpleContent>
+						<extension base="string">
+							<attribute name="mod" type="string"/>
+						</extension>
+					</simpleContent>
+				</complexType>
+			</element>
+			<element name="mediaCode" minOccurs="0">
+				<complexType>
+					<simpleContent>
+						<extension base="string">
+							<attribute name="mod" type="string"/>
+						</extension>
+					</simpleContent>
+				</complexType>
+			</element>
+			<element name="mediaProduct" minOccurs="0">
+				<complexType>
+					<simpleContent>
+						<extension base="string">
+							<attribute name="mod" type="string"/>
+						</extension>
+					</simpleContent>
+				</complexType>
+			</element>
+			<element name="highLevelMediaProduct" minOccurs="0">
+				<complexType>
+					<simpleContent>
+						<extension base="string">
+							<attribute name="mod" type="string"/>
+						</extension>
+					</simpleContent>
+				</complexType>
+			</element>
+			<element ref="prd:extensions" minOccurs="0"/>
+		</sequence>
+	</complexType>
+	<complexType name="identity">
+		<sequence>
+			<element name="ISBN10" minOccurs="0">
+				<complexType>
+					<simpleContent>
+						<extension base="string">
+							<attribute name="mod" type="string"/>
+						</extension>
+					</simpleContent>
+				</complexType>
+			</element>
+			<element name="ISBN13" minOccurs="0">
+				<complexType>
+					<simpleContent>
+						<extension base="string">
+							<attribute name="mod" type="string"/>
+						</extension>
+					</simpleContent>
+				</complexType>
+			</element>
+			<element name="materialNumber" minOccurs="0">
+				<complexType>
+					<simpleContent>
+						<extension base="string">
+							<attribute name="mod" type="string"/>
+						</extension>
+					</simpleContent>
+				</complexType>
+			</element>
+			<element name="legacyMaterialNumber" minOccurs="0">
+				<complexType>
+					<simpleContent>
+						<extension base="string">
+							<attribute name="mod" type="string"/>
+						</extension>
+					</simpleContent>
+				</complexType>
+			</element>
+			<element name="doi" minOccurs="0">
+				<complexType>
+					<simpleContent>
+						<extension base="string">
+							<attribute name="mod" type="string"/>
+						</extension>
+					</simpleContent>
+				</complexType>
+			</element>
+			<element name="materialGroup" minOccurs="0" maxOccurs="unbounded">
+				<complexType>
+					<simpleContent>
+						<extension base="string">
+							<attribute name="mod" type="string"/>
+						</extension>
+					</simpleContent>
+				</complexType>
+			</element>
+			<element name="license" minOccurs="0">
+				<complexType>
+					<sequence>
+						<element name="licenseId" type="string" minOccurs="0"/>
+						<element name="licenseName" type="string" minOccurs="0"/>
+						<element ref="prd:extensions" minOccurs="0"/>
+					</sequence>
+				</complexType>
+			</element>
+			<element ref="prd:extensions" minOccurs="0"/>
+		</sequence>
+	</complexType>
+	<element name="products" type="prd:productList"/>
+	<element name="extension" type="prd:propertyType"/>
+	<element name="extensions">
+		<complexType>
+			<sequence>
+				<element ref="prd:extension" minOccurs="0" maxOccurs="unbounded"/>
+				<element name="data" minOccurs="0" maxOccurs="unbounded">
+					<complexType>
+						<complexContent>
+							<extension base="anyType">
+								<attribute name="mod" type="string"/>
+							</extension>
+						</complexContent>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

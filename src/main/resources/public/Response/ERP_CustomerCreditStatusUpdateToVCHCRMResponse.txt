@@ -1,0 +1,1 @@
+2016 Jun 15 19:55:49:225 GMT +0530 BW.ARCreditInvoiceData01 ISS-Info [BW-User] - 54740981-0A04-D620-713A-7DE952C1E50E~Finished_Main_Success~BusinessProcesses/CustomerCreditStatusUpdateToVCHCRM/Processes/StarterProcesses/Adapter/CustomerCreditStatusUpdateToVCHCRM_Adapter.process~ 

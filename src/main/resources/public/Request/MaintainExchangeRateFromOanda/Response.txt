@@ -1,0 +1,1 @@
+2015 Dec 14 22:00:00:593 GMT -0500 BW.PDMRTRData01-PDMRTRData01 ISS-Info [BW-User] - A3948B83-0AC8-209C-5532-159069B141C1~Finished_Main_Success~BusinessProcesses/MaintainExchangeRateFromOanda/Processes/StarterProcesses/Timer/MaintainExchangeRateFromOandaMonthly_Timer.process~Not A Valid Date for Monthly Data~

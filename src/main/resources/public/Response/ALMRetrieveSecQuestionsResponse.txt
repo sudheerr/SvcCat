@@ -1,0 +1,15 @@
+
+
+    {
+        "Status": "SUCCESS",
+        "SystemSecurityQuestions":
+        {
+            "SecurityQuestionList":
+            [
+                "What is your mother's maiden name?",
+                "What is the city of your birth?",
+                "What is your favorite color?"
+            ]
+        }
+    }
+

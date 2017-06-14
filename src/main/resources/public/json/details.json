@@ -1,0 +1,22 @@
+{  
+   "comments":"2",
+   "consumerId":0,
+   "dataType":"2",
+   "designDoc":"Design Document",
+   "integrationType":"Asynchronous",
+   "otherServices":"NA",
+   "provConsMapping":"Source Target Mapping",
+   "sampleRequest":"<xml version=\"1.0\" encoding=\"UTF-8\"?> \n<confirmSubscription>\n<token>be28a644-708e-446d-be6f-6aa34c8cd299$$0411E3CB-0A05-02A5-00A4-B5105381B204</token>\n<hashedToken>YmUyOGE2NDQtNzA4ZS00NDZkLWJlNmYtNmFhMzRjOGNkMjk5Q2FudmFz</hashedToken> \n<username>29bbb9f8f11e4ab2ddc2e6b779aff9c1e3d2e64a@Canvas.rakeshkey11</username>\n<product_sku>EPROF00012</product_sku> \n<class_section_id>cls19598</class_section_id> \n<app_version>WP</app_version> \n<user_regcode>sdfaasdfsdfasfd</user_regcode> \n<user_grace_period>active</user_grace_period> \n</confirmSubscription>",
+   "sampleResponse":"{   \"username\":\"29bbb9f8f11e4ab2ddc2e6b779aff9c1e3d2e64a@Canvas.rakeshkey11\",   \"class_section_id\":\"cls19598\",   \"user_regcode\":\"sdfaasdfsdfasfd\",   \"user_grace_period\":\"active\",   \"product_sku\":\"EPROF00012\" }",
+   "serviceFrequency":"5 Mins, TIMER Event",
+   "serviceType":"Batch",
+   "status":"4",
+   "svcDescription":"Publish Customer Account Updates to Consumers",
+   "svcId":2,
+   "svcName":"CustomerAccountPublish",
+   "taxonomy":"Business Service",
+   "testEnvs":"Dev Queue: WXT.FROM.CARTREQ (Queue)<br/>WXT.FROM.WPRESPONSE (Queue)",
+   "transportType":"XML",
+   "useCase":"Sync up local customer data with Wiley customer master Functionality supported - Broadcast; Async processing",
+   "versionId":1.1
+}

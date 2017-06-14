@@ -1,0 +1,1 @@
+{   "uploadLicenseRequest":{     "requestCreatedTimestamp":"2012-12-13T12:12:12",     "DH_ID":"55555",     "uploadDate":"2012-12-13T12:12:12",     "uploadedFiles":{       "file":[         {           "fileName":"testFileJpeg1",           "fileMimeType":"image/jpeg",           "fileData":"AA=="         }       ]     }   } }

@@ -1,0 +1,314 @@
+{
+    "response": {
+        "Header": {
+            "status": 12345,
+            "QTime": 12345,
+            "EntitiesFound": 12345
+        },
+        "Product-Entities": {
+            "PRODUCT": {
+                "id": "Test",
+                "DH_ID": 12345,
+                "DH_PROD_ID": 12345,
+                "DH_TYPE_CD": "Test",
+                "SUBTYPE_CD": "Test",
+                "STATUS": "Test",
+                "START_DATE": "Test",
+                "END_DATE": "Test",
+                "LANGUAGE_CD": "Test",
+                "DESCR": "Test",
+                "SHORT_DESCR": "Test",
+                "DH_PUB_ID": 12345,
+                "EDITION_NUM": 12345,
+                "PUB_DATE": "Test",
+                "OUT_OF_PRINT_DATE": "Test",
+                "SUBSCRIPTION_TYPE": "Test",
+                "DH_OWNER_REG_ID": 12345,
+                "DH_OWNER_REG_CD": "Test",
+                "LAST_UPDATE_DATE": "Test",
+                "doc_type": "Test"
+            },
+            "IDENTIFIER": [
+                {
+                    "id": "Test",
+                    "DH_ID": 12345,
+                    "DH_TYPE_CD": "Test",
+                    "DH_PROD_ID": 12345,
+                    "IDENT_CD": "Test",
+                    "IDENT_SUBTYPE_CD": "Test",
+                    "START_DATE": "Test",
+                    "END_DATE": "Test",
+                    "STATUS": "Test",
+                    "LAST_UPDATE_DATE": "Test",
+                    "doc_type": "Test"
+                }
+            ],
+            "PRICE": [
+                {
+                    "id": "Test",
+                    "DH_ID": 12345,
+                    "DH_PROD_ID": 12345,
+                    "DH_PROD_REG_ID": 12345,
+                    "DH_REG_ID": 12345,
+                    "REG_CD": 12345,
+                    "REG_DESC": "Test",
+                    "DH_PRICE_TYPE_CD": "Test",
+                    "DH_CUST_TYPE_CD": "Test",
+                    "DH_COUNTRY_CD": "Test",
+                    "DH_CURRENCY_CD": "Test",
+                    "DH_UOM_CD": "Test",
+                    "PRICE_AMT": 211.11,
+                    "START_DATE": "Test",
+                    "END_DATE": "Test",
+                    "QTY_BREAK_FROM": 12345,
+                    "QTY_BREAK_TO": 12345,
+                    "COMMENTS": "Test",
+                    "LAST_UPDATE_DATE": "Test",
+                    "doc_type": "Test"
+                }
+            ],
+            "PRODUCT_CODES": [
+                {
+                    "id": "Test",
+                    "DH_ID": 12345,
+                    "DH_PROD_ID": 12345,
+                    "DH_PRODREG_ID": 12345,
+                    "DH_REG_ID": 12345,
+                    "REG_CD": 12345,
+                    "REG_DESC": "Test",
+                    "DH_TYPE_CD": "Test",
+                    "REF_CODE_ID": 12345,
+                    "REF_CODE_TYPE": "Test",
+                    "START_DATE": "Test",
+                    "END_DATE": "Test",
+                    "LAST_UPDATE_DATE": "Test",
+                    "doc_type": "Test"
+                }
+            ],
+            "PRODUCT_CONTRIBUTOR": [
+                {
+                    "id": "Test",
+                    "DH_ID": 12345,
+                    "DH_PROD_ID": 12345,
+                    "CONTRIB_ECID": 12345,
+                    "STATUS": "Test",
+                    "START_DATE": "Test",
+                    "END_DATE": "Test",
+                    "LAST_UPDATE_DATE": "Test",
+                    "doc_type": "Test"
+                }
+            ],
+            "PRODUCT_DATES": [
+                {
+                    "id": "Test",
+                    "DH_ID": 12345,
+                    "DH_PROD_ID": 12345,
+                    "DH_PRODREG_ID": 12345,
+                    "DH_REG_ID": 12345,
+                    "REG_CD": 12345,
+                    "REG_DESC": "Test",
+                    "DH_DATE_TYPE_CD": "Test",
+                    "DATE_VALUE": "Test",
+                    "LAST_UPDATE_DATE": "Test",
+                    "doc_type": "Test"
+                }
+            ],
+            "PRODUCT_DIMENSION": [
+                {
+                    "id": "Test",
+                    "DH_ID": 12345,
+                    "DH_PROD_ID": 12345,
+                    "DH_PRODREG_ID": 12345,
+                    "DH_REG_ID": 12345,
+                    "REG_CD": 12345,
+                    "REG_DESC": "Test",
+                    "DH_DIM_TYPE_CD": "Test",
+                    "DIM_VALUE": 12345,
+                    "LAST_UPDATE_DATE": "Test",
+                    "doc_type": "Test"
+                }
+            ],
+            "PRODUCT_EXTENSION": [
+                {
+                    "id": "Test",
+                    "DH_ID": 12345,
+                    "DH_PROD_ID": 12345,
+                    "DH_PRODREG_ID": 12345,
+                    "DH_REG_ID": 12345,
+                    "REG_CD": 12345,
+                    "REG_DESC": "Test",
+                    "DH_EXT_CD": "Test",
+                    "EXT_VALUE": "Test",
+                    "EXT_DATE": "Test",
+                    "START_DATE": "Test",
+                    "END_DATE": "Test",
+                    "LAST_UPDATE_DATE": "Test",
+                    "doc_type": "Test"
+                }
+            ],
+            "PRODUCT_GROUP": [
+                {
+                    "id": "Test",
+                    "DH_ID": 12345,
+                    "DH_PROD_ID": 12345,
+                    "DH_PRODREG_ID": 12345,
+                    "DH_REG_ID": 12345,
+                    "REG_CD": 12345,
+                    "REG_DESC": "Test",
+                    "DH_PRODGRP_TYPE_CD": "Test",
+                    "GROUP_DESC": 12345,
+                    "LAST_UPDATE_DATE": "Test",
+                    "doc_type": "Test"
+                }
+            ],
+            "PRODUCT_IMAGES": [
+                {
+                    "id": "Test",
+                    "DH_ID": 12345,
+                    "DH_PROD_ID": 12345,
+                    "DH_PRODREG_ID": 12345,
+                    "DH_REG_ID": 12345,
+                    "REG_CD": 12345,
+                    "REG_DESC": "Test",
+                    "DH_TYPE_CD": "Test",
+                    "IMAGE_LINK": "Test",
+                    "START_DATE": "Test",
+                    "END_DATE": "Test",
+                    "LAST_UPDATE_DATE": "Test",
+                    "doc_type": "Test"
+                }
+            ],
+            "PRODUCT_REGION": [
+                {
+                    "id": "Test",
+                    "DH_ID": 12345,
+                    "DH_PROD_ID": 12345,
+                    "DH_REG_ID": 12345,
+                    "REG_CD": 12345,
+                    "REG_DESC": "Test",
+                    "STATUS": "Test",
+                    "LAST_UPDATE_DATE": "Test",
+                    "doc_type": "Test"
+                }
+            ],
+            "PRODUCT_RELATION_CHILD": [
+                {
+                    "id": "Test",
+                    "DH_ID": 12345,
+                    "DH_REL_TYPE_CD": 12345,
+                    "DH_PAR_PRODREG_ID": 12345,
+                    "DH_PAR_PROD_ID": 12345,
+                    "DH_PROD_ID": 12345,
+                    "DH_REG_ID": 12345,
+                    "REG_CD": 12345,
+                    "REG_DESC": "Test",
+                    "DH_CHILD_PRODREG_ID": 12345,
+                    "DH_CHILD_PROD_ID": 12345,
+                    "ORDER_SEQ_NUM": 12345,
+                    "START_DATE": "Test",
+                    "END_DATE": "Test",
+                    "LAST_UPDATE_DATE": "Test",
+                    "doc_type": "Test"
+                }
+            ],
+            "PRODUCT_RELATION_PARENT": [
+                {
+                    "id": "Test",
+                    "DH_ID": 12345,
+                    "DH_REL_TYPE_CD": 12345,
+                    "DH_PAR_PRODREG_ID": 12345,
+                    "DH_PAR_PROD_ID": 12345,
+                    "DH_PROD_ID": 12345,
+                    "DH_REG_ID": 12345,
+                    "REG_CD": 12345,
+                    "REG_DESC": "Test",
+                    "DH_CHILD_PRODREG_ID": 12345,
+                    "DH_CHILD_PROD_ID": 12345,
+                    "ORDER_SEQ_NUM": 12345,
+                    "START_DATE": "Test",
+                    "END_DATE": "Test",
+                    "LAST_UPDATE_DATE": "Test",
+                    "doc_type": "Test"
+                }
+            ],
+            "PRODUCT_STATUS": [
+                {
+                    "id": "Test",
+                    "DH_ID": 12345,
+                    "DH_PROD_ID": 12345,
+                    "DH_PRODREG_ID": 12345,
+                    "DH_REG_ID": 12345,
+                    "REG_CD": 12345,
+                    "REG_DESC": "Test",
+                    "DH_STAT_TYPE_CD": "Test",
+                    "STATUS_VALUE": "Test",
+                    "START_DATE": "Test",
+                    "END_DATE": "Test",
+                    "LAST_UPDATE_DATE": "Test",
+                    "doc_type": "Test"
+                }
+            ],
+            "PRODUCT_URL": [
+                {
+                    "id": "Test",
+                    "DH_ID": 12345,
+                    "DH_PROD_ID": 12345,
+                    "DH_PRODREG_ID": 12345,
+                    "DH_REG_ID": 12345,
+                    "REG_CD": 12345,
+                    "REG_DESC": "Test",
+                    "DH_TYPE_CD": "Test",
+                    "URL": "Test",
+                    "STATUS": "Test",
+                    "LAST_UPDATE_DATE": "Test",
+                    "doc_type": "Test"
+                }
+            ],
+            "PROD_PUBLISHER_ASSN": [
+                {
+                    "id": "Test",
+                    "DH_PROD_ID": 12345,
+                    "DH_PUB_ID": 12345,
+                    "START_DATE": "Test",
+                    "END_DATE": "Test",
+                    "LAST_UPDATE_DATE": "Test",
+                    "doc_type": "Test"
+                }
+            ],
+            "TITLE": [
+                {
+                    "id": "Test",
+                    "DH_ID": 12345,
+                    "DH_PROD_ID": 12345,
+                    "DH_PRODREG_ID": 12345,
+                    "DH_REG_ID": 12345,
+                    "REG_CD": 12345,
+                    "REG_DESC": "Test",
+                    "DH_TITLE_TYPE_CD": "Test",
+                    "TITLE_TEXT": "Test",
+                    "PRIMARY_IND": "Test",
+                    "START_DATE": "Test",
+                    "END_DATE": "Test",
+                    "DH_SRC_LANGUAGE_CD": 12345,
+                    "LAST_UPDATE_DATE": "Test",
+                    "doc_type": "Test"
+                }
+            ],
+            "PRODUCT_INVENTORY": [
+                {
+                    "id": "Test",
+                    "DH_ID": 12345,
+                    "DH_PROD_ID": 12345,
+                    "DH_PRODREG_ID": 12345,
+                    "DH_REG_ID": 12345,
+                    "REG_CD": 12345,
+                    "REG_DESC": "Test",
+                    "DH_INV_TYPE_CD": "Test",
+                    "QTY": 12345,
+                    "LAST_UPDATE_DATE": "Test",
+                    "doc_type": "Test"
+                }
+            ]
+        }
+    }
+}

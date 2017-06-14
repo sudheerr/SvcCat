@@ -1,0 +1,9 @@
+http://localhost:15022/PDHProductSearch?service=REST-PDHProductSearch&TYPE=XML&request=
+<?xml version = "1.0" encoding = "UTF-8"?>
+<ns0:ProductSearchRequest xmlns:ns0="http://wiley.com/ProductSearch/Request/V1.0">
+                <ns0:QueryString>ravina</ns0:QueryString>
+                <ns0:ResultType/>
+                <ns0:SortField/>
+                <ns0:NumberOfRecords/>
+                <ns0:StartingRecord/>
+</ns0:ProductSearchRequest>

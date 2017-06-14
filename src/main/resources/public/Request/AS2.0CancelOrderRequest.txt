@@ -1,0 +1,13 @@
+{
+  "CancelOrderRequest":{
+    "CorrelationID":"123456812675",
+    "ApplicationKey":"authorServices",
+    "OrderCategory":"OO",
+    "UserID":"ALM-11490568",
+    "OOCancel":{
+      "ooUniqueId":800001405,
+      "cancelReasonCode":"CANCEL_REBILL"
+    }
+  }
+}
+	

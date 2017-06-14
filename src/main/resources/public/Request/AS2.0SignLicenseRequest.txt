@@ -1,0 +1,17 @@
+{
+  "signLicenseRequest":{
+    "requestCreatedTimestamp":"2012-12-13T12:12:12",
+    "DH_ID":"123321",
+    "licenseTypeSigned":"Subscription",
+    "signedElectronically":true,
+    "authorSignature":"Author Signature",
+    "copyrightOwnership":"CONTRIBUTOR",
+    "usGovtWorkOwnership":"ALL_AUTHORS_NIH_EMPL",
+    "onlineOpen":true,
+    "licenseTypesPresented":{
+      "licenseType":[
+        "Subscription"
+      ]
+    }
+  }
+}

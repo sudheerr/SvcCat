@@ -1,0 +1,15 @@
+createAssembly : 
+http://esbqa.wiley.com:11017/createAssembly?accessKey=ABCDEFABCDEFCCCC&timeStamp=1412935660644&secretToken=8be2f2da931ae843ba5e90c01d915f40b166ac1d130d515f130c892802fc74b5&authId=asadhu%40wiley.com&authenticationTokenId=832290adf976de6d529978b90c1e0ed474d76acc16d2b272df9351d64b0ab4df&repoId=REP000005&xmlSepChar=xmlSepChar
+
+checkinAssembly : 
+http://esbqa.wiley.com:11017/checkinAssembly?accessKey=ABCDEFABCDEFCCCC&timeStamp=1412943676855&secretToken=9c8afaac93d734d4fa6daa42f8a0619f0fed41fcc21fa25b45380c05fa42f733&authenticationTokenId=8b38cae4899f8e758ec78f12978e45898cea8e06b36cdb00553ba9fea1a4b204&authId=jchatterje%40wiley.com&repoId=REP000005&updateVersion=false&configParam=&placeHolder=16f09835-ed33-47c3-8652-69932835bcc1&xmlSepChar=xmlSepChar
+
+checkoutAssembly : Not Used
+
+deleteAsmblyWithMyChildren : 
+http://esbqa.wiley.com:11017/deleteAsmblyWithMyChildren?accessKey=ABCDEFABCDEFCCCC&timeStamp=1412939421411&secretToken=8438417b3dd768add058fdb43203a6e6d06c2529547b2057337871c008cb0599&parentAssemblyId=f8112a34-7c01-4108-86e6-5dd638546a1f&authId=asadhu%40wiley.com&repoId=REP000005&authenticationTokenId=832290adf976de6d529978b90c1e0ed474d76acc16d2b272df9351d64b0ab4df&assemblyId=6a6f6cb1-be9f-4bf6-b359-86d3c00b0628
+
+deleteAssembly : Not Used
+
+delAssemblyWithChildren : 
+http://esbqa.wiley.com:11017/delAssemblyWithChildren?accessKey=ABCDEFABCDEFCCCC&timeStamp=1412854413687&secretToken=cb3d3ba8481c0bc119fd0f4f867bdd20bc2072f0b81f1f88a031414dd245a411&authId=kdatta%40wiley.com&repoId=REP000005&authenticationTokenId=79f35e0a7b132d7b25e6aace2bcea5a636a32d26d77c36ff06d232bfed8eb364&assemblyId=6816186e-9e5f-4ee5-a46b-37374711872f6e-9e5f-4ee5-a46b-37374711872f

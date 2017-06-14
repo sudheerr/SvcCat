@@ -1,0 +1,58 @@
+<article>
+<program>
+<funder uri="<server.path>/funders/24910912-cb61-39df-97ba-af097d338d67">
+<id>24910912-cb61-39df-97ba-af097d338d67</id>
+<secondaryIds>
+    <id type="doi">1010.13039/100005537</id>
+</secondaryIds>
+		<name>National Association of Broadcasters</name>
+		<altName>NAB</altName>
+
+<parent uri="<server.path>/funders/<funderUUID>">
+     <id>83bb3ac6-194b-3bb9-9e3f-a53d3a957a20</id>
+<secondaryIds>
+    <id type="doi">1010.13039/500005298</id>
+</secondaryIds>
+</parent>
+
+<mandates>
+		<mandate start='2014-01-10' end='2020-01-10'>
+			<name>CHORUS</name>			
+			<embargoDays>180</embargoDays>
+</mandate>
+</mandates>
+</funder>
+
+<authors>
+		<authorId>54321</authorId>
+</authors>
+
+<grants>
+<grantNumber>123124</grantNumber>
+<grantNumber>5234</grantNumber>
+			</grants>
+		</program>
+	
+<program>
+<funder uri="<server.path>/funders/114910912-cb61-39df-97ba-af097d338d88">
+<id>114910912-cb61-39df-97ba-af097d338d88</id>
+<secondaryIds>
+    <id type="doi">1010.13039/100000741</id>
+</secondaryIds>
+	<name>National Archives and Records Administration</name>
+	<altName>National Archives</altName>
+</funder>
+</program>
+
+<program>
+<funder uri="<server.path>/funders/aa4910912-cb61-39df-97ba-af097d338d00">
+<id>aa4910912-cb61-39df-97ba-af097d338d00</id>
+	<name>Cool new funder</name>
+</funder>
+
+<authors>
+		<authorId>1235456</authorId>
+	</authors>
+
+</program>
+</article>

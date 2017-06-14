@@ -1,0 +1,13 @@
+XMLdata: From ECART to middleware we will get XML data
+
+<?xml version="1.0" encoding="UTF-8"?> 
+<confirmSubscription>
+<token>be28a644-708e-446d-be6f-6aa34c8cd299$$0411E3CB-0A05-02A5-00A4-B5105381B204</token>
+<hashedToken>YmUyOGE2NDQtNzA4ZS00NDZkLWJlNmYtNmFhMzRjOGNkMjk5Q2FudmFz</hashedToken> 
+<username>29bbb9f8f11e4ab2ddc2e6b779aff9c1e3d2e64a@Canvas.rakeshkey11</username>
+<product_sku>EPROF00012</product_sku> 
+<class_section_id>cls19598</class_section_id> 
+<app_version>WP</app_version> 
+<user_regcode>sdfaasdfsdfasfd</user_regcode> 
+<user_grace_period>active</user_grace_period> 
+</confirmSubscription>

@@ -1,0 +1,27 @@
+{
+  "start_record":1,
+  "page_size":10,
+  "consumers":[
+    {
+      "provider":"WileyPlus",
+      "lms_type":"CANVAS",
+      "consumer_id":"829",
+      "consumer_secret":"1234asdf15",
+      "lms_admin_email":"divyavaddi@virtusa.com",
+      "oauth_consumer_key":"1234asdf15",
+      "lms_institution_name":"Institution",
+      "lms_name":"Canvas",
+      "lms_admin_firstname":"Divya",
+      "lms_admin_lastname":"Vaddi",
+      "lms_admin_role":"Instructor",
+      "lms_install_type":"Staging",
+      "lms_ecommerce":"enabled",
+      "lms_sprawl":"I have no idea",
+      "lms_integration_level":"LMS Account",
+      "lms_time_zone":"+09:30",
+      "consumer_notes":"asdasd",
+      "creation_date":"22.04.2014"
+    },
+    
+  }
+

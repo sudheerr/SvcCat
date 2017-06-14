@@ -1,0 +1,12 @@
+http://localhost:15026/BMISTransHistory?service=REST-BMISTransHistory&TYPE=XML&request=<?xml version="1.0" encoding="utf-8"?>                                        
+                <BMIS_Trans_History_Request xmlns="http://wiley.com/BMISTransHistory/Request/V1.0"> 
+                   <Source_System_Making_Req>SFDC</Source_System_Making_Req>         
+                                <ECID>1937465, 1234567</ECID>                                            
+                                <SearchType>ACCOUNT</SearchType>                                                   
+                                <StartDate>20150101</StartDate>                                                  
+                                <EndDate>20150130</EndDate>                                                       
+                                <NumberOfRecords>100</NumberOfRecords>                   
+                                <StartingRecord>11</StartingRecord>                
+                                <SortFields>ISBN ASC, ORDER_PERIOD_ID DESC</SortFields>                                                
+                                <ResultType>JSON</ResultType>                                         
+                </BMIS_Trans_History_Request>

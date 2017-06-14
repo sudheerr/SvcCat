@@ -1,0 +1,7 @@
+{
+  "uploadLicenseResponse":{
+    "DH_ID":55555,
+    "responseCode":200,
+    "responseDescription":"OK"
+  }
+}

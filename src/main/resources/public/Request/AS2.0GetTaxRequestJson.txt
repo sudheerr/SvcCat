@@ -1,0 +1,23 @@
+{
+  "request": {
+    "requestType": "TAX_CALCULATION",
+    "requestCreatedTimestamp": "2014-12-12 10:12:12",
+    "cityName": "London",
+    "zipPostalCode": "SW1V 1RB",
+    "country": "826",
+    "item": [
+      {
+        "id": 1,
+        "journalPrintISSN": "1470-6423",
+        "journalElectronicISSN": "1470-6431",
+        "discountedLineAmount": "1000.00"
+      },
+      {
+        "id":2,
+        "journalPrintISSN": "1470-6423",
+        "journalElectronicISSN": "1470-6431",
+        "discountedLineAmount": "2000.00"
+      }
+    ]
+  }
+}

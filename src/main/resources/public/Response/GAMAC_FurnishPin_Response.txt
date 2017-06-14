@@ -1,0 +1,37 @@
+URL - https://dev.gmacintegration.wiley.com/PIN
+
+Amazon Developer Portal Request
+
+Operation:-Purchase
+
+
+Operation Reason:-FULFILL
+
+
+
+Amazon Purchase Token:-purchase1212121212121
+
+
+
+Amazon Customer ID:-customer02
+
+
+
+Product ID:-1612829
+
+
+User ID:-1604768844
+
+
+Request body after RUN Test
+	
+	
+Request:
+
+{
+    "operation": "Purchase",
+    "purchaseToken": "purchase1212121212121",
+    "userId": "1604768844",
+    "productId": "1612829",
+    "reason": "FULFILL"
+}

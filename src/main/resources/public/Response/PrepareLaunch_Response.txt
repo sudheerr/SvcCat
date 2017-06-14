@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<root>
+<LaunchURL>{"url":"http:\/\/192.168.108.179:9080\/edugen\/lti\/eula.uni?session.imsblti.presentation-mode=iframe&amp;session.instructor.imsblti.classid=cls20318&amp;session.oauth_consumer_key=wileyfmn3&amp;session.middleware=true&amp;session.imsblti.wx-callback-url=http%3A%2F%2FZSOMVMNEEGUPTA.hob.wiley.com%3A9094%2F%3Fservice%3Dwxt%26token%3Dc1a145c3-16cb-422b-9ab3-f6b7451a321d%24%24B5A10AC7-0A05-0199-018A-0F4CDF4EA94C%26hashedToken%3DYzFhMTQ1YzMtMTZjYi00MjJiLTlhYjMtZjZiNzQ1MWEzMjFkQ2FudmFz&amp;session.instructor.imsblti.contextId=81bfb693cf5a27042d0ddd51c9e4ad2874246a66&amp;session.imsblti.return-to-lms-url=https%3A%2F%2Fcanvas.instructure.com%2Fcourses%2F867075%2Fexternal_tools%2F39993%2Ffinished&amp;session.imsblti.lms.type-short=CANVAS&amp;session.resource_link_id=a4ea7b44bc5e0be0288f5bd144597a44eb6fff6c&amp;session.lti.role=instructor&amp;session.domain.logincheck=usr39700&amp;session.imsblti.consumer.fice-code=B03302001&amp;session.imsblti.show-welcome-page=true&amp;session.course.id=crs20002&amp;session.domain.id=dmn64226&amp;session.imsblti.lms.type=CANVAS&amp;session.user.id=usr39700&amp;session.role=assistant&amp;session.imsblti.provider.lti-target=wp4-eula&amp;session.return_score=no&amp;token=6186da9e-ba90-4bb0-853b-091129e55c00$$B5A10AC7-0A05-0199-018A-0F4CDF4EA94C&amp;hashedToken=NjE4NmRhOWUtYmE5MC00YmIwLTg1M2ItMDkxMTI5ZTU1YzAwQ2FudmFz";
+
+}
+</LaunchURL>
+</root>

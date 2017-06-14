@@ -1,0 +1,7 @@
+{
+  "getLicenseCopyResponse":{
+    "DH_ID":123321,
+    "responseCode":200,
+    "responseDescription":"The article with dhid = 123321 does not have any signed licenses"
+  }
+}

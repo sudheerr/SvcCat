@@ -1,0 +1,13 @@
+
+Request 1: with articleID
+
+{
+  "requestType":"GET_QUOTE",
+  "requestCreatedTimestamp":"2014-12-12 10:12:12",
+  "article":{
+   "journalElectronicISSN":"20457758",
+    "articleID":"6502389"
+  }
+}
+
+

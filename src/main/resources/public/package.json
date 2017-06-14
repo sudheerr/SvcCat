@@ -1,0 +1,25 @@
+{
+  "name": "servicecatalog",
+  "version": "1.0.0",
+  "description": "Service Catalog Refactoring",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --config mywebpack.config.js",
+    "start_old": "browser-sync start --server --files \"css/*.css, js/*.js, index.html, service-details.html,recon-summary.html, recon-report.html, json/*.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "datatables.net": "^2.1.1",
+    "datatables.net-bs": "^2.1.1",
+    "datatables.net-buttons": "^1.2.4",
+    "jquery": "^3.1.1",
+    "jszip": "^3.1.3"
+  }
+}

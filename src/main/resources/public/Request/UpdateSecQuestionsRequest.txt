@@ -1,0 +1,23 @@
+{
+   "ExistingEmail": "SGanguly12@gmail.com",
+   "ExistingPassword": "Passw0rd1",
+   "SourceSystem": "AS",
+   "UserSecurityQuestions": {
+      "UserSecurityQuestionsMap": {
+        "entry": [
+          {
+            "key": "What is your mother's maiden name?",
+            "value": "mama"
+          },
+          {
+            "key": "What is your favorite color?",
+            "value": "black"
+          },
+          {
+            "key": "What is the city of your birth?",
+            "value": "Hoboken"
+          }
+        ]
+      }
+    }
+}

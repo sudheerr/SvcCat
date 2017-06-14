@@ -1,0 +1,25 @@
+{
+  "Status":"SUCCESS",
+  "UserPayloads":{
+    "UserPayload":[
+      {
+        "LastName":"prakash",
+        "FirstName":"shiwani",
+        "Email":"TRY@GMAIL.COM",
+        "AlmInternalKey":"ALM-11486479",
+        "UserStatus":"Active",
+        "SourceSystem":"AS",
+        "UserAddress":{
+          "Address":"New Delhi",
+          "Street":"Main Street",
+          "State":"Delhi",
+          "Country":"IN",
+          "ZipCode":"360007"
+        },
+        "SecurityQuestions":null,
+        "CustomerType":"User",
+        "TCFlag":"N"
+      }
+    ]
+  }
+}

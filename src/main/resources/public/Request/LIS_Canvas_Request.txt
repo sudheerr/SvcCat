@@ -1,0 +1,33 @@
+Below parameters are posted to Middleware Platform LTI service on any LTI tool launch
+oauth_consumer_key:timezonekey
+oauth_signature_method:HMAC-SHA1
+oauth_timestamp:1383646031
+oauth_nonce:sv2lYKKxs2MPU6KBbKVatEd5uiOFyoOIABAxQw
+oauth_version:1.0
+context_id:70d19117efb426e97de514daf52937d205d4141c
+context_label:Phase 1
+context_title:Phase 1 QA
+custom_canvas_enrollment_state:active
+custom_courseid:ISBNEPROF11278
+custom_destination:wp4-homepage
+custom_rversion:csr123
+custom_studentid:csi234
+launch_presentation_document_target:iframe
+launch_presentation_locale:en
+launch_presentation_return_url:https://canvas.instructure.com/courses/818007/external_tools/18503/finished
+lti_message_type:basic-lti-launch-request
+lti_version:LTI-1p0
+method:launch
+oauth_callback:about:blank
+resource_link_id:1e7b3300b51f125eea4cc11a9fb888ceb8442926
+resource_link_title:Homepage QA
+roles:Instructor
+service:lti
+tool_consumer_info_product_family_code:canvas
+tool_consumer_info_version:cloud
+tool_consumer_instance_contact_email:notifications@instructure.com
+tool_consumer_instance_guid:07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com
+tool_consumer_instance_name:Free For Teachers
+user_id:a982b260f2b60ddf0512ead0d09513a869862280
+user_image:https://secure.gravatar.com/avatar/70ea13b99f3da631617cc34bf205be3b?s=50&d=https%3A%2F%2Fcanvas.instructure.com%2Fimages%2Fmessages%2Favatar-50.png
+oauth_signature:l88rNxEuuaBtbd3itRNtfeg3h4w=

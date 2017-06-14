@@ -1,0 +1,37 @@
+searchContent : 
+http://esbqa.wiley.com:11001/searchContent?accessKey=ABCDEFABCDEFCCCC&timeStamp=1412848588341&secretToken=176bf13135659258ea0cf322113a61420455379cbe149c02287424ab1c7a8b9e&authId=jchatterje%40wiley.com&userId=fe816e5ed4b842197f0bc877145c3d60&repoId=REP000005&authenticationTokenId=fb3d7eea319fefa1c55e873d238b9dfee9da49836248c56bd86f54ac6406410f
+
+checkoutById : Not Used
+
+createFolderByPath : Not Used
+
+createContent : 
+http://esbqa.wiley.com:11015/createContent?accessKey=ABCDEFABCDEFCCCC&timeStamp=1412944661630&secretToken=ea5db98e16859f78ee0f10f6946a20656f0a91c27cd4a40a0715bb290e4e5595&authId=bpaadmin10%40wiley.com&storeLocation=%2Fbpa_documents%2Fexport%2Fd96dd864-4361-486a-994f-f7979c1592df%2Foutput%2F138_02eq4133.png&repoId=REP000005&authenticationTokenId=d17ba203e6cc9884d79805e9c22a83cbde449bf8e9a19b562ae98671c038d70a
+
+linkContents : 
+http://esbqa.wiley.com:11015/linkContents?accessKey=ABCDEFABCDEFCCCC&timeStamp=1412944050618&secretToken=26c6dc10809f984fc3ff459ce9f1982c6b703ea61fb04609970b2ea0c3efb627&authId=asadhu%40wiley.com&repoId=REP000005&contentVersion=1.0&authenticationTokenId=832290adf976de6d529978b90c1e0ed474d76acc16d2b272df9351d64b0ab4df&contentId=a81bf626-c7b7-4a4e-ab3d-908bf12c98a1
+
+unlinkContent : 
+http://esbqa.wiley.com:11015/unlinkContent?accessKey=ABCDEFABCDEFCCCC&timeStamp=1412935848893&secretToken=a27bf3cd07f2958398cdcbe1956508803139d9a0e02691a15e2143e7e37e91ef&authId=asadhu%40wiley.com&repoId=REP000005&authenticationTokenId=832290adf976de6d529978b90c1e0ed474d76acc16d2b272df9351d64b0ab4df&contentId=47a6718a-08f8-4486-9b47-11c10fef621c
+
+getLinkedContent : 
+http://esbqa.wiley.com:11015/getLinkedContent?accessKey=ABCDEFABCDEFCCCC&timeStamp=1412935841553&secretToken=9a7469e700a0560b2bdcb72a2b958b01bc5107a2f4bbad6df25b469fd104ed7d&placeHolder=47a6718a-08f8-4486-9b47-11c10fef621c&authId=asadhu%40wiley.com&repoId=REP000005&authenticationTokenId=832290adf976de6d529978b90c1e0ed474d76acc16d2b272df9351d64b0ab4df&version=
+
+getContentMetadata : 
+http://esbqa.wiley.com:11015/getContentMetadata?authId=kdatta%40wiley.com&repoId=REP000005&authenticationTokenId=83997ef5476db533c702d8f7cefc8a4be205030ca45ab21999fe23a759431a2e&contentId=5248326b-a034-47ac-92ab-b832342ff591
+
+deleteContent : Not Used
+
+checkinContent : Not Used
+
+checkoutContent : 
+http://esbqa.wiley.com:11016/checkoutContent?accessKey=ABCDEFABCDEFCCCC&timeStamp=1412928850316&secretToken=2fc8cf34becead1ad7995e04c4545da0417c42376bad0f15008950a297ac587e&placeHolder=f8112a34-7c01-4108-86e6-5dd638546a1f&authId=asadhu%40wiley.com&repoId=REP000005&authenticationTokenId=1a0730736f9d516e61ec5c7f979a2213ce3560da340838f484d1fd83a13f4714&checkoutLocation=&version=
+
+exportContent : 
+http://esbqa.wiley.com:11016/exportContent?accessKey=ABCDEFABCDEFCCCC&timeStamp=1412848596636&secretToken=e500dd025a61215f39f86a0e2eaa6af5427f643566b38dad1846c699f7e9fdaf&placeHolder=&authId=jchatterje%40wiley.com&userId=fe816e5ed4b842197f0bc877145c3d60&repoId=REP000005&authenticationTokenId=fb3d7eea319fefa1c55e873d238b9dfee9da49836248c56bd86f54ac6406410f&exportLocation=%2Fbpa_documents%2Fexport%2F&version=
+
+getDppContentMetadata : 
+http://esbqa.wiley.com:11016/getDppContentMetadata?accessKey=ABCDEFABCDEFCCCC&timeStamp=1412854037139&secretToken=ef5a1eab3e576235b9b0b6b1c19271b4733c9faf6dbdeffc30ca4eb08ad42bbd&placeHolder=6816186e-9e5f-4ee5-a46b-37374711872f&authId=kdatta%40wiley.com&userId=83d287dd2cabf70bd6ab06db94d122bd&repoId=REP000005&authenticationTokenId=79f35e0a7b132d7b25e6aace2bcea5a636a32d26d77c36ff06d232bfed8eb364&version=
+
+saveContentMetadata : 
+http://esbqa.wiley.com:11016/saveContentMetadata?accessKey=ABCDEFABCDEFCCCC&timeStamp=1412854095172&secretToken=ef21e3e39c4200f60bd1104cf2109ea38ef3448b8480f249f2d76b0b62a0ae23&authId=kdatta%40wiley.com&repoId=REP000005&authenticationTokenId=79f35e0a7b132d7b25e6aace2bcea5a636a32d26d77c36ff06d232bfed8eb364">

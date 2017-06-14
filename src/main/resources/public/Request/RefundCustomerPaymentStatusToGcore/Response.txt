@@ -1,0 +1,1 @@
+2015 Dec 10 02:50:41:209 GMT -0500 BW.LoggingAudingBW-LoggingAuditingBW Info [BW-User] - Finished_Main_Success~ApplicationId=EIS~CorrelationId=8ADEE32D-0A04-D6CD-4B3E-833CCBD76989~ProcessName=BusinessProcesses/RefundCustomerPaymentStatusToGcore/Processes/StarterProcesses/FilePoller/RefundCustPmntStatusToGcore_FilePollerStarter.process

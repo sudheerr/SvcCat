@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObjectCacheServiceRequest xsi:schemaLocation="http://wiley.foundationservices.com/MessageObjects/Foundation/CacheService/Business/V1 CacheService.xsd" xmlns="http://wiley.foundationservices.com/MessageObjects/Foundation/CacheService/Business/V1"; xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">;
+<ObjectCacheServiceRequestKey></ObjectCacheServiceRequestKey>
+<ObjectCacheServiceRequestObject>UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</ObjectCacheServiceRequestObject>
+</ObjectCacheServiceRequest>

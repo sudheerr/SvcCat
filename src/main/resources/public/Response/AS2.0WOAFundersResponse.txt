@@ -1,0 +1,132 @@
+{
+  "WOAFunders":{
+    "WOAFunder":[
+      {
+        "id":1,
+        "code":"TI1",
+        "name":"Test Institution 1",
+        "WOAAccounts":{
+          "WOAAccount":[
+            {
+              "id":9,
+              "code":"VICT",
+              "name":"Victoria University Funder",
+              "notCurrent":false,
+              "dealType":"Both",
+              "currency":"USD",
+              "ResearchFunders":{
+                "ResearchFunder":[
+                  {
+                    "doi":"10.13039/501100000883",
+                    "name":"University of Bristol"
+                  },
+                  {
+                    "doi":"10.13039/501100000882",
+                    "name":"University of Aberdeen"
+                  },
+                  {
+                    "doi":"10.13039/501100000882",
+                    "name":"University of Aberdeen"
+                  }
+                ]
+              }
+            },
+            {
+              "id":13,
+              "code":"GLAS",
+              "name":"University of Glasgow",
+              "notCurrent":true,
+              "dealType":"Both",
+              "currency":"GBP",
+              "ResearchFunders":{
+                "ResearchFunder":[
+                  {
+                    "doi":"10.13039/501100000769",
+                    "name":"University Of Oxford"
+                  },
+                  {
+                    "doi":"10.13039/501100000765",
+                    "name":"University College London"
+                  },
+                  {
+                    "doi":"10.13039/501100000770",
+                    "name":"University of Manchester"
+                  }
+                ]
+              }
+            },
+            {
+              "id":35,
+              "code":"LIVE",
+              "name":"University of Liverpool",
+              "notCurrent":false,
+              "dealType":"Both",
+              "currency":"GBP",
+              "ResearchFunders":{
+                "ResearchFunder":[
+                  {
+                    "doi":"10.13039/100005697",
+                    "name":"Roosevelt Institute"
+                  },
+                  {
+                    "doi":"10.13039/100006714",
+                    "name":"Roosevelt University"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id":3,
+        "code":"TI3",
+        "name":"Test Institution 3",
+        "WOAAccounts":{
+          "WOAAccount":[
+            {
+              "id":25,
+              "code":"TSD1",
+              "name":"Test new funder",
+              "notCurrent":false,
+              "dealType":"Both",
+              "currency":"USD",
+              "ResearchFunders":{
+                "ResearchFunder":[
+                  {
+                    "doi":"10.13039/100006051",
+                    "name":"American Institute for Economic Research"
+                  },
+                  {
+                    "doi":"10.13039/501100000921",
+                    "name":"European Cooperation in Science and Technology"
+                  }
+                ]
+              }
+            },
+            {
+              "id":49,
+              "code":"NSK",
+              "name":"Test for FD",
+              "notCurrent":false,
+              "dealType":"Both",
+              "currency":"USD",
+              "ResearchFunders":{
+                "ResearchFunder":[
+                  {
+                    "doi":"10.13039/501100000782",
+                    "name":"European Science Foundation"
+                  },
+                  {
+                    "doi":"10.13039/501100000809",
+                    "name":"European Network and Information Security Agency"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

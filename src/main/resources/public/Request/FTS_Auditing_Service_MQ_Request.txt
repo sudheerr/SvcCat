@@ -1,0 +1,189 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<p:AuditMessageCollection xmlns:p = "http://wiley.foundationservices.com/MessageObjects/Foundation/Auditing/Service/Business/V1" xmlns:p1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1" xmlns:p2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Audit/Common/V1" xmlns:p3 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/Codelist/V1" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation = "http://wiley.foundationservices.com/MessageObjects/Foundation/Audit/Common/V1 foundation/Logging/xsd/V1.0/AuditMeta.xsd http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1 foundation/Common/xsd/V1.0/FoundationDataTypes.xsd http://wiley.foundationservices.com/MessageObjects/Foundation/Auditing/Service/Business/V1 ../Schemas/foundation/Logging/xsd/V1.0/AuditService.xsd http://wiley.foundationservices.com/MessageObjects/Foundation/Common/Codelist/V1 foundation/Common/xsd/V1.0/CodeList.xsd"> 
+<p:AuditMessageRequest>    
+<p:SenderSystem>     
+<p1:SystemID>SUBSMGMT_ESB_APPLN</p1:SystemID>     
+<p1:SystemName>SM</p1:SystemName> 
+<p1:IPAddress>10.1.1.4 </p1:IPAddress>
+</p:SenderSystem>  
+<p:ServiceContext>     
+<p1:BusinessProcessName>SM_SALES</p1:BusinessProcessName>    
+<p1:Activity>SM_SALES_ORDER_ENTRY</p1:Activity>
+<p1:ServiceName>SM_SALES_SERVICE </p1:ServiceName>
+<p1:ComponentName>SM_SALES_ORDER</p1:ComponentName>  
+<p1:MethodName>    </p1:MethodName>   
+</p:ServiceContext>
+<p:AuditEventID>
+<p2:GUID/>
+<p2:ProcessInstanceID> SALES1212</p2:ProcessInstanceID> 
+<p2:ServiceInstanceID> SALESSVC88900  </p2:ServiceInstanceID>  
+<p2:ComponentInstanceID>COMP9090</p2:ComponentInstanceID>
+<p2:AuditCorrelationID>123456</p2:AuditCorrelationID>   
+</p:AuditEventID>   
+<p:AuditDetails>     
+<p2:AuditTimestamp>2012-06-12T12:00:01-05:00</p2:AuditTimestamp>     
+<p2:AuditUserDetails>
+<p1:UserID>BVENKAPPAN</p1:UserID>    
+<p1:UserName/>
+<p1:UserDept/>
+</p2:AuditUserDetails>     
+<p2:GeneralAuditMessage AuditCategory = "GENERAL">       
+<p2:AuditID>12332</p2:AuditID>       
+<p2:AuditType>SOX</p2:AuditType>       
+<p2:AuditMesg>         
+<p1:Item>           
+<p1:Name>SALES_AMOUNT</p1:Name>           
+<p1:Value>121212.43</p1:Value>         
+</p1:Item>
+<p1:Item>           
+<p1:Name>SALES_QTY</p1:Name>           
+<p1:Value>1300</p1:Value>         
+</p1:Item>       
+</p2:AuditMesg>     
+</p2:GeneralAuditMessage>     
+<p2:TxnAuditMessage AuditCategory = "TXNAUDIT">       
+<p2:TransactionID>121332323</p2:TransactionID>       
+<p2:TransactionType>ORDER</p2:TransactionType>       
+<p2:AuditActionType>UPDATE</p2:AuditActionType>       
+<p2:TxnAuditDataBefore>         
+<p1:Item>           
+<p1:Name>QTY</p1:Name>           
+<p1:Value>100</p1:Value>         
+</p1:Item>
+<p1:Item>           
+<p1:Name>ORDER_DATE</p1:Name>           
+<p1:Value>05-12-2012</p1:Value>         
+</p1:Item>       
+</p2:TxnAuditDataBefore>       
+<p2:TxnAuditDataAfter>         
+<p1:Item>           
+<p1:Name>QTY</p1:Name>           
+<p1:Value>200</p1:Value>         
+</p1:Item>    
+<p1:Item>           
+<p1:Name>ORDER_DATE</p1:Name>           
+<p1:Value>06-12-2012</p1:Value>         
+</p1:Item>     
+</p2:TxnAuditDataAfter>     
+</p2:TxnAuditMessage>     
+<p2:AccessAuditMessage AuditCategory = "ACCESSAUDIT">       
+<p2:UserID>sreddy</p2:UserID>       
+<p2:UserName>Sandeep Reddy</p2:UserName>       
+<p2:UserRole>TOPS Tech Lead</p2:UserRole>       
+<p2:UserDept>TOPS</p2:UserDept>       
+<p2:ApplicationID>FOUNDATION_WEB_APP</p2:ApplicationID>       
+<p2:TimeofEntry>2012-06-12T12:00:01-05:00</p2:TimeofEntry>       
+<p2:TimeofExit>2012-06-12T12:01:31-05:00</p2:TimeofExit>       
+<p2:Hostname>localhost</p2:Hostname>       
+<p2:HostIPAddress>10.6.2.1</p2:HostIPAddress>       
+<p2:AuditAccessMessage>Sandeep Reddy has accessed the Foundation Web Application</p2:AuditAccessMessage>     
+</p2:AccessAuditMessage>     
+<p2:extendedDataArea>       
+<p1:ExtendedArea xsi:type = "anyType"/>     
+</p2:extendedDataArea>   
+</p:AuditDetails>   
+<p:BusinessKeys>
+<p1:Item>       
+<p1:Name>ORDER_NO</p1:Name>
+<p1:Value>123456</p1:Value>  
+</p1:Item>
+<p1:Item>       
+<p1:Name>CUSTOMER_ID</p1:Name>
+<p1:Value>900102ABC</p1:Value>  
+</p1:Item> 
+</p:BusinessKeys> 
+</p:AuditMessageRequest>
+<p:AuditMessageRequest>    
+<p:SenderSystem>     
+<p1:SystemID>SUBSMGMT_ESB_APPLN</p1:SystemID>     
+<p1:SystemName>SM</p1:SystemName> 
+<p1:IPAddress>10.1.1.4 </p1:IPAddress>
+</p:SenderSystem>  
+<p:ServiceContext>     
+<p1:BusinessProcessName>SM_SALES</p1:BusinessProcessName>    
+<p1:Activity>SM_SALES_ORDER_ENTRY</p1:Activity>
+<p1:ServiceName>SM_SALES_SERVICE </p1:ServiceName>
+<p1:ComponentName>SM_SALES_ORDER</p1:ComponentName>  
+<p1:MethodName>    </p1:MethodName>   
+</p:ServiceContext>
+<p:AuditEventID>
+<p2:GUID/>
+<p2:ProcessInstanceID> SALES1212</p2:ProcessInstanceID> 
+<p2:ServiceInstanceID> SALESSVC88900  </p2:ServiceInstanceID>  
+<p2:ComponentInstanceID>COMP9090</p2:ComponentInstanceID>
+<p2:AuditCorrelationID>123456</p2:AuditCorrelationID>   
+</p:AuditEventID>   
+<p:AuditDetails>     
+<p2:AuditTimestamp>2012-06-12T12:00:01-05:00</p2:AuditTimestamp>     
+<p2:AuditUserDetails>
+<p1:UserID>bvenkappan</p1:UserID>    
+<p1:UserName/>
+<p1:UserDept/>
+</p2:AuditUserDetails>     
+<p2:GeneralAuditMessage AuditCategory = "GENERAL">       
+<p2:AuditID>12332</p2:AuditID>       
+<p2:AuditType>SOX</p2:AuditType>       
+<p2:AuditMesg>         
+<p1:Item>           
+<p1:Name>SALES_AMOUNT</p1:Name>           
+<p1:Value>121212.43</p1:Value>         
+</p1:Item>
+<p1:Item>           
+<p1:Name>SALES_QTY</p1:Name>           
+<p1:Value>1300</p1:Value>         
+</p1:Item>       
+</p2:AuditMesg>     
+</p2:GeneralAuditMessage>     
+<p2:TxnAuditMessage AuditCategory = "TXNAUDIT">       
+<p2:TransactionID>121332323</p2:TransactionID>       
+<p2:TransactionType>ORDER</p2:TransactionType>       
+<p2:AuditActionType>UPDATE</p2:AuditActionType>       
+<p2:TxnAuditDataBefore>         
+<p1:Item>           
+<p1:Name>QTY</p1:Name>           
+<p1:Value>100</p1:Value>         
+</p1:Item>
+<p1:Item>           
+<p1:Name>ORDER_DATE</p1:Name>           
+<p1:Value>05-12-2012</p1:Value>         
+</p1:Item>       
+</p2:TxnAuditDataBefore>       
+<p2:TxnAuditDataAfter>         
+<p1:Item>           
+<p1:Name>QTY</p1:Name>           
+<p1:Value>200</p1:Value>         
+</p1:Item>    
+<p1:Item>           
+<p1:Name>ORDER_DATE</p1:Name>           
+<p1:Value>06-12-2012</p1:Value>         
+</p1:Item>     
+</p2:TxnAuditDataAfter>     
+</p2:TxnAuditMessage>     
+<p2:AccessAuditMessage AuditCategory = "ACCESSAUDIT">       
+<p2:UserID>sreddy</p2:UserID>       
+<p2:UserName>Sandeep Reddy</p2:UserName>       
+<p2:UserRole>TOPS Tech Lead</p2:UserRole>       
+<p2:UserDept>TOPS</p2:UserDept>       
+<p2:ApplicationID>FOUNDATION_WEB_APP</p2:ApplicationID>       
+<p2:TimeofEntry>2012-06-12T12:00:01-05:00</p2:TimeofEntry>       
+<p2:TimeofExit>2012-06-12T12:01:31-05:00</p2:TimeofExit>       
+<p2:Hostname>localhost</p2:Hostname>       
+<p2:HostIPAddress>10.6.2.1</p2:HostIPAddress>       
+<p2:AuditAccessMessage>Sandeep Reddy has accessed the Foundation Web Application</p2:AuditAccessMessage>     
+</p2:AccessAuditMessage>     
+<p2:extendedDataArea>       
+<p1:ExtendedArea xsi:type = "anyType"/>     
+</p2:extendedDataArea>   
+</p:AuditDetails>   
+<p:BusinessKeys>
+<p1:Item>       
+<p1:Name>ORDER_NO</p1:Name>
+<p1:Value>123456</p1:Value>  
+</p1:Item>
+<p1:Item>       
+<p1:Name>CUSTOMER_ID</p1:Name>
+<p1:Value>900102ABC</p1:Value>  
+</p1:Item> 
+</p:BusinessKeys> 
+</p:AuditMessageRequest>
+</p:AuditMessageCollection>

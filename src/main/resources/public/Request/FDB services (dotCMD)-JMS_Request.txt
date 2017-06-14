@@ -1,0 +1,9 @@
+<WOARequest>
+<accountCode>ASF</accountCode>
+<status>Approved</status>
+<statusUpdateTs>2013-11-18T00:00:00.000-05:00</statusUpdateTs>
+<aid>JORS708</aid>
+<manuscriptId>jors-09-126</manuscriptId>
+<statusUpdatedBy>Vitaly Ageev</statusUpdatedBy>
+<journalCode>ACEM</journalCode>
+</WOARequest>

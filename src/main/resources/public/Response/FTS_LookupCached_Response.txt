@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LookupServiceResponse xmlns="http://wiley.foundationservices.com/MessageObjects/Foundation/LookupService/Business/V1">;
+<LookupServiceResponseStatus>
+<ns0:Status xmlns:ns0="http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">ERROR</ns0:Status>;
+<ns0:ErrorCode xmlns:ns0="http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">DATA_NOTFND_E1001</ns0:ErrorCode>;
+<ns0:ErrorDesc xmlns:ns0="http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">No value exists in cache for key: GLOBAL, Address_Type, EN, SEC_BUS_ADDR</ns0:ErrorDesc>
+</LookupServiceResponseStatus>
+</LookupServiceResponse>

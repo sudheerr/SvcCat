@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ ********************************************************************************
+ * Change History
+ * Sep 6 2016 - 1.0 - Initial draft.
+ * Sep 9 2016 - 1.0 - comon entities moved to common
+ ********************************************************************************
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	 xmlns:cmn="http://www.wiley.com/schemas/eis/common"
+	 xmlns:cst="http://www.wiley.com/schemas/eis/customer"
+	 xmlns:cnt="http://www.wiley.com/schemas/eis/contact"
+	 xmlns:ord="http://www.wiley.com/schemas/eis/order"
+	 targetNamespace="http://www.wiley.com/schemas/eis/order"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+	<import namespace="http://www.wiley.com/schemas/eis/common" schemaLocation="common.xsd"/>
+	<import namespace="http://www.wiley.com/schemas/eis/customer" schemaLocation="customer.xsd"/>
+	<import namespace="http://www.wiley.com/schemas/eis/contact" schemaLocation="contactInfo.xsd"/>
+	<complexType name="orderList">
+		<annotation>
+			<documentation>Contains list of sales orders</documentation>
+		</annotation>
+		<sequence>
+			<element name="order" type="ord:order" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	<complexType name="order">
+		<sequence>
+			<element name="details" type="cmn:order" minOccurs="0"/>
+			<element name="item" type="cmn:order" minOccurs="0" maxOccurs="unbounded">
+				<annotation>
+					<documentation>Refers paymentDetails element from common schema</documentation>
+				</annotation>
+			</element>
+			<element name="customer" type="cst:customer" minOccurs="0"/>
+			<element name="sales" type="cmn:sales" minOccurs="0">
+				<annotation>
+					<documentation>contains sales related information like org, channel, sales person etc.</documentation>
+				</annotation>
+			</element>
+			<element name="extensions" type="cmn:extensions" minOccurs="0"/>
+		</sequence>
+	</complexType>
+	<element name="orders" type="ord:orderList"/>
+	<element name="orderData">
+		<complexType>
+			<sequence>
+				<element name="orderNumber" type="string" minOccurs="0"/>
+				<element name="type" type="string" minOccurs="0"/>
+				<element name="quantity" type="string" minOccurs="0"/>
+				<element name="date" type="string" minOccurs="0"/>
+				<element name="party" minOccurs="0">
+					<complexType>
+						<sequence>
+							<element name="shipTo" type="cnt:contactInfo" minOccurs="0"/>
+							<element name="soldTo" type="cnt:contactInfo"/>
+							<element name="billTo" type="cnt:contactInfo" minOccurs="0"/>
+							<element name="extensions" type="cmn:extensions"/>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

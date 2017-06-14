@@ -1,0 +1,38 @@
+{
+  "CreateUserAttributes": {
+    "LastName": "Shiwani",
+    "FirstName": "Prakash",
+    "Email":"shiwa@gmail.com",
+    "Password":"Passwo12rd",
+    "UserStatus": "Active",
+    "SourceSystem": "authorServices",
+    "CustomerType": "User",
+    "TCFlag": "N",
+    "ECID": "379999",
+    "UserAddress": {
+      "Country": "IND",
+      "State": "GJ",
+      "Street": "Main Street",
+      "Address": "New Delhi",
+      "ZipCode": "360007"
+    },
+    "UserSecurityQuestions": {
+      "UserSecurityQuestionsMap": {
+        "entry": [
+          {
+            "key": "What is your mother's maiden name?",
+            "value": "mom"
+          },
+          {
+            "key": "What is your first pet's name?",
+            "value": "white"
+          },
+          {
+            "key": "What city were you born in?",
+            "value": "Kolkata"
+          }
+        ]
+      }
+    }
+  }
+}

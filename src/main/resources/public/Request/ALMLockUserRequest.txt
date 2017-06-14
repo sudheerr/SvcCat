@@ -1,0 +1,6 @@
+{
+  "UpdateUserSecurityAttributes": {
+    "ExistingEmail": "SGanguly12@gmail.com",
+    "SourceSystem": "AS"
+  }
+}

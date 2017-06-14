@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ ********************************************************************************
+ * Change History
+ * Aug 28 2016 - 1.0 - Initial draft.
+ * Sep 01 2016 - 1.1 - Updated naming notation.
+ ********************************************************************************
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	 xmlns:cnt="http://www.wiley.com/schemas/eis/contact"
+	 xmlns:cmn="http://www.wiley.com/schemas/eis/common"
+	 xmlns:adr="http://www.wiley.com/schemas/eis/address"
+	 targetNamespace="http://www.wiley.com/schemas/eis/contact"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+	<import namespace="http://www.wiley.com/schemas/eis/common" schemaLocation="common.xsd"/>
+	<import namespace="http://www.wiley.com/schemas/eis/address" schemaLocation="address.xsd"/>
+	<complexType name="contactList">
+		<sequence>
+			<element name="contact" type="cnt:contactInfo" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	<complexType name="contactInfo">
+		<sequence>
+			<element name="identity" type="cmn:identity" minOccurs="0"/>
+			<element name="name" type="cmn:name" minOccurs="0"/>
+			<element ref="cnt:address" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="email" type="cmn:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="phone" type="cmn:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="fax" type="cmn:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="web" type="cmn:propertyType" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="extensions" type="cmn:extensions" minOccurs="0"/>
+		</sequence>
+	</complexType>
+	<complexType name="identity">
+		<sequence>
+			<element name="identity" type="cmn:identity"/>
+		</sequence>
+	</complexType>
+	<complexType name="name">
+		<sequence>
+			<element name="name" type="cmn:name"/>
+		</sequence>
+	</complexType>
+	<complexType name="email">
+		<sequence>
+			<element name="email" type="cmn:propertyType"/>
+		</sequence>
+	</complexType>
+	<complexType name="phone">
+		<sequence>
+			<element name="phone" type="cmn:propertyType"/>
+		</sequence>
+	</complexType>
+	<complexType name="fax">
+		<sequence>
+			<element name="fax" type="cmn:propertyType"/>
+		</sequence>
+	</complexType>
+	<complexType name="web">
+		<sequence>
+			<element name="web" type="cmn:propertyType"/>
+		</sequence>
+	</complexType>
+	<element name="identity" type="cnt:identity"/>
+	<element name="name" type="cnt:name"/>
+	<element name="email" type="cnt:email"/>
+	<element name="phone" type="cnt:phone"/>
+	<element name="fax" type="cnt:fax"/>
+	<element name="web" type="cnt:web"/>
+	<element name="contacts" type="cnt:contactList"/>
+	<element name="address" type="adr:address"/>
+</schema>

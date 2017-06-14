@@ -1,0 +1,17 @@
+{   
+"oauth_consumer_key":"key02",   
+"lms_type":"ANGEL",   
+"lms_country_code":"840",   
+"lms_fice_code":"B03302001",   
+"course_id":"crs20000",   
+"domain_id":"dmn11060",   
+"class_section_id":"cls19643",   
+"user_id":"usr38898",   
+"class_section_role":"Student",   
+"destination":"wp4-eula",   
+"show_alert":"welcome",   
+"presentation_target":"iframe",   "lms_callback":"https:\/\/canvas.instructure.com\/courses\/830773\/external_tools\/25864\/finished",   
+"return_score":"no",   
+"score_type":null,   "wx_callback_url":"http:\/\/ZSOMVMJITENS1.som.wiley.com:9094\/?service=wxt&token=a419cc1a-53f2-4ede-95df-7fbdd240b80e$$D59350F7-0A05-0212-009B-E1C443A4397C&hashedToken=YTQxOWNjMWEtNTNmMi00ZWRlLTk1ZGYtN2ZiZGQyNDBiODBlQ2FudmFz",   
+"wx_callback_type":null,   "resource_link_id":"265ae54cfb1800deed57dda591839bd532618c1c" 
+}

@@ -1,0 +1,1 @@
+2015 Oct 15 10:02:22:199 GMT -0400 BW.PTPVendorMaster01-PTPVendorMaster01 ISS-Info [BW-User] - 6BCEFD2B-0AC8-209C-142F-C1447CC0C75E~Finished_SubProcess_Invoke~BusinessProcesses/UpdateVendorMasterToCore/Processes/MainProcesses/UpdateGcoreFromSAP_Main.process~APVendor processed to Gcore : 50031993~

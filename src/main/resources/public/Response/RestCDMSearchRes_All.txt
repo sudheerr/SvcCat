@@ -1,0 +1,9386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<response>
+
+
+-<lst name="responseHeader">
+
+<int name="status">0</int>
+
+<int name="QTime">0</int>
+
+
+-<lst name="params">
+
+<str name="q">pfizer</str>
+
+<str name="start">10</str>
+
+<str name="sort">LAST_UPDATE_DATE desc</str>
+
+<str name="rows">100</str>
+
+<str name="wt">xml</str>
+
+</lst>
+
+</lst>
+
+
+-<result name="response" start="10" numFound="3367">
+
+
++<doc>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">GBR</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Tadworth</str>
+
+<str name="PRIM_CITY_AC">Tadworth</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">1</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5476864 </str>
+
+<str name="EC_ID">5476864 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer</str>
+
+<str name="PRIM_STATE">SURREY</str>
+
+<str name="PRIM_STATE_AC">SURREY</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">karen.godbold@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">karen.godbold@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Godbold</str>
+
+<str name="LAST_NAME_AC">Godbold</str>
+
+<str name="SALUT_HONOR">Mrs</str>
+
+<str name="PRIM_PHONE_NUM">01304 616 161</str>
+
+<str name="FIRST_NAME">Karen</str>
+
+<str name="FIRST_NAME_AC">Karen</str>
+
+<str name="FULL_NAME">Karen Godbold</str>
+
+<str name="FULL_NAME_AC">Karen Godbold</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Customer Strategy Director, Primary Care</str>
+
+<str name="PRIM_COUNTRY_NM">United Kingdom</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United Kingdom</str>
+
+<str name="COUNTRY_NAME">United Kingdom</str>
+
+<str name="id">CONTACT_5476864 </str>
+
+<str name="PRIM_POSTAL_CD">KT20 7NS</str>
+
+<str name="PRIM_POSTAL_CD_AC">KT20 7NS</str>
+
+<str name="PRIM_ADDR_LN_1">Walton Oaks</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Walton Oaks</str>
+
+<str name="PRIM_ADDR_LN_2">Dorking Road</str>
+
+<str name="JOB_ROLE">Marketing</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8819992 |Pfizer</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001jrz03AAA</str>
+
+</arr>
+
+<long name="_version_">1497586182396051457</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">GBR</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Tadworth</str>
+
+<str name="PRIM_CITY_AC">Tadworth</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5476865 </str>
+
+<str name="EC_ID">5476865 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer</str>
+
+<str name="PRIM_STATE">SURREY</str>
+
+<str name="PRIM_STATE_AC">SURREY</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">keitel.suri@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">keitel.suri@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Suri</str>
+
+<str name="LAST_NAME_AC">Suri</str>
+
+<str name="PRIM_PHONE_NUM">01304 616161</str>
+
+<str name="FIRST_NAME">Keitel</str>
+
+<str name="FIRST_NAME_AC">Keitel</str>
+
+<str name="FULL_NAME">Keitel Suri</str>
+
+<str name="FULL_NAME_AC">Keitel Suri</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">European Brand Director - Lipitor/Inspra</str>
+
+<str name="PRIM_COUNTRY_NM">United Kingdom</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United Kingdom</str>
+
+<str name="COUNTRY_NAME">United Kingdom</str>
+
+<str name="id">CONTACT_5476865 </str>
+
+<str name="PRIM_POSTAL_CD">KT20 7NT</str>
+
+<str name="PRIM_POSTAL_CD_AC">KT20 7NT</str>
+
+<str name="PRIM_ADDR_LN_1">(Ipc 4g50) Walton Oaks Dorking Road</str>
+
+<str name="PRIM_ADDR_LN_1_AC">(Ipc 4g50) Walton Oaks Dorking Road</str>
+
+<str name="PRIM_ADDR_LN_3">Dorking Road</str>
+
+<str name="PRIM_ADDR_LN_2">Walton Oaks</str>
+
+<str name="JOB_ROLE">Marketing</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8819992 |Pfizer</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001jrz0FAAQ</str>
+
+</arr>
+
+<long name="_version_">1497586182397100032</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">DEU</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Berlin</str>
+
+<str name="PRIM_CITY_AC">Berlin</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5461873 </str>
+
+<str name="EC_ID">5461873 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Pharma Gmbh</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Pharma Gmbh</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="FAX_NUM">+49 / 030896777238</str>
+
+<str name="PRIM_BUSS_EMAIL">joscha.gussmann@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">joscha.gussmann@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Gussmann</str>
+
+<str name="LAST_NAME_AC">Gussmann</str>
+
+<str name="SALUT_HONOR">Mr.</str>
+
+<str name="PRIM_PHONE_NUM">+49 / 03055005552238</str>
+
+<str name="FIRST_NAME">Joscha</str>
+
+<str name="FIRST_NAME_AC">Joscha</str>
+
+<str name="FULL_NAME">Joscha Gussmann</str>
+
+<str name="FULL_NAME_AC">Joscha Gussmann</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="PRIM_MOBILE_PHONE">+49 / 016096973453</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Senior Brand Manager Hematology Europe • Middle-East • Africa</str>
+
+<str name="PRIM_COUNTRY_NM">Germany</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Germany</str>
+
+<str name="COUNTRY_NAME">Germany</str>
+
+<str name="id">CONTACT_5461873 </str>
+
+<str name="PRIM_POSTAL_CD">10785</str>
+
+<str name="PRIM_POSTAL_CD_AC">10785</str>
+
+<str name="PRIM_ADDR_LN_1">Linkstr. 10</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Linkstr. 10</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>816042 |Pfizer Pharma Gmbh</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001r6YpNAAU</str>
+
+</arr>
+
+<long name="_version_">1497586182538657792</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">AUS</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">West Ryde</str>
+
+<str name="PRIM_CITY_AC">West Ryde</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5416750 </str>
+
+<str name="EC_ID">5416750 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Australia</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Australia</str>
+
+<str name="PRIM_STATE">NSW</str>
+
+<str name="PRIM_STATE_AC">NSW</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">soteria.simos@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">soteria.simos@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Simos</str>
+
+<str name="LAST_NAME_AC">Simos</str>
+
+<str name="PRIM_PHONE_NUM">+61 2 9850 3333</str>
+
+<str name="FIRST_NAME">Soteria</str>
+
+<str name="FIRST_NAME_AC">Soteria</str>
+
+<str name="FULL_NAME">Soteria Simos</str>
+
+<str name="FULL_NAME_AC">Soteria Simos</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Australia</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Australia</str>
+
+<str name="COUNTRY_NAME">Australia</str>
+
+<str name="id">CONTACT_5416750 </str>
+
+<str name="PRIM_POSTAL_CD">2114</str>
+
+<str name="PRIM_POSTAL_CD_AC">2114</str>
+
+<str name="PRIM_ADDR_LN_1">38-42 Wharf Road</str>
+
+<str name="PRIM_ADDR_LN_1_AC">38-42 Wharf Road</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8852891 |Pfizer Australia</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001miM9DAAU</str>
+
+</arr>
+
+<long name="_version_">1497586182735790081</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5419547 </str>
+
+<str name="EC_ID">5419547 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Hong Kong</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Hong Kong</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Llamado</str>
+
+<str name="LAST_NAME_AC">Llamado</str>
+
+<str name="PRIM_PHONE_NUM">(852) 2811 9711</str>
+
+<str name="FIRST_NAME">Lyndon</str>
+
+<str name="FIRST_NAME_AC">Lyndon</str>
+
+<str name="FULL_NAME">Lyndon Llamado</str>
+
+<str name="FULL_NAME_AC">Lyndon Llamado</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="PRIM_MOBILE_PHONE">+639178201167</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Regional Medical Director</str>
+
+<str name="id">CONTACT_5419547 </str>
+
+<str name="JOB_ROLE">Buyer</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8855130 |Pfizer Hong Kong</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001nZFVvAAO</str>
+
+</arr>
+
+<long name="_version_">1497586182764101633</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">USA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">New York</str>
+
+<str name="PRIM_CITY_AC">New York</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5426979 </str>
+
+<str name="EC_ID">5426979 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Global Pharmaceuticals</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Global Pharmaceuticals</str>
+
+<str name="PRIM_STATE">NY</str>
+
+<str name="PRIM_STATE_AC">NY</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="FAX_NUM">212 808 6472</str>
+
+<str name="PRIM_BUSS_EMAIL">laura.charleville@pfzier.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">laura.charleville@pfzier.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Charleville</str>
+
+<str name="LAST_NAME_AC">Charleville</str>
+
+<str name="PRIM_PHONE_NUM">212 733 6641</str>
+
+<str name="FIRST_NAME">Laura</str>
+
+<str name="FIRST_NAME_AC">Laura</str>
+
+<str name="FULL_NAME">Laura Charleville</str>
+
+<str name="FULL_NAME_AC">Laura Charleville</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">United States</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United States</str>
+
+<str name="COUNTRY_NAME">United States</str>
+
+<str name="id">CONTACT_5426979 </str>
+
+<str name="PRIM_POSTAL_CD">10017</str>
+
+<str name="PRIM_POSTAL_CD_AC">10017</str>
+
+<str name="PRIM_ADDR_LN_1">235 East 42nd Street</str>
+
+<str name="PRIM_ADDR_LN_1_AC">235 East 42nd Street</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8705310 |Pfizer Global Pharmaceuticals</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001kpivvAAA</str>
+
+</arr>
+
+<long name="_version_">1497586182918242306</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">FRA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Paris</str>
+
+<str name="PRIM_CITY_AC">Paris</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5449402 </str>
+
+<str name="EC_ID">5449402 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">guillaume.maurin@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">guillaume.maurin@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Maurin</str>
+
+<str name="LAST_NAME_AC">Maurin</str>
+
+<str name="PRIM_PHONE_NUM">01 58 07 30 00</str>
+
+<str name="FIRST_NAME">Guillaume</str>
+
+<str name="FIRST_NAME_AC">Guillaume</str>
+
+<str name="FULL_NAME">Guillaume Maurin</str>
+
+<str name="FULL_NAME_AC">Guillaume Maurin</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">European Brand Manager</str>
+
+<str name="PRIM_COUNTRY_NM">France</str>
+
+<str name="PRIM_COUNTRY_NM_AC">France</str>
+
+<str name="COUNTRY_NAME">France</str>
+
+<str name="id">CONTACT_5449402 </str>
+
+<str name="PRIM_POSTAL_CD">75014</str>
+
+<str name="PRIM_POSTAL_CD_AC">75014</str>
+
+<str name="PRIM_ADDR_LN_1">23-25 Rue Du Dr Lannelongue</str>
+
+<str name="PRIM_ADDR_LN_1_AC">23-25 Rue Du Dr Lannelongue</str>
+
+<str name="JOB_ROLE">Marketing</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8676091 |Pfizer</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js0BpAAI</str>
+
+</arr>
+
+<long name="_version_">1497586183043022848</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">FRA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">ZI de Pocé-sur-Cisse</str>
+
+<str name="PRIM_CITY_AC">ZI de Pocé-sur-Cisse</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">1</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5422433 </str>
+
+<str name="EC_ID">5422433 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Pgm</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Pgm</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">veronique.landais-purnu@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">veronique.landais-purnu@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Landais-Purnu</str>
+
+<str name="LAST_NAME_AC">Landais-Purnu</str>
+
+<str name="SALUT_HONOR">Mrs</str>
+
+<str name="PRIM_PHONE_NUM">+33 2 47 23 77 78</str>
+
+<str name="FIRST_NAME">Veronique</str>
+
+<str name="FIRST_NAME_AC">Veronique</str>
+
+<str name="FULL_NAME">Veronique Landais-Purnu</str>
+
+<str name="FULL_NAME_AC">Veronique Landais-Purnu</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Communication And Training Manager</str>
+
+<str name="PRIM_COUNTRY_NM">France</str>
+
+<str name="PRIM_COUNTRY_NM_AC">France</str>
+
+<str name="COUNTRY_NAME">France</str>
+
+<str name="id">CONTACT_5422433 </str>
+
+<str name="PRIM_POSTAL_CD">37530</str>
+
+<str name="PRIM_POSTAL_CD_AC">37530</str>
+
+<str name="PRIM_ADDR_LN_1">Zi De Pocé-Sur-Cisse</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Zi De Pocé-Sur-Cisse</str>
+
+<str name="PRIM_ADDR_LN_2">Bp 109</str>
+
+<str name="JOB_ROLE">Hr</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8676129 |Pfizer Pgm</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js0J1AAI</str>
+
+</arr>
+
+<long name="_version_">1497586183860912129</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5424559 </str>
+
+<str name="EC_ID">5424559 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Colombia S.A.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Colombia S.A.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">paulina.ramirez@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">paulina.ramirez@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Ramirez</str>
+
+<str name="LAST_NAME_AC">Ramirez</str>
+
+<str name="FIRST_NAME">Paulina</str>
+
+<str name="FIRST_NAME_AC">Paulina</str>
+
+<str name="FULL_NAME">Paulina Ramirez</str>
+
+<str name="FULL_NAME_AC">Paulina Ramirez</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Pm</str>
+
+<str name="id">CONTACT_5424559 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10451895 |Pfizer Colombia S.A.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5XInAAM</str>
+
+</arr>
+
+<long name="_version_">1497586183880835072</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">ESP</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">ALCOBENDAS - MADRID</str>
+
+<str name="PRIM_CITY_AC">ALCOBENDAS - MADRID</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5470087 </str>
+
+<str name="EC_ID">5470087 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer S.L.U.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer S.L.U.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">nadia.rodriguez-collar@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">nadia.rodriguez-collar@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Rodriguez Collar</str>
+
+<str name="LAST_NAME_AC">Rodriguez Collar</str>
+
+<str name="PRIM_PHONE_NUM">+34914909665</str>
+
+<str name="FIRST_NAME">Nadia</str>
+
+<str name="FIRST_NAME_AC">Nadia</str>
+
+<str name="FULL_NAME">Nadia Rodriguez Collar</str>
+
+<str name="FULL_NAME_AC">Nadia Rodriguez Collar</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="PRIM_MOBILE_PHONE">+34677932436</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Product Manager Factor Ix (Benefix) And Factor Viii (Refacto)</str>
+
+<str name="PRIM_COUNTRY_NM">Spain</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Spain</str>
+
+<str name="COUNTRY_NAME">Spain</str>
+
+<str name="id">CONTACT_5470087 </str>
+
+<str name="PRIM_POSTAL_CD">28108</str>
+
+<str name="PRIM_POSTAL_CD_AC">28108</str>
+
+<str name="PRIM_ADDR_LN_1">Departamento De Pagos Av. Europa, 20 B,</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Departamento De Pagos Av. Europa, 20 B,</str>
+
+<str name="PRIM_ADDR_LN_2">Parque Empresarial La Moraleja</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8682149 |Pfizer S.L.U.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001qdAJqAAM</str>
+
+</arr>
+
+<long name="_version_">1497586184170242049</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">ITA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Rome</str>
+
+<str name="PRIM_CITY_AC">Rome</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5458625 </str>
+
+<str name="EC_ID">5458625 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Italia</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Italia</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">giuseppe.vitale@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">giuseppe.vitale@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Vitale</str>
+
+<str name="LAST_NAME_AC">Vitale</str>
+
+<str name="FIRST_NAME">Giuseppe</str>
+
+<str name="FIRST_NAME_AC">Giuseppe</str>
+
+<str name="FULL_NAME">Giuseppe Vitale</str>
+
+<str name="FULL_NAME_AC">Giuseppe Vitale</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Sr European Brand Manager, Pfizer Specialty Care</str>
+
+<str name="PRIM_COUNTRY_NM">Italy</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Italy</str>
+
+<str name="COUNTRY_NAME">Italy</str>
+
+<str name="id">CONTACT_5458625 </str>
+
+<str name="PRIM_POSTAL_CD">00188</str>
+
+<str name="PRIM_POSTAL_CD_AC">00188</str>
+
+<str name="PRIM_ADDR_LN_1">Via Valbondione, 113</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Via Valbondione, 113</str>
+
+<str name="JOB_ROLE">Marketing</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8681481 |Pfizer Italia</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js0URAAY</str>
+
+</arr>
+
+<long name="_version_">1497586185081454592</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5406842 </str>
+
+<str name="EC_ID">5406842 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer, S.A. De C.V.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer, S.A. De C.V.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">beatrizelizabeth.romero@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">beatrizelizabeth.romero@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Romero</str>
+
+<str name="LAST_NAME_AC">Romero</str>
+
+<str name="FIRST_NAME">Beatriz</str>
+
+<str name="FIRST_NAME_AC">Beatriz</str>
+
+<str name="FULL_NAME">Beatriz Romero</str>
+
+<str name="FULL_NAME_AC">Beatriz Romero</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Pm</str>
+
+<str name="id">CONTACT_5406842 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10491331 |Pfizer, S.A. De C.V.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5X9rAAE</str>
+
+</arr>
+
+<long name="_version_">1497586185471524865</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">ESP</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Barcelona</str>
+
+<str name="PRIM_CITY_AC">Barcelona</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5444932 </str>
+
+<str name="EC_ID">5444932 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Consumer Healthcare</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Consumer Healthcare</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="FAX_NUM">93 242 20 03</str>
+
+<str name="PRIM_BUSS_EMAIL">sergi.gillopez@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">sergi.gillopez@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Lopez</str>
+
+<str name="LAST_NAME_AC">Lopez</str>
+
+<str name="FIRST_NAME">Sergi Gil</str>
+
+<str name="FIRST_NAME_AC">Sergi Gil</str>
+
+<str name="FULL_NAME">Sergi Gil Lopez</str>
+
+<str name="FULL_NAME_AC">Sergi Gil Lopez</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Spain</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Spain</str>
+
+<str name="COUNTRY_NAME">Spain</str>
+
+<str name="id">CONTACT_5444932 </str>
+
+<str name="PRIM_POSTAL_CD">08174</str>
+
+<str name="PRIM_POSTAL_CD_AC">08174</str>
+
+<str name="PRIM_ADDR_LN_1">Plaça Xavier Cugat, 2 - Edifici D</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Plaça Xavier Cugat, 2 - Edifici D</str>
+
+<str name="PRIM_ADDR_LN_2">Sant Cugat Del Vallè</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8682130 |Pfizer Consumer Healthcare</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js0tdAAA</str>
+
+</arr>
+
+<long name="_version_">1497586185658171392</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">ITA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Latina</str>
+
+<str name="PRIM_CITY_AC">Latina</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5458626 </str>
+
+<str name="EC_ID">5458626 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Italia S.R.L.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Italia S.R.L.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">laura.talamo@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">laura.talamo@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Talamo</str>
+
+<str name="LAST_NAME_AC">Talamo</str>
+
+<str name="PRIM_PHONE_NUM">+39 (06) 33 18 23 19</str>
+
+<str name="FIRST_NAME">Laura</str>
+
+<str name="FIRST_NAME_AC">Laura</str>
+
+<str name="FULL_NAME">Laura Talamo</str>
+
+<str name="FULL_NAME_AC">Laura Talamo</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Assistant Cardiovascular</str>
+
+<str name="PRIM_COUNTRY_NM">Italy</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Italy</str>
+
+<str name="COUNTRY_NAME">Italy</str>
+
+<str name="id">CONTACT_5458626 </str>
+
+<str name="PRIM_POSTAL_CD">4100</str>
+
+<str name="PRIM_POSTAL_CD_AC">4100</str>
+
+<str name="PRIM_ADDR_LN_1">Viale Isonzo N. 71</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Viale Isonzo N. 71</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8681482 |Pfizer Italia S.R.L.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js0V9AAI</str>
+
+</arr>
+
+<long name="_version_">1497586186416291840</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">ITA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Latina</str>
+
+<str name="PRIM_CITY_AC">Latina</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5458631 </str>
+
+<str name="EC_ID">5458631 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Italia S.R.L.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Italia S.R.L.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">matteo.cervellati@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">matteo.cervellati@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Cervellati</str>
+
+<str name="LAST_NAME_AC">Cervellati</str>
+
+<str name="FIRST_NAME">Matteo</str>
+
+<str name="FIRST_NAME_AC">Matteo</str>
+
+<str name="FULL_NAME">Matteo Cervellati</str>
+
+<str name="FULL_NAME_AC">Matteo Cervellati</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Brand Manager Apixaban Elequis</str>
+
+<str name="PRIM_COUNTRY_NM">Italy</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Italy</str>
+
+<str name="COUNTRY_NAME">Italy</str>
+
+<str name="id">CONTACT_5458631 </str>
+
+<str name="PRIM_POSTAL_CD">4100</str>
+
+<str name="PRIM_POSTAL_CD_AC">4100</str>
+
+<str name="PRIM_ADDR_LN_1">Viale Isonzo N. 71</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Viale Isonzo N. 71</str>
+
+<str name="JOB_ROLE">Marketing</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8681482 |Pfizer Italia S.R.L.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js0WMAAY</str>
+
+</arr>
+
+<long name="_version_">1497586186418388993</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">USA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">New York</str>
+
+<str name="PRIM_CITY_AC">New York</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5485570 </str>
+
+<str name="EC_ID">5485570 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Global Pharmaceuticals</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Global Pharmaceuticals</str>
+
+<str name="PRIM_STATE">NY</str>
+
+<str name="PRIM_STATE_AC">NY</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">barbara.salentino@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">barbara.salentino@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Salentino</str>
+
+<str name="LAST_NAME_AC">Salentino</str>
+
+<str name="PRIM_PHONE_NUM">(651) 582-5764</str>
+
+<str name="FIRST_NAME">Barbara</str>
+
+<str name="FIRST_NAME_AC">Barbara</str>
+
+<str name="FULL_NAME">Barbara Salentino</str>
+
+<str name="FULL_NAME_AC">Barbara Salentino</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">United States</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United States</str>
+
+<str name="COUNTRY_NAME">United States</str>
+
+<str name="id">CONTACT_5485570 </str>
+
+<str name="PRIM_POSTAL_CD">10017</str>
+
+<str name="PRIM_POSTAL_CD_AC">10017</str>
+
+<str name="PRIM_ADDR_LN_1">235 East 42nd Street</str>
+
+<str name="PRIM_ADDR_LN_1_AC">235 East 42nd Street</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8705310 |Pfizer Global Pharmaceuticals</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001kpivhAAA</str>
+
+</arr>
+
+<long name="_version_">1497586187063263232</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">USA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">New York</str>
+
+<str name="PRIM_CITY_AC">New York</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5485571 </str>
+
+<str name="EC_ID">5485571 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Global Pharmaceuticals</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Global Pharmaceuticals</str>
+
+<str name="PRIM_STATE">NY</str>
+
+<str name="PRIM_STATE_AC">NY</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">diane.krusko@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">diane.krusko@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Krusko</str>
+
+<str name="LAST_NAME_AC">Krusko</str>
+
+<str name="FIRST_NAME">Diane</str>
+
+<str name="FIRST_NAME_AC">Diane</str>
+
+<str name="FULL_NAME">Diane Krusko</str>
+
+<str name="FULL_NAME_AC">Diane Krusko</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">United States</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United States</str>
+
+<str name="COUNTRY_NAME">United States</str>
+
+<str name="id">CONTACT_5485571 </str>
+
+<str name="PRIM_POSTAL_CD">10017</str>
+
+<str name="PRIM_POSTAL_CD_AC">10017</str>
+
+<str name="PRIM_ADDR_LN_1">235 East 42nd Street</str>
+
+<str name="PRIM_ADDR_LN_1_AC">235 East 42nd Street</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8705310 |Pfizer Global Pharmaceuticals</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001kpivmAAA</str>
+
+</arr>
+
+<long name="_version_">1497586187064311808</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">PRT</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Porto Salvo</str>
+
+<str name="PRIM_CITY_AC">Porto Salvo</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5482176 </str>
+
+<str name="EC_ID">5482176 </str>
+
+<str name="PARENT_ORG_NAME">Laboratórios Pfizer, Lda.</str>
+
+<str name="PARENT_ORG_NAME_AC">Laboratórios Pfizer, Lda.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">fernanav@wyeth.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">fernanav@wyeth.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Fernandes</str>
+
+<str name="LAST_NAME_AC">Fernandes</str>
+
+<str name="FIRST_NAME">Abel</str>
+
+<str name="FIRST_NAME_AC">Abel</str>
+
+<str name="FULL_NAME">Abel Fernandes</str>
+
+<str name="FULL_NAME_AC">Abel Fernandes</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Portugal</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Portugal</str>
+
+<str name="COUNTRY_NAME">Portugal</str>
+
+<str name="id">CONTACT_5482176 </str>
+
+<str name="PRIM_POSTAL_CD">2740-271</str>
+
+<str name="PRIM_POSTAL_CD_AC">2740-271</str>
+
+<str name="PRIM_ADDR_LN_1">Lagoas Park, Edifício 10.</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Lagoas Park, Edifício 10.</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8677429 |Laboratórios Pfizer, Lda.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js0iFAAQ</str>
+
+</arr>
+
+<long name="_version_">1497586187086331904</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">USA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">New York</str>
+
+<str name="PRIM_CITY_AC">New York</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5380315 </str>
+
+<str name="EC_ID">5380315 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Animal Health</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Animal Health</str>
+
+<str name="PRIM_STATE">NY</str>
+
+<str name="PRIM_STATE_AC">NY</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">chris.maitland@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">chris.maitland@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Maitland</str>
+
+<str name="LAST_NAME_AC">Maitland</str>
+
+<str name="SALUT_HONOR">Mr</str>
+
+<str name="FIRST_NAME">Chris</str>
+
+<str name="FIRST_NAME_AC">Chris</str>
+
+<str name="FULL_NAME">Chris Maitland</str>
+
+<str name="FULL_NAME_AC">Chris Maitland</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">United States</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United States</str>
+
+<str name="COUNTRY_NAME">United States</str>
+
+<str name="id">CONTACT_5380315 </str>
+
+<str name="PRIM_POSTAL_CD">10017</str>
+
+<str name="PRIM_POSTAL_CD_AC">10017</str>
+
+<str name="PRIM_ADDR_LN_1">150 E.42nd Street 150/41/07</str>
+
+<str name="PRIM_ADDR_LN_1_AC">150 E.42nd Street 150/41/07</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8709530 |Pfizer Animal Health</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001kpizOAAQ</str>
+
+</arr>
+
+<long name="_version_">1497586187289755649</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">SGP</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Singapore</str>
+
+<str name="PRIM_CITY_AC">Singapore</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5387306 </str>
+
+<str name="EC_ID">5387306 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Pte Ltd</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Pte Ltd</str>
+
+<str name="PRIM_STATE">SINGAPORE</str>
+
+<str name="PRIM_STATE_AC">SINGAPORE</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">kok-ying.liang@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">kok-ying.liang@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Liang</str>
+
+<str name="LAST_NAME_AC">Liang</str>
+
+<str name="PRIM_PHONE_NUM">65-64038879 n(DID)</str>
+
+<str name="FIRST_NAME">Kok Ying</str>
+
+<str name="FIRST_NAME_AC">Kok Ying</str>
+
+<str name="FULL_NAME">Kok Ying Liang</str>
+
+<str name="FULL_NAME_AC">Kok Ying Liang</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="PRIM_MOBILE_PHONE">65-97942062</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Country Brand Lead (Singapore)</str>
+
+<str name="PRIM_COUNTRY_NM">Singapore</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Singapore</str>
+
+<str name="COUNTRY_NAME">Singapore</str>
+
+<str name="id">CONTACT_5387306 </str>
+
+<str name="PRIM_POSTAL_CD">117528</str>
+
+<str name="PRIM_POSTAL_CD_AC">117528</str>
+
+<str name="PRIM_ADDR_LN_1">1 Science Park Road, Science Park 2, #04-01, The Capricorn, Singapore 117528</str>
+
+<str name="PRIM_ADDR_LN_1_AC">1 Science Park Road, Science Park 2, #04-01, The Capricorn, Singapore 117528</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8854192 |Pfizer Pte Ltd</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001miMDWAA2</str>
+
+</arr>
+
+<long name="_version_">1497586187534073857</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">FRA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Paris Cedex 14</str>
+
+<str name="PRIM_CITY_AC">Paris Cedex 14</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5398325 </str>
+
+<str name="EC_ID">5398325 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="FAX_NUM">+33 1 5807 4306</str>
+
+<str name="PRIM_BUSS_EMAIL">isabelle.delcroix@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">isabelle.delcroix@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Delcroix</str>
+
+<str name="LAST_NAME_AC">Delcroix</str>
+
+<str name="PRIM_PHONE_NUM">+33 1 5807 3716</str>
+
+<str name="FIRST_NAME">Isabelle</str>
+
+<str name="FIRST_NAME_AC">Isabelle</str>
+
+<str name="FULL_NAME">Isabelle Delcroix</str>
+
+<str name="FULL_NAME_AC">Isabelle Delcroix</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">France</str>
+
+<str name="PRIM_COUNTRY_NM_AC">France</str>
+
+<str name="COUNTRY_NAME">France</str>
+
+<str name="id">CONTACT_5398325 </str>
+
+<str name="PRIM_POSTAL_CD">75668</str>
+
+<str name="PRIM_POSTAL_CD_AC">75668</str>
+
+<str name="PRIM_ADDR_LN_1">23-25 Avenue Du Docteur</str>
+
+<str name="PRIM_ADDR_LN_1_AC">23-25 Avenue Du Docteur</str>
+
+<str name="PRIM_ADDR_LN_2">Lannelongue</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8676089 |Pfizer</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js0CMAAY</str>
+
+</arr>
+
+<long name="_version_">1497586187610619904</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5426591 </str>
+
+<str name="EC_ID">5426591 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Pharma Gmbh</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Pharma Gmbh</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">sandra.lingk@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">sandra.lingk@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Lingk</str>
+
+<str name="LAST_NAME_AC">Lingk</str>
+
+<str name="SALUT_HONOR">Ms.</str>
+
+<str name="FIRST_NAME">Sandra</str>
+
+<str name="FIRST_NAME_AC">Sandra</str>
+
+<str name="FULL_NAME">Sandra Lingk</str>
+
+<str name="FULL_NAME_AC">Sandra Lingk</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="id">CONTACT_5426591 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>816042 |Pfizer Pharma Gmbh</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001oNa3pAAC</str>
+
+</arr>
+
+<long name="_version_">1497586187805655041</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5457536 </str>
+
+<str name="EC_ID">5457536 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer, S.A. De C.V.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer, S.A. De C.V.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">mauricio.hernandez@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">mauricio.hernandez@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Hernández</str>
+
+<str name="LAST_NAME_AC">Hernández</str>
+
+<str name="FIRST_NAME">Mauricio</str>
+
+<str name="FIRST_NAME_AC">Mauricio</str>
+
+<str name="FULL_NAME">Mauricio Hernández</str>
+
+<str name="FULL_NAME_AC">Mauricio Hernández</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Pm</str>
+
+<str name="id">CONTACT_5457536 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10491331 |Pfizer, S.A. De C.V.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5XA4AAM</str>
+
+</arr>
+
+<long name="_version_">1497586188609912832</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5457537 </str>
+
+<str name="EC_ID">5457537 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer, S.A. De C.V.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer, S.A. De C.V.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">karla.arce@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">karla.arce@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Arce</str>
+
+<str name="LAST_NAME_AC">Arce</str>
+
+<str name="FIRST_NAME">Karla</str>
+
+<str name="FIRST_NAME_AC">Karla</str>
+
+<str name="FULL_NAME">Karla Arce</str>
+
+<str name="FULL_NAME_AC">Karla Arce</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Compras La</str>
+
+<str name="id">CONTACT_5457537 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10491331 |Pfizer, S.A. De C.V.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5X9zAAE</str>
+
+</arr>
+
+<long name="_version_">1497586188609912833</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5457541 </str>
+
+<str name="EC_ID">5457541 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer, S.A. De C.V.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer, S.A. De C.V.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">alexandra.haddad@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">alexandra.haddad@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Haddad Angulo</str>
+
+<str name="LAST_NAME_AC">Haddad Angulo</str>
+
+<str name="FIRST_NAME">Alexandra</str>
+
+<str name="FIRST_NAME_AC">Alexandra</str>
+
+<str name="FULL_NAME">Alexandra Haddad Angulo</str>
+
+<str name="FULL_NAME_AC">Alexandra Haddad Angulo</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Medical</str>
+
+<str name="id">CONTACT_5457541 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10491331 |Pfizer, S.A. De C.V.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5X9mAAE</str>
+
+</arr>
+
+<long name="_version_">1497586188610961410</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5457542 </str>
+
+<str name="EC_ID">5457542 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer, S.A. De C.V.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer, S.A. De C.V.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">andre.guerra@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">andre.guerra@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Guerra</str>
+
+<str name="LAST_NAME_AC">Guerra</str>
+
+<str name="FIRST_NAME">André</str>
+
+<str name="FIRST_NAME_AC">André</str>
+
+<str name="FULL_NAME">André Guerra</str>
+
+<str name="FULL_NAME_AC">André Guerra</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Pm</str>
+
+<str name="id">CONTACT_5457542 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10491331 |Pfizer, S.A. De C.V.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5X9nAAE</str>
+
+</arr>
+
+<long name="_version_">1497586188612009984</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">FRA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Paris Cedex 14</str>
+
+<str name="PRIM_CITY_AC">Paris Cedex 14</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">1</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5464082 </str>
+
+<str name="EC_ID">5464082 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">baptiste.dupuy@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">baptiste.dupuy@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Dupuy</str>
+
+<str name="LAST_NAME_AC">Dupuy</str>
+
+<str name="SALUT_HONOR">Mr.</str>
+
+<str name="PRIM_PHONE_NUM">+33 1 58 07 36 68</str>
+
+<str name="FIRST_NAME">Baptiste</str>
+
+<str name="FIRST_NAME_AC">Baptiste</str>
+
+<str name="FULL_NAME">Baptiste Dupuy</str>
+
+<str name="FULL_NAME_AC">Baptiste Dupuy</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="PRIM_MOBILE_PHONE">+33 6 82 81 98 83</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">France</str>
+
+<str name="PRIM_COUNTRY_NM_AC">France</str>
+
+<str name="COUNTRY_NAME">France</str>
+
+<str name="id">CONTACT_5464082 </str>
+
+<str name="PRIM_POSTAL_CD">75668</str>
+
+<str name="PRIM_POSTAL_CD_AC">75668</str>
+
+<str name="PRIM_ADDR_LN_1">23-25 Avenue Du Docteur</str>
+
+<str name="PRIM_ADDR_LN_1_AC">23-25 Avenue Du Docteur</str>
+
+<str name="PRIM_ADDR_LN_2">Lannelongue</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8676089 |Pfizer</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001knDwnAAE</str>
+
+</arr>
+
+<long name="_version_">1497586188646612992</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">FRA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Paris</str>
+
+<str name="PRIM_CITY_AC">Paris</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5446041 </str>
+
+<str name="EC_ID">5446041 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">arielle.malek@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">arielle.malek@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Malek</str>
+
+<str name="LAST_NAME_AC">Malek</str>
+
+<str name="PRIM_PHONE_NUM">01 58 07 30 00</str>
+
+<str name="FIRST_NAME">Arielle</str>
+
+<str name="FIRST_NAME_AC">Arielle</str>
+
+<str name="FULL_NAME">Arielle Malek</str>
+
+<str name="FULL_NAME_AC">Arielle Malek</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Product Manager</str>
+
+<str name="PRIM_COUNTRY_NM">France</str>
+
+<str name="PRIM_COUNTRY_NM_AC">France</str>
+
+<str name="COUNTRY_NAME">France</str>
+
+<str name="id">CONTACT_5446041 </str>
+
+<str name="PRIM_POSTAL_CD">75014</str>
+
+<str name="PRIM_POSTAL_CD_AC">75014</str>
+
+<str name="PRIM_ADDR_LN_1">23-25 Rue Du Dr Lannelongue</str>
+
+<str name="PRIM_ADDR_LN_1_AC">23-25 Rue Du Dr Lannelongue</str>
+
+<str name="JOB_ROLE">Marketing</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8676091 |Pfizer</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js075AAA</str>
+
+</arr>
+
+<long name="_version_">1497586190129299456</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">AUS</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">West Ryde</str>
+
+<str name="PRIM_CITY_AC">West Ryde</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5420529 </str>
+
+<str name="EC_ID">5420529 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Australia</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Australia</str>
+
+<str name="PRIM_STATE">NSW</str>
+
+<str name="PRIM_STATE_AC">NSW</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">john.paul.pullicino@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">john.paul.pullicino@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Pullicino</str>
+
+<str name="LAST_NAME_AC">Pullicino</str>
+
+<str name="PRIM_PHONE_NUM">+61 2 9850 3333</str>
+
+<str name="FIRST_NAME">John Paul</str>
+
+<str name="FIRST_NAME_AC">John Paul</str>
+
+<str name="FULL_NAME">John Paul Pullicino</str>
+
+<str name="FULL_NAME_AC">John Paul Pullicino</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Australia</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Australia</str>
+
+<str name="COUNTRY_NAME">Australia</str>
+
+<str name="id">CONTACT_5420529 </str>
+
+<str name="PRIM_POSTAL_CD">2114</str>
+
+<str name="PRIM_POSTAL_CD_AC">2114</str>
+
+<str name="PRIM_ADDR_LN_1">38-42 Wharf Road</str>
+
+<str name="PRIM_ADDR_LN_1_AC">38-42 Wharf Road</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8852891 |Pfizer Australia</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001miMEbAAM</str>
+
+</arr>
+
+<long name="_version_">1497586190481620992</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">AUS</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">West Ryde</str>
+
+<str name="PRIM_CITY_AC">West Ryde</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5417828 </str>
+
+<str name="EC_ID">5417828 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Australia</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Australia</str>
+
+<str name="PRIM_STATE">NSW</str>
+
+<str name="PRIM_STATE_AC">NSW</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">justin.shipway@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">justin.shipway@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Shipway</str>
+
+<str name="LAST_NAME_AC">Shipway</str>
+
+<str name="PRIM_PHONE_NUM">+61 2 9850 3333</str>
+
+<str name="FIRST_NAME">Justin</str>
+
+<str name="FIRST_NAME_AC">Justin</str>
+
+<str name="FULL_NAME">Justin Shipway</str>
+
+<str name="FULL_NAME_AC">Justin Shipway</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Australia</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Australia</str>
+
+<str name="COUNTRY_NAME">Australia</str>
+
+<str name="id">CONTACT_5417828 </str>
+
+<str name="PRIM_POSTAL_CD">2114</str>
+
+<str name="PRIM_POSTAL_CD_AC">2114</str>
+
+<str name="PRIM_ADDR_LN_1">38-42 Wharf Road</str>
+
+<str name="PRIM_ADDR_LN_1_AC">38-42 Wharf Road</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8852891 |Pfizer Australia</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001miMENAA2</str>
+
+</arr>
+
+<long name="_version_">1497586190678753280</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">CHE</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Zurich</str>
+
+<str name="PRIM_CITY_AC">Zurich</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5461359 </str>
+
+<str name="EC_ID">5461359 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Ag</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Ag</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Hübner</str>
+
+<str name="LAST_NAME_AC">Hübner</str>
+
+<str name="PRIM_PHONE_NUM">+41 43 495 7179</str>
+
+<str name="FIRST_NAME">Beatrix</str>
+
+<str name="FIRST_NAME_AC">Beatrix</str>
+
+<str name="FULL_NAME">Beatrix Hübner</str>
+
+<str name="FULL_NAME_AC">Beatrix Hübner</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Switzerland</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Switzerland</str>
+
+<str name="COUNTRY_NAME">Switzerland</str>
+
+<str name="id">CONTACT_5461359 </str>
+
+<str name="PRIM_POSTAL_CD">8052</str>
+
+<str name="PRIM_POSTAL_CD_AC">8052</str>
+
+<str name="PRIM_ADDR_LN_1">Schärenmoosstrasse 99</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Schärenmoosstrasse 99</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10491364 |Pfizer Ag</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001tIWFHAA4</str>
+
+</arr>
+
+<long name="_version_">1497586190830796801</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5461464 </str>
+
+<str name="EC_ID">5461464 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer, S.A. De C.V.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer, S.A. De C.V.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">betina.hernandez@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">betina.hernandez@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Hernández</str>
+
+<str name="LAST_NAME_AC">Hernández</str>
+
+<str name="FIRST_NAME">Betina</str>
+
+<str name="FIRST_NAME_AC">Betina</str>
+
+<str name="FULL_NAME">Betina Hernández</str>
+
+<str name="FULL_NAME_AC">Betina Hernández</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">D Médico</str>
+
+<str name="id">CONTACT_5461464 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10491331 |Pfizer, S.A. De C.V.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5X9sAAE</str>
+
+</arr>
+
+<long name="_version_">1497586190848622592</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5417985 </str>
+
+<str name="EC_ID">5417985 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer, S.A. De C.V.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer, S.A. De C.V.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">georgina.chi@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">georgina.chi@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Chi Lem</str>
+
+<str name="LAST_NAME_AC">Chi Lem</str>
+
+<str name="FIRST_NAME">Georgina</str>
+
+<str name="FIRST_NAME_AC">Georgina</str>
+
+<str name="FULL_NAME">Georgina Chi Lem</str>
+
+<str name="FULL_NAME_AC">Georgina Chi Lem</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">D Médico</str>
+
+<str name="id">CONTACT_5417985 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10491331 |Pfizer, S.A. De C.V.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5X9vAAE</str>
+
+</arr>
+
+<long name="_version_">1497586192042950656</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5417987 </str>
+
+<str name="EC_ID">5417987 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer, S.A. De C.V.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer, S.A. De C.V.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">anna.m.marra@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">anna.m.marra@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Marra</str>
+
+<str name="LAST_NAME_AC">Marra</str>
+
+<str name="FIRST_NAME">Anna</str>
+
+<str name="FIRST_NAME_AC">Anna</str>
+
+<str name="FULL_NAME">Anna Marra</str>
+
+<str name="FULL_NAME_AC">Anna Marra</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Pm</str>
+
+<str name="id">CONTACT_5417987 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10491331 |Pfizer, S.A. De C.V.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5X9oAAE</str>
+
+</arr>
+
+<long name="_version_">1497586192043999232</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">PRT</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Porto Salvo</str>
+
+<str name="PRIM_CITY_AC">Porto Salvo</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5410471 </str>
+
+<str name="EC_ID">5410471 </str>
+
+<str name="PARENT_ORG_NAME">Laboratórios Pfizer, Lda.</str>
+
+<str name="PARENT_ORG_NAME_AC">Laboratórios Pfizer, Lda.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">ana.camacho@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">ana.camacho@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Camacho</str>
+
+<str name="LAST_NAME_AC">Camacho</str>
+
+<str name="FIRST_NAME">Ana</str>
+
+<str name="FIRST_NAME_AC">Ana</str>
+
+<str name="FULL_NAME">Ana Camacho</str>
+
+<str name="FULL_NAME_AC">Ana Camacho</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Product Manager Zarator (Atorvastatin), Apixaban, Champix, Inspra (Eplerenone)</str>
+
+<str name="PRIM_COUNTRY_NM">Portugal</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Portugal</str>
+
+<str name="COUNTRY_NAME">Portugal</str>
+
+<str name="id">CONTACT_5410471 </str>
+
+<str name="PRIM_POSTAL_CD">2740-271</str>
+
+<str name="PRIM_POSTAL_CD_AC">2740-271</str>
+
+<str name="PRIM_ADDR_LN_1">Lagoas Park, Edifício 10.</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Lagoas Park, Edifício 10.</str>
+
+<str name="JOB_ROLE">Marketing</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8677429 |Laboratórios Pfizer, Lda.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js0hPAAQ</str>
+
+</arr>
+
+<long name="_version_">1497586192148856833</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">BEL</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Puurs</str>
+
+<str name="PRIM_CITY_AC">Puurs</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5484589 </str>
+
+<str name="EC_ID">5484589 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Manufacturing Belgium Nv</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Manufacturing Belgium Nv</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">gust.debelder@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">gust.debelder@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Belder</str>
+
+<str name="LAST_NAME_AC">Belder</str>
+
+<str name="SALUT_HONOR">Mr</str>
+
+<str name="PRIM_PHONE_NUM">+32 3 890 92 11</str>
+
+<str name="FIRST_NAME">Gust</str>
+
+<str name="FIRST_NAME_AC">Gust</str>
+
+<str name="FULL_NAME">Gust Belder</str>
+
+<str name="FULL_NAME_AC">Gust Belder</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Finance Director</str>
+
+<str name="PRIM_COUNTRY_NM">Belgium</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Belgium</str>
+
+<str name="COUNTRY_NAME">Belgium</str>
+
+<str name="id">CONTACT_5484589 </str>
+
+<str name="PRIM_POSTAL_CD">2870</str>
+
+<str name="PRIM_POSTAL_CD_AC">2870</str>
+
+<str name="PRIM_ADDR_LN_1">Rijksweg 12</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Rijksweg 12</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8674459 |Pfizer Manufacturing Belgium Nv</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js032AAA</str>
+
+</arr>
+
+<long name="_version_">1497586192434069504</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">BEL</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Ixelles</str>
+
+<str name="PRIM_CITY_AC">Ixelles</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5484591 </str>
+
+<str name="EC_ID">5484591 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">jeanchristophe.verdonckt@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">jeanchristophe.verdonckt@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Verdonckt</str>
+
+<str name="LAST_NAME_AC">Verdonckt</str>
+
+<str name="PRIM_PHONE_NUM">+32 (0) 2 554 62 11</str>
+
+<str name="FIRST_NAME">Jean-Christophe</str>
+
+<str name="FIRST_NAME_AC">Jean-Christophe</str>
+
+<str name="FULL_NAME">Jean-Christophe Verdonckt</str>
+
+<str name="FULL_NAME_AC">Jean-Christophe Verdonckt</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Product Manager, Lipitor</str>
+
+<str name="PRIM_COUNTRY_NM">Belgium</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Belgium</str>
+
+<str name="COUNTRY_NAME">Belgium</str>
+
+<str name="id">CONTACT_5484591 </str>
+
+<str name="PRIM_POSTAL_CD">1050</str>
+
+<str name="PRIM_POSTAL_CD_AC">1050</str>
+
+<str name="PRIM_ADDR_LN_1">Boulevard De La Plaine 17</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Boulevard De La Plaine 17</str>
+
+<str name="JOB_ROLE">Marketing</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8674458 |Pfizer</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js03MAAQ</str>
+
+</arr>
+
+<long name="_version_">1497586192435118080</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">FRA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Paris</str>
+
+<str name="PRIM_CITY_AC">Paris</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5484628 </str>
+
+<str name="EC_ID">5484628 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">alban.laurent@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">alban.laurent@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Laurent</str>
+
+<str name="LAST_NAME_AC">Laurent</str>
+
+<str name="PRIM_PHONE_NUM">01 58 07 30 00</str>
+
+<str name="FIRST_NAME">Alban</str>
+
+<str name="FIRST_NAME_AC">Alban</str>
+
+<str name="FULL_NAME">Alban Laurent</str>
+
+<str name="FULL_NAME_AC">Alban Laurent</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Product Manager Senior</str>
+
+<str name="PRIM_COUNTRY_NM">France</str>
+
+<str name="PRIM_COUNTRY_NM_AC">France</str>
+
+<str name="COUNTRY_NAME">France</str>
+
+<str name="id">CONTACT_5484628 </str>
+
+<str name="PRIM_POSTAL_CD">75014</str>
+
+<str name="PRIM_POSTAL_CD_AC">75014</str>
+
+<str name="PRIM_ADDR_LN_1">23-25 Rue Du Dr Lannelongue</str>
+
+<str name="PRIM_ADDR_LN_1_AC">23-25 Rue Du Dr Lannelongue</str>
+
+<str name="JOB_ROLE">Marketing</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8676091 |Pfizer</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js06TAAQ</str>
+
+</arr>
+
+<long name="_version_">1497586192444555264</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">PRT</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Porto Salvo</str>
+
+<str name="PRIM_CITY_AC">Porto Salvo</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5485519 </str>
+
+<str name="EC_ID">5485519 </str>
+
+<str name="PARENT_ORG_NAME">Laboratórios Pfizer, Lda.</str>
+
+<str name="PARENT_ORG_NAME_AC">Laboratórios Pfizer, Lda.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="FAX_NUM">351214218900</str>
+
+<str name="PRIM_BUSS_EMAIL">carla.ferreira@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">carla.ferreira@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Ferreira</str>
+
+<str name="LAST_NAME_AC">Ferreira</str>
+
+<str name="PRIM_PHONE_NUM">+351 (21) 423 55 96</str>
+
+<str name="FIRST_NAME">Carla</str>
+
+<str name="FIRST_NAME_AC">Carla</str>
+
+<str name="FULL_NAME">Carla Ferreira</str>
+
+<str name="FULL_NAME_AC">Carla Ferreira</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="PRIM_MOBILE_PHONE">(+351) 93 345 01 38</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Oncology Assistant</str>
+
+<str name="PRIM_COUNTRY_NM">Portugal</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Portugal</str>
+
+<str name="COUNTRY_NAME">Portugal</str>
+
+<str name="id">CONTACT_5485519 </str>
+
+<str name="PRIM_POSTAL_CD">2740-244</str>
+
+<str name="PRIM_POSTAL_CD_AC">2740-244</str>
+
+<str name="PRIM_ADDR_LN_1">Lagoas Park Edificio 10</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Lagoas Park Edificio 10</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8677429 |Laboratórios Pfizer, Lda.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js0hgAAA</str>
+
+</arr>
+
+<long name="_version_">1497586192482304000</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">BEL</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Brussels</str>
+
+<str name="PRIM_CITY_AC">Brussels</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5395216 </str>
+
+<str name="EC_ID">5395216 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">daniella.wagemans@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">daniella.wagemans@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Wagemans</str>
+
+<str name="LAST_NAME_AC">Wagemans</str>
+
+<str name="FIRST_NAME">Daniella</str>
+
+<str name="FIRST_NAME_AC">Daniella</str>
+
+<str name="FULL_NAME">Daniella Wagemans</str>
+
+<str name="FULL_NAME_AC">Daniella Wagemans</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Medical Advisor</str>
+
+<str name="PRIM_COUNTRY_NM">Belgium</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Belgium</str>
+
+<str name="COUNTRY_NAME">Belgium</str>
+
+<str name="id">CONTACT_5395216 </str>
+
+<str name="PRIM_POSTAL_CD">B-1050</str>
+
+<str name="PRIM_POSTAL_CD_AC">B-1050</str>
+
+<str name="PRIM_ADDR_LN_1">Pfizer Nv.-Sa Pleinlaan 17</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Pfizer Nv.-Sa Pleinlaan 17</str>
+
+<str name="JOB_ROLE">Medical</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8674458 |Pfizer</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js02cAAA</str>
+
+</arr>
+
+<long name="_version_">1497586192959406080</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">GBR</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Tadworth</str>
+
+<str name="PRIM_CITY_AC">Tadworth</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5388004 </str>
+
+<str name="EC_ID">5388004 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer</str>
+
+<str name="PRIM_STATE">SURREY</str>
+
+<str name="PRIM_STATE_AC">SURREY</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">andrea.hazlewood@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">andrea.hazlewood@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Hazlewood</str>
+
+<str name="LAST_NAME_AC">Hazlewood</str>
+
+<str name="PRIM_PHONE_NUM">01304 616 161</str>
+
+<str name="FIRST_NAME">Andrea</str>
+
+<str name="FIRST_NAME_AC">Andrea</str>
+
+<str name="FULL_NAME">Andrea Hazlewood</str>
+
+<str name="FULL_NAME_AC">Andrea Hazlewood</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Senior Product Manager</str>
+
+<str name="PRIM_COUNTRY_NM">United Kingdom</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United Kingdom</str>
+
+<str name="COUNTRY_NAME">United Kingdom</str>
+
+<str name="id">CONTACT_5388004 </str>
+
+<str name="PRIM_POSTAL_CD">KT20 7NS</str>
+
+<str name="PRIM_POSTAL_CD_AC">KT20 7NS</str>
+
+<str name="PRIM_ADDR_LN_1">Walton Oaks</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Walton Oaks</str>
+
+<str name="PRIM_ADDR_LN_2">Dorking Road</str>
+
+<str name="JOB_ROLE">Marketing</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8819992 |Pfizer</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001jryzyAAA</str>
+
+</arr>
+
+<long name="_version_">1497586212603428864</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">GBR</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Tadworth</str>
+
+<str name="PRIM_CITY_AC">Tadworth</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5388005 </str>
+
+<str name="EC_ID">5388005 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer</str>
+
+<str name="PRIM_STATE">SURREY</str>
+
+<str name="PRIM_STATE_AC">SURREY</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">fiona.burns@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">fiona.burns@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Burns</str>
+
+<str name="LAST_NAME_AC">Burns</str>
+
+<str name="PRIM_PHONE_NUM">01304 616 161</str>
+
+<str name="FIRST_NAME">Fiona</str>
+
+<str name="FIRST_NAME_AC">Fiona</str>
+
+<str name="FULL_NAME">Fiona Burns</str>
+
+<str name="FULL_NAME_AC">Fiona Burns</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">European Brand Director</str>
+
+<str name="PRIM_COUNTRY_NM">United Kingdom</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United Kingdom</str>
+
+<str name="COUNTRY_NAME">United Kingdom</str>
+
+<str name="id">CONTACT_5388005 </str>
+
+<str name="PRIM_POSTAL_CD">KT20 7NS</str>
+
+<str name="PRIM_POSTAL_CD_AC">KT20 7NS</str>
+
+<str name="PRIM_ADDR_LN_1">Walton Oaks</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Walton Oaks</str>
+
+<str name="PRIM_ADDR_LN_2">Dorking Road</str>
+
+<str name="JOB_ROLE">Marketing</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8819992 |Pfizer</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001jrz00AAA</str>
+
+</arr>
+
+<long name="_version_">1497586212604477440</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">GBR</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Tadworth</str>
+
+<str name="PRIM_CITY_AC">Tadworth</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5388006 </str>
+
+<str name="EC_ID">5388006 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer</str>
+
+<str name="PRIM_STATE">SURREY</str>
+
+<str name="PRIM_STATE_AC">SURREY</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">alison.ward@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">alison.ward@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Ward</str>
+
+<str name="LAST_NAME_AC">Ward</str>
+
+<str name="PRIM_PHONE_NUM">01304 616 161</str>
+
+<str name="FIRST_NAME">Alison</str>
+
+<str name="FIRST_NAME_AC">Alison</str>
+
+<str name="FULL_NAME">Alison Ward</str>
+
+<str name="FULL_NAME_AC">Alison Ward</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Product Manager - Inspra</str>
+
+<str name="PRIM_COUNTRY_NM">United Kingdom</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United Kingdom</str>
+
+<str name="COUNTRY_NAME">United Kingdom</str>
+
+<str name="id">CONTACT_5388006 </str>
+
+<str name="PRIM_POSTAL_CD">KT20 7NS</str>
+
+<str name="PRIM_POSTAL_CD_AC">KT20 7NS</str>
+
+<str name="PRIM_ADDR_LN_1">Walton Oaks</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Walton Oaks</str>
+
+<str name="PRIM_ADDR_LN_2">Dorking Road</str>
+
+<str name="JOB_ROLE">Marketing</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8819992 |Pfizer</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001jrz08AAA</str>
+
+</arr>
+
+<long name="_version_">1497586212604477441</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">GBR</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Tadworth</str>
+
+<str name="PRIM_CITY_AC">Tadworth</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5388007 </str>
+
+<str name="EC_ID">5388007 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer</str>
+
+<str name="PRIM_STATE">SURREY</str>
+
+<str name="PRIM_STATE_AC">SURREY</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">callum.caldwell@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">callum.caldwell@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Caldwell</str>
+
+<str name="LAST_NAME_AC">Caldwell</str>
+
+<str name="PRIM_PHONE_NUM">+44 (0) 1304 616161</str>
+
+<str name="FIRST_NAME">Callum</str>
+
+<str name="FIRST_NAME_AC">Callum</str>
+
+<str name="FULL_NAME">Callum Caldwell</str>
+
+<str name="FULL_NAME_AC">Callum Caldwell</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Commercial Director</str>
+
+<str name="PRIM_COUNTRY_NM">United Kingdom</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United Kingdom</str>
+
+<str name="COUNTRY_NAME">United Kingdom</str>
+
+<str name="id">CONTACT_5388007 </str>
+
+<str name="PRIM_POSTAL_CD">KT20 7NS</str>
+
+<str name="PRIM_POSTAL_CD_AC">KT20 7NS</str>
+
+<str name="PRIM_ADDR_LN_1">European Marketing Cns/Pain Pfizer Uk Limited Walton Oaks</str>
+
+<str name="PRIM_ADDR_LN_1_AC">European Marketing Cns/Pain Pfizer Uk Limited Walton Oaks</str>
+
+<str name="PRIM_ADDR_LN_3">Dorking Road</str>
+
+<str name="PRIM_ADDR_LN_2">Walton Oaks</str>
+
+<str name="JOB_ROLE">Marketing</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8819992 |Pfizer</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001jrz09AAA</str>
+
+</arr>
+
+<long name="_version_">1497586212605526016</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">SWE</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Sollentuna</str>
+
+<str name="PRIM_CITY_AC">Sollentuna</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5388008 </str>
+
+<str name="EC_ID">5388008 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Ab</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Ab</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">ola.sandborg@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">ola.sandborg@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Sandborg</str>
+
+<str name="LAST_NAME_AC">Sandborg</str>
+
+<str name="SALUT_HONOR">Mr</str>
+
+<str name="PRIM_PHONE_NUM">46 8-550 525 73 46</str>
+
+<str name="FIRST_NAME">Ola</str>
+
+<str name="FIRST_NAME_AC">Ola</str>
+
+<str name="FULL_NAME">Ola Sandborg</str>
+
+<str name="FULL_NAME_AC">Ola Sandborg</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Sweden</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Sweden</str>
+
+<str name="COUNTRY_NAME">Sweden</str>
+
+<str name="id">CONTACT_5388008 </str>
+
+<str name="PRIM_POSTAL_CD">SE-191 90</str>
+
+<str name="PRIM_POSTAL_CD_AC">SE-191 90</str>
+
+<str name="PRIM_ADDR_LN_1">Vetenskapsvägen 10</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Vetenskapsvägen 10</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8819993 |Pfizer Ab</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001jrz0dAAA</str>
+
+</arr>
+
+<long name="_version_">1497586212605526017</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">DNK</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Ballerup</str>
+
+<str name="PRIM_CITY_AC">Ballerup</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">1</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5388009 </str>
+
+<str name="EC_ID">5388009 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Denmark</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Denmark</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="FAX_NUM">0045 44 20 11 03</str>
+
+<str name="PRIM_BUSS_EMAIL">henrik.jacobsen@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">henrik.jacobsen@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Jacobsen</str>
+
+<str name="LAST_NAME_AC">Jacobsen</str>
+
+<str name="PRIM_PHONE_NUM">0045 44 20 13 71</str>
+
+<str name="FIRST_NAME">Henrik Richard</str>
+
+<str name="FIRST_NAME_AC">Henrik Richard</str>
+
+<str name="FULL_NAME">Henrik Richard Jacobsen</str>
+
+<str name="FULL_NAME_AC">Henrik Richard Jacobsen</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="PRIM_MOBILE_PHONE">0045 29 20 33 71</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Denmark</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Denmark</str>
+
+<str name="COUNTRY_NAME">Denmark</str>
+
+<str name="id">CONTACT_5388009 </str>
+
+<str name="PRIM_POSTAL_CD">DK 2750</str>
+
+<str name="PRIM_POSTAL_CD_AC">DK 2750</str>
+
+<str name="PRIM_ADDR_LN_1">Lautrupvang 8</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Lautrupvang 8</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8820012 |Pfizer Denmark</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001jrz0oAAA</str>
+
+</arr>
+
+<long name="_version_">1497586212605526018</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">DNK</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Ballerup</str>
+
+<str name="PRIM_CITY_AC">Ballerup</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5388010 </str>
+
+<str name="EC_ID">5388010 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Denmark</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Denmark</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="FAX_NUM">0045 44 20 11 03</str>
+
+<str name="PRIM_BUSS_EMAIL">linda.olesen@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">linda.olesen@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Oleson</str>
+
+<str name="LAST_NAME_AC">Oleson</str>
+
+<str name="PRIM_PHONE_NUM">+45 4420 1318</str>
+
+<str name="FIRST_NAME">Linda</str>
+
+<str name="FIRST_NAME_AC">Linda</str>
+
+<str name="FULL_NAME">Linda Oleson</str>
+
+<str name="FULL_NAME_AC">Linda Oleson</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Denmark</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Denmark</str>
+
+<str name="COUNTRY_NAME">Denmark</str>
+
+<str name="id">CONTACT_5388010 </str>
+
+<str name="PRIM_POSTAL_CD">DK 2750</str>
+
+<str name="PRIM_POSTAL_CD_AC">DK 2750</str>
+
+<str name="PRIM_ADDR_LN_1">Lautrupvang 8</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Lautrupvang 8</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8820012 |Pfizer Denmark</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001jrz0qAAA</str>
+
+</arr>
+
+<long name="_version_">1497586212606574592</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">GBR</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Sandwich</str>
+
+<str name="PRIM_CITY_AC">Sandwich</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5388011 </str>
+
+<str name="EC_ID">5388011 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Ltd</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Ltd</str>
+
+<str name="PRIM_STATE">KENT</str>
+
+<str name="PRIM_STATE_AC">KENT</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="FAX_NUM">01304 656221</str>
+
+<str name="PRIM_BUSS_EMAIL">keitel.suri@pfizer.co.uk</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">keitel.suri@pfizer.co.uk</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Suri</str>
+
+<str name="LAST_NAME_AC">Suri</str>
+
+<str name="SALUT_HONOR">Mr</str>
+
+<str name="PRIM_PHONE_NUM">01304 616161</str>
+
+<str name="FIRST_NAME">Keitel</str>
+
+<str name="FIRST_NAME_AC">Keitel</str>
+
+<str name="FULL_NAME">Keitel Suri</str>
+
+<str name="FULL_NAME_AC">Keitel Suri</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="PRIM_MOBILE_PHONE">07887 824048</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">United Kingdom</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United Kingdom</str>
+
+<str name="COUNTRY_NAME">United Kingdom</str>
+
+<str name="id">CONTACT_5388011 </str>
+
+<str name="PRIM_POSTAL_CD">CT13 9NJ</str>
+
+<str name="PRIM_POSTAL_CD_AC">CT13 9NJ</str>
+
+<str name="PRIM_ADDR_LN_1">Ramsgate Road</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Ramsgate Road</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8820050 |Pfizer Ltd</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001jrz18AAA</str>
+
+</arr>
+
+<long name="_version_">1497586212606574593</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">DEU</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Berlin</str>
+
+<str name="PRIM_CITY_AC">Berlin</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5468330 </str>
+
+<str name="EC_ID">5468330 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Pharma Gmbh</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Pharma Gmbh</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="FAX_NUM">030/55005499999</str>
+
+<str name="PRIM_BUSS_EMAIL">gerhard.tschentscher@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">gerhard.tschentscher@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Tschentscher</str>
+
+<str name="LAST_NAME_AC">Tschentscher</str>
+
+<str name="PRIM_PHONE_NUM">030/550055-01</str>
+
+<str name="FIRST_NAME">Gerhard</str>
+
+<str name="FIRST_NAME_AC">Gerhard</str>
+
+<str name="FULL_NAME">Gerhard Tschentscher</str>
+
+<str name="FULL_NAME_AC">Gerhard Tschentscher</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Germany</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Germany</str>
+
+<str name="COUNTRY_NAME">Germany</str>
+
+<str name="id">CONTACT_5468330 </str>
+
+<str name="PRIM_POSTAL_CD">10785</str>
+
+<str name="PRIM_POSTAL_CD_AC">10785</str>
+
+<str name="PRIM_ADDR_LN_1">Linkstr. 10</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Linkstr. 10</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>816042 |Pfizer Pharma Gmbh</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001mh5aEAAQ</str>
+
+</arr>
+
+<long name="_version_">1497586212877107200</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5487860 </str>
+
+<str name="EC_ID">5487860 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer, S.A. De C.V.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer, S.A. De C.V.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">pamela.pappas@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">pamela.pappas@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Pappas</str>
+
+<str name="LAST_NAME_AC">Pappas</str>
+
+<str name="FIRST_NAME">Pamela</str>
+
+<str name="FIRST_NAME_AC">Pamela</str>
+
+<str name="FULL_NAME">Pamela Pappas</str>
+
+<str name="FULL_NAME_AC">Pamela Pappas</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Bum</str>
+
+<str name="id">CONTACT_5487860 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10491331 |Pfizer, S.A. De C.V.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5XA7AAM</str>
+
+</arr>
+
+<long name="_version_">1497586213024956416</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5488002 </str>
+
+<str name="EC_ID">5488002 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Pt</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Pt</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">isabel.freitas@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">isabel.freitas@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Freitas</str>
+
+<str name="LAST_NAME_AC">Freitas</str>
+
+<str name="FIRST_NAME">Isabel</str>
+
+<str name="FIRST_NAME_AC">Isabel</str>
+
+<str name="FULL_NAME">Isabel Freitas</str>
+
+<str name="FULL_NAME_AC">Isabel Freitas</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Pm</str>
+
+<str name="id">CONTACT_5488002 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10525893 |Pfizer Pt</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5XIBAA2</str>
+
+</arr>
+
+<long name="_version_">1497586213037539329</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5488003 </str>
+
+<str name="EC_ID">5488003 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Pt</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Pt</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">soearoa@wyeth.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">soearoa@wyeth.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Soeiro</str>
+
+<str name="LAST_NAME_AC">Soeiro</str>
+
+<str name="FIRST_NAME">Abel</str>
+
+<str name="FIRST_NAME_AC">Abel</str>
+
+<str name="FULL_NAME">Abel Soeiro</str>
+
+<str name="FULL_NAME_AC">Abel Soeiro</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Pm</str>
+
+<str name="id">CONTACT_5488003 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10525893 |Pfizer Pt</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5XIWAA2</str>
+
+</arr>
+
+<long name="_version_">1497586213037539330</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">USA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">New York</str>
+
+<str name="PRIM_CITY_AC">New York</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5491319 </str>
+
+<str name="EC_ID">5491319 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Animal Health</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Animal Health</str>
+
+<str name="PRIM_STATE">NY</str>
+
+<str name="PRIM_STATE_AC">NY</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">liane.herman@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">liane.herman@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Herman</str>
+
+<str name="LAST_NAME_AC">Herman</str>
+
+<str name="PRIM_PHONE_NUM">212-733-5342</str>
+
+<str name="FIRST_NAME">Liane</str>
+
+<str name="FIRST_NAME_AC">Liane</str>
+
+<str name="FULL_NAME">Liane Herman</str>
+
+<str name="FULL_NAME_AC">Liane Herman</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">United States</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United States</str>
+
+<str name="COUNTRY_NAME">United States</str>
+
+<str name="id">CONTACT_5491319 </str>
+
+<str name="PRIM_POSTAL_CD">10017</str>
+
+<str name="PRIM_POSTAL_CD_AC">10017</str>
+
+<str name="PRIM_ADDR_LN_1">150 E.42nd Street 150/41/07</str>
+
+<str name="PRIM_ADDR_LN_1_AC">150 E.42nd Street 150/41/07</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8709530 |Pfizer Animal Health</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001kpizTAAQ</str>
+
+</arr>
+
+<long name="_version_">1497586213078433792</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">SGP</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Singapore</str>
+
+<str name="PRIM_CITY_AC">Singapore</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5419751 </str>
+
+<str name="EC_ID">5419751 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Pte Ltd</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Pte Ltd</str>
+
+<str name="PRIM_STATE">SINGAPORE</str>
+
+<str name="PRIM_STATE_AC">SINGAPORE</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">william.tong@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">william.tong@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Tong</str>
+
+<str name="LAST_NAME_AC">Tong</str>
+
+<str name="PRIM_PHONE_NUM">65-64038857</str>
+
+<str name="FIRST_NAME">William</str>
+
+<str name="FIRST_NAME_AC">William</str>
+
+<str name="FULL_NAME">William Tong</str>
+
+<str name="FULL_NAME_AC">William Tong</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="PRIM_MOBILE_PHONE">65-94508686</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Country Portfolio Associate</str>
+
+<str name="PRIM_COUNTRY_NM">Singapore</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Singapore</str>
+
+<str name="COUNTRY_NAME">Singapore</str>
+
+<str name="id">CONTACT_5419751 </str>
+
+<str name="PRIM_POSTAL_CD">117528</str>
+
+<str name="PRIM_POSTAL_CD_AC">117528</str>
+
+<str name="PRIM_ADDR_LN_1">1 Science Park Road, Science Park 2, #04-01, The Capricorn, Singapore 117528</str>
+
+<str name="PRIM_ADDR_LN_1_AC">1 Science Park Road, Science Park 2, #04-01, The Capricorn, Singapore 117528</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8854192 |Pfizer Pte Ltd</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001miM7wAAE</str>
+
+</arr>
+
+<long name="_version_">1497586213190631424</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">USA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">New York</str>
+
+<str name="PRIM_CITY_AC">New York</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5375327 </str>
+
+<str name="EC_ID">5375327 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Global Pharmaceuticals</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Global Pharmaceuticals</str>
+
+<str name="PRIM_STATE">NY</str>
+
+<str name="PRIM_STATE_AC">NY</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="FAX_NUM">212-973-7178</str>
+
+<str name="PRIM_BUSS_EMAIL">mark.schulz@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">mark.schulz@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Schulz</str>
+
+<str name="LAST_NAME_AC">Schulz</str>
+
+<str name="PRIM_PHONE_NUM">212 -733-4874</str>
+
+<str name="FIRST_NAME">Mark</str>
+
+<str name="FIRST_NAME_AC">Mark</str>
+
+<str name="FULL_NAME">Mark Schulz</str>
+
+<str name="FULL_NAME_AC">Mark Schulz</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">United States</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United States</str>
+
+<str name="COUNTRY_NAME">United States</str>
+
+<str name="id">CONTACT_5375327 </str>
+
+<str name="PRIM_POSTAL_CD">10017</str>
+
+<str name="PRIM_POSTAL_CD_AC">10017</str>
+
+<str name="PRIM_ADDR_LN_1">235 East 42nd Street</str>
+
+<str name="PRIM_ADDR_LN_1_AC">235 East 42nd Street</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8705310 |Pfizer Global Pharmaceuticals</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001kpivwAAA</str>
+
+</arr>
+
+<long name="_version_">1497586213574410240</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">AUS</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">West Ryde</str>
+
+<str name="PRIM_CITY_AC">West Ryde</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5441068 </str>
+
+<str name="EC_ID">5441068 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Australia</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Australia</str>
+
+<str name="PRIM_STATE">NSW</str>
+
+<str name="PRIM_STATE_AC">NSW</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">stewart.a.williams@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">stewart.a.williams@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Williams</str>
+
+<str name="LAST_NAME_AC">Williams</str>
+
+<str name="PRIM_PHONE_NUM">+61 2 9850 3333</str>
+
+<str name="FIRST_NAME">Stewart</str>
+
+<str name="FIRST_NAME_AC">Stewart</str>
+
+<str name="FULL_NAME">Stewart Williams</str>
+
+<str name="FULL_NAME_AC">Stewart Williams</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Australia</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Australia</str>
+
+<str name="COUNTRY_NAME">Australia</str>
+
+<str name="id">CONTACT_5441068 </str>
+
+<str name="PRIM_POSTAL_CD">2114</str>
+
+<str name="PRIM_POSTAL_CD_AC">2114</str>
+
+<str name="PRIM_ADDR_LN_1">38-42 Wharf Road</str>
+
+<str name="PRIM_ADDR_LN_1_AC">38-42 Wharf Road</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8852891 |Pfizer Australia</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001miM96AAE</str>
+
+</arr>
+
+<long name="_version_">1497586214246547456</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">ITA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Latina</str>
+
+<str name="PRIM_CITY_AC">Latina</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5419120 </str>
+
+<str name="EC_ID">5419120 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Italia S.R.L.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Italia S.R.L.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">raffaella.marturano@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">raffaella.marturano@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Marturano</str>
+
+<str name="LAST_NAME_AC">Marturano</str>
+
+<str name="FIRST_NAME">Raffaella</str>
+
+<str name="FIRST_NAME_AC">Raffaella</str>
+
+<str name="FULL_NAME">Raffaella Marturano</str>
+
+<str name="FULL_NAME_AC">Raffaella Marturano</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Product Manager Fragmin Dalteparin Y Solumedrol</str>
+
+<str name="PRIM_COUNTRY_NM">Italy</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Italy</str>
+
+<str name="COUNTRY_NAME">Italy</str>
+
+<str name="id">CONTACT_5419120 </str>
+
+<str name="PRIM_POSTAL_CD">4100</str>
+
+<str name="PRIM_POSTAL_CD_AC">4100</str>
+
+<str name="PRIM_ADDR_LN_1">Viale Isonzo N. 71</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Viale Isonzo N. 71</str>
+
+<str name="JOB_ROLE">Marketing</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8681482 |Pfizer Italia S.R.L.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js0XrAAI</str>
+
+</arr>
+
+<long name="_version_">1497586214487719937</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">USA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">New York</str>
+
+<str name="PRIM_CITY_AC">New York</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">1</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5381425 </str>
+
+<str name="EC_ID">5381425 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Global Pharmaceuticals</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Global Pharmaceuticals</str>
+
+<str name="PRIM_STATE">NY</str>
+
+<str name="PRIM_STATE_AC">NY</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="FAX_NUM">212 351 1042</str>
+
+<str name="PRIM_BUSS_EMAIL">larry.gorkin@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">larry.gorkin@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Gorkin</str>
+
+<str name="LAST_NAME_AC">Gorkin</str>
+
+<str name="SALUT_HONOR">Mr</str>
+
+<str name="PRIM_PHONE_NUM">212 573 7886</str>
+
+<str name="FIRST_NAME">Larry</str>
+
+<str name="FIRST_NAME_AC">Larry</str>
+
+<str name="FULL_NAME">Larry Gorkin</str>
+
+<str name="FULL_NAME_AC">Larry Gorkin</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">United States</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United States</str>
+
+<str name="COUNTRY_NAME">United States</str>
+
+<str name="id">CONTACT_5381425 </str>
+
+<str name="PRIM_POSTAL_CD">10017</str>
+
+<str name="PRIM_POSTAL_CD_AC">10017</str>
+
+<str name="PRIM_ADDR_LN_1">235 East 42nd Street</str>
+
+<str name="PRIM_ADDR_LN_1_AC">235 East 42nd Street</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8705310 |Pfizer Global Pharmaceuticals</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001kpivuAAA</str>
+
+</arr>
+
+<long name="_version_">1497586214600966145</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">USA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">New York</str>
+
+<str name="PRIM_CITY_AC">New York</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5381426 </str>
+
+<str name="EC_ID">5381426 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Global Pharmaceuticals</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Global Pharmaceuticals</str>
+
+<str name="PRIM_STATE">NY</str>
+
+<str name="PRIM_STATE_AC">NY</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="FAX_NUM">212 351 1042</str>
+
+<str name="PRIM_BUSS_EMAIL">vera.stecher@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">vera.stecher@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Stecher</str>
+
+<str name="LAST_NAME_AC">Stecher</str>
+
+<str name="PRIM_PHONE_NUM">212 573 7886</str>
+
+<str name="FIRST_NAME">Vera</str>
+
+<str name="FIRST_NAME_AC">Vera</str>
+
+<str name="FULL_NAME">Vera Stecher</str>
+
+<str name="FULL_NAME_AC">Vera Stecher</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">United States</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United States</str>
+
+<str name="COUNTRY_NAME">United States</str>
+
+<str name="id">CONTACT_5381426 </str>
+
+<str name="PRIM_POSTAL_CD">10017</str>
+
+<str name="PRIM_POSTAL_CD_AC">10017</str>
+
+<str name="PRIM_ADDR_LN_1">235 East 42nd Street</str>
+
+<str name="PRIM_ADDR_LN_1_AC">235 East 42nd Street</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8705310 |Pfizer Global Pharmaceuticals</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001kpiw0AAA</str>
+
+</arr>
+
+<long name="_version_">1497586214602014720</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">AUS</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">West Ryde</str>
+
+<str name="PRIM_CITY_AC">West Ryde</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5474346 </str>
+
+<str name="EC_ID">5474346 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Australia</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Australia</str>
+
+<str name="PRIM_STATE">NSW</str>
+
+<str name="PRIM_STATE_AC">NSW</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">claire.edgerton@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">claire.edgerton@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Edgerton</str>
+
+<str name="LAST_NAME_AC">Edgerton</str>
+
+<str name="PRIM_PHONE_NUM">+61 2 9850 3333</str>
+
+<str name="FIRST_NAME">Claire</str>
+
+<str name="FIRST_NAME_AC">Claire</str>
+
+<str name="FULL_NAME">Claire Edgerton</str>
+
+<str name="FULL_NAME_AC">Claire Edgerton</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Australia</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Australia</str>
+
+<str name="COUNTRY_NAME">Australia</str>
+
+<str name="id">CONTACT_5474346 </str>
+
+<str name="PRIM_POSTAL_CD">2114</str>
+
+<str name="PRIM_POSTAL_CD_AC">2114</str>
+
+<str name="PRIM_ADDR_LN_1">38-42 Wharf Road</str>
+
+<str name="PRIM_ADDR_LN_1_AC">38-42 Wharf Road</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8852891 |Pfizer Australia</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001miMHUAA2</str>
+
+</arr>
+
+<long name="_version_">1497586214943850496</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">FRA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Paris</str>
+
+<str name="PRIM_CITY_AC">Paris</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5386036 </str>
+
+<str name="EC_ID">5386036 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">stephane.cohen@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">stephane.cohen@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Cohen</str>
+
+<str name="LAST_NAME_AC">Cohen</str>
+
+<str name="PRIM_PHONE_NUM">01 58 07 30 00</str>
+
+<str name="FIRST_NAME">Stephane</str>
+
+<str name="FIRST_NAME_AC">Stephane</str>
+
+<str name="FULL_NAME">Stephane Cohen</str>
+
+<str name="FULL_NAME_AC">Stephane Cohen</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Directeur Commercial</str>
+
+<str name="PRIM_COUNTRY_NM">France</str>
+
+<str name="PRIM_COUNTRY_NM_AC">France</str>
+
+<str name="COUNTRY_NAME">France</str>
+
+<str name="id">CONTACT_5386036 </str>
+
+<str name="PRIM_POSTAL_CD">75014</str>
+
+<str name="PRIM_POSTAL_CD_AC">75014</str>
+
+<str name="PRIM_ADDR_LN_1">23-25 Rue Du Dr Lannelongue</str>
+
+<str name="PRIM_ADDR_LN_1_AC">23-25 Rue Du Dr Lannelongue</str>
+
+<str name="JOB_ROLE">Marketing</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8676091 |Pfizer</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js0ILAAY</str>
+
+</arr>
+
+<long name="_version_">1497586215381106689</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5388544 </str>
+
+<str name="EC_ID">5388544 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer, S.A. De C.V.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer, S.A. De C.V.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">mauricio.munayer@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">mauricio.munayer@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Munayer</str>
+
+<str name="LAST_NAME_AC">Munayer</str>
+
+<str name="FIRST_NAME">Mauricio</str>
+
+<str name="FIRST_NAME_AC">Mauricio</str>
+
+<str name="FULL_NAME">Mauricio Munayer</str>
+
+<str name="FULL_NAME_AC">Mauricio Munayer</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Pm</str>
+
+<str name="id">CONTACT_5388544 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10491331 |Pfizer, S.A. De C.V.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5XA5AAM</str>
+
+</arr>
+
+<long name="_version_">1497586215403126785</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5388546 </str>
+
+<str name="EC_ID">5388546 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer, S.A. De C.V.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer, S.A. De C.V.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">teresa.gonzalez@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">teresa.gonzalez@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Gonzalez</str>
+
+<str name="LAST_NAME_AC">Gonzalez</str>
+
+<str name="FIRST_NAME">Teresa Gonzalez</str>
+
+<str name="FIRST_NAME_AC">Teresa Gonzalez</str>
+
+<str name="FULL_NAME">Teresa Gonzalez Gonzalez</str>
+
+<str name="FULL_NAME_AC">Teresa Gonzalez Gonzalez</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">E Business</str>
+
+<str name="id">CONTACT_5388546 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10491331 |Pfizer, S.A. De C.V.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5XA9AAM</str>
+
+</arr>
+
+<long name="_version_">1497586215404175361</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5388633 </str>
+
+<str name="EC_ID">5388633 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Colombia S.A.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Colombia S.A.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">maria.rojas@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">maria.rojas@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Rojas</str>
+
+<str name="LAST_NAME_AC">Rojas</str>
+
+<str name="FIRST_NAME">Maria Del Pilar</str>
+
+<str name="FIRST_NAME_AC">Maria Del Pilar</str>
+
+<str name="FULL_NAME">Maria Del Pilar Rojas</str>
+
+<str name="FULL_NAME_AC">Maria Del Pilar Rojas</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Pm</str>
+
+<str name="id">CONTACT_5388633 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10451895 |Pfizer Colombia S.A.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5XIlAAM</str>
+
+</arr>
+
+<long name="_version_">1497586215414661121</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5388674 </str>
+
+<str name="EC_ID">5388674 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Pt</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Pt</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">bruno.abreu@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">bruno.abreu@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Abreu</str>
+
+<str name="LAST_NAME_AC">Abreu</str>
+
+<str name="FIRST_NAME">Bruno</str>
+
+<str name="FIRST_NAME_AC">Bruno</str>
+
+<str name="FULL_NAME">Bruno Abreu</str>
+
+<str name="FULL_NAME_AC">Bruno Abreu</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Pm</str>
+
+<str name="id">CONTACT_5388674 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10525893 |Pfizer Pt</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5XHzAAM</str>
+
+</arr>
+
+<long name="_version_">1497586215415709696</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5388675 </str>
+
+<str name="EC_ID">5388675 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Pt</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Pt</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">irina.belo@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">irina.belo@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Belo</str>
+
+<str name="LAST_NAME_AC">Belo</str>
+
+<str name="FIRST_NAME">Irina</str>
+
+<str name="FIRST_NAME_AC">Irina</str>
+
+<str name="FULL_NAME">Irina Belo</str>
+
+<str name="FULL_NAME_AC">Irina Belo</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Pm</str>
+
+<str name="id">CONTACT_5388675 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10525893 |Pfizer Pt</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5XI9AAM</str>
+
+</arr>
+
+<long name="_version_">1497586215415709697</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5388676 </str>
+
+<str name="EC_ID">5388676 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Pt</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Pt</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">lidia.oliveira@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">lidia.oliveira@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Oliveira</str>
+
+<str name="LAST_NAME_AC">Oliveira</str>
+
+<str name="FIRST_NAME">Lidia</str>
+
+<str name="FIRST_NAME_AC">Lidia</str>
+
+<str name="FULL_NAME">Lidia Oliveira</str>
+
+<str name="FULL_NAME_AC">Lidia Oliveira</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Medical</str>
+
+<str name="id">CONTACT_5388676 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10525893 |Pfizer Pt</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5XIGAA2</str>
+
+</arr>
+
+<long name="_version_">1497586215415709698</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">SWE</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Sollentuna</str>
+
+<str name="PRIM_CITY_AC">Sollentuna</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">1</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5468691 </str>
+
+<str name="EC_ID">5468691 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Ab</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Ab</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">maria.koltowska-haggstrom@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">maria.koltowska-haggstrom@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Koltowska-Haggstrom</str>
+
+<str name="LAST_NAME_AC">Koltowska-Haggstrom</str>
+
+<str name="PRIM_PHONE_NUM">46 8-550 525 73 46</str>
+
+<str name="FIRST_NAME">Maria</str>
+
+<str name="FIRST_NAME_AC">Maria</str>
+
+<str name="FULL_NAME">Maria Koltowska-Haggstrom</str>
+
+<str name="FULL_NAME_AC">Maria Koltowska-Haggstrom</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Sweden</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Sweden</str>
+
+<str name="COUNTRY_NAME">Sweden</str>
+
+<str name="id">CONTACT_5468691 </str>
+
+<str name="PRIM_POSTAL_CD">SE-191 90</str>
+
+<str name="PRIM_POSTAL_CD_AC">SE-191 90</str>
+
+<str name="PRIM_ADDR_LN_1">Vetenskapsvägen 10</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Vetenskapsvägen 10</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8819993 |Pfizer Ab</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001jrz0cAAA</str>
+
+</arr>
+
+<long name="_version_">1497586215467089921</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">NOR</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Lysaker</str>
+
+<str name="PRIM_CITY_AC">Lysaker</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5468692 </str>
+
+<str name="EC_ID">5468692 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer As</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer As</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">gaute.b.frostad@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">gaute.b.frostad@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Bryhni Frostad</str>
+
+<str name="LAST_NAME_AC">Bryhni Frostad</str>
+
+<str name="PRIM_PHONE_NUM">0047 6756121</str>
+
+<str name="FIRST_NAME">Gaute</str>
+
+<str name="FIRST_NAME_AC">Gaute</str>
+
+<str name="FULL_NAME">Gaute Bryhni Frostad</str>
+
+<str name="FULL_NAME_AC">Gaute Bryhni Frostad</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Norway</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Norway</str>
+
+<str name="COUNTRY_NAME">Norway</str>
+
+<str name="id">CONTACT_5468692 </str>
+
+<str name="PRIM_POSTAL_CD">N-1324</str>
+
+<str name="PRIM_POSTAL_CD_AC">N-1324</str>
+
+<str name="PRIM_ADDR_LN_1">P O Box 3</str>
+
+<str name="PRIM_ADDR_LN_1_AC">P O Box 3</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8820010 |Pfizer As</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001jrz0hAAA</str>
+
+</arr>
+
+<long name="_version_">1497586215468138496</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">USA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Charlotte</str>
+
+<str name="PRIM_CITY_AC">Charlotte</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">1</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5420056 </str>
+
+<str name="EC_ID">5420056 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer</str>
+
+<str name="PRIM_STATE">NC</str>
+
+<str name="PRIM_STATE_AC">NC</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">geraldine.anastasio@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">geraldine.anastasio@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Anastasio</str>
+
+<str name="LAST_NAME_AC">Anastasio</str>
+
+<str name="PRIM_PHONE_NUM">(763) 514-3165</str>
+
+<str name="FIRST_NAME">Geraldine</str>
+
+<str name="FIRST_NAME_AC">Geraldine</str>
+
+<str name="FULL_NAME">Geraldine Anastasio</str>
+
+<str name="FULL_NAME_AC">Geraldine Anastasio</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">United States</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United States</str>
+
+<str name="COUNTRY_NAME">United States</str>
+
+<str name="id">CONTACT_5420056 </str>
+
+<str name="PRIM_POSTAL_CD">28210</str>
+
+<str name="PRIM_POSTAL_CD_AC">28210</str>
+
+<str name="PRIM_ADDR_LN_1">9300 Tresanton Drive</str>
+
+<str name="PRIM_ADDR_LN_1_AC">9300 Tresanton Drive</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8736410 |Pfizer</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001kpiMiAAI</str>
+
+</arr>
+
+<long name="_version_">1497586215828848640</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">DEU</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Berlin</str>
+
+<str name="PRIM_CITY_AC">Berlin</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5415516 </str>
+
+<str name="EC_ID">5415516 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Pharma Gmbh</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Pharma Gmbh</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="FAX_NUM">030/55005499999</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Reimann</str>
+
+<str name="LAST_NAME_AC">Reimann</str>
+
+<str name="FIRST_NAME">Thomas</str>
+
+<str name="FIRST_NAME_AC">Thomas</str>
+
+<str name="FULL_NAME">Thomas Reimann</str>
+
+<str name="FULL_NAME_AC">Thomas Reimann</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Germany</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Germany</str>
+
+<str name="COUNTRY_NAME">Germany</str>
+
+<str name="id">CONTACT_5415516 </str>
+
+<str name="PRIM_POSTAL_CD">10785</str>
+
+<str name="PRIM_POSTAL_CD_AC">10785</str>
+
+<str name="PRIM_ADDR_LN_1">Linkstr. 10</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Linkstr. 10</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>816042 |Pfizer Pharma Gmbh</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001mh53yAAA</str>
+
+</arr>
+
+<long name="_version_">1497586216398225408</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5440820 </str>
+
+<str name="EC_ID">5440820 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Perú</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Perú</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">liliana.yep@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">liliana.yep@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Yep</str>
+
+<str name="LAST_NAME_AC">Yep</str>
+
+<str name="FIRST_NAME">Liliana</str>
+
+<str name="FIRST_NAME_AC">Liliana</str>
+
+<str name="FULL_NAME">Liliana Yep</str>
+
+<str name="FULL_NAME_AC">Liliana Yep</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Compras</str>
+
+<str name="id">CONTACT_5440820 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10451898 |Pfizer Perú</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5X7sAAE</str>
+
+</arr>
+
+<long name="_version_">1497586217821143040</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5440821 </str>
+
+<str name="EC_ID">5440821 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Perú</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Perú</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">ronny.thorne@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">ronny.thorne@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Thorne</str>
+
+<str name="LAST_NAME_AC">Thorne</str>
+
+<str name="FIRST_NAME">Ronny</str>
+
+<str name="FIRST_NAME_AC">Ronny</str>
+
+<str name="FULL_NAME">Ronny Thorne</str>
+
+<str name="FULL_NAME_AC">Ronny Thorne</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Pm</str>
+
+<str name="id">CONTACT_5440821 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10451898 |Pfizer Perú</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5X7tAAE</str>
+
+</arr>
+
+<long name="_version_">1497586217821143041</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">AUS</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">West Ryde</str>
+
+<str name="PRIM_CITY_AC">West Ryde</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5386273 </str>
+
+<str name="EC_ID">5386273 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Australia</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Australia</str>
+
+<str name="PRIM_STATE">NSW</str>
+
+<str name="PRIM_STATE_AC">NSW</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">monrell.biggs@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">monrell.biggs@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Biggs</str>
+
+<str name="LAST_NAME_AC">Biggs</str>
+
+<str name="PRIM_PHONE_NUM">+61 2 9850 3333</str>
+
+<str name="FIRST_NAME">Monrell</str>
+
+<str name="FIRST_NAME_AC">Monrell</str>
+
+<str name="FULL_NAME">Monrell Biggs</str>
+
+<str name="FULL_NAME_AC">Monrell Biggs</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Australia</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Australia</str>
+
+<str name="COUNTRY_NAME">Australia</str>
+
+<str name="id">CONTACT_5386273 </str>
+
+<str name="PRIM_POSTAL_CD">2114</str>
+
+<str name="PRIM_POSTAL_CD_AC">2114</str>
+
+<str name="PRIM_ADDR_LN_1">38-42 Wharf Road</str>
+
+<str name="PRIM_ADDR_LN_1_AC">38-42 Wharf Road</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8852891 |Pfizer Australia</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001miMC7AAM</str>
+
+</arr>
+
+<long name="_version_">1497586218110550017</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">USA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">New York</str>
+
+<str name="PRIM_CITY_AC">New York</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5491769 </str>
+
+<str name="EC_ID">5491769 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Animal Health</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Animal Health</str>
+
+<str name="PRIM_STATE">NY</str>
+
+<str name="PRIM_STATE_AC">NY</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">kimberly.coleman@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">kimberly.coleman@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Coleman</str>
+
+<str name="LAST_NAME_AC">Coleman</str>
+
+<str name="SALUT_HONOR">Ms</str>
+
+<str name="PRIM_PHONE_NUM">+1 212 733 5384</str>
+
+<str name="FIRST_NAME">Kimberly</str>
+
+<str name="FIRST_NAME_AC">Kimberly</str>
+
+<str name="FULL_NAME">Kimberly Coleman</str>
+
+<str name="FULL_NAME_AC">Kimberly Coleman</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">United States</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United States</str>
+
+<str name="COUNTRY_NAME">United States</str>
+
+<str name="id">CONTACT_5491769 </str>
+
+<str name="PRIM_POSTAL_CD">10017</str>
+
+<str name="PRIM_POSTAL_CD_AC">10017</str>
+
+<str name="PRIM_ADDR_LN_1">150 E.42nd Street 150/41/07</str>
+
+<str name="PRIM_ADDR_LN_1_AC">150 E.42nd Street 150/41/07</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8709530 |Pfizer Animal Health</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001kpizSAAQ</str>
+
+</arr>
+
+<long name="_version_">1497586218427219969</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">JPN</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Shibuya-ku</str>
+
+<str name="PRIM_CITY_AC">Shibuya-ku</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5492908 </str>
+
+<str name="EC_ID">5492908 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Japan Inc.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Japan Inc.</str>
+
+<str name="PRIM_STATE">TOKYO</str>
+
+<str name="PRIM_STATE_AC">TOKYO</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">kentarou.ninomiya@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">kentarou.ninomiya@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Ninomiya</str>
+
+<str name="LAST_NAME_AC">Ninomiya</str>
+
+<str name="PRIM_PHONE_NUM">03-5309-7357</str>
+
+<str name="FIRST_NAME">Kentarou</str>
+
+<str name="FIRST_NAME_AC">Kentarou</str>
+
+<str name="FULL_NAME">Kentarou Ninomiya</str>
+
+<str name="FULL_NAME_AC">Kentarou Ninomiya</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Japan</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Japan</str>
+
+<str name="COUNTRY_NAME">Japan</str>
+
+<str name="id">CONTACT_5492908 </str>
+
+<str name="PRIM_POSTAL_CD">151-8589</str>
+
+<str name="PRIM_POSTAL_CD_AC">151-8589</str>
+
+<str name="PRIM_ADDR_LN_1">Shinjuku Bunka Quint Building</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Shinjuku Bunka Quint Building</str>
+
+<str name="PRIM_ADDR_LN_2">3-22-7, Yoyogi</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8853269 |Pfizer Japan Inc.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001miMDmAAM</str>
+
+</arr>
+
+<long name="_version_">1497586218434560000</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">FRA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Paris Cedex 14</str>
+
+<str name="PRIM_CITY_AC">Paris Cedex 14</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5376898 </str>
+
+<str name="EC_ID">5376898 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer International Operations - 3353</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer International Operations - 3353</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">david.bartram@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">david.bartram@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Bartram</str>
+
+<str name="LAST_NAME_AC">Bartram</str>
+
+<str name="PRIM_PHONE_NUM">+33 1 58 07 30 47</str>
+
+<str name="FIRST_NAME">David</str>
+
+<str name="FIRST_NAME_AC">David</str>
+
+<str name="FULL_NAME">David Bartram</str>
+
+<str name="FULL_NAME_AC">David Bartram</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">France</str>
+
+<str name="PRIM_COUNTRY_NM_AC">France</str>
+
+<str name="COUNTRY_NAME">France</str>
+
+<str name="id">CONTACT_5376898 </str>
+
+<str name="PRIM_POSTAL_CD">75668</str>
+
+<str name="PRIM_POSTAL_CD_AC">75668</str>
+
+<str name="PRIM_ADDR_LN_1">23-25 Avenue Du Docteur Lannelongue</str>
+
+<str name="PRIM_ADDR_LN_1_AC">23-25 Avenue Du Docteur Lannelongue</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8676109 |Pfizer International Operations - 3353</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js09NAAQ</str>
+
+</arr>
+
+<long name="_version_">1497586218934730752</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">FRA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Paris</str>
+
+<str name="PRIM_CITY_AC">Paris</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5376941 </str>
+
+<str name="EC_ID">5376941 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">jerome.ottaviani@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">jerome.ottaviani@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Ottaviani</str>
+
+<str name="LAST_NAME_AC">Ottaviani</str>
+
+<str name="PRIM_PHONE_NUM">01 58 07 30 00</str>
+
+<str name="FIRST_NAME">Jerome</str>
+
+<str name="FIRST_NAME_AC">Jerome</str>
+
+<str name="FULL_NAME">Jerome Ottaviani</str>
+
+<str name="FULL_NAME_AC">Jerome Ottaviani</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Product Manager</str>
+
+<str name="PRIM_COUNTRY_NM">France</str>
+
+<str name="PRIM_COUNTRY_NM_AC">France</str>
+
+<str name="COUNTRY_NAME">France</str>
+
+<str name="id">CONTACT_5376941 </str>
+
+<str name="PRIM_POSTAL_CD">75014</str>
+
+<str name="PRIM_POSTAL_CD_AC">75014</str>
+
+<str name="PRIM_ADDR_LN_1">23-25 Rue Du Dr Lannelongue</str>
+
+<str name="PRIM_ADDR_LN_1_AC">23-25 Rue Du Dr Lannelongue</str>
+
+<str name="JOB_ROLE">Marketing</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8676091 |Pfizer</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js0CvAAI</str>
+
+</arr>
+
+<long name="_version_">1497586218941022208</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5389119 </str>
+
+<str name="EC_ID">5389119 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Ecuador</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Ecuador</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">jimmy.ja.artieda@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">jimmy.ja.artieda@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Artieda</str>
+
+<str name="LAST_NAME_AC">Artieda</str>
+
+<str name="FIRST_NAME">Jimmy</str>
+
+<str name="FIRST_NAME_AC">Jimmy</str>
+
+<str name="FULL_NAME">Jimmy Artieda</str>
+
+<str name="FULL_NAME_AC">Jimmy Artieda</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Pm</str>
+
+<str name="id">CONTACT_5389119 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10437573 |Pfizer Ecuador</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5XNlAAM</str>
+
+</arr>
+
+<long name="_version_">1497586219503058946</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">SGP</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Singapore</str>
+
+<str name="PRIM_CITY_AC">Singapore</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5428498 </str>
+
+<str name="EC_ID">5428498 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Pte Ltd</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Pte Ltd</str>
+
+<str name="PRIM_STATE">SINGAPORE</str>
+
+<str name="PRIM_STATE_AC">SINGAPORE</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">patricia.foo@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">patricia.foo@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Foo</str>
+
+<str name="LAST_NAME_AC">Foo</str>
+
+<str name="PRIM_PHONE_NUM">65-64038882 (DID)</str>
+
+<str name="FIRST_NAME">Patricia</str>
+
+<str name="FIRST_NAME_AC">Patricia</str>
+
+<str name="FULL_NAME">Patricia Foo</str>
+
+<str name="FULL_NAME_AC">Patricia Foo</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="PRIM_MOBILE_PHONE">65-97504589</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Head Of Marketing, Worldwide Biopharmaceutical Business/Emerging Markets</str>
+
+<str name="PRIM_COUNTRY_NM">Singapore</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Singapore</str>
+
+<str name="COUNTRY_NAME">Singapore</str>
+
+<str name="id">CONTACT_5428498 </str>
+
+<str name="PRIM_POSTAL_CD">117528</str>
+
+<str name="PRIM_POSTAL_CD_AC">117528</str>
+
+<str name="PRIM_ADDR_LN_1">1 Science Park Road, Science Park 2, #04-01, The Capricorn, Singapore 117528</str>
+
+<str name="PRIM_ADDR_LN_1_AC">1 Science Park Road, Science Park 2, #04-01, The Capricorn, Singapore 117528</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8854192 |Pfizer Pte Ltd</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001miMBLAA2</str>
+
+</arr>
+
+<long name="_version_">1497586219930877952</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">USA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">New York</str>
+
+<str name="PRIM_CITY_AC">New York</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5400541 </str>
+
+<str name="EC_ID">5400541 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Global Pharmaceuticals</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Global Pharmaceuticals</str>
+
+<str name="PRIM_STATE">NY</str>
+
+<str name="PRIM_STATE_AC">NY</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">ana.salgado@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">ana.salgado@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Salgado</str>
+
+<str name="LAST_NAME_AC">Salgado</str>
+
+<str name="SALUT_HONOR">Ms</str>
+
+<str name="PRIM_PHONE_NUM">212 573 2323</str>
+
+<str name="FIRST_NAME">Ana</str>
+
+<str name="FIRST_NAME_AC">Ana</str>
+
+<str name="FULL_NAME">Ana Salgado</str>
+
+<str name="FULL_NAME_AC">Ana Salgado</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">United States</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United States</str>
+
+<str name="COUNTRY_NAME">United States</str>
+
+<str name="id">CONTACT_5400541 </str>
+
+<str name="PRIM_POSTAL_CD">10017</str>
+
+<str name="PRIM_POSTAL_CD_AC">10017</str>
+
+<str name="PRIM_ADDR_LN_1">235 East 42nd Street</str>
+
+<str name="PRIM_ADDR_LN_1_AC">235 East 42nd Street</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8705310 |Pfizer Global Pharmaceuticals</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001kpivgAAA</str>
+
+</arr>
+
+<long name="_version_">1497586220139544577</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">USA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">New York</str>
+
+<str name="PRIM_CITY_AC">New York</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5400542 </str>
+
+<str name="EC_ID">5400542 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Global Pharmaceuticals</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Global Pharmaceuticals</str>
+
+<str name="PRIM_STATE">NY</str>
+
+<str name="PRIM_STATE_AC">NY</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="FAX_NUM">(212) 885-1118</str>
+
+<str name="PRIM_BUSS_EMAIL">joan.kaplan@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">joan.kaplan@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Kaplan</str>
+
+<str name="LAST_NAME_AC">Kaplan</str>
+
+<str name="PRIM_PHONE_NUM">212 573-2351</str>
+
+<str name="FIRST_NAME">Joan</str>
+
+<str name="FIRST_NAME_AC">Joan</str>
+
+<str name="FULL_NAME">Joan Kaplan</str>
+
+<str name="FULL_NAME_AC">Joan Kaplan</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">United States</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United States</str>
+
+<str name="COUNTRY_NAME">United States</str>
+
+<str name="id">CONTACT_5400542 </str>
+
+<str name="PRIM_POSTAL_CD">10017</str>
+
+<str name="PRIM_POSTAL_CD_AC">10017</str>
+
+<str name="PRIM_ADDR_LN_1">235 East 42nd Street</str>
+
+<str name="PRIM_ADDR_LN_1_AC">235 East 42nd Street</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8705310 |Pfizer Global Pharmaceuticals</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001kpivqAAA</str>
+
+</arr>
+
+<long name="_version_">1497586220140593152</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">USA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">New York</str>
+
+<str name="PRIM_CITY_AC">New York</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5400543 </str>
+
+<str name="EC_ID">5400543 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Global Pharmaceuticals</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Global Pharmaceuticals</str>
+
+<str name="PRIM_STATE">NY</str>
+
+<str name="PRIM_STATE_AC">NY</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="FAX_NUM">212 351 1042</str>
+
+<str name="PRIM_BUSS_EMAIL">kevin.t.lynch@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">kevin.t.lynch@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Lynch</str>
+
+<str name="LAST_NAME_AC">Lynch</str>
+
+<str name="PRIM_PHONE_NUM">212 573 7886</str>
+
+<str name="FIRST_NAME">Kevin</str>
+
+<str name="FIRST_NAME_AC">Kevin</str>
+
+<str name="FULL_NAME">Kevin Lynch</str>
+
+<str name="FULL_NAME_AC">Kevin Lynch</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">United States</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United States</str>
+
+<str name="COUNTRY_NAME">United States</str>
+
+<str name="id">CONTACT_5400543 </str>
+
+<str name="PRIM_POSTAL_CD">10017</str>
+
+<str name="PRIM_POSTAL_CD_AC">10017</str>
+
+<str name="PRIM_ADDR_LN_1">235 East 42nd Street</str>
+
+<str name="PRIM_ADDR_LN_1_AC">235 East 42nd Street</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8705310 |Pfizer Global Pharmaceuticals</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001kpivtAAA</str>
+
+</arr>
+
+<long name="_version_">1497586220140593153</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">ESP</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Barcelona</str>
+
+<str name="PRIM_CITY_AC">Barcelona</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5452607 </str>
+
+<str name="EC_ID">5452607 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">angela.crespo@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">angela.crespo@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Crespo</str>
+
+<str name="LAST_NAME_AC">Crespo</str>
+
+<str name="PRIM_PHONE_NUM">+34 93 2422751</str>
+
+<str name="FIRST_NAME">Angela</str>
+
+<str name="FIRST_NAME_AC">Angela</str>
+
+<str name="FULL_NAME">Angela Crespo</str>
+
+<str name="FULL_NAME_AC">Angela Crespo</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Spain</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Spain</str>
+
+<str name="COUNTRY_NAME">Spain</str>
+
+<str name="id">CONTACT_5452607 </str>
+
+<str name="PRIM_POSTAL_CD">08009</str>
+
+<str name="PRIM_POSTAL_CD_AC">08009</str>
+
+<str name="PRIM_ADDR_LN_1">Diputacio 284 4ªplanta</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Diputacio 284 4ªplanta</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8682129 |Pfizer</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js0mGAAQ</str>
+
+</arr>
+
+<long name="_version_">1497586220407980032</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">ITA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Latina</str>
+
+<str name="PRIM_CITY_AC">Latina</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5419812 </str>
+
+<str name="EC_ID">5419812 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Italia S.R.L.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Italia S.R.L.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">gabriella.defelice@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">gabriella.defelice@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Defelice</str>
+
+<str name="LAST_NAME_AC">Defelice</str>
+
+<str name="PRIM_PHONE_NUM">+39 (06) 33 18 35217</str>
+
+<str name="FIRST_NAME">Gabriella</str>
+
+<str name="FIRST_NAME_AC">Gabriella</str>
+
+<str name="FULL_NAME">Gabriella Defelice</str>
+
+<str name="FULL_NAME_AC">Gabriella Defelice</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="PRIM_MOBILE_PHONE">+39 (346) 8645899</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Enbrel Etanercept (Artrite Reumatoide)</str>
+
+<str name="PRIM_COUNTRY_NM">Italy</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Italy</str>
+
+<str name="COUNTRY_NAME">Italy</str>
+
+<str name="id">CONTACT_5419812 </str>
+
+<str name="PRIM_POSTAL_CD">4100</str>
+
+<str name="PRIM_POSTAL_CD_AC">4100</str>
+
+<str name="PRIM_ADDR_LN_1">Viale Isonzo N. 71</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Viale Isonzo N. 71</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8681482 |Pfizer Italia S.R.L.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js0TwAAI</str>
+
+</arr>
+
+<long name="_version_">1497586221219577857</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">DEU</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Berlin</str>
+
+<str name="PRIM_CITY_AC">Berlin</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5453105 </str>
+
+<str name="EC_ID">5453105 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Pharma Gmbh</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Pharma Gmbh</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="FAX_NUM">030/55005499999</str>
+
+<str name="PRIM_BUSS_EMAIL">patricia.nau@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">patricia.nau@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Nau</str>
+
+<str name="LAST_NAME_AC">Nau</str>
+
+<str name="PRIM_PHONE_NUM">030/550055-01</str>
+
+<str name="FIRST_NAME">Patricia</str>
+
+<str name="FIRST_NAME_AC">Patricia</str>
+
+<str name="FULL_NAME">Patricia Nau</str>
+
+<str name="FULL_NAME_AC">Patricia Nau</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Germany</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Germany</str>
+
+<str name="COUNTRY_NAME">Germany</str>
+
+<str name="id">CONTACT_5453105 </str>
+
+<str name="PRIM_POSTAL_CD">10785</str>
+
+<str name="PRIM_POSTAL_CD_AC">10785</str>
+
+<str name="PRIM_ADDR_LN_1">Linkstr. 10</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Linkstr. 10</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>816042 |Pfizer Pharma Gmbh</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001mh5aFAAQ</str>
+
+</arr>
+
+<long name="_version_">1497586221706117120</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">PRT</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Porto Salvo</str>
+
+<str name="PRIM_CITY_AC">Porto Salvo</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5453460 </str>
+
+<str name="EC_ID">5453460 </str>
+
+<str name="PARENT_ORG_NAME">Laboratórios Pfizer, Lda.</str>
+
+<str name="PARENT_ORG_NAME_AC">Laboratórios Pfizer, Lda.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">ana.castro@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">ana.castro@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Castro</str>
+
+<str name="LAST_NAME_AC">Castro</str>
+
+<str name="FIRST_NAME">Ana</str>
+
+<str name="FIRST_NAME_AC">Ana</str>
+
+<str name="FULL_NAME">Ana Castro</str>
+
+<str name="FULL_NAME_AC">Ana Castro</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Assist. Cns Pregabalin</str>
+
+<str name="PRIM_COUNTRY_NM">Portugal</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Portugal</str>
+
+<str name="COUNTRY_NAME">Portugal</str>
+
+<str name="id">CONTACT_5453460 </str>
+
+<str name="PRIM_POSTAL_CD">2740-271</str>
+
+<str name="PRIM_POSTAL_CD_AC">2740-271</str>
+
+<str name="PRIM_ADDR_LN_1">Lagoas Park, Edifício 10.</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Lagoas Park, Edifício 10.</str>
+
+<str name="JOB_ROLE">R&D</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8677429 |Laboratórios Pfizer, Lda.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001js0hQAAQ</str>
+
+</arr>
+
+<long name="_version_">1497586221795246081</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5441212 </str>
+
+<str name="EC_ID">5441212 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Pharma Gmbh</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Pharma Gmbh</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Von Matthiessen</str>
+
+<str name="LAST_NAME_AC">Von Matthiessen</str>
+
+<str name="SALUT_HONOR">Ms.</str>
+
+<str name="PRIM_PHONE_NUM">030 55005501</str>
+
+<str name="FIRST_NAME">Clara</str>
+
+<str name="FIRST_NAME_AC">Clara</str>
+
+<str name="FULL_NAME">Clara Von Matthiessen</str>
+
+<str name="FULL_NAME_AC">Clara Von Matthiessen</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Commercial Strategy Manager</str>
+
+<str name="id">CONTACT_5441212 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>816042 |Pfizer Pharma Gmbh</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001nbc0tAAA</str>
+
+</arr>
+
+<long name="_version_">1497586221868646400</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5441325 </str>
+
+<str name="EC_ID">5441325 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer, S.A. De C.V.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer, S.A. De C.V.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">humberto.diaz2@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">humberto.diaz2@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Díaz Ponce</str>
+
+<str name="LAST_NAME_AC">Díaz Ponce</str>
+
+<str name="FIRST_NAME">Humberto</str>
+
+<str name="FIRST_NAME_AC">Humberto</str>
+
+<str name="FULL_NAME">Humberto Díaz Ponce</str>
+
+<str name="FULL_NAME_AC">Humberto Díaz Ponce</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Medical</str>
+
+<str name="id">CONTACT_5441325 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10491331 |Pfizer, S.A. De C.V.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5X9xAAE</str>
+
+</arr>
+
+<long name="_version_">1497586221879132161</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5441326 </str>
+
+<str name="EC_ID">5441326 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer, S.A. De C.V.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer, S.A. De C.V.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">kattya.zepeda@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">kattya.zepeda@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Zepeda</str>
+
+<str name="LAST_NAME_AC">Zepeda</str>
+
+<str name="FIRST_NAME">Kattya</str>
+
+<str name="FIRST_NAME_AC">Kattya</str>
+
+<str name="FULL_NAME">Kattya Zepeda</str>
+
+<str name="FULL_NAME_AC">Kattya Zepeda</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Compras</str>
+
+<str name="id">CONTACT_5441326 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10491331 |Pfizer, S.A. De C.V.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5XA2AAM</str>
+
+</arr>
+
+<long name="_version_">1497586221879132162</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5441327 </str>
+
+<str name="EC_ID">5441327 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer, S.A. De C.V.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer, S.A. De C.V.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">luis.chavez@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">luis.chavez@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Chávez</str>
+
+<str name="LAST_NAME_AC">Chávez</str>
+
+<str name="FIRST_NAME">Luis</str>
+
+<str name="FIRST_NAME_AC">Luis</str>
+
+<str name="FULL_NAME">Luis Chávez</str>
+
+<str name="FULL_NAME_AC">Luis Chávez</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Pm</str>
+
+<str name="id">CONTACT_5441327 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10491331 |Pfizer, S.A. De C.V.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5XA3AAM</str>
+
+</arr>
+
+<long name="_version_">1497586221880180736</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5441332 </str>
+
+<str name="EC_ID">5441332 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer, S.A. De C.V.</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer, S.A. De C.V.</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">antonio.soto@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">antonio.soto@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Soto García</str>
+
+<str name="LAST_NAME_AC">Soto García</str>
+
+<str name="FIRST_NAME">José</str>
+
+<str name="FIRST_NAME_AC">José</str>
+
+<str name="FULL_NAME">José Soto García</str>
+
+<str name="FULL_NAME_AC">José Soto García</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">Compras</str>
+
+<str name="id">CONTACT_5441332 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10491331 |Pfizer, S.A. De C.V.</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5X9pAAE</str>
+
+</arr>
+
+<long name="_version_">1497586221882277888</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">KOR</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Jung-Gu</str>
+
+<str name="PRIM_CITY_AC">Jung-Gu</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5425943 </str>
+
+<str name="EC_ID">5425943 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer　Korea</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer　Korea</str>
+
+<str name="PRIM_STATE">SEOUL</str>
+
+<str name="PRIM_STATE_AC">SEOUL</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Cho</str>
+
+<str name="LAST_NAME_AC">Cho</str>
+
+<str name="PRIM_PHONE_NUM">+82-2-317-2454</str>
+
+<str name="FIRST_NAME">Keun-Young</str>
+
+<str name="FIRST_NAME_AC">Keun-Young</str>
+
+<str name="FULL_NAME">Keun-Young Cho</str>
+
+<str name="FULL_NAME_AC">Keun-Young Cho</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Republic Of Korea</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Republic Of Korea</str>
+
+<str name="COUNTRY_NAME">Republic Of Korea</str>
+
+<str name="id">CONTACT_5425943 </str>
+
+<str name="PRIM_POSTAL_CD">100-771</str>
+
+<str name="PRIM_POSTAL_CD_AC">100-771</str>
+
+<str name="PRIM_ADDR_LN_1">Pfizer Tower</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Pfizer Tower</str>
+
+<str name="PRIM_ADDR_LN_2">1-11, Hoehyun-Dong 3-Ga</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8853308 |Pfizer　Korea</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001miMDjAAM</str>
+
+</arr>
+
+<long name="_version_">1497586222040612864</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">AUS</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">West Ryde</str>
+
+<str name="PRIM_CITY_AC">West Ryde</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5425945 </str>
+
+<str name="EC_ID">5425945 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Australia</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Australia</str>
+
+<str name="PRIM_STATE">NSW</str>
+
+<str name="PRIM_STATE_AC">NSW</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">jennifer.lalor@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">jennifer.lalor@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Lalor</str>
+
+<str name="LAST_NAME_AC">Lalor</str>
+
+<str name="PRIM_PHONE_NUM">+61 2 9850 3333</str>
+
+<str name="FIRST_NAME">Jennifer</str>
+
+<str name="FIRST_NAME_AC">Jennifer</str>
+
+<str name="FULL_NAME">Jennifer Lalor</str>
+
+<str name="FULL_NAME_AC">Jennifer Lalor</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Australia</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Australia</str>
+
+<str name="COUNTRY_NAME">Australia</str>
+
+<str name="id">CONTACT_5425945 </str>
+
+<str name="PRIM_POSTAL_CD">2114</str>
+
+<str name="PRIM_POSTAL_CD_AC">2114</str>
+
+<str name="PRIM_ADDR_LN_1">38-42 Wharf Road</str>
+
+<str name="PRIM_ADDR_LN_1_AC">38-42 Wharf Road</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8852891 |Pfizer Australia</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001miMEpAAM</str>
+
+</arr>
+
+<long name="_version_">1497586222041661440</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">USA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">New York</str>
+
+<str name="PRIM_CITY_AC">New York</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">1</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5490135 </str>
+
+<str name="EC_ID">5490135 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Global Pharmaceuticals</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Global Pharmaceuticals</str>
+
+<str name="PRIM_STATE">NY</str>
+
+<str name="PRIM_STATE_AC">NY</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="FAX_NUM">212 716 9495</str>
+
+<str name="PRIM_BUSS_EMAIL">raftem@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">raftem@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Raftery</str>
+
+<str name="LAST_NAME_AC">Raftery</str>
+
+<str name="PRIM_PHONE_NUM">212 573 2371</str>
+
+<str name="FIRST_NAME">Mary</str>
+
+<str name="FIRST_NAME_AC">Mary</str>
+
+<str name="FULL_NAME">Mary Raftery</str>
+
+<str name="FULL_NAME_AC">Mary Raftery</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">United States</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United States</str>
+
+<str name="COUNTRY_NAME">United States</str>
+
+<str name="id">CONTACT_5490135 </str>
+
+<str name="PRIM_POSTAL_CD">10017</str>
+
+<str name="PRIM_POSTAL_CD_AC">10017</str>
+
+<str name="PRIM_ADDR_LN_1">235 East 42nd Street</str>
+
+<str name="PRIM_ADDR_LN_1_AC">235 East 42nd Street</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8705310 |Pfizer Global Pharmaceuticals</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001kpivxAAA</str>
+
+</arr>
+
+<long name="_version_">1497586222408663041</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">USA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">New York</str>
+
+<str name="PRIM_CITY_AC">New York</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5490136 </str>
+
+<str name="EC_ID">5490136 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Global Pharmaceuticals</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Global Pharmaceuticals</str>
+
+<str name="PRIM_STATE">NY</str>
+
+<str name="PRIM_STATE_AC">NY</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">robin.lansey@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">robin.lansey@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Lansey</str>
+
+<str name="LAST_NAME_AC">Lansey</str>
+
+<str name="FIRST_NAME">Robin</str>
+
+<str name="FIRST_NAME_AC">Robin</str>
+
+<str name="FULL_NAME">Robin Lansey</str>
+
+<str name="FULL_NAME_AC">Robin Lansey</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">United States</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United States</str>
+
+<str name="COUNTRY_NAME">United States</str>
+
+<str name="id">CONTACT_5490136 </str>
+
+<str name="PRIM_POSTAL_CD">10017</str>
+
+<str name="PRIM_POSTAL_CD_AC">10017</str>
+
+<str name="PRIM_ADDR_LN_1">235 East 42nd Street</str>
+
+<str name="PRIM_ADDR_LN_1_AC">235 East 42nd Street</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8705310 |Pfizer Global Pharmaceuticals</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001kpivzAAA</str>
+
+</arr>
+
+<long name="_version_">1497586222409711616</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">USA</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">New York</str>
+
+<str name="PRIM_CITY_AC">New York</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5490179 </str>
+
+<str name="EC_ID">5490179 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Animal Health</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Animal Health</str>
+
+<str name="PRIM_STATE">NY</str>
+
+<str name="PRIM_STATE_AC">NY</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="FAX_NUM">646 441 5894</str>
+
+<str name="PRIM_BUSS_EMAIL">gloria.gonzalez@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">gloria.gonzalez@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Gonzalez</str>
+
+<str name="LAST_NAME_AC">Gonzalez</str>
+
+<str name="SALUT_HONOR">Ms</str>
+
+<str name="PRIM_PHONE_NUM">212 733 7246</str>
+
+<str name="FIRST_NAME">Gloria</str>
+
+<str name="FIRST_NAME_AC">Gloria</str>
+
+<str name="FULL_NAME">Gloria Gonzalez</str>
+
+<str name="FULL_NAME_AC">Gloria Gonzalez</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">United States</str>
+
+<str name="PRIM_COUNTRY_NM_AC">United States</str>
+
+<str name="COUNTRY_NAME">United States</str>
+
+<str name="id">CONTACT_5490179 </str>
+
+<str name="PRIM_POSTAL_CD">10017</str>
+
+<str name="PRIM_POSTAL_CD_AC">10017</str>
+
+<str name="PRIM_ADDR_LN_1">150 E.42nd Street 150/41/07</str>
+
+<str name="PRIM_ADDR_LN_1_AC">150 E.42nd Street 150/41/07</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>8709530 |Pfizer Animal Health</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001kpizPAAQ</str>
+
+</arr>
+
+<long name="_version_">1497586222416003072</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<str name="PRIM_COUNTRY_CD">DEU</str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="PRIM_CITY">Berlin</str>
+
+<str name="PRIM_CITY_AC">Berlin</str>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5434758 </str>
+
+<str name="EC_ID">5434758 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Pharma Gmbh</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Pharma Gmbh</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">ulrike.grossheim@pfizer.de</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">ulrike.grossheim@pfizer.de</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Großheim</str>
+
+<str name="LAST_NAME_AC">Großheim</str>
+
+<str name="SALUT_HONOR">Frau</str>
+
+<str name="PRIM_PHONE_NUM">030/550055-01</str>
+
+<str name="FIRST_NAME">Ulrike</str>
+
+<str name="FIRST_NAME_AC">Ulrike</str>
+
+<str name="FULL_NAME">Ulrike Großheim</str>
+
+<str name="FULL_NAME_AC">Ulrike Großheim</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="PRIM_COUNTRY_NM">Germany</str>
+
+<str name="PRIM_COUNTRY_NM_AC">Germany</str>
+
+<str name="COUNTRY_NAME">Germany</str>
+
+<str name="id">CONTACT_5434758 </str>
+
+<str name="PRIM_POSTAL_CD">10785</str>
+
+<str name="PRIM_POSTAL_CD_AC">10785</str>
+
+<str name="PRIM_ADDR_LN_1">Linkstr. 10</str>
+
+<str name="PRIM_ADDR_LN_1_AC">Linkstr. 10</str>
+
+<str name="JOB_ROLE">Corporation</str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>816042 |Pfizer Pharma Gmbh</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001ncrTWAAY</str>
+
+</arr>
+
+<long name="_version_">1497586222841724929</long>
+
+</doc>
+
+
+-<doc>
+
+<str name="SRC_NM">SFDC </str>
+
+<date name="LAST_UPDATE_DATE">2015-03-27T20:41:05Z</date>
+
+<str name="ROWID_BO_CLASS">9 </str>
+
+<str name="HAS_OPTED_OUT_OF_EMAIL">0</str>
+
+<str name="CONTACT_TYPE">Corporation</str>
+
+<str name="CREATOR">admin</str>
+
+<str name="ROWID_OBJECT">5434842 </str>
+
+<str name="EC_ID">5434842 </str>
+
+<str name="PARENT_ORG_NAME">Pfizer Perú</str>
+
+<str name="PARENT_ORG_NAME_AC">Pfizer Perú</str>
+
+<date name="CREATE_DATE">2015-03-26T20:18:07Z</date>
+
+<str name="UPDATED_BY">admin</str>
+
+<str name="DIRTY_IND">0</str>
+
+<str name="DO_NOT_CALL">0</str>
+
+<str name="PRIM_BUSS_EMAIL">alberto.sattui@pfizer.com</str>
+
+<str name="PRIM_BUSS_EMAIL_AC">alberto.sattui@pfizer.com</str>
+
+<str name="doc_type">CONTACT</str>
+
+<str name="LAST_NAME">Sattui</str>
+
+<str name="LAST_NAME_AC">Sattui</str>
+
+<str name="FIRST_NAME">Alberto</str>
+
+<str name="FIRST_NAME_AC">Alberto</str>
+
+<str name="FULL_NAME">Alberto Sattui</str>
+
+<str name="FULL_NAME_AC">Alberto Sattui</str>
+
+<str name="CONSOLIDATION_IND">1</str>
+
+<str name="HUB_STATE_IND">1</str>
+
+<str name="SFDC_FLAG">Y</str>
+
+<str name="JOB_TITLE">D Médico</str>
+
+<str name="id">CONTACT_5434842 </str>
+
+
+-<arr name="RELATED_ACCOUNTS">
+
+<str>10451898 |Pfizer Perú</str>
+
+</arr>
+
+
+-<arr name="CONT_XREF">
+
+<str>SFDC |003d000001v5X7pAAE</str>
+
+</arr>
+
+<long name="_version_">1497586222856404993</long>
+
+</doc>
+
+</result>
+
+</response>

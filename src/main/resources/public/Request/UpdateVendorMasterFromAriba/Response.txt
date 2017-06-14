@@ -1,0 +1,1 @@
+2015 Nov 05 07:30:08:987 GMT -0500 BW.PTPVendorMaster01-PTPVendorMaster01-1 ISS-Info [BW-User] - D7A005B9-0AC8-209D-2DB6-1B1344C459C0~Finished_Main_Success~BusinessProcesses/UpdateVendorMasterFromAriba/Processes/StarterProcesses/Timer/UpdateVendorMasterFromAriba_Timer.process~ 

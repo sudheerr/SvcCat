@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<root>
+<userId>6b9aead73975d1a594b7f2154d6d258f6ac625fd</userId>
+<integrationId>961</integrationId>
+<resourceLinkId>286c8242696106459d6d8a7a2a768642ea4cae8b</resourceLinkId>
+<source_app_ID>WXT</source_app_ID>
+<request_id>B00EDC81-0A05-0199-0085-780433312DF4</request_id>
+</root>
+

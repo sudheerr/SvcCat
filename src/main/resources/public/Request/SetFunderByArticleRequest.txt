@@ -1,0 +1,36 @@
+<programs>
+<program>
+<funder>
+<id>24910912-cb61-39df-97ba-af097d338d67</id>
+</funder>
+<authors>
+		<authorId>54321</authorId>
+		<authorId>1425638</authorId>
+</authors>
+<grants>
+<grantNumber>123124</grantNumber>
+<grantNumber>5234</grantNumber>
+		</grants>
+	</program>
+
+<program>
+<funder>
+<secondaryIds>
+    <id type="doi">1010.13039/100005537</id>
+</secondaryIds>
+</funder>
+</program>
+
+<program>
+<funder>
+<id>6171ab5c-f337-37e3-9607-d3d933801765</id>
+<name>Custom funder name</name>
+</funder>
+<authors>
+		<authorId>946394</authorId>		
+</authors>
+<grants>
+<grantNumber>58978</grantNumber>
+		</grants>
+</program>
+</programs>

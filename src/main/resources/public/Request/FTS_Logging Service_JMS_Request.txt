@@ -1,0 +1,222 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<p:LogMessageCollection xmlns:p = "http://wiley.foundationservices.com/MessageObjects/Foundation/Logging/Service/Business/V1" xmlns:p1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1" xmlns:p2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Logging/Common/V1" xmlns:p3 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/Codelist/V1" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1 foundation/Common/xsd/V1.0/FoundationDataTypes.xsd http://wiley.foundationservices.com/MessageObjects/Foundation/Logging/Common/V1 foundation/Logging/xsd/V1.0/LoggingMeta.xsd http://wiley.foundationservices.com/MessageObjects/Foundation/Logging/Service/Business/V1 ../Schemas/foundation/Logging/xsd/V1.0/LoggingService.xsd http://wiley.foundationservices.com/MessageObjects/Foundation/Common/Codelist/V1 foundation/Common/xsd/V1.0/CodeList.xsd"> 
+<p:LogMessageRequest>   
+<p:SenderSystem>      
+<p1:SystemID>SUBSMGMT_ESB_APPLN</p1:SystemID>     
+<p1:SystemName>SM</p1:SystemName> 
+<p1:IPAddress>10.1.1.4 </p1:IPAddress>
+</p:SenderSystem>   
+<p:ServiceContext>     
+<p1:BusinessProcessName>SM_SALES</p1:BusinessProcessName>     
+<p1:Activity>SM_SALES_ORDER_ENTRY</p1:Activity>
+<p1:ServiceName>SM_SALES_SERVICE </p1:ServiceName>
+<p1:ComponentName>SM_SALES_ORDER</p1:ComponentName>  
+<p1:MethodName>    </p1:MethodName>   
+</p:ServiceContext>   
+<p:LogEventID>     
+<p2:GUID/>     
+<p2:ProcessInstanceID> SALES1212</p2:ProcessInstanceID> 
+<p2:ServiceInstanceID> SALESSVC88900  </p2:ServiceInstanceID>  
+<p2:ComponentInstanceID>COMP9090</p2:ComponentInstanceID>
+<p2:LogCorrelationID>123456</p2:LogCorrelationID>   
+</p:LogEventID>   
+<p:LogDetails>     
+<p2:LogTimestamp>2013-07-16T10:00:01-05:00</p2:LogTimestamp>     
+<p2:LogUserDetails>       
+<p1:UserID>BVENKAPPAN</p1:UserID>    
+<p1:UserName/>
+<p1:UserDept/>     
+</p2:LogUserDetails>     
+<p2:GeneralLogMessage LogMesgCategory = "GENERAL">       
+<p2:GeneralLogMesg>This is general Log Message </p2:GeneralLogMesg>    
+</p2:GeneralLogMessage>     
+<p2:TxnLogMessag LogMesgCategory = "TXNLOG">       
+            <p2:TransactionID> TXN121233  </p2:TransactionID>
+            <p2:TransactionType>   PAYMENT   </p2:TransactionType>       
+            <p2:TxnLogMessage>  Tranaction Log Message   </p2:TxnLogMessage>     
+</p2:TxnLogMessag>     
+<p2:AccessLogMessage LogMesgCategory = "ACCESSLOG">       
+            <p2:UserID>sreddy      </p2:UserID>
+            <p2:UserName>Sandeep Reddy   </p2:UserName> 
+            <p2:UserRole> TOPS Tech Lead     </p2:UserRole> 
+            <p2:UserDept> TOPS       </p2:UserDept>
+            <p2:ApplicationID> FOUNDATION WEB APP  </p2:ApplicationID> 
+            <p2:TimeofEntry>2012-06-12T12:00:01-05:00        </p2:TimeofEntry>      
+            <p2:TimeofExit>2012-06-12T12:01:31-05:00        </p2:TimeofExit>    
+            <p2:Hostname>  localhost     </p2:Hostname>
+            <p2:HostIPAddress>10.6.2.1   </p2:HostIPAddress>
+            <p2:AccessLogMessage> Access Log Message for Sandeep Reddy</p2:AccessLogMessage>  
+</p2:AccessLogMessage>     
+<p2:ErrorLogMessage LogMesgCategory = "ERRORLOG">       
+            <p2:LogSeverity>ERROR</p2:LogSeverity>       
+            <p2:ErrorType>Java Exception  </p2:ErrorType>     
+            <p2:ErrorCode>E1020    </p2:ErrorCode>        
+            <p2:ErrorDescription>Java Null Pointer Exception </p2:ErrorDescription>      
+            <p2:ErrorStack>Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException
+
+            at com.tibco.ae.tools.designer.actions.ViewConflicts.resetEnabledStatus(ViewConflicts.java:31)
+
+            at com.tibco.ae.designerapi.actions.GenericDesignerAction.valueChanged(GenericDesignerAction.java:318)
+
+            at javax.swing.tree.DefaultTreeSelectionModel.fireValueChanged(DefaultTreeSelectionModel.java:629) 
+            </p2:ErrorStack>     
+</p2:ErrorLogMessage>     
+<p2:extendedDataArea>       
+            <p1:ExtendedArea xsi:type = "anyType"/>     
+</p2:extendedDataArea>   
+</p:LogDetails>   
+<p:BusinessKeys>     
+<p1:Item>       
+            <p1:Name>ORDER_NO</p1:Name>
+            <p1:Value>123456</p1:Value>  
+</p1:Item>
+<p1:Item>       
+            <p1:Name>CUSTOMER_ID</p1:Name>
+            <p1:Value>900102ABC</p1:Value>  
+</p1:Item>   
+</p:BusinessKeys> 
+
+            </p:LogMessageRequest>
+
+            <p:LogMessageRequest>   
+<p:SenderSystem>     
+<p1:SystemID>SUBSMGMT_ESB_APPLN</p1:SystemID>     
+<p1:SystemName>SM</p1:SystemName> 
+<p1:IPAddress>10.1.1.4 </p1:IPAddress>
+</p:SenderSystem>   
+<p:ServiceContext>     
+<p1:BusinessProcessName>SM_SALES</p1:BusinessProcessName>    
+<p1:Activity>SM_SALES_ORDER_ENTRY</p1:Activity>
+<p1:ServiceName>SM_SALES_SERVICE </p1:ServiceName>
+<p1:ComponentName>SM_SALES_ORDER</p1:ComponentName>  
+<p1:MethodName>    </p1:MethodName>   
+</p:ServiceContext>   
+<p:LogEventID>     
+<p2:GUID/>     
+<p2:ProcessInstanceID> SALES1212</p2:ProcessInstanceID> 
+<p2:ServiceInstanceID> SALESSVC88900  </p2:ServiceInstanceID>  
+<p2:ComponentInstanceID>COMP9090</p2:ComponentInstanceID>
+<p2:LogCorrelationID>123456</p2:LogCorrelationID>   
+</p:LogEventID>   
+<p:LogDetails>     
+<p2:LogTimestamp>2012-06-12T12:00:01-05:00</p2:LogTimestamp>     
+<p2:LogUserDetails>       
+            <p1:UserID>bvenkappan</p1:UserID>    
+            <p1:UserName/>
+            <p1:UserDept/>     
+</p2:LogUserDetails>     
+<p2:GeneralLogMessage LogMesgCategory = "GENERAL">       
+            <p2:GeneralLogMesg>This is general Log Message </p2:GeneralLogMesg>    
+</p2:GeneralLogMessage>     
+<p2:TxnLogMessag LogMesgCategory = "TXNLOG">       
+            <p2:TransactionID> TXN121233  </p2:TransactionID>
+            <p2:TransactionType>   PAYMENT   </p2:TransactionType>       
+            <p2:TxnLogMessage>  Tranaction Log Message   </p2:TxnLogMessage>     
+</p2:TxnLogMessag>     
+<p2:AccessLogMessage LogMesgCategory = "ACCESSLOG">       
+            <p2:UserID>sreddy      </p2:UserID>
+            <p2:UserName>Sandeep Reddy   </p2:UserName> 
+            <p2:UserRole> TOPS Tech Lead     </p2:UserRole> 
+            <p2:UserDept> TOPS       </p2:UserDept>
+            <p2:ApplicationID> FOUNDATION WEB APP  </p2:ApplicationID> 
+            <p2:TimeofEntry>2012-06-12T12:00:01-05:00        </p2:TimeofEntry>      
+            <p2:TimeofExit>2012-06-12T12:01:31-05:00        </p2:TimeofExit>    
+            <p2:Hostname>  localhost     </p2:Hostname>
+            <p2:HostIPAddress>10.6.2.1   </p2:HostIPAddress>
+            <p2:AccessLogMessage> Access Log Message for Sandeep Reddy</p2:AccessLogMessage>  
+</p2:AccessLogMessage>     
+<p2:ErrorLogMessage LogMesgCategory = "ERRORLOG">       
+            <p2:LogSeverity>ERROR</p2:LogSeverity>       
+            <p2:ErrorType>Java Exception  </p2:ErrorType>     
+            <p2:ErrorCode>E1020    </p2:ErrorCode>        
+            <p2:ErrorDescription>Java Null Pointer Exception </p2:ErrorDescription>      
+            <p2:ErrorStack>Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException
+
+            at com.tibco.ae.tools.designer.actions.ViewConflicts.resetEnabledStatus(ViewConflicts.java:31)
+
+            at com.tibco.ae.designerapi.actions.GenericDesignerAction.valueChanged(GenericDesignerAction.java:318)
+
+            at javax.swing.tree.DefaultTreeSelectionModel.fireValueChanged(DefaultTreeSelectionModel.java:629) 
+            </p2:ErrorStack>     
+</p2:ErrorLogMessage>     
+<p2:extendedDataArea>       
+            <p1:ExtendedArea xsi:type = "anyType"/>     
+</p2:extendedDataArea>   
+</p:LogDetails>   
+<p:BusinessKeys>     
+<p1:Item>       
+            <p1:Name>ORDER_NO</p1:Name>
+            <p1:Value>123456</p1:Value>  
+</p1:Item>
+<p1:Item>       
+            <p1:Name>CUSTOMER_ID</p1:Name>
+            <p1:Value>900102ABC</p1:Value>  
+</p1:Item>   
+</p:BusinessKeys> 
+
+            </p:LogMessageRequest>
+
+            <p:LogMessageRequest>   
+<p:SenderSystem>     
+<p1:SystemID>SUBSMGMT_ESB_APPLN</p1:SystemID>     
+<p1:SystemName>SM</p1:SystemName> 
+<p1:IPAddress>10.1.1.4 </p1:IPAddress>
+</p:SenderSystem>   
+<p:ServiceContext>     
+<p1:BusinessProcessName>SM_SALES</p1:BusinessProcessName>    
+<p1:Activity>SM_SALES_ORDER_ENTRY</p1:Activity>
+<p1:ServiceName>SM_SALES_SERVICE </p1:ServiceName>
+<p1:ComponentName>SM_SALES_ORDER</p1:ComponentName>  
+<p1:MethodName>    </p1:MethodName>   
+</p:ServiceContext>   
+<p:LogEventID>     
+<p2:GUID/>     
+<p2:ProcessInstanceID> SALES1212</p2:ProcessInstanceID> 
+<p2:ServiceInstanceID> SALESSVC88900  </p2:ServiceInstanceID>  
+<p2:ComponentInstanceID>COMP9090</p2:ComponentInstanceID>
+<p2:LogCorrelationID>123456</p2:LogCorrelationID>   
+</p:LogEventID>   
+<p:LogDetails>     
+<p2:LogTimestamp>2012-06-12T12:00:01-05:00</p2:LogTimestamp>     
+<p2:LogUserDetails>       
+            <p1:UserID>bvenkappan</p1:UserID>    
+            <p1:UserName/>
+            <p1:UserDept/>     
+</p2:LogUserDetails>     
+<p2:GeneralLogMessage LogMesgCategory = "GENERAL">       
+            <p2:GeneralLogMesg>This is general Log Message </p2:GeneralLogMesg>    
+</p2:GeneralLogMessage>     
+<p2:TxnLogMessag LogMesgCategory = "TXNLOG">       
+            <p2:TransactionID> TXN121233  </p2:TransactionID>
+            <p2:TransactionType>   PAYMENT   </p2:TransactionType>       
+            <p2:TxnLogMessage>  Tranaction Log Message   </p2:TxnLogMessage>     
+</p2:TxnLogMessag>     
+<p2:AccessLogMessage LogMesgCategory = "ACCESSLOG">       
+            <p2:UserID>sreddy      </p2:UserID>
+            <p2:UserName>Sandeep Reddy   </p2:UserName> 
+            <p2:UserRole> TOPS Tech Lead     </p2:UserRole> 
+            <p2:UserDept> TOPS       </p2:UserDept>
+            <p2:ApplicationID> FOUNDATION WEB APP  </p2:ApplicationID> 
+            <p2:TimeofEntry>2012-06-12T12:00:01-05:00        </p2:TimeofEntry>      
+            <p2:TimeofExit>2012-06-12T12:01:31-05:00        </p2:TimeofExit>    
+            <p2:Hostname>  localhost     </p2:Hostname>
+            <p2:HostIPAddress>10.6.2.1   </p2:HostIPAddress>
+            <p2:AccessLogMessage> Access Log Message for Sandeep Reddy</p2:AccessLogMessage>  
+</p2:AccessLogMessage>     
+<p2:ErrorLogMessage LogMesgCategory = "ERRORLOG">       
+            <p2:LogSeverity>ERROR</p2:LogSeverity>       
+            <p2:ErrorType>Java Exception  </p2:ErrorType>     
+            <p2:ErrorCode>E1020    </p2:ErrorCode>        
+            <p2:ErrorDescription>Java Null Pointer Exception </p2:ErrorDescription>      
+            <p2:ErrorStack>Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException
+            at com.tibco.ae.tools.designer.actions.ViewConflicts.resetEnabledStatus(ViewConflicts.java:31)
+            at com.tibco.ae.designerapi.actions.GenericDesignerAction.valueChanged(GenericDesignerAction.java:318)
+            at javax.swing.tree.DefaultTreeSelectionModel.fireValueChanged(DefaultTreeSelectionModel.java:629) 
+            </p2:ErrorStack>     
+</p2:ErrorLogMessage>     
+<p2:extendedDataArea>       
+            <p1:ExtendedArea xsi:type = "anyType"/>     
+</p2:extendedDataArea>   
+</p:LogDetails>   
+</p:LogMessageRequest>
+</p:LogMessageCollection>

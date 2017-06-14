@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	 xmlns:crp="http://www.wiley.com/schemas/eis/customerResponse"
+	 xmlns:err="http://www.wiley.com/schemas/eis/error"
+	 xmlns:cst="http://www.wiley.com/schemas/eis/customer"
+	 xmlns:cmn="http://www.wiley.com/schemas/eis/common"
+	 targetNamespace="http://www.wiley.com/schemas/eis/customerResponse"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+	<xs:import namespace="http://www.wiley.com/schemas/eis/error" schemaLocation="errorDetails.xsd"/>
+	<xs:import namespace="http://www.wiley.com/schemas/eis/customer" schemaLocation="customer.xsd"/>
+	<xs:import namespace="http://www.wiley.com/schemas/eis/common" schemaLocation="common.xsd"/>
+	<xs:element name="customerResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="response" type="cmn:response" minOccurs="0"/>
+				<xs:element name="errorReport" type="err:errorReport" minOccurs="0"/>
+				<xs:element name="customer" type="cst:customer" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="extensions" type="cmn:extensions" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

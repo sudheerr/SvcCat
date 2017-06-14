@@ -1,0 +1,1 @@
+2016 Jun 06 20:21:24:569 GMT +0530 BW.PTPVendorMaster01 ISS-Info [BW-User] - 263233EA-0A04-D703-03A9-179686054C92~Finished_Main_Success~BusinessProcesses/CommonProcesses/StarterProcesses/Adapter/UpdateVendorMasterCommon_Adapter.process~ 

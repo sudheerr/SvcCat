@@ -1,0 +1,10 @@
+"user_id": "agtest",
+"context_id": "Canvas_cls2",
+"custom_resourceid": "asnmnt12345",
+"resource_link_id": "233995252a4d09df96e31244d10befc42cfefe96",
+"student_score": "75.38",
+"max_score": "100.00",
+"custom_courseid": "ISBNEPROF11278",
+"consumer_key": "hgf3yjf236fd",
+"score_type": "single",
+"lis_result_sourcedid": "83873872987329873264783687634"

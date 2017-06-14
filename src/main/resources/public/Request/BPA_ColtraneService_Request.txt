@@ -1,0 +1,11 @@
+getColtraneXml
+NA
+
+getProductLineColtraneXml
+NA
+
+createTitle
+http://10.6.4.36:11029/createTitle?authId=asadhu%40wiley.com&userName=asadhu&repoId=REP000005&authenticationTokenId=1a0730736f9d516e61ec5c7f979a2213ce3560da340838f484d1fd83a13f4714
+
+fetchMetadatafromColtrane
+http://10.6.4.36:11029/fetchMetadatafromColtrane?authId=asadhu%40wiley.com&previousIsbn=&isbn=9780470847480&repoId=REP000005&authenticationTokenId=1a0730736f9d516e61ec5c7f979a2213ce3560da340838f484d1fd83a13f4714

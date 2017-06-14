@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	 xmlns:orp="http://www.wiley.com/schemas/eis/orderResponse"
+	 xmlns:ord="http://www.wiley.com/schemas/eis/order"
+	 xmlns:err="http://www.wiley.com/schemas/eis/error"
+	 xmlns:cmn="http://www.wiley.com/schemas/eis/common"
+	 targetNamespace="http://www.wiley.com/schemas/eis/orderResponse"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+	<xs:import namespace="http://www.wiley.com/schemas/eis/order" schemaLocation="order.xsd"/>
+	<xs:import namespace="http://www.wiley.com/schemas/eis/error" schemaLocation="errorDetails.xsd"/>
+	<xs:import namespace="http://www.wiley.com/schemas/eis/common" schemaLocation="common.xsd"/>
+	<xs:element name="orderResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="response" type="cmn:response" minOccurs="0"/>
+				<xs:element name="errorReport" type="err:errorReport" minOccurs="0"/>
+				<xs:element name="order" type="ord:order" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="extensions" type="cmn:extensions" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

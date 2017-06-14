@@ -1,0 +1,39 @@
+ResponsePayload:
+{
+
+   "$schema": "http://wley.lmsfoundations.com/schema/RetrieveRepresentativeDetails/Response#",
+   "lms_fice_code": {
+      "description": "A00207201",
+      "type": "string"
+   },
+
+   "lms_country_code": {
+      "description": "840",
+      "type": "string"
+   },
+   "sales_rep_code": {
+      "description": "0084",
+      "type": "string"
+   },
+   "sales_rep_email": {
+      "description": "BSMITH@wiley.com",
+      "type": "string"
+   },
+   "sales_rep_name": {
+      "description": "BOB SMITH",
+      "type": "string"
+   },
+   "dss_code": {
+      "description": "0129",
+      "type": "string"
+   },
+   "dss_email": {
+      "description": "astanley@wiley.com",
+      "type": "string"
+   },
+   "dss_name": {
+      "description": "STAINLEY ALISON",
+      "type": "string"
+   },
+   "required" : ["fice_code"]
+}

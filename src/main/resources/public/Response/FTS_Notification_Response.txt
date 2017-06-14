@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:PTSRestServiceResponse xmlns:ns0="http://wiley.foundationservices.com/MessageObjects/Foundation/PTSRestService/Business/V1">
+<ns0:PTSRestServiceResponseStatus>
+<ns1:Status xmlns:ns1="http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">ERROR</ns1:Status>
+<ns1:ErrorCode xmlns:ns1="http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">DATA_VALDN_0001</ns1:ErrorCode>
+<ns1:ErrorDesc xmlns:ns1="http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">Subnodes 'FromName' and 'ReplyToAddress'  to 'MailSenderDetails' should exist and have non-empty values </ns1:ErrorDesc>
+</ns0:PTSRestServiceResponseStatus>
+</ns0:PTSRestServiceResponse>

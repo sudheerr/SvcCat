@@ -1,0 +1,308 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Body>
+      <ns0:TaxCalculationResponseEBM xmlns:ns0="http://xmlns.wiley.com/EnterpriseBusinessObjects/TaxEBO/V1">
+         <ns1:EBMName languageCode="" languageLocaleCode="" xmlns:ns1="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/Meta/V1"></ns1:EBMName>
+         <v11:TargetSystem xmlns:v1="http://xmlns.wiley.com/EnterpriseBusinessObjects/TaxEBO/V1" xmlns:ns="http://www.sabrix.com/services/taxcalculationservice/2011-09-01" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v11="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/Meta/V1" xmlns:v12="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/DataTypes/V1">
+            <v11:ServiceName languageCode="" languageLocaleCode=""></v11:ServiceName>
+         </v11:TargetSystem>
+         <ns0:UserData>
+            <ns0:SourceSystemAppID>JCO_ESB_TAXSERVICE</ns0:SourceSystemAppID>
+            <ns0:SourceSystemAppName>JCO</ns0:SourceSystemAppName>
+            <ns0:UniqueRequestIdentifier>65171</ns0:UniqueRequestIdentifier>
+            <ns0:ContinueOnError/>
+         </ns0:UserData>
+         <ns0:ServiceResponse>
+            <ns1:ServiceResponseStatus xmlns:ns1="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/Meta/V1">SUCCESS</ns1:ServiceResponseStatus>
+            <ns1:ServiceResponseCode xmlns:ns1="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/Meta/V1">B9BAC5E0-0A06-0424-3C06-F0225E07A987</ns1:ServiceResponseCode>
+            <ns1:ServiceResponseMesg xmlns:ns1="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/Meta/V1">REQUEST PROCESSED SUCCESSFULLY</ns1:ServiceResponseMesg>
+         </ns0:ServiceResponse>
+         <ns1:taxCalculationResponse xmlns:ns1="http://www.sabrix.com/services/taxcalculationservice/2011-09-01">
+            <ns1:OUTDATA version="G">
+               <ns1:REQUEST_STATUS>
+                  <ns1:IS_SUCCESS>false</ns1:IS_SUCCESS>
+                  <ns1:IS_PARTIAL_SUCCESS>true</ns1:IS_PARTIAL_SUCCESS>
+                  <ns1:ERROR>
+                     <ns1:CODE>GCSPP4</ns1:CODE>
+                     <ns1:DESCRIPTION>Seller must register to collect VAT in Service location. Authority: South Africa</ns1:DESCRIPTION>
+                     <ns1:ERROR_LOCATION_PATH>/OUTDATA/INVOICE[INVOICE_NUMBER='SB0577203']/LINE[@ID='86894.0']</ns1:ERROR_LOCATION_PATH>
+                  </ns1:ERROR>
+               </ns1:REQUEST_STATUS>
+               <ns1:COMPANY_ROLE>S</ns1:COMPANY_ROLE>
+               <ns1:INVOICE>
+                  <ns1:REQUEST_STATUS>
+                     <ns1:IS_SUCCESS>true</ns1:IS_SUCCESS>
+                     <ns1:IS_PARTIAL_SUCCESS>false</ns1:IS_PARTIAL_SUCCESS>
+                  </ns1:REQUEST_STATUS>
+                  <ns1:CALCULATION_DIRECTION>F</ns1:CALCULATION_DIRECTION>
+                  <ns1:CALLING_SYSTEM_NUMBER>JCO</ns1:CALLING_SYSTEM_NUMBER>
+                  <ns1:COMPANY_ID>605</ns1:COMPANY_ID>
+                  <ns1:COMPANY_NAME>John Wiley &amp; Sons Ltd. - UK</ns1:COMPANY_NAME>
+                  <ns1:COMPANY_ROLE>S</ns1:COMPANY_ROLE>
+                  <ns1:CURRENCY_CODE>USD</ns1:CURRENCY_CODE>
+                  <ns1:CURRENCY_NAME>United States Dollar</ns1:CURRENCY_NAME>
+                  <ns1:MIN_ACCOUNTABLE_UNIT>0.01</ns1:MIN_ACCOUNTABLE_UNIT>
+                  <ns1:ROUNDING_PRECISION>2.0</ns1:ROUNDING_PRECISION>
+                  <ns1:ROUNDING_RULE>1</ns1:ROUNDING_RULE>
+                  <ns1:CUSTOMER_NAME>Dr B D Warman</ns1:CUSTOMER_NAME>
+                  <ns1:CUSTOMER_NUMBER>WARMAN 003 000 000</ns1:CUSTOMER_NUMBER>
+                  <ns1:EXTERNAL_COMPANY_ID>JWSL_UK</ns1:EXTERNAL_COMPANY_ID>
+                  <ns1:HOST_SYSTEM>JCO</ns1:HOST_SYSTEM>
+                  <ns1:INVOICE_DATE>2013-09-04</ns1:INVOICE_DATE>
+                  <ns1:INVOICE_NUMBER>SB0577203</ns1:INVOICE_NUMBER>
+                  <ns1:IS_CREDIT>false</ns1:IS_CREDIT>
+                  <ns1:TOTAL_TAX_AMOUNT>0.0</ns1:TOTAL_TAX_AMOUNT>
+                  <ns1:TRANSACTION_DATE>2015-07-23</ns1:TRANSACTION_DATE>
+                  <ns1:UNIQUE_INVOICE_NUMBER>SB0577203</ns1:UNIQUE_INVOICE_NUMBER>
+                  <ns1:LINE ID="86893">
+                     <ns1:COMMODITY_CODE>4901</ns1:COMMODITY_CODE>
+                     <ns1:DELIVERY_TERMS>FOB</ns1:DELIVERY_TERMS>
+                     <ns1:GROSS_AMOUNT>170.0</ns1:GROSS_AMOUNT>
+                     <ns1:IS_BUSINESS_SUPPLY>true</ns1:IS_BUSINESS_SUPPLY>
+                     <ns1:ITEM_VALUE>170.0</ns1:ITEM_VALUE>
+                     <ns1:LINE_NUMBER>86893.0</ns1:LINE_NUMBER>
+                     <ns1:MESSAGE>
+                        <ns1:LOCATION>ZoneAddressPreparer.getLowestMatchingZones()</ns1:LOCATION>
+                        <ns1:CATEGORY>INVOICE VALIDATION</ns1:CATEGORY>
+                        <ns1:CODE>PARTIAL_ZONE_TREE_MATCH</ns1:CODE>
+                        <ns1:MESSAGE_TEXT>Partial zone tree match was found. Address: SHIP_FROM: SINGAPORE, SINGAPORE, 408600</ns1:MESSAGE_TEXT>
+                        <ns1:SEVERITY>1</ns1:SEVERITY>
+                     </ns1:MESSAGE>
+                     <ns1:MESSAGE>
+                        <ns1:LOCATION>ZoneAddressPreparer.getLowestMatchingZones()</ns1:LOCATION>
+                        <ns1:CATEGORY>INVOICE VALIDATION</ns1:CATEGORY>
+                        <ns1:CODE>PARTIAL_ZONE_TREE_MATCH</ns1:CODE>
+                        <ns1:MESSAGE_TEXT>Partial zone tree match was found. Address: SELLER_PRIMARY: SINGAPORE, 408600</ns1:MESSAGE_TEXT>
+                        <ns1:SEVERITY>1</ns1:SEVERITY>
+                     </ns1:MESSAGE>
+                     <ns1:MESSAGE>
+                        <ns1:LOCATION>ZoneAddressPreparer.getLowestMatchingZones()</ns1:LOCATION>
+                        <ns1:CATEGORY>INVOICE VALIDATION</ns1:CATEGORY>
+                        <ns1:CODE>PARTIAL_ZONE_TREE_MATCH</ns1:CODE>
+                        <ns1:MESSAGE_TEXT>Partial zone tree match was found. Address: ORDER_ACCEPTANCE: SOUTH AFRICA, UMHLANGA ROCKS 4320, 4320</ns1:MESSAGE_TEXT>
+                        <ns1:SEVERITY>1</ns1:SEVERITY>
+                     </ns1:MESSAGE>
+                     <ns1:MESSAGE>
+                        <ns1:LOCATION>May need proof of export.</ns1:LOCATION>
+                        <ns1:CATEGORY>JURISDICTION DETERMINATION</ns1:CATEGORY>
+                        <ns1:CODE>GCSG9</ns1:CODE>
+                        <ns1:MESSAGE_TEXT>May need proof of export. Authority: Singapore</ns1:MESSAGE_TEXT>
+                        <ns1:SEVERITY>1</ns1:SEVERITY>
+                     </ns1:MESSAGE>
+                     <ns1:PART_NUMBER>BJS</ns1:PART_NUMBER>
+                     <ns1:POINT_OF_TITLE_TRANSFER>I</ns1:POINT_OF_TITLE_TRANSFER>
+                     <ns1:SHIP_FROM_COUNTRY>SINGAPORE</ns1:SHIP_FROM_COUNTRY>
+                     <ns1:SHIP_TO_COUNTRY>SOUTH AFRICA</ns1:SHIP_TO_COUNTRY>
+                     <ns1:UNIQUE_LINE_NUMBER>86893</ns1:UNIQUE_LINE_NUMBER>
+                     <ns1:TOTAL_TAX_AMOUNT>0.0</ns1:TOTAL_TAX_AMOUNT>
+                     <ns1:TAX>
+                        <ns1:ADDRESS_TYPE>SF</ns1:ADDRESS_TYPE>
+                        <ns1:ADMIN_ZONE_LEVEL>Country</ns1:ADMIN_ZONE_LEVEL>
+                        <ns1:AUTHORITY_NAME>Singapore</ns1:AUTHORITY_NAME>
+                        <ns1:AUTHORITY_TYPE>GST</ns1:AUTHORITY_TYPE>
+                        <ns1:CALCULATION_METHOD>1</ns1:CALCULATION_METHOD>
+                        <ns1:COMMENT>ORACLE[SGGST]</ns1:COMMENT>
+                        <ns1:ERP_TAX_CODE>SGGST</ns1:ERP_TAX_CODE>
+                        <ns1:EFFECTIVE_ZONE_LEVEL>Country</ns1:EFFECTIVE_ZONE_LEVEL>
+                        <ns1:INVOICE_DESCRIPTION>Zero Rated Export</ns1:INVOICE_DESCRIPTION>
+                        <ns1:JURISDICTION_TEXT>GCSG8: Exports are zero-rated in Ship From location. Ch. 117A Part V Sec. 21 GST Act 1993</ns1:JURISDICTION_TEXT>
+                        <ns1:RULE_ORDER>5000.0</ns1:RULE_ORDER>
+                        <ns1:TAXABLE_COUNTRY>SG</ns1:TAXABLE_COUNTRY>
+                        <ns1:TAXABLE_COUNTRY_NAME>SINGAPORE</ns1:TAXABLE_COUNTRY_NAME>
+                        <ns1:TAXABLE_CITY>SINGAPORE</ns1:TAXABLE_CITY>
+                        <ns1:TAXABLE_POSTCODE>408600</ns1:TAXABLE_POSTCODE>
+                        <ns1:TAX_DIRECTION>O</ns1:TAX_DIRECTION>
+                        <ns1:TAX_RATE_CODE>ZR</ns1:TAX_RATE_CODE>
+                        <ns1:TAX_TYPE>ZE</ns1:TAX_TYPE>
+                        <ns1:ZONE_NAME>SINGAPORE</ns1:ZONE_NAME>
+                        <ns1:ZONE_LEVEL>Country</ns1:ZONE_LEVEL>
+                        <ns1:TAX_RATE>0.0</ns1:TAX_RATE>
+                        <ns1:NATURE_OF_TAX>P</ns1:NATURE_OF_TAX>
+                        <ns1:EU_TRANSACTION>false</ns1:EU_TRANSACTION>
+                        <ns1:AUTHORITY_UUID>e538c467-09f7-49bd-a0ca-7cb68daaf0e8</ns1:AUTHORITY_UUID>
+                        <ns1:AUTHORITY_CURRENCY_CODE>USD</ns1:AUTHORITY_CURRENCY_CODE>
+                        <ns1:CURRENCY_CONVERSION>
+                           <ns1:TAX_EXCHANGE_RATE_DATE>2013-09-04</ns1:TAX_EXCHANGE_RATE_DATE>
+                        </ns1:CURRENCY_CONVERSION>
+                        <ns1:EXEMPT_AMOUNT>
+                           <ns1:DOCUMENT_AMOUNT>0.0</ns1:DOCUMENT_AMOUNT>
+                           <ns1:UNROUNDED_DOCUMENT_AMOUNT>0.0</ns1:UNROUNDED_DOCUMENT_AMOUNT>
+                           <ns1:AUTHORITY_AMOUNT>0.0</ns1:AUTHORITY_AMOUNT>
+                           <ns1:UNROUNDED_AUTHORITY_AMOUNT>0.0</ns1:UNROUNDED_AUTHORITY_AMOUNT>
+                        </ns1:EXEMPT_AMOUNT>
+                        <ns1:GROSS_AMOUNT>
+                           <ns1:AUTHORITY_AMOUNT>170.0</ns1:AUTHORITY_AMOUNT>
+                           <ns1:UNROUNDED_AUTHORITY_AMOUNT>170.0</ns1:UNROUNDED_AUTHORITY_AMOUNT>
+                        </ns1:GROSS_AMOUNT>
+                        <ns1:NON_TAXABLE_BASIS>
+                           <ns1:DOCUMENT_AMOUNT>0.0</ns1:DOCUMENT_AMOUNT>
+                           <ns1:UNROUNDED_DOCUMENT_AMOUNT>0.0</ns1:UNROUNDED_DOCUMENT_AMOUNT>
+                           <ns1:AUTHORITY_AMOUNT>0.0</ns1:AUTHORITY_AMOUNT>
+                           <ns1:UNROUNDED_AUTHORITY_AMOUNT>0.0</ns1:UNROUNDED_AUTHORITY_AMOUNT>
+                        </ns1:NON_TAXABLE_BASIS>
+                        <ns1:TAXABLE_BASIS>
+                           <ns1:DOCUMENT_AMOUNT>170.0</ns1:DOCUMENT_AMOUNT>
+                           <ns1:UNROUNDED_DOCUMENT_AMOUNT>170.0</ns1:UNROUNDED_DOCUMENT_AMOUNT>
+                           <ns1:AUTHORITY_AMOUNT>170.0</ns1:AUTHORITY_AMOUNT>
+                           <ns1:UNROUNDED_AUTHORITY_AMOUNT>170.0</ns1:UNROUNDED_AUTHORITY_AMOUNT>
+                        </ns1:TAXABLE_BASIS>
+                        <ns1:TAX_AMOUNT>
+                           <ns1:DOCUMENT_AMOUNT>0.0</ns1:DOCUMENT_AMOUNT>
+                           <ns1:UNROUNDED_DOCUMENT_AMOUNT>0.0</ns1:UNROUNDED_DOCUMENT_AMOUNT>
+                           <ns1:AUTHORITY_AMOUNT>0.0</ns1:AUTHORITY_AMOUNT>
+                           <ns1:UNROUNDED_AUTHORITY_AMOUNT>0.0</ns1:UNROUNDED_AUTHORITY_AMOUNT>
+                        </ns1:TAX_AMOUNT>
+                        <ns1:TAX_DETERMINATION_DATE>2013-09-04</ns1:TAX_DETERMINATION_DATE>
+                        <ns1:TAX_POINT_DATE>2013-09-04</ns1:TAX_POINT_DATE>
+                     </ns1:TAX>
+                     <ns1:TRANSACTION_TYPE>GS</ns1:TRANSACTION_TYPE>
+                     <ns1:UNIT_OF_MEASURE>each</ns1:UNIT_OF_MEASURE>
+                     <ns1:QUANTITIES>
+                        <ns1:QUANTITY>
+                           <ns1:AMOUNT>1.0</ns1:AMOUNT>
+                           <ns1:UOM>each</ns1:UOM>
+                        </ns1:QUANTITY>
+                     </ns1:QUANTITIES>
+                     <ns1:IS_CREDIT>false</ns1:IS_CREDIT>
+                     <ns1:INVOICE_DATE>2013-09-04</ns1:INVOICE_DATE>
+                     <ns1:TAX_SUMMARY>
+                        <ns1:TAXABLE_BASIS>170.0</ns1:TAXABLE_BASIS>
+                        <ns1:NON_TAXABLE_BASIS>0.0</ns1:NON_TAXABLE_BASIS>
+                        <ns1:EXEMPT_AMOUNT>0.0</ns1:EXEMPT_AMOUNT>
+                        <ns1:TAX_RATE>0.0</ns1:TAX_RATE>
+                        <ns1:EFFECTIVE_TAX_RATE>0.0</ns1:EFFECTIVE_TAX_RATE>
+                     </ns1:TAX_SUMMARY>
+                  </ns1:LINE>
+               </ns1:INVOICE>
+               <ns1:INVOICE>
+                  <ns1:REQUEST_STATUS>
+                     <ns1:IS_SUCCESS>false</ns1:IS_SUCCESS>
+                     <ns1:IS_PARTIAL_SUCCESS>false</ns1:IS_PARTIAL_SUCCESS>
+                     <ns1:ERROR>
+                        <ns1:CODE>GCSPP4</ns1:CODE>
+                        <ns1:DESCRIPTION>Seller must register to collect VAT in Service location. Authority: South Africa</ns1:DESCRIPTION>
+                        <ns1:ERROR_LOCATION_PATH>/OUTDATA/INVOICE[INVOICE_NUMBER='SB0577203']/LINE[@ID='86894.0']</ns1:ERROR_LOCATION_PATH>
+                     </ns1:ERROR>
+                  </ns1:REQUEST_STATUS>
+                  <ns1:CALCULATION_DIRECTION>F</ns1:CALCULATION_DIRECTION>
+                  <ns1:CALLING_SYSTEM_NUMBER>JCO</ns1:CALLING_SYSTEM_NUMBER>
+                  <ns1:COMPANY_ID>603</ns1:COMPANY_ID>
+                  <ns1:COMPANY_NAME>Wiley Subscription Services Inc. - US</ns1:COMPANY_NAME>
+                  <ns1:COMPANY_ROLE>S</ns1:COMPANY_ROLE>
+                  <ns1:CURRENCY_CODE>USD</ns1:CURRENCY_CODE>
+                  <ns1:CURRENCY_NAME>United States Dollar</ns1:CURRENCY_NAME>
+                  <ns1:MIN_ACCOUNTABLE_UNIT>0.01</ns1:MIN_ACCOUNTABLE_UNIT>
+                  <ns1:ROUNDING_PRECISION>2.0</ns1:ROUNDING_PRECISION>
+                  <ns1:ROUNDING_RULE>1</ns1:ROUNDING_RULE>
+                  <ns1:CUSTOMER_NAME>Dr B D Warman</ns1:CUSTOMER_NAME>
+                  <ns1:CUSTOMER_NUMBER>WARMAN 003 000 000</ns1:CUSTOMER_NUMBER>
+                  <ns1:EXTERNAL_COMPANY_ID>WSSI_US</ns1:EXTERNAL_COMPANY_ID>
+                  <ns1:HOST_SYSTEM>JCO</ns1:HOST_SYSTEM>
+                  <ns1:INVOICE_DATE>2013-09-04</ns1:INVOICE_DATE>
+                  <ns1:INVOICE_NUMBER>SB0577203</ns1:INVOICE_NUMBER>
+                  <ns1:IS_CREDIT>false</ns1:IS_CREDIT>
+                  <ns1:TOTAL_TAX_AMOUNT>0.0</ns1:TOTAL_TAX_AMOUNT>
+                  <ns1:TRANSACTION_DATE>2015-07-23</ns1:TRANSACTION_DATE>
+                  <ns1:UNIQUE_INVOICE_NUMBER>SB0577203</ns1:UNIQUE_INVOICE_NUMBER>
+                  <ns1:LINE ID="86894">
+                     <ns1:COMMODITY_CODE>55111506.130</ns1:COMMODITY_CODE>
+                     <ns1:GROSS_AMOUNT>170.0</ns1:GROSS_AMOUNT>
+                     <ns1:IS_BUSINESS_SUPPLY>true</ns1:IS_BUSINESS_SUPPLY>
+                     <ns1:ITEM_VALUE>170.0</ns1:ITEM_VALUE>
+                     <ns1:LINE_NUMBER>86894.0</ns1:LINE_NUMBER>
+                     <ns1:MESSAGE>
+                        <ns1:CATEGORY>JURISDICTION DETERMINATION</ns1:CATEGORY>
+                        <ns1:CODE>GCSPP4</ns1:CODE>
+                        <ns1:MESSAGE_TEXT>Seller must register to collect VAT in Service location. Authority: South Africa</ns1:MESSAGE_TEXT>
+                        <ns1:SEVERITY>2</ns1:SEVERITY>
+                     </ns1:MESSAGE>
+                     <ns1:PART_NUMBER>BJS2</ns1:PART_NUMBER>
+                     <ns1:POINT_OF_TITLE_TRANSFER>I</ns1:POINT_OF_TITLE_TRANSFER>
+                     <ns1:SHIP_FROM_COUNTRY>UNITED STATES</ns1:SHIP_FROM_COUNTRY>
+                     <ns1:SHIP_TO_COUNTRY>SOUTH AFRICA</ns1:SHIP_TO_COUNTRY>
+                     <ns1:UNIQUE_LINE_NUMBER>86894</ns1:UNIQUE_LINE_NUMBER>
+                     <ns1:TOTAL_TAX_AMOUNT>0.0</ns1:TOTAL_TAX_AMOUNT>
+                     <ns1:TAX>
+                        <ns1:ADDRESS_TYPE>SF</ns1:ADDRESS_TYPE>
+                        <ns1:ADMIN_ZONE_LEVEL>State</ns1:ADMIN_ZONE_LEVEL>
+                        <ns1:AUTHORITY_NAME>US - UNITED STATES EXPORT</ns1:AUTHORITY_NAME>
+                        <ns1:AUTHORITY_TYPE>State Sales/Use</ns1:AUTHORITY_TYPE>
+                        <ns1:CALCULATION_METHOD>1</ns1:CALCULATION_METHOD>
+                        <ns1:COMMENT>ORACLE[USEX]</ns1:COMMENT>
+                        <ns1:ERP_TAX_CODE>USEX</ns1:ERP_TAX_CODE>
+                        <ns1:EFFECTIVE_ZONE_LEVEL>State</ns1:EFFECTIVE_ZONE_LEVEL>
+                        <ns1:INVOICE_DESCRIPTION>No Liability</ns1:INVOICE_DESCRIPTION>
+                        <ns1:JURISDICTION_TEXT>USSG157: No US sales or use tax applies to exports.</ns1:JURISDICTION_TEXT>
+                        <ns1:RULE_ORDER>5000.0</ns1:RULE_ORDER>
+                        <ns1:TAXABLE_COUNTRY>US</ns1:TAXABLE_COUNTRY>
+                        <ns1:TAXABLE_COUNTRY_NAME>UNITED STATES</ns1:TAXABLE_COUNTRY_NAME>
+                        <ns1:TAXABLE_STATE>NEW JERSEY</ns1:TAXABLE_STATE>
+                        <ns1:TAXABLE_COUNTY>ESSEX</ns1:TAXABLE_COUNTY>
+                        <ns1:TAXABLE_CITY>LIVINGSTON</ns1:TAXABLE_CITY>
+                        <ns1:TAXABLE_POSTCODE>07039</ns1:TAXABLE_POSTCODE>
+                        <ns1:TAX_RATE_CODE>NL</ns1:TAX_RATE_CODE>
+                        <ns1:TAX_TYPE>NL</ns1:TAX_TYPE>
+                        <ns1:ZONE_NAME>UNITED STATES</ns1:ZONE_NAME>
+                        <ns1:ZONE_LEVEL>State</ns1:ZONE_LEVEL>
+                        <ns1:TAX_RATE>0.0</ns1:TAX_RATE>
+                        <ns1:NATURE_OF_TAX>P</ns1:NATURE_OF_TAX>
+                        <ns1:EU_TRANSACTION>false</ns1:EU_TRANSACTION>
+                        <ns1:AUTHORITY_UUID>1b40aaa8-c77f-4d49-bb4e-3aed83013016</ns1:AUTHORITY_UUID>
+                        <ns1:AUTHORITY_CURRENCY_CODE>USD</ns1:AUTHORITY_CURRENCY_CODE>
+                        <ns1:CURRENCY_CONVERSION>
+                           <ns1:TAX_EXCHANGE_RATE_DATE>2013-09-04</ns1:TAX_EXCHANGE_RATE_DATE>
+                        </ns1:CURRENCY_CONVERSION>
+                        <ns1:EXEMPT_AMOUNT>
+                           <ns1:DOCUMENT_AMOUNT>0.0</ns1:DOCUMENT_AMOUNT>
+                           <ns1:UNROUNDED_DOCUMENT_AMOUNT>0.0</ns1:UNROUNDED_DOCUMENT_AMOUNT>
+                           <ns1:AUTHORITY_AMOUNT>0.0</ns1:AUTHORITY_AMOUNT>
+                           <ns1:UNROUNDED_AUTHORITY_AMOUNT>0.0</ns1:UNROUNDED_AUTHORITY_AMOUNT>
+                        </ns1:EXEMPT_AMOUNT>
+                        <ns1:GROSS_AMOUNT>
+                           <ns1:AUTHORITY_AMOUNT>170.0</ns1:AUTHORITY_AMOUNT>
+                           <ns1:UNROUNDED_AUTHORITY_AMOUNT>170.0</ns1:UNROUNDED_AUTHORITY_AMOUNT>
+                        </ns1:GROSS_AMOUNT>
+                        <ns1:NON_TAXABLE_BASIS>
+                           <ns1:DOCUMENT_AMOUNT>0.0</ns1:DOCUMENT_AMOUNT>
+                           <ns1:UNROUNDED_DOCUMENT_AMOUNT>0.0</ns1:UNROUNDED_DOCUMENT_AMOUNT>
+                           <ns1:AUTHORITY_AMOUNT>0.0</ns1:AUTHORITY_AMOUNT>
+                           <ns1:UNROUNDED_AUTHORITY_AMOUNT>0.0</ns1:UNROUNDED_AUTHORITY_AMOUNT>
+                        </ns1:NON_TAXABLE_BASIS>
+                        <ns1:TAXABLE_BASIS>
+                           <ns1:DOCUMENT_AMOUNT>0.0</ns1:DOCUMENT_AMOUNT>
+                           <ns1:UNROUNDED_DOCUMENT_AMOUNT>0.0</ns1:UNROUNDED_DOCUMENT_AMOUNT>
+                           <ns1:AUTHORITY_AMOUNT>0.0</ns1:AUTHORITY_AMOUNT>
+                           <ns1:UNROUNDED_AUTHORITY_AMOUNT>0.0</ns1:UNROUNDED_AUTHORITY_AMOUNT>
+                        </ns1:TAXABLE_BASIS>
+                        <ns1:TAX_AMOUNT>
+                           <ns1:DOCUMENT_AMOUNT>0.0</ns1:DOCUMENT_AMOUNT>
+                           <ns1:UNROUNDED_DOCUMENT_AMOUNT>0.0</ns1:UNROUNDED_DOCUMENT_AMOUNT>
+                           <ns1:AUTHORITY_AMOUNT>0.0</ns1:AUTHORITY_AMOUNT>
+                           <ns1:UNROUNDED_AUTHORITY_AMOUNT>0.0</ns1:UNROUNDED_AUTHORITY_AMOUNT>
+                        </ns1:TAX_AMOUNT>
+                        <ns1:TAX_DETERMINATION_DATE>2013-09-04</ns1:TAX_DETERMINATION_DATE>
+                        <ns1:TAX_POINT_DATE>2013-09-04</ns1:TAX_POINT_DATE>
+                     </ns1:TAX>
+                     <ns1:TRANSACTION_TYPE>ES</ns1:TRANSACTION_TYPE>
+                     <ns1:UNIT_OF_MEASURE>each</ns1:UNIT_OF_MEASURE>
+                     <ns1:QUANTITIES>
+                        <ns1:QUANTITY>
+                           <ns1:AMOUNT>1.0</ns1:AMOUNT>
+                           <ns1:UOM>each</ns1:UOM>
+                        </ns1:QUANTITY>
+                     </ns1:QUANTITIES>
+                     <ns1:IS_CREDIT>false</ns1:IS_CREDIT>
+                     <ns1:INVOICE_DATE>2013-09-04</ns1:INVOICE_DATE>
+                     <ns1:TAX_SUMMARY>
+                        <ns1:TAXABLE_BASIS>0.0</ns1:TAXABLE_BASIS>
+                        <ns1:NON_TAXABLE_BASIS>0.0</ns1:NON_TAXABLE_BASIS>
+                        <ns1:EXEMPT_AMOUNT>0.0</ns1:EXEMPT_AMOUNT>
+                        <ns1:TAX_RATE>0.0</ns1:TAX_RATE>
+                        <ns1:EFFECTIVE_TAX_RATE>0.0</ns1:EFFECTIVE_TAX_RATE>
+                     </ns1:TAX_SUMMARY>
+                  </ns1:LINE>
+               </ns1:INVOICE>
+            </ns1:OUTDATA>
+         </ns1:taxCalculationResponse>
+      </ns0:TaxCalculationResponseEBM>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <title>Service Catalog</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.13/css/dataTables.bootstrap4.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.css"/>
+    
+    <!-- <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans"> -->
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--
+        Might need to Uncomment it, when bootstrap plugins are being used
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Scripts to download table as excel -->
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.2.4/js/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.2.4/js/buttons.html5.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+    
+    <script type="text/javascript" src="https://cdn.datatables.net/plug-ins/1.10.13/dataRender/ellipsis.js"></script>
+    <script type="text/javascript" src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    <script src="js/jquery.iframe-transport.js"></script>
+    <script src="js/jquery.fileupload.js"></script>
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/wiley.css">
+</head>
+<body>
+    <!-- 
+    <h2>Jersey RESTful Web Application!</h2>
+    <p><a href="webapi/myresource">Jersey resource</a>
+    <p>Visit <a href="http://jersey.java.net">Project Jersey website</a>
+    for more information on Jersey!
+     -->
+    <div id="header"></div>
+    <div class="container-fluid">
+    <div class="svcContainer">
+        <div class="row">
+            <div class="panel svcPanel">
+                <div class="panel-body svcPanel-body">
+                    <header id="serviceTableHeader" class="panel-heading svcPanel-heading">
+                        <strong>Service Catalog</strong>
+                        <select id="serviceTable_length" name="serviceTable_length" aria-controls="serviceTable" class="pull-right"><option value="10">10</option><option selected value="25">25</option><option value="50">50</option><option value="-1">All</option></select>
+                    </header>
+                    <table id="serviceTable" class=" display table table-bordered  table-hover dataTable">
+                        <thead>
+                            <tr>
+                                <th>Service Name</th>
+                                <th>Provider</th>
+                                <th>Version</th>
+                                <th>Consumers</th>
+                                <th>Business Domain</th>
+                                <th>Canonical Data Model</th>
+                                <th>Description</th>
+                                <th>Operations</th>
+                                <th>Network Scope</th>
+                                <th>Event Type</th>
+                                <th>Protocol/Transport</th>
+                                <th>Security</th>
+                                <th>Provider SLA</th>
+                                <th>SLA Tiers</th>
+                                <th>Consumer CLA</th>
+                                <th>Status</th>
+                                <th>Initiative</th>
+                                <th>Service ID</th>
+                            </tr>
+                            <tr id="filterrow" style="display:none;">
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- To show the scroll up icon when page is scrolled -->
+    <a class="cd-top" href="#0">Top</a>
+    <!-- Loading Mask Icon -->
+    <div class="modal"></div>
+
+    <div id="dialog" title="File Upload" style="display: none;  overflow-y:auto;">
+        <div class="form-inline">
+            <div id="wrapper2" class="form-group" >
+                <div id="fileupload_wrapper">
+                    <input type="text" style="width: 300px" class="form-control" readonly="readonly" placeholder="Choose a file">
+                    <span>Browse..</span>
+                </div>
+                <input id="fileupload" class="form-control" type="file" name="file">
+            </div>
+            <div id="formMsg">
+                <span class=" glyphicon "></span><span></span>
+            </div>
+            <div id="formStatusMsg" style="margin-top: 4px;">
+            </div>
+        </div>
+    </div>
+    
+    <div id="dialog2" style="display: none;">
+        <div class="form-inline">
+                <span>The file about to download contains current page, filtered(if applied) records. Remove any applied filters and Select 'All' to download complete set of records.</span>
+        </div>
+    </div>
+    <div id="dialog3" style="display: none;">
+        <div class="form-inline">
+                <span>File download is not supported in Safari. Please use either Chrome or Internet Explorer.</span>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <script type="text/javascript" charset="utf8" src="js/rowGroup.js"></script>
+    <script type="text/javascript" charset="utf8" src="js/common.js"></script>
+    <script type="text/javascript" charset="utf8" src="js/app.js"></script>
+</body>
+</html>

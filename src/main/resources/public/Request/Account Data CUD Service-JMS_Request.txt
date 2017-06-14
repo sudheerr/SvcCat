@@ -1,0 +1,15 @@
+<ns0:UpdateCustomerRequestEBM xmlns:ns0="http://xmlns.wiley.com/EnterpriseBusinessObjects/CustomerEBO/V1">
+<ns1:ActionCode xmlns:ns1="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/Meta/V1">MERGE</ns1:ActionCode>
+<ns0:CustomerEBM><ns0:CustomerBaseProfile><ns0:CustomerIdentification><ns0:EnterpriseCustomerID>1569997      ; </ns0:EnterpriseCustomerID>
+<ns0:SourceXREF><ns0:SourceCustomerID>001d000001McEReAAN</ns0:SourceCustomerID><ns0:SourceSystem>SFDC</ns0:SourceSystem></ns0:SourceXREF></ns0:CustomerIdentification><ns0:Classification1>INSTORG</ns0:Classification1><ns0:CustomerTypeCode>O</ns0:CustomerTypeCode></ns0:CustomerBaseProfile>
+<ns0:Organization><ns0:OrganizationName>THE WINNIPEG SCHOOL DIVISION</ns0:OrganizationName></ns0:Organization>
+<ns0:Address><ns1:AddressType xmlns:ns1="http://xmlns.wiley.com/EnterpriseBusinessObjects/CommonEBO/V1">Primary</ns1:AddressType>
+<ns1:AddressLine1 xmlns:ns1="http://xmlns.wiley.com/EnterpriseBusinessObjects/CommonEBO/V1">1577 WALL STREET EAST</ns1:AddressLine1>
+<ns1:City xmlns:ns1="http://xmlns.wiley.com/EnterpriseBusinessObjects/CommonEBO/V1">WINNIPEG</ns1:City>
+<ns1:CountryCode xmlns:ns1="http://xmlns.wiley.com/EnterpriseBusinessObjects/CommonEBO/V1">CAN</ns1:CountryCode>
+<ns1:CountryName xmlns:ns1="http://xmlns.wiley.com/EnterpriseBusinessObjects/CommonEBO/V1">CANADA</ns1:CountryName>
+<ns1:Province xmlns:ns1="http://xmlns.wiley.com/EnterpriseBusinessObjects/CommonEBO/V1">MB</ns1:Province>
+<ns1:State xmlns:ns1="http://xmlns.wiley.com/EnterpriseBusinessObjects/CommonEBO/V1">MB</ns1:State>
+<ns1:ZipCode xmlns:ns1="http://xmlns.wiley.com/EnterpriseBusinessObjects/CommonEBO/V1">R3E 2S5</ns1:ZipCode>
+</ns0:Address><ns0:Phone><ns1:PhoneNumber xmlns:ns1="http://xmlns.wiley.com/EnterpriseBusinessObjects/CommonEBO/V1">2047750231</ns1:PhoneNumber></ns0:Phone><ns0:CrossReference><ns0:EnterpriseCustomerID>1569997      ; </ns0:EnterpriseCustomerID>
+<ns0:SourceXREF><ns0:SourceCustomerID>001d000001McEReAAN</ns0:SourceCustomerID><ns0:SourceSystem>SFDC</ns0:SourceSystem></ns0:SourceXREF></ns0:CrossReference><ns0:Custom/></ns0:CustomerEBM></ns0:UpdateCustomerRequestEBM>

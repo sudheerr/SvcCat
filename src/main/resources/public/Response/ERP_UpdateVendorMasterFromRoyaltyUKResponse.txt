@@ -1,0 +1,1 @@
+2016 Jun 06 19:20:19:832 GMT +0530 BW.PTPVendorMaster01 ISS-Info [BW-User] - 25FA66D4-0A04-D703-68F7-6D79F953464C~Finished_Main_Success~BusinessProcesses/UpdateVendorMasterFromRoyaltyUK/Processes/StarterProcesses/MQ/UpdateVendorMasterFromRoyaltyUK_MQStarter.process~

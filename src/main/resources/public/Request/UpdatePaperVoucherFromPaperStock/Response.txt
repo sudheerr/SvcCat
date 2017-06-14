@@ -1,0 +1,3 @@
+2015 Dec 15 12:27:11:184 GMT -0500 BW.PTPPaymentMaster01-PTPPaymentMaster01 ISS-Info [BW-User] - A6AE618C-0AC8-209C-59F2-47E1C5C86FD9~Finished_Main_Success~BusinessProc
+esses/UpdatePaperVoucherFromPaperStock/Processes/StarterProcesses/MQ/APInvoice_PaperStock_SAP_MQStarter.process~[MessageType :F0911Z1   ][MessageSchema :F0911Z1   ][Dat
+aId :I0161G151215122337    ][MessageSequence :0000000014][TotalMessage :0000000014~

@@ -1,0 +1,26 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"; xmlns:sch="http://www.tibco.com/schemas/ISS_AddressDoctorCommonSvc/SharedResources/SchemaDefinition/Custom/xsd/SCH_AddressValidationMultiReqRes.xsd">;
+<soapenv:Header/>
+<soapenv:Body>
+<sch:AddressValidationMultiReq>
+<sch:AddressValidationMultiReq>
+<sch:Street1>?</sch:Street1>
+<sch:Street2>?</sch:Street2>
+<sch:Street3>?</sch:Street3>
+<sch:Locality1>?</sch:Locality1>
+<sch:Locality2>?</sch:Locality2>
+<sch:Locality3>?</sch:Locality3>
+<sch:PostCode>?</sch:PostCode>
+<sch:Province1>?</sch:Province1>
+<sch:Province2>?</sch:Province2>
+<sch:Province3>?</sch:Province3>
+<sch:CountryName>I@@@#!@!231</sch:CountryName>
+<sch:Organization1>?</sch:Organization1>
+<sch:Organization2>?</sch:Organization2>
+<sch:Building1>?</sch:Building1>
+<sch:Building2>?</sch:Building2>
+<sch:OrganizationDepartment1>?</sch:OrganizationDepartment1>
+<sch:OrganizationDepartment2>?</sch:OrganizationDepartment2>
+</sch:AddressValidationMultiReq>
+</sch:AddressValidationMultiReq>
+</soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,104 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<ns0:ActivityInput xmlns:ns0 = "http://www.tibco.com/namespaces/tnt/plugins/jms">
+<Body>
+<ns1:ErrorEventCollection xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/EHS/Business/V1">
+<ns1:ErrorServiceRequest>
+<ns1:SenderSystem>
+<ns2:SystemID xmlns:ns2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">SUBSMGMT_ESB_APPLN</ns2:SystemID>
+<ns2:SystemName xmlns:ns2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">SM Integration Services</ns2:SystemName>
+<ns2:IPAddress xmlns:ns2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">ZSOMVMAUGHOSH</ns2:IPAddress>
+</ns1:SenderSystem>
+<ns1:ServiceContext>
+<ns2:BusinessProcessName xmlns:ns2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">AddrDoctCmnServiceBatch_StartProc</ns2:BusinessProcessName>
+<ns2:Activity xmlns:ns2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">MapData_ErrorDetails</ns2:Activity>
+<ns2:ServiceName xmlns:ns2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">ISS_SM_OTC_AddressDoctor</ns2:ServiceName>
+</ns1:ServiceContext>
+<ns1:ErrorEventDtls>
+<ns2:GUID xmlns:ns2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/EHS/Common/V1">B59C6651-0A05-02F3-005E-51BFF1E76E94</ns2:GUID>
+<ns2:ProcessInstanceID xmlns:ns2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/EHS/Common/V1">3</ns2:ProcessInstanceID><ns2:SenderCorrelationID xmlns:ns2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/EHS/Common/V1">B59C6651-0A05-02F3-005E-51BFF1E76E94</ns2:SenderCorrelationID>
+</ns1:ErrorEventDtls>
+<ns1:ErrorDetails>
+<ns2:ErrorDateTime xmlns:ns2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/EHS/Common/V1">2014-08-08T18:03:56.772+05:30</ns2:ErrorDateTime>
+<ns2:ErrorCode xmlns:ns2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/EHS/Common/V1">BW-HTTP-100300</ns2:ErrorCode>
+<ns2:ErrorDescription xmlns:ns2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/EHS/Common/V1">An IOException was thrown while trying to execute the Http method - com.tibco.plugin.share.http.client.HttpCommunicationException - HttpCommunicationException - BusinessProcesses/SubProcesses/AddrDoctCmnServiceBatch_SubProc.process/SOAPRequestReply_InvokeBatchWebservice</ns2:ErrorDescription>
+<ns2:ErrorCategory xmlns:ns2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/EHS/Common/V1">SYSTEM</ns2:ErrorCategory>
+<ns2:ErrorType xmlns:ns2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/EHS/Common/V1"/>
+<ns2:Severity xmlns:ns2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/EHS/Common/V1">LOW</ns2:Severity>
+<ns2:ErrorStack xmlns:ns2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/EHS/Common/V1">TIB MSG CODE :  BW-HTTP-100300TIBCO MSG : An IOException was thrown while trying to execute the Http methodStack Trace : Job-1 Error in [BusinessProcesses/SubProcesses/AddrDoctCmnServiceBatch_SubProc.process/SOAPRequestReply_InvokeBatchWebservice]
+
+An IOException was thrown while trying to execute the Http method
+
+                at com.tibco.plugin.share.http.client.JakartaHttpTransportDriver$RequestExecutor.run(Unknown Source)
+
+                at com.tibco.pe.util.ThreadPool$ThreadPoolThread.run(Unknown Source)
+
+caused by: java.net.ConnectException: Connection refused: connect
+
+                at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+
+                at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+
+                at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+
+                at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+
+                at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+
+                at java.net.PlainSocketImpl.connect(Unknown Source)
+
+                at java.net.SocksSocketImpl.connect(Unknown Source)
+
+                at java.net.Socket.connect(Unknown Source)
+
+                at java.net.Socket.connect(Unknown Source)
+
+                at java.net.Socket.&lt;init>(Unknown Source)
+
+                at java.net.Socket.&lt;init>(Unknown Source)
+
+                at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:79)
+
+                at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:121)
+
+                at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:706)
+
+                at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:386)
+
+                at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:170)
+
+                at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:396)
+
+                at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:324)
+
+                at com.tibco.plugin.share.http.client.JakartaHttpTransportDriver$RequestExecutor.run(Unknown Source)
+
+                at com.tibco.pe.util.ThreadPool$ThreadPoolThread.run(Unknown Source)
+</ns2:ErrorStack>
+
+                                                                                <ns2:SenderApplicationErrors xmlns:ns2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/EHS/Common/V1">
+
+                                                                                                <ns2:ApplicationErrors/>
+
+                                                                                                <ns2:ErrorSummary/>
+
+                                                                                </ns2:SenderApplicationErrors>
+</ns1:ErrorDetails>
+<ns1:BusinessKeys/>
+<ns1:Payload>
+<ns2:Payload xmlns:ns2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">&lt;?xml version="1.0" encoding="UTF-8"?>
+
+&lt;ns0:CleanseBatchAddressRequest xmlns:ns0="http://www.Wiley.com/Schema/SMOTC/AV/AddressDoctorCommonSvc">&lt;CleanseBatchAddressRequest>&lt;sch:AddressValidationBatchReq xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://www.tibco.com/schemas/ISS_AddressDoctorCommonSvc/SharedResources/SchemaDefinition/Custom/xsd/SCH_AddressValidationBatchReqRes.xsd">&lt;sch:AddressValidationBatchReq>&lt;sch:Street1>?&lt;/sch:Street1>&lt;sch:Street2>?&lt;/sch:Street2>&lt;sch:Street3>?&lt;/sch:Street3>&lt;sch:Locality1>?&lt;/sch:Locality1>&lt;sch:Locality2>?&lt;/sch:Locality2>&lt;sch:Locality3>?&lt;/sch:Locality3>&lt;sch:PostCode>?&lt;/sch:PostCode>&lt;sch:Province1>?&lt;/sch:Province1>&lt;sch:Province2>?&lt;/sch:Province2>&lt;sch:Province3>?&lt;/sch:Province3>&lt;sch:CountryName>?&lt;/sch:CountryName>&lt;sch:Organization1>?&lt;/sch:Organization1>&lt;sch:Organization2>?&lt;/sch:Organization2>&lt;sch:Building1>?&lt;/sch:Building1>&lt;sch:Building2>?&lt;/sch:Building2>&lt;sch:OrganizationDepartment1>?&lt;/sch:OrganizationDepartment1>&lt;sch:OrganizationDepartment2>?&lt;/sch:OrganizationDepartment2>&lt;/sch:AddressValidationBatchReq>&lt;/sch:AddressValidationBatchReq>&lt;/CleanseBatchAddressRequest>&lt;/ns0:CleanseBatchAddressRequest>
+</ns2:Payload>
+</ns1:Payload>
+</ns1:ErrorServiceRequest>
+</ns1:ErrorEventCollection>
+</Body>
+</ns0:ActivityInput>
+ 
+	
+	
+ 
+
+
+
+

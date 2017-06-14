@@ -1,0 +1,20 @@
+{
+  "UpdateUserAttributes": {
+    "LastName": "Kumar",
+    "FirstName": "Shiwani",
+    "Email": "rakumar3456@gmail.com",
+    "ECID": "379999",
+    "UserStatus": "Active",
+    "SourceSystem": "AS",
+    "UserAddress": {
+                "Address": "New Delhi",
+                "Street": "Main Street",
+     "State": "Delhi",
+     "Country": "IND",
+     "ZipCode": "360007"
+    },
+    "CustomerType": "User",
+    "TCFlag": "N",
+    "SendEmail": "Yes"
+  }
+}

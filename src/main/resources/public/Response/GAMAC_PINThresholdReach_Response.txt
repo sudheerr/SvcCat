@@ -1,0 +1,9 @@
+Hello GMAC Team,
+The following GMAC products have gone below the threshold of available pins:
+
+1612829
+
+
+Please upload new pins for the above products.
+IMPORTANT:If you experience any issues with your product(s), please contact our customer care team at +1 (866) 739-0238 or +1 (703) 668-9604, 7:30 a.m. to 4:30 p.m. EST or at store@mba.com 
+ 

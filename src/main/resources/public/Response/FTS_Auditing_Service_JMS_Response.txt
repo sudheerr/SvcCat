@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:PTSRestServiceResponse xmlns:ns0="http://wiley.foundationservices.com/MessageObjects/Foundation/PTSRestService/Business/V1">
+<ns0:PTSRestServiceResponseMsg>123456</ns0:PTSRestServiceResponseMsg>
+<ns0:PTSRestServiceResponseStatus>
+<ns1:Status xmlns:ns1="http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">SUCCESS</ns1:Status>
+<ns1:ErrorCode xmlns:ns1="http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1"/>
+<ns1:ErrorDesc xmlns:ns1="http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1"/>
+</ns0:PTSRestServiceResponseStatus>
+</ns0:PTSRestServiceResponse>

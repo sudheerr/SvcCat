@@ -1,0 +1,1 @@
+http://localhost:15020/CDMSearch?service=REST-CDMSearch&TYPE=XML&request=%3C?xml%20version%20=%20%221.0%22%20encoding%20=%20%22UTF-8%22?%3E%3Cns0:CDMSearchRequest%20xmlns:ns0%20=%20%22http://www.tibco.com/schemas/CDM_Search1/Schema.xsd%22%3E%3Cns0:QueryString%3Epfizer%3C/ns0:QueryString%3E%3Cns0:ResultType%3Exml%3C/ns0:ResultType%3E%3Cns0:SortField%

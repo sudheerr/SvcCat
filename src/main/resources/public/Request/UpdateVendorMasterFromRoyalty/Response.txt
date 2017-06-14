@@ -1,0 +1,1 @@
+2015 Nov 05 05:42:29:165 GMT -0500 BW.PTPVendorMaster01-PTPVendorMaster01-1 ISS-Info [BW-User] - D73D9183-0AC8-209D-453F-325189FA72A0~Finished_Main_Success~BusinessProcesses/UpdateVendorMasterFromRoyalty/Processes/StarterProcesses/MQ/UpdateVendorMasterFromRoyalty_MQStarter.process~

@@ -1,0 +1,5 @@
+ResponsePayload:
+{
+  "token":"dbf4f0e8-0500-4815-9c20-26d744f30320$$0411E3CB-0A05-02A5-00A4-B5105381B204",
+  "hashedToken":"ZGJmNGYwZTgtMDUwMC00ODE1LTljMjAtMjZkNzQ0ZjMwMzIwQ2FudmFz"
+}

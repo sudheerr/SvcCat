@@ -1,0 +1,1 @@
+4:27:07 PM: 2015 Sep 25 23:01:00:424 GMT -0400 BW.RTRGeneralLedger02-RTRGeneralLedger02 ISS-Info [BW-User] - 0798A2C9-0AC8-209C-5308-CD15E9345D8B~Finished_Main_Success~BusinessProcesses/UpdateGLBalanceToUSCoreCanada/Processes/StarterProcesses/FilePoller/UpdateGLBalanceToUSCoreCanada_AC_FilePollerStarter.process~

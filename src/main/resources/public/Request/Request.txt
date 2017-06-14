@@ -1,0 +1,22 @@
+http://localhost:15025/CoreFiceCreate?service=REST-CoreFiceCreate&TYPE=XML&request=<?xml version="1.0" encoding="utf-8"?>
+<ESB_Fice_Request xmlns="http://wiley.com/CoreFiceCreate/Request/V1.0">
+            <ESB_Unique_Message_ID/>
+            <Fice_Tran_ISO_Ctry_Code>840</Fice_Tran_ISO_Ctry_Code>
+            <ESB_Action_Code>INS</ESB_Action_Code>
+            <Source_System_Making_Req>SFDC</Source_System_Making_Req>
+            <Source_System_Id>001Z000000vMrcoIAC</Source_System_Id>
+            <Source_System_RequestId>a1PZ0000000lHAKMA2</Source_System_RequestId>
+            <Target_System>AUCORE</Target_System>
+            <Fice_Prefix/>
+            <Fice_Number/>
+            <Fice_Suffix/>
+            <Fice_Active>Y</Fice_Active>
+            <College_Type/>
+            <Salesperson_Code>1003</Salesperson_Code>
+            <Fice_Name>hoboken</Fice_Name>
+            <Address_Line1>2-498 KENEC DR</Address_Line1>
+            <Address_Line2/>
+            <City>MIDDLETOWN</City>
+            <State_Code>OH</State_Code>
+            <Post_Code>45042</Post_Code>
+</ESB_Fice_Request>

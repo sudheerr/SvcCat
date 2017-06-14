@@ -1,0 +1,2 @@
+2016 Aug 10 19:30:01:057 GMT +0530 BW.RTRGeneralLedger03 ISS-Info [BW-User] –
+94BD2FE1-0A04-D6AA-62FA-3D6661472886~Finished_Main_Success~BusinessProcesses/GeneralLedgerPosting/Processes/StarterProcesses/MQ/GLCorpSalesRevenueFromCSS_MQStarter.process~[MessageType :F0911Z1][MessageSchema :F0911Z1][DataId :GLTEST660810192547][MessageSequence :0000000006][TotalMessage :0000000006~ 

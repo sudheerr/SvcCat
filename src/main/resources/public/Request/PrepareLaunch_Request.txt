@@ -1,0 +1,6 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<root>
+<request_id>B5A10AC7-0A05-0199-018A-0F4CDF4EA94C</request_id>
+<custom_destination>wp4-eula</custom_destination>
+</root>
+
