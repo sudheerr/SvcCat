@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	 xmlns="http://www.tibco.com/schemas/Product_Search1/Schema.xsd"
+	 targetNamespace="http://www.tibco.com/schemas/Product_Search1/Schema.xsd"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+	<xs:element name="ProductSearchRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="QueryString"/>
+				<xs:element ref="ResultType" minOccurs="0"/>
+				<xs:element ref="SortField" minOccurs="0"/>
+				<xs:element ref="NumberOfRecords" minOccurs="0"/>
+				<xs:element ref="StartingRecord" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="QueryString" type="xs:string"/>
+	<xs:element name="ResultType" type="xs:string"/>
+	<xs:element name="SortField" type="xs:string"/>
+	<xs:element name="NumberOfRecords" type="xs:string"/>
+	<xs:element name="StartingRecord" type="xs:string"/>
+</xs:schema>

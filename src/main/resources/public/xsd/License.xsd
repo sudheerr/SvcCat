@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+
+	<!-- Limited funding information (no grants, no authors) -->
+	<!-- Will be used only for identification of funder mandates -->
+	<xs:complexType name="FundersList">
+		<xs:sequence>
+			<xs:element name="funder" type="WsFunder" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="WsFunder">
+		<xs:attribute name="id" type="xs:string"/>
+		<xs:attribute name="fundRefDOI" type="xs:string"/>
+		<xs:attribute name="name" type="xs:string"/>
+	</xs:complexType>
+	<xs:simpleType name="LicenseTypeValues">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Subscription"/>
+			<xs:enumeration value="CC-BY"/>
+			<xs:enumeration value="CC-BY-NC"/>
+			<xs:enumeration value="CC-BY-NC-ND"/>
+			<xs:enumeration value="CC-BY-NC-SA"/>
+			<xs:enumeration value="CC-BY-ND"/>
+			<xs:enumeration value="CC-BY-SA"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="LicenseType">
+		<xs:simpleContent>
+			<xs:extension base="LicenseTypeValues">
+
+				<!-- This attribute is for Get License Choice response  -->
+				<xs:attribute name="hasElectronicTemplate" type="xs:boolean"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="LicenseTypesList">
+		<xs:sequence>
+			<xs:element name="licenseType" type="LicenseType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="CopyrightOwnership">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="CONTRIBUTOR"/>
+			<xs:enumeration value="US_GOVT"/>
+			<xs:enumeration value="UK_GOVT"/>
+			<xs:enumeration value="NGO"/>
+			<xs:enumeration value="OTHER_GOVT"/>
+			<xs:enumeration value="COMPANY_INSTITUTION"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="UsGovtOwnership">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ALL_AUTHORS_NIH_EMPL"/>
+			<xs:enumeration value="NOT_ALL_AUTHORS_NIH_EMPL"/>
+			<xs:enumeration value="ALL_AUTHORS_US_GOVT_EMPL"/>
+			<xs:enumeration value="NOT_ALL_AUTHORS_US_GOVT_EMPL"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="WalsResponse">
+		<xs:sequence>
+			<xs:element name="DH_ID" type="xs:long"/>
+			<xs:element name="responseCode" type="xs:int"/>
+			<xs:element name="responseDescription" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="LicenseResetReason">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="OO_ORDER_CREATED"/>
+			<xs:enumeration value="OO_ORDER_CANCELLED"/>
+			<xs:enumeration value="OO_ORDER_TIMER_EXPIRED"/>
+			<xs:enumeration value="ADMIN_REQUEST"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="LicenseRejectionReason">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="NOT_LICENSE"/>
+			<xs:enumeration value="SIGNATURE_MISSING"/>
+			<xs:enumeration value="OWNERSHIP_MISMATCH"/>
+			<xs:enumeration value="NIH_COVER_SHEET_MISSING"/>
+			<xs:enumeration value="ANNOTATED_FORMS_UNACCEPTABLE"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="LicenseStatus">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="DOWNLOADED"/>
+			<xs:enumeration value="PENDING_VERIFICATION"/>
+			<xs:enumeration value="SIGNED"/>
+			<xs:enumeration value="REJECTED"/>
+			<xs:enumeration value="RESET"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="License">
+		<xs:sequence>
+			<xs:element name="licenseStatus" type="LicenseStatus"/>
+			<xs:element name="licenseDownloadDate" type="xs:dateTime" minOccurs="0"/>
+			<xs:element name="licenseUploadDate" type="xs:dateTime" minOccurs="0"/>
+			<xs:element name="licenseSignDate" type="xs:dateTime" minOccurs="0"/>
+			<xs:element name="signedElectronically" type="xs:boolean"/>
+			<xs:element name="authorSelectedOnlineOpen" type="xs:boolean"/>
+			<xs:element name="templateName" type="xs:string" minOccurs="0"/>
+			<xs:element name="licenseClass" type="xs:string" minOccurs="0"/>
+			<xs:element name="licenseType" type="LicenseType" minOccurs="0"/>
+			<xs:element name="licenseSubType" type="xs:string" minOccurs="0"/>
+			<xs:element name="licenseTypesPresented" type="LicenseTypesList" minOccurs="0"/>
+			<xs:element name="copyrightOwnershipType" type="CopyrightOwnership"/>
+			<xs:element name="usGovtWorkOwnership" type="UsGovtOwnership" minOccurs="0"/>
+			<xs:element name="wileyOAAccountHolder" type="xs:string" minOccurs="0"/>
+			<xs:element name="licenseResetDt" type="xs:dateTime" minOccurs="0"/>
+			<xs:element name="licenseResetReason" type="LicenseResetReason" minOccurs="0"/>
+			<xs:element name="legalStatement" type="xs:string" minOccurs="0"/>
+			<xs:element name="licenseRejectionReasons" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="rejectionReason" type="RejectionReasonDef" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RejectionReasonDef">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="code" type="LicenseRejectionReason"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+</xs:schema>

@@ -4,8 +4,8 @@ import java.util.List;
 
 import com.wiley.iss.model.ServiceDetail;
 import com.wiley.iss.model.ServiceRecord;
-import com.wiley.iss.mapper.ServiceDetailMapper;
-import com.wiley.iss.mapper.ServiceResultMapper;
+import com.wiley.iss.model.mapper.ServiceDetailMapper;
+import com.wiley.iss.model.mapper.ServiceRecordMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +24,7 @@ public class CatalogService {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(CatalogService.class);
 
+	//Showing only active services (SERVICE_ACTIVE ='Y')
 	private static final String sqlQuery = "select  domain.domain_name, service.SVC_ID, service.SVC_NAME, service.DESCRIPTION, service.SVC_OPERATIONS,"
 			+ " service.PROVIDER, svc_version.VERSION_ID, consumer.CONSUMER_NAME, svc_version.CANONICAL_DATA_MODEL,"
 			+ " service.NETWORK_SCOPE, svc_version.EVENT_TYPE, svc_version.PROTOCOL, svc_version.SVC_SECURITY, svc_version.PROVIDER_SLA,"
@@ -54,8 +55,9 @@ public class CatalogService {
 			+ " consumer.consumer_id = svc_con.consumer_id"
 			+ " JOIN svc_cat_domain domain on domain.domain_id =  service.domain_id"
 			+ " where service.SVC_ID = ? and svc_version.VERSION_ID = ?";
+
 	public List<ServiceRecord> fetchResults() {
-		return jdbcTemplate.query(sqlQuery,new ServiceResultMapper());
+		return jdbcTemplate.query(sqlQuery,new ServiceRecordMapper());
 	}
 
 	public ServiceDetail fetchDetailsResults(String svcId,

@@ -33,7 +33,7 @@ public class InterfaceRecord {
 	private String otherServices;
 	private String additionalComments;
 	
-	private String fileName;
+	//private String fileName;
 	private String testInSIT;
 	
 	@Override
@@ -74,7 +74,7 @@ public class InterfaceRecord {
 		try{
 			this.serviceId = Integer.parseInt(serviceId);	
 		}catch(NumberFormatException e){
-			System.out.println("NumberFormatException: "+e.getMessage()+ " : "+this.getFileName());
+			System.out.println("NumberFormatException: "+e.getMessage()+ " : ");
 		}
 	}
 	public String getServiceName() {
@@ -89,7 +89,7 @@ public class InterfaceRecord {
 	public void setServiceStatus(String serviceStatus) {
 		Integer status = ApplicationConstants.status.get(serviceStatus.replace(" ", "").toUpperCase());
 		if(status==null){
-			System.out.println("STATUS Not Found: "+serviceStatus+ " : "+this.getFileName());
+			System.out.println("STATUS Not Found: "+serviceStatus+ " : ");
 		}
 		this.serviceStatus = status;
 	}
@@ -208,12 +208,12 @@ public class InterfaceRecord {
 	public void setAdditionalComments(String additionalComments) {
 		this.additionalComments = additionalComments;
 	}
-	public String getFileName() {
+	/*public String getFileName() {
 		return fileName;
 	}
 	public void setFileName(String fileName) {
 		this.fileName = fileName;
-	}
+	}*/
 	public String getTestInSIT() {
 		return testInSIT;
 	}

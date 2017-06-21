@@ -1,4 +1,4 @@
-package com.wiley.iss.mapper;
+package com.wiley.iss.model.mapper;
 
 import com.wiley.iss.model.ServiceDetail;
 import org.springframework.jdbc.core.RowMapper;

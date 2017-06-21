@@ -14,17 +14,6 @@ AppUtil = (function() {
         rawFile.send(null);
     }
 
-    function getURLParameter(sParam) {
-        var sPageURL = window.location.search.substring(1);
-        var sURLVariables = sPageURL.split('&');
-        for (var i = 0; i < sURLVariables.length; i++) {
-            var sParameterName = sURLVariables[i].split('=');
-            if (sParameterName[0] === sParam) {
-                return sParameterName[1];
-            }
-        }
-    };
-
     function renderServiceData(data) {
         var details = $('#details');
 
@@ -36,7 +25,6 @@ AppUtil = (function() {
         formControls[5].textContent = data['taxonomy'];
         formControls[6].textContent = data['source'];
         formControls[7].textContent = data['target'];
-
     }
 
     function renderVersionData(data) {
@@ -65,12 +53,11 @@ AppUtil = (function() {
         if (data['sampleRequest']) {
             readTextFile(data['sampleRequest'], formControls[0]);
         }
-        if(data['sampleResponse']){
+        if (data['sampleResponse']) {
             readTextFile(data['sampleResponse'], formControls[1]);
         }
         formControls[2].textContent = data['comments'];
     }
-
 
     function renderSVCDetails(data) {
         renderServiceData(data);
@@ -79,41 +66,21 @@ AppUtil = (function() {
     }
 
     return {
-        getURLParameter: getURLParameter,
         renderDetails: renderSVCDetails
     };
 })();
 
 $(document).ready(function(AppUtil) {
-
-    $body = $("body");
-    $(document).on({
-        ajaxStart: function() { $body.addClass("loading"); },
-        ajaxStop: function() { $body.removeClass("loading"); }
-    });
-
-    var interfaceId = AppUtil.getURLParameter('interfaceId');
-    var url = ServiceCatalog.getContextPath()+'/webapi/interface/' + interfaceId;
+    var interfaceId = ServiceCatalog.getURLParameter('interfaceId');
+    var url = ServiceCatalog.getContextPath() + '/webapi/interface/' + interfaceId;
 
     $.ajax({
-            url: url,
-            dataType: 'json'
-        })
-        .done(function(data) {
-            if (data) {
-                AppUtil.renderDetails(data);
-            }
-        });
-    var userDetUrl = ServiceCatalog.getContextPath()+'/webapi/user';
-    $.ajax({
-        url: userDetUrl,
-    }).done(function (data) {
-        if (console && console.log) {
-            console.log("User :", data);
-
-        }
-        if(data){
-            $('#user-name-label').text(data.userName);
+        url: url,
+        dataType: 'json'
+    }).done(function(data) {
+        if (data) {
+            AppUtil.renderDetails(data);
         }
     });
+
 }(AppUtil));

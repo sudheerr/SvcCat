@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ====================================================================== -->
+<!-- 
+Organization: John Wiley & Sons Library : Enterprise Message Object 
+Library Name: CustomerEBM.xsd 
+Description : Includes data types required 	for customer data integration service 
+Version		: 1.0 
+Date : 31-Dec-2012 
+=========================================================================== -->
+<!-- ====================================================================== 
+	Change Log: 
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+	Version : 1.0 Major Changes: 
+	1. Removed the custom component reference on 19-Feb-2013
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+=========================================================================== -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	 xmlns="http://xmlns.wiley.com/EnterpriseBusinessObjects/CustomerEBO/V1"
+	 xmlns:coretypes="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/DataTypes/V1"
+	 xmlns:codelist="http://xmlns.wiley.com/EnterpriseBusinessObjects/CommonInfratypes/Codelist/V1"
+	 xmlns:meta="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/Meta/V1"
+	 xmlns:corebusn="http://xmlns.wiley.com/EnterpriseBusinessObjects/CommonEBO/V1"
+	 targetNamespace="http://xmlns.wiley.com/EnterpriseBusinessObjects/CustomerEBO/V1"
+	 version="1.00"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+	<xsd:import namespace="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/DataTypes/V1" schemaLocation="../../../../EnterpriseBusinessObjects/Core/CommonInfraTypes/V1.0/DataTypes.xsd"/>
+	<xsd:import namespace="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/Meta/V1" schemaLocation="../../../../EnterpriseBusinessObjects/Core/CommonInfraTypes/V1.0/Meta.xsd"/>
+	<xsd:import namespace="http://xmlns.wiley.com/EnterpriseBusinessObjects/CommonEBO/V1" schemaLocation="../../../../EnterpriseBusinessObjects/Core/CommonEBOs/V1.0/CommonEBO.xsd"/>
+	<xsd:include schemaLocation="../../../../EnterpriseBusinessObjects/Core/CustomerEBO/V1.0/CustomerEBO.xsd"/>
+	<xsd:complexType name="CustomerProfileEBMType">
+		<xsd:annotation>
+			<xsd:documentation> 
+			Customer EBM which extends base business objects types of customer				
+		</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="CustomerBaseEBOType"/>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- ====================================================================== -->
+	<!-- ==================Customer Data CUD (Create) Service=================== -->
+	<!-- ====================================================================== -->
+	<xsd:element name="CreateCustomerRequestEBM" type="CreateCustomerRequestEBMType"/>
+	<xsd:element name="CreateCustomerResponseEBM" type="CreateCustomerResponseEBMType"/>
+	<xsd:complexType name="CreateCustomerRequestEBMType">
+		<xsd:annotation>
+			<xsd:documentation> 
+			Customer Request enterprise business message to be used as input request for Customer Data CRUD Service				
+		</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="CustomerEBM" type="CustomerProfileEBMType"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="CreateCustomerResponseEBMType">
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="ServiceResponse" type="meta:ServiceResponseType" minOccurs="0"/>
+					<xsd:element name="CreateCustomerResponse" type="CustomerXREFType"/>
+					<xsd:element name="CustomerEBM" type="CustomerProfileEBMType" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- ====================================================================== -->
+	<!-- ==================Customer Data CUD (Update) Service=================== -->
+	<!-- ====================================================================== -->
+	<xsd:element name="UpdateCustomerRequestEBM" type="UpdateCustomerRequestEBMType"/>
+	<xsd:element name="UpdateCustomerResponseEBM" type="UpdateCustomerResponseEBMType"/>
+	<xsd:complexType name="UpdateCustomerRequestEBMType">
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="CustomerEBM" type="CustomerProfileEBMType"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="UpdateCustomerResponseEBMType">
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="ServiceResponse" type="meta:ServiceResponseType" minOccurs="0"/>
+					<xsd:element name="UpdateCustomerResponse" type="CustomerXREFType"/>
+					<xsd:element name="CustomerEBM" type="CustomerProfileEBMType" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- ====================================================================== -->
+	<!-- ==================Customer Data Query (Get operation) Service which is used to get the customer details =================== -->
+	<!-- ====================================================================== -->
+	<xsd:element name="GetCustomerRequestEBM" type="GetCustomerRequestEBMType"/>
+	<xsd:element name="GetCustomerResponseEBM" type="GetCustomerResponseEBMType"/>
+	<xsd:complexType name="GetCustomerRequestEBMType">
+		<xsd:annotation>
+			<xsd:documentation> 
+			Customer Request enterprise business message to be used as input request for Customer Query Service				
+		</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="CustomerKeys" type="CustomerIdentificationType"/>
+					<xsd:element name="AdditionalQuery" type="meta:GetQueryType" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="GetCustomerResponseEBMType">
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="ServiceResponse" type="meta:ServiceResponseType" minOccurs="0"/>
+					<xsd:element name="CustomerExistFlag" type="coretypes:IndicatorType" minOccurs="0"/>
+					<xsd:element name="CustomerDetailsResponse" type="CustomerProfileEBMType" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- ====================================================================== -->
+	<!-- ==================Customer Data Query (Search operation) Service which is used to search customer record with non-unique details =================== -->
+	<!-- ====================================================================== -->
+	<xsd:element name="SearchCustomerRequestEBM" type="SearchCustomerRequestEBMType"/>
+	<xsd:element name="SearchCustomerResponseEBM" type="SearchCustomerResponseEBMType"/>
+	<xsd:complexType name="SearchCustomerRequestEBMType">
+		<xsd:annotation>
+			<xsd:documentation> 
+			Customer Request enterprise business message to be used as input request for Customer Query Service				
+		</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="SearchRequestHeader" type="meta:SearchQueryType"/>
+					<xsd:element name="CustomerSearchKeys" type="CustomerSearchKeysType"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="SearchCustomerResponseEBMType">
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="ServiceResponse" type="meta:ServiceResponseType" minOccurs="0"/>
+					<xsd:element name="SearchResponseHeader" type="meta:SearchResponseHeaderType" minOccurs="0"/>
+					<xsd:element name="ListCustomerDetails" type="CustomerProfileEBMType" minOccurs="0" maxOccurs="unbounded"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- ====================================================================== -->
+	<xsd:complexType name="CustomerChangeEvent">
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="EventMetaData" type="meta:EventMetaDataType" minOccurs="0"/>
+					<xsd:element name="CustomerEBM" type="CustomerProfileEBMType" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- ====================================================================== -->
+	<xsd:complexType name="ContactProfileEBMType">
+		<xsd:annotation>
+			<xsd:documentation> 
+			Contact EBM which extends base business objects types of Contact				
+		</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="ContactsEBOType"/>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- ====================================================================== -->
+	<!-- ==================Contact Data CUD (Create) Service=================== -->
+	<!-- ====================================================================== -->
+	<xsd:element name="CreateContactRequestEBM" type="CreateContactRequestEBMType"/>
+	<xsd:element name="CreateContactResponseEBM" type="CreateContactResponseEBMType"/>
+	<xsd:complexType name="CreateContactRequestEBMType">
+		<xsd:annotation>
+			<xsd:documentation> 
+			Contact Request enterprise business message to be used as input request for Contact Data CRUD Service				
+		</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="ContactEBM" type="ContactProfileEBMType"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="CreateContactResponseEBMType">
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="ServiceResponse" type="meta:ServiceResponseType" minOccurs="0"/>
+					<xsd:element name="CreateContactResponse" type="ContactXREFType" minOccurs="0"/>
+					<xsd:element name="ContactEBM" type="ContactProfileEBMType" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- ====================================================================== -->
+	<!-- ==================Contact Data CUD (Update) Service=================== -->
+	<!-- ====================================================================== -->
+	<xsd:element name="UpdateContactRequestEBM" type="UpdateContactRequestEBMType"/>
+	<xsd:element name="UpdateContactResponseEBM" type="UpdateContactResponseEBMType"/>
+	<xsd:complexType name="UpdateContactRequestEBMType">
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="ContactEBM" type="ContactProfileEBMType"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="UpdateContactResponseEBMType">
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="ServiceResponse" type="meta:ServiceResponseType" minOccurs="0"/>
+					<xsd:element name="UpdateContactResponse" type="ContactXREFType" minOccurs="0"/>
+					<xsd:element name="ContactEBM" type="ContactProfileEBMType" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- ====================================================================== -->
+	<!-- ==================Contact Data Query (Get operation) Service which is used to get the Contact details =================== -->
+	<!-- ====================================================================== -->
+	<xsd:element name="GetContactRequestEBM" type="GetContactRequestEBMType"/>
+	<xsd:element name="GetContactResponseEBM" type="GetContactResponseEBMType"/>
+	<xsd:complexType name="GetContactRequestEBMType">
+		<xsd:annotation>
+			<xsd:documentation> 
+			Contact Request enterprise business message to be used as input request for Contact Query Service				
+		</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="ContactKeys" type="GetContactXREFType"/>
+					<xsd:element name="AdditionalQuery" type="meta:GetQueryType" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="GetContactResponseEBMType">
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="ServiceResponse" type="meta:ServiceResponseType" minOccurs="0"/>
+					<xsd:element name="ContactExistFlag" type="coretypes:IndicatorType" minOccurs="0"/>
+					<xsd:element name="ContactDetailsResponse" type="ContactProfileEBMType" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- ====================================================================== -->
+	<!-- ==================Contact Data Query (Search operation) Service which is used to search Contact record with non-unique details =================== -->
+	<!-- ====================================================================== -->
+	<xsd:element name="SearchContactRequestEBM" type="SearchContactRequestEBMType"/>
+	<xsd:element name="SearchContactResponseEBM" type="SearchContactResponseEBMType"/>
+	<xsd:complexType name="SearchContactRequestEBMType">
+		<xsd:annotation>
+			<xsd:documentation> 
+			Contact Request enterprise business message to be used as input request for Contact Query Service				
+		</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="SearchRequestHeader" type="meta:SearchQueryType"/>
+					<xsd:element name="ContactSearchKeys" type="ContactSearchKeysType"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="SearchContactResponseEBMType">
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="ServiceResponse" type="meta:ServiceResponseType" minOccurs="0"/>
+					<xsd:element name="SearchResponseHeader" type="meta:SearchResponseHeaderType" minOccurs="0"/>
+					<xsd:element name="ListContactDetails" type="ContactProfileEBMType" minOccurs="0" maxOccurs="unbounded"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="ContactChangeEvent">
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="EventMetaData" type="meta:EventMetaDataType" minOccurs="0"/>
+					<xsd:element name="ContactEBM" type="ContactProfileEBMType" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!--  EMM-CH.27 -BEGIN -->
+	<!-- ====================================================================== -->
+	<!-- ==================Cross Reference for Customer================== -->
+	<!-- ====================================================================== -->
+	<xsd:element name="CreateCustomerAddlXREFRequestEBM" type="CreateCustomerAddlXREFRequestEBMType"/>
+	<xsd:element name="CreateCustomerAddlXREFResponseEBM" type="CreateCustomerAddlXREFResponseEBMType"/>
+	<xsd:complexType name="CreateCustomerAddlXREFRequestEBMType">
+		<xsd:annotation>
+			<xsd:documentation> 
+			Contact Request enterprise business message to be used as input request for Contact Data CRUD Service				
+		</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="CustomerAddlXREFRequest" type="CustomerXREFType"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="CreateCustomerAddlXREFResponseEBMType">
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="ServiceResponse" type="meta:ServiceResponseType" minOccurs="0"/>
+					<xsd:element name="CustomerAddlXREFResponse" type="CustomerXREFType" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- ====================================================================== -->
+	<!-- ==================Relationship Request / Response for Customer================== -->
+	<!-- ====================================================================== -->
+	<xsd:element name="CreateCustomerAffilRequestEBM" type="CreateCustomerAffilRequestEBMType"/>
+	<xsd:element name="CreateCustomerAffilResponseEBM" type="CreateCustomerAffilResponseEBMType"/>
+	<xsd:complexType name="CreateCustomerAffilRequestEBMType">
+		<xsd:annotation>
+			<xsd:documentation> 
+			Contact Request enterprise business message to be used as input request for Contact Data CRUD Service				
+		</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="CustomerAffilationRequest" type="CustomerAffiliationType"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="CreateCustomerAffilResponseEBMType">
+		<xsd:complexContent>
+			<xsd:extension base="meta:EBMHeaderType">
+				<xsd:sequence>
+					<xsd:element name="ServiceResponse" type="meta:ServiceResponseType" minOccurs="0"/>
+					<xsd:element name="CustomerAffilationResponse" type="CustomerAffiliationType" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<!-- ==================Customer Event Change Service - includes customer  =================== -->
+	<!-- ====================================================================== -->
+	<!-- ==================Contact EBM - includes customer  =================== -->
+	<!-- ====================================================================== -->
+	<!--  EMM-CH.27 -ENd-->
+</xsd:schema>

@@ -29,7 +29,9 @@ public class ExcelRow {
 	private String transportType;
 	private String canonicalDataModel;
 	private String eventType;
-	
+	private String frequency;
+
+
 	public ExcelRow(Row row) throws UnsupportedDataTypeException{
 		
 		setDomainName(row.getCell(1, MissingCellPolicy.CREATE_NULL_AS_BLANK).toString().trim());
@@ -49,9 +51,11 @@ public class ExcelRow {
 		setTransportType(row.getCell(12, MissingCellPolicy.CREATE_NULL_AS_BLANK).toString().trim());
 		setCanonicalDataModel(row.getCell(13, MissingCellPolicy.CREATE_NULL_AS_BLANK).toString().trim());
 		setEventType(row.getCell(14, MissingCellPolicy.CREATE_NULL_AS_BLANK).toString().trim());
-		setStatusId(row.getCell(15, MissingCellPolicy.CREATE_NULL_AS_BLANK).toString().trim());
-		setSecurity(row.getCell(16, MissingCellPolicy.CREATE_NULL_AS_BLANK).toString().trim());
-		setComments(row.getCell(17, MissingCellPolicy.CREATE_NULL_AS_BLANK).toString().trim());
+		setFrequency(row.getCell(15, MissingCellPolicy.CREATE_NULL_AS_BLANK).toString().trim());
+
+		setStatusId(row.getCell(16, MissingCellPolicy.CREATE_NULL_AS_BLANK).toString().trim());
+		setSecurity(row.getCell(17, MissingCellPolicy.CREATE_NULL_AS_BLANK).toString().trim());
+		setComments(row.getCell(18, MissingCellPolicy.CREATE_NULL_AS_BLANK).toString().trim());
 
 	}
 
@@ -132,6 +136,14 @@ public class ExcelRow {
 
 	private void setEventType(String eventType) {
 		this.eventType = eventType;
+	}
+
+	public String getFrequency() {
+		return frequency;
+	}
+
+	public void setFrequency(String frequency) {
+		this.frequency = frequency;
 	}
 
 	@Override

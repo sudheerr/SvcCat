@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	 xmlns="http://www.tibco.com/schemas/PhoneValidationResponse/Schema.xsd"
+	 targetNamespace="http://www.tibco.com/schemas/PhoneValidationResponse/Schema.xsd"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+	<xs:element name="ISSPhoneValidationResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Result">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="JSONString" type="xs:string" minOccurs="0"/>
+							<xs:element name="phone_webserviceRequestReturn" minOccurs="0">
+<xs:complexType>
+								<xs:sequence>
+					<xs:element name = "COUNTRY_CODE" nillable = "true" type = "xs:string"/>
+					<xs:element name = "COUNTRY_CODE_SOURCE" nillable = "true" type = "xs:string"/>
+					<xs:element name = "DEFAULTCOUNTRY_ENTERED" nillable = "true" type = "xs:string"/>
+					<xs:element name = "GETNUMBERTYPE" nillable = "true" type = "xs:string"/>
+					<xs:element name = "INTERNATIONAL_FORMAT" nillable = "true" type = "xs:string"/>
+					<xs:element name = "ISPOSSIBLENUMBER" nillable = "true" type = "xs:string"/>
+					<xs:element name = "ISVALIDNUMBER" nillable = "true" type = "xs:string"/>
+					<xs:element name = "ISVALIDNUMBERFORREGION" nillable = "true" type = "xs:string"/>
+					<xs:element name = "ITALIAN_LEADING_ZERO" nillable = "true" type = "xs:string"/>
+					<xs:element name = "LOCATION" nillable = "true" type = "xs:string"/>
+					<xs:element name = "NATIONAL_FORMAT" nillable = "true" type = "xs:string"/>
+					<xs:element name = "NATIONAL_NUMBER" nillable = "true" type = "xs:string"/>
+					<xs:element name = "ORIGINAL_FORMAT" nillable = "true" type = "xs:string"/>
+					<xs:element name = "OUT_OF_COUNTRY_FORMAT_FROM_CH" nillable = "true" type = "xs:string"/>
+					<xs:element name = "OUT_OF_COUNTRY_FORMAT_FROM_US" nillable = "true" type = "xs:string"/>
+					<xs:element name = "PHONE_NUMBER_ENTERED" nillable = "true" type = "xs:string"/>
+					<xs:element name = "PHONE_NUMBER_REGION" nillable = "true" type = "xs:string"/>
+					<xs:element name = "RAW_INPUT" nillable = "true" type = "xs:string"/>
+					<xs:element name = "TIME_ZONES" nillable = "true" type = "xs:string"/>
+					<xs:element name = "e164_FORMAT" nillable = "true" type = "xs:string"/>
+				</xs:sequence>
+</xs:complexType>
+</xs:element>
+							<xs:element name="ErrorReport" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="StackTrace" type="xs:string" minOccurs="0"/>
+										<xs:element name="Msg" type="xs:string" minOccurs="0"/>
+										<xs:element name="FullClass" type="xs:string" minOccurs="0"/>
+										<xs:element name="Class" type="xs:string" minOccurs="0"/>
+										<xs:element name="ProcessStack" type="xs:string" minOccurs="0"/>
+										<xs:element name="MsgCode" type="xs:string" minOccurs="0"/>
+										<xs:element name="Data" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

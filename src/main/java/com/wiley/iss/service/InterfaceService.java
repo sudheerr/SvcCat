@@ -1,7 +1,7 @@
 package com.wiley.iss.service;
 
 import com.wiley.iss.model.InterfaceRecord;
-import com.wiley.iss.mapper.InterfaceEntryMapper;
+import com.wiley.iss.model.mapper.InterfaceEntryMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

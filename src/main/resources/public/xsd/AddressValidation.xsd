@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ====================================================================== -->
+<!-- 
+Organization: John Wiley & Sons Library : Enterprise Message Object 
+Library Name: AddressDoctorEBM.xsd 
+Description : Includes data types required 	for address doctor data integration service 
+Version		: 1.0 
+Date : 18-Mar-2012 
+=========================================================================== -->
+<!-- ====================================================================== 
+	Change Log: 
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+	Version : 1.0 Major Changes: 
+	1.
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+=========================================================================== -->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://xmlns.wiley.com/EnterpriseBusinessObjects/AddressDoctorEBO/V1"
+	 targetNamespace="http://xmlns.wiley.com/EnterpriseBusinessObjects/AddressDoctorEBO/V1"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified" 
+	 version="1.00">
+	<xs:element name="AddressValidationBatchReqList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="AddressValidationBatchReq" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Street1" type="xs:string" minOccurs="0"/>
+							<xs:element name="Street2" type="xs:string" minOccurs="0"/>
+							<xs:element name="Street3" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Contains data that identifies the street. Street1 is dependent on the street data in Street2 and Street3. Street1 - Primary street information. Specifies the location of the mailbox. Street2 - Dependent street information, may be the larger street. Ex: Street1: South Great George's Street and Street2: George's Arcade, on South Great George's Street.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="Locality1" type="xs:string" minOccurs="0"/>
+							<xs:element name="Locality2" type="xs:string" minOccurs="0"/>
+							<xs:element name="Locality3" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Contains data that identifies the city or town. Locality1 - Primary location, such as city or town. Locality2 - Dependent locality, suburb, village. Ex: Locality1: London, in England and Locality2: Islington, in London.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="PostCode" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>The postal or zip code. For some countries this field is not used. For US addresses, it will often be input as a 5 digit zip code.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="Province1" type="xs:string" minOccurs="0"/>
+							<xs:element name="Province2" type="xs:string" minOccurs="0"/>
+							<xs:element name="Province3" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>The state or province code. Province1 - Primary region within a country, such as a United States state name, Canadian province name, Swiss canton. Province2 - United States county name or district name. Ex: Province1: New York and Province2: Queens County, in New York State.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="CountryName" type="xs:string" minOccurs="0"/>
+							<xs:element name="Organization1" type="xs:string" minOccurs="0"/>
+							<xs:element name="Organization2" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>The organization name is optional and only used for business addresses. Contains the full organization name. Organization1 - Company name. Organization2 - Additional corporate information, such as a parent company. Ex: Organization1: Address Doctor GmbH and Organization2: Informatica Corporation.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="Building1" type="xs:string" minOccurs="0"/>
+							<xs:element name="Building2" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Contains data that identifies a building in a building complex. Building1 - Building name or number. Does not identify a house number. Building2 - Additional building name or number. Ex: Building1: Alice Tully Hall, Building2: Starr Theater, at Alice Tully Hall.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="OrganizationDepartment1" type="xs:string" minOccurs="0"/>
+							<xs:element name="OrganizationDepartment2" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>The department is optional and only used for some business addresses. Ex: RND GROUP</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="AddressValidationBatchRes">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="AddressValidationBatchRes" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DeliveryAddress1" type="xs:string" minOccurs="0"/>
+							<xs:element name="DeliveryAddress2" type="xs:string" minOccurs="0"/>
+							<xs:element name="DeliveryAddress3" type="xs:string" minOccurs="0"/>
+							<xs:element name="DeliveryAddress4" type="xs:string" minOccurs="0"/>
+							<xs:element name="DeliveryAddress5" type="xs:string" minOccurs="0"/>
+							<xs:element name="DeliveryAddress6" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Delivery Address contain the street number, street, building, and sub-building data in this address.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="Locality1" type="xs:string" minOccurs="0"/>
+							<xs:element name="PostCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="ProvinceAbbrevation1" type="xs:string" minOccurs="0"/>
+							<xs:element name="ProvinceExtended1" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Ex: ProvinceAbbrevation1 - NJ and ProvinceExtended1 - NEW JERSEY</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="CountryName1" type="xs:string" minOccurs="0"/>
+							<xs:element name="CountryISO2Char" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Ex: CountryName1 - UNITED STATES and CountryISO2Char - US</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="StatusInfoMailabilityScore" type="xs:string" minOccurs="0"/>
+							<xs:element name="StatusInfoMatchCode" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>MatchCode: Code values that summarize the deliverability of the output addresses. The return codes are in a range from 0 through 5. A return code of 0 represents an undeliverable address, and 5 represents an address that is certain of delivery. The Mailability Score provides additional information about addresses with Match Code values.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="OrganizationDescriptor" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Organization descriptor data can tell you about the type of organization that receives the mail and where the organization is located. For example, the descriptor "plc" identifies a public limited company based in the United Kingdom.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="OrganizationDepartment" type="xs:string" minOccurs="0"/>
+							<xs:element name="OrganizationName" type="xs:string" minOccurs="0"/>
+							<xs:element name="OrganizationComplete" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>OrganizationCompletecontains all data in the OrganizationName and OrganizationDescriptor.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="BuildingNumber1" type="xs:string" minOccurs="0"/>
+							<xs:element name="BuildingNumber2" type="xs:string" minOccurs="0"/>
+							<xs:element name="BuildingName1" type="xs:string" minOccurs="0"/>
+							<xs:element name="BuildingName2" type="xs:string" minOccurs="0"/>
+							<xs:element name="BuildingDescriptor1" type="xs:string" minOccurs="0"/>
+							<xs:element name="BuildingDescriptor2" type="xs:string" minOccurs="0"/>
+							<xs:element name="BuildingComplete1" type="xs:string" minOccurs="0"/>
+							<xs:element name="BuildingComplete2" type="xs:string" minOccurs="0"/>
+							<xs:element name="SubBuildingNumber1" type="xs:string" minOccurs="0"/>
+							<xs:element name="SubBuildingNumber2" type="xs:string" minOccurs="0"/>
+							<xs:element name="SubBuildingName1" type="xs:string" minOccurs="0"/>
+							<xs:element name="SubBuildingName2" type="xs:string" minOccurs="0"/>
+							<xs:element name="SubBuildingDescriptor1" type="xs:string" minOccurs="0"/>
+							<xs:element name="SubBuildingDescriptor2" type="xs:string" minOccurs="0"/>
+							<xs:element name="SubBuildingComplete1" type="xs:string" minOccurs="0"/>
+							<xs:element name="SubBuildingComplete2" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetNumberComplete" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetNumberDescriptor" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetNumber" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetComplete1" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetComplete2" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetName1" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetName2" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetPreDescriptor" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetPostDescriptor" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetPreDirectional" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetPostDirectional" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>The Street Pre-Directional port identifies the direction that the street runs. For example, "West" is the directional data in "West 10th Street." The Street Post-Directional port identifies the direction that the street runs. For example, "South" is the directional data in "Central Park South."</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="PostalPhraseAddInfo" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Postal Phrase Additional Info can contain background information about the owner of the Post Office Box(PO Box). For example, additional information can identify if the PO Box relates to a television station or newspaper promotion. Address validation does not parse or validate this information.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="PostalPhraseComplete1" type="xs:string" minOccurs="0"/>
+							<xs:element name="PostalPhraseDescriptor" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>The postal phrase descriptor precedes the postal phrase number. Post Office Box (PO Box) number data is the most common type of postal phrase data. For example, the postal phrase in "PO Box 12345" is "PO Box."</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="PostalPhraseNumber" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Postal Phrase Number in PO Box 2038 is 2038</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="PostalPhraseComplete2" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Postal Phrase Complete Contains Post Office Box data. Ex: Postal Phrase Complete: PO Box 2038</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="Locality2" type="xs:string" minOccurs="0"/>
+							<xs:element name="Locality3" type="xs:string" minOccurs="0"/>
+							<xs:element name="LocalityName1" type="xs:string" minOccurs="0"/>
+							<xs:element name="LocalityName2" type="xs:string" minOccurs="0"/>
+							<xs:element name="LocalityName3" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Use Locality1 or LocalityName1 for the primary or largest locality in the address. Use Locality2 or LocalityName2 to identify a town within Locality1 or LocalityName1.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="LocalitySortCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="Postcode1" type="xs:string" minOccurs="0"/>
+							<xs:element name="Postcode2" type="xs:string" minOccurs="0"/>
+							<xs:element name="ProvinceAbbrevation2" type="xs:string" minOccurs="0"/>
+							<xs:element name="ProvinceAbbrevation3" type="xs:string" minOccurs="0"/>
+							<xs:element name="ProvinceCountryStandard1" type="xs:string" minOccurs="0"/>
+							<xs:element name="ProvinceCountryStandard2" type="xs:string" minOccurs="0"/>
+							<xs:element name="ProvinceCountryStandard3" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>The Province Country Standard port follows the standard of the national mail carrier in the destination country. For example, the United States Postal Service (USPS) standard requires a two-letter state name abbreviation. The Deutsche Post standard requires the full province name. Use Province Country Standard 1 to identify the province. Use Province Country Standard 2 to identify the primary subdivision in the province. For example, use Province Country Standard 2 for county data in the United States. You may need to select Province Country Standard 3 if the province data is highly complex.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="ProvinceExtended2" type="xs:string" minOccurs="0"/>
+							<xs:element name="ProvinceExtended3" type="xs:string" minOccurs="0"/>
+							<xs:element name="CountrySpecificLastLine1" type="xs:string" minOccurs="0"/>
+							<xs:element name="CountrySpecificLastLine2" type="xs:string" minOccurs="0"/>
+							<xs:element name="CountrySpecificLastLine3" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>A Country Specific Last Line contains a locality name and may contain other data elements. For example, a Country Specific Last Line port contains city, state, and ZIP Code data in a United States address.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="USSpecificDefaultFlag" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificBarcode" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificCarrierRoute" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificCongressionalDistrict" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificDeliveryPointCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificDeliveryPointCheckDigit" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificCMRA" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificDPVConfirmation" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificDPVFalsePositive" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificDPVFootnote1" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificDPVFootnote2" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificDPVFootnote3" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificHighRiseDefault" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificHighRiseExact" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificLACS" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificLACSLinkIndicator" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificLACSLinkReturnCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificRecordType" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificRuralRouteDefault" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificRuralRouteExact" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificSuiteLinkReturnCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificDSF2NostatsIndicator" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificDSF2VacantIndicator" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificEWSReturnCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificZipMoveReturnCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificCASSStatus" type="xs:string" minOccurs="0"/>
+							<xs:element name="CANSpecificSERPStatus" type="xs:string" minOccurs="0"/>
+							<xs:element name="CANSpecificCategory" type="xs:string" minOccurs="0"/>
+							<xs:element name="CANSpecificExcludeFlag" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificAMASStatus" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificRecordType" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificDeliverPointID" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificLotNumber" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificPostalPhraseNumber" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificPostalPhrasePrefix" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificPostalPhraseSuffix" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificStreetNumber1" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificStreetNumberSuffix1" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificStreetNumber2" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificStreetNumberSuffix2" type="xs:string" minOccurs="0"/>
+							<xs:element name="UKSupplementaryDeliveryPointSuffix" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSupplementaryCountyFIPSCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSupplementaryStateFIPSCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSupplementaryMSAID" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSupplementaryCBSAID" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSupplementaryFinanceNumber" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSupplementaryRecordType" type="xs:string" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+<xs:element name="AddressValidationMultiReqList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="AddressValidationMultiReq" minOccurs="0" maxOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Street1" type="xs:string" minOccurs="0"/>
+							<xs:element name="Street2" type="xs:string" minOccurs="0"/>
+							<xs:element name="Street3" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Contains data that identifies the street. Street1 is dependent on the street data in Street2 and Street3. Street1 - Primary street information. Specifies the location of the mailbox. Street2 - Dependent street information, may be the larger street. Ex: Street1: South Great George's Street and Street2: George's Arcade, on South Great George's Street.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="Locality1" type="xs:string" minOccurs="0"/>
+							<xs:element name="Locality2" type="xs:string" minOccurs="0"/>
+							<xs:element name="Locality3" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Contains data that identifies the city or town. Locality1 - Primary location, such as city or town. Locality2 - Dependent locality, suburb, village. Ex: Locality1: London, in England and Locality2: Islington, in London.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="PostCode" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>The postal or zip code. For some countries this field is not used. For US addresses, it will often be input as a 5 digit zip code.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="Province1" type="xs:string" minOccurs="0"/>
+							<xs:element name="Province2" type="xs:string" minOccurs="0"/>
+							<xs:element name="Province3" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>The state or province code. Province1 - Primary region within a country, such as a United States state name, Canadian province name, Swiss canton. Province2 - United States county name or district name. Ex: Province1: New York and Province2: Queens County, in New York State.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="CountryName" type="xs:string" minOccurs="0"/>
+							<xs:element name="Organization1" type="xs:string" minOccurs="0"/>
+							<xs:element name="Organization2" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>The organization name is optional and only used for business addresses. Contains the full organization name. Organization1 - Company name. Organization2 - Additional corporate information, such as a parent company. Ex: Organization1: Address Doctor GmbH and Organization2: Informatica Corporation.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="Building1" type="xs:string" minOccurs="0"/>
+							<xs:element name="Building2" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Contains data that identifies a building in a building complex. Building1 - Building name or number. Does not identify a house number. Building2 - Additional building name or number. Ex: Building1: Alice Tully Hall, Building2: Starr Theater, at Alice Tully Hall.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="OrganizationDepartment1" type="xs:string" minOccurs="0"/>
+							<xs:element name="OrganizationDepartment2" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>The department is optional and only used for some business addresses. Ex: RND GROUP</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+</xs:element>
+
+
+<xs:element name="AddressValidationMultiRes">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="AddressValidationMultiRes" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DeliveryAddress1" type="xs:string" minOccurs="0"/>
+							<xs:element name="DeliveryAddress2" type="xs:string" minOccurs="0"/>
+							<xs:element name="DeliveryAddress3" type="xs:string" minOccurs="0"/>
+							<xs:element name="DeliveryAddress4" type="xs:string" minOccurs="0"/>
+							<xs:element name="DeliveryAddress5" type="xs:string" minOccurs="0"/>
+							<xs:element name="DeliveryAddress6" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Delivery Address contain the street number, street, building, and sub-building data in this address.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="Locality1" type="xs:string" minOccurs="0"/>
+							<xs:element name="PostCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="ProvinceAbbrevation1" type="xs:string" minOccurs="0"/>
+							<xs:element name="ProvinceExtended1" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Ex: ProvinceAbbrevation1 - NJ and ProvinceExtended1 - NEW JERSEY</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="CountryName1" type="xs:string" minOccurs="0"/>
+							<xs:element name="CountryISO2Char" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Ex: CountryName1 - UNITED STATES and CountryISO2Char - US</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="StatusInfoMailabilityScore" type="xs:string" minOccurs="0"/>
+							<xs:element name="StatusInfoMatchCode" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>MatchCode: Code values that summarize the deliverability of the output addresses. The return codes are in a range from 0 through 5. A return code of 0 represents an undeliverable address, and 5 represents an address that is certain of delivery. The Mailability Score provides additional information about addresses with Match Code values.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="OrganizationDescriptor" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Organization descriptor data can tell you about the type of organization that receives the mail and where the organization is located. For example, the descriptor "plc" identifies a public limited company based in the United Kingdom.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="OrganizationDepartment" type="xs:string" minOccurs="0"/>
+							<xs:element name="OrganizationName" type="xs:string" minOccurs="0"/>
+							<xs:element name="OrganizationComplete" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>OrganizationCompletecontains all data in the OrganizationName and OrganizationDescriptor.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="BuildingNumber1" type="xs:string" minOccurs="0"/>
+							<xs:element name="BuildingNumber2" type="xs:string" minOccurs="0"/>
+							<xs:element name="BuildingName1" type="xs:string" minOccurs="0"/>
+							<xs:element name="BuildingName2" type="xs:string" minOccurs="0"/>
+							<xs:element name="BuildingDescriptor1" type="xs:string" minOccurs="0"/>
+							<xs:element name="BuildingDescriptor2" type="xs:string" minOccurs="0"/>
+							<xs:element name="BuildingComplete1" type="xs:string" minOccurs="0"/>
+							<xs:element name="BuildingComplete2" type="xs:string" minOccurs="0"/>
+							<xs:element name="SubBuildingNumber1" type="xs:string" minOccurs="0"/>
+							<xs:element name="SubBuildingNumber2" type="xs:string" minOccurs="0"/>
+							<xs:element name="SubBuildingName1" type="xs:string" minOccurs="0"/>
+							<xs:element name="SubBuildingName2" type="xs:string" minOccurs="0"/>
+							<xs:element name="SubBuildingDescriptor1" type="xs:string" minOccurs="0"/>
+							<xs:element name="SubBuildingDescriptor2" type="xs:string" minOccurs="0"/>
+							<xs:element name="SubBuildingComplete1" type="xs:string" minOccurs="0"/>
+							<xs:element name="SubBuildingComplete2" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetNumberComplete" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetNumberDescriptor" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetNumber" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetComplete1" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetComplete2" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetName1" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetName2" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetPreDescriptor" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetPostDescriptor" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetPreDirectional" type="xs:string" minOccurs="0"/>
+							<xs:element name="StreetPostDirectional" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>The Street Pre-Directional port identifies the direction that the street runs. For example, "West" is the directional data in "West 10th Street." The Street Post-Directional port identifies the direction that the street runs. For example, "South" is the directional data in "Central Park South."</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="PostalPhraseAddInfo" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Postal Phrase Additional Info can contain background information about the owner of the Post Office Box(PO Box). For example, additional information can identify if the PO Box relates to a television station or newspaper promotion. Address validation does not parse or validate this information.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="PostalPhraseComplete1" type="xs:string" minOccurs="0"/>
+							<xs:element name="PostalPhraseDescriptor" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>The postal phrase descriptor precedes the postal phrase number. Post Office Box (PO Box) number data is the most common type of postal phrase data. For example, the postal phrase in "PO Box 12345" is "PO Box."</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="PostalPhraseNumber" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Postal Phrase Number in PO Box 2038 is 2038</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="PostalPhraseComplete2" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Postal Phrase Complete Contains Post Office Box data. Ex: Postal Phrase Complete: PO Box 2038</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="Locality2" type="xs:string" minOccurs="0"/>
+							<xs:element name="Locality3" type="xs:string" minOccurs="0"/>
+							<xs:element name="LocalityName1" type="xs:string" minOccurs="0"/>
+							<xs:element name="LocalityName2" type="xs:string" minOccurs="0"/>
+							<xs:element name="LocalityName3" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Use Locality1 or LocalityName1 for the primary or largest locality in the address. Use Locality2 or LocalityName2 to identify a town within Locality1 or LocalityName1.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="LocalitySortCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="Postcode1" type="xs:string" minOccurs="0"/>
+							<xs:element name="Postcode2" type="xs:string" minOccurs="0"/>
+							<xs:element name="ProvinceAbbrevation2" type="xs:string" minOccurs="0"/>
+							<xs:element name="ProvinceAbbrevation3" type="xs:string" minOccurs="0"/>
+							<xs:element name="ProvinceCountryStandard1" type="xs:string" minOccurs="0"/>
+							<xs:element name="ProvinceCountryStandard2" type="xs:string" minOccurs="0"/>
+							<xs:element name="ProvinceCountryStandard3" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>The Province Country Standard port follows the standard of the national mail carrier in the destination country. For example, the United States Postal Service (USPS) standard requires a two-letter state name abbreviation. The Deutsche Post standard requires the full province name. Use Province Country Standard 1 to identify the province. Use Province Country Standard 2 to identify the primary subdivision in the province. For example, use Province Country Standard 2 for county data in the United States. You may need to select Province Country Standard 3 if the province data is highly complex.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="ProvinceExtended2" type="xs:string" minOccurs="0"/>
+							<xs:element name="ProvinceExtended3" type="xs:string" minOccurs="0"/>
+							<xs:element name="CountrySpecificLastLine1" type="xs:string" minOccurs="0"/>
+							<xs:element name="CountrySpecificLastLine2" type="xs:string" minOccurs="0"/>
+							<xs:element name="CountrySpecificLastLine3" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>A Country Specific Last Line contains a locality name and may contain other data elements. For example, a Country Specific Last Line port contains city, state, and ZIP Code data in a United States address.</xs:documentation>
+									<xs:appinfo/>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="USSpecificDefaultFlag" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificBarcode" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificCarrierRoute" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificCongressionalDistrict" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificDeliveryPointCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificDeliveryPointCheckDigit" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificCMRA" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificDPVConfirmation" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificDPVFalsePositive" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificDPVFootnote1" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificDPVFootnote2" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificDPVFootnote3" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificHighRiseDefault" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificHighRiseExact" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificLACS" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificLACSLinkIndicator" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificLACSLinkReturnCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificRecordType" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificRuralRouteDefault" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificRuralRouteExact" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificSuiteLinkReturnCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificDSF2NostatsIndicator" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificDSF2VacantIndicator" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificEWSReturnCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificZipMoveReturnCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSpecificCASSStatus" type="xs:string" minOccurs="0"/>
+							<xs:element name="CANSpecificSERPStatus" type="xs:string" minOccurs="0"/>
+							<xs:element name="CANSpecificCategory" type="xs:string" minOccurs="0"/>
+							<xs:element name="CANSpecificExcludeFlag" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificAMASStatus" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificRecordType" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificDeliverPointID" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificLotNumber" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificPostalPhraseNumber" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificPostalPhrasePrefix" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificPostalPhraseSuffix" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificStreetNumber1" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificStreetNumberSuffix1" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificStreetNumber2" type="xs:string" minOccurs="0"/>
+							<xs:element name="AustraliaSpecificStreetNumberSuffix2" type="xs:string" minOccurs="0"/>
+							<xs:element name="UKSupplementaryDeliveryPointSuffix" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSupplementaryCountyFIPSCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSupplementaryStateFIPSCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSupplementaryMSAID" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSupplementaryCBSAID" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSupplementaryFinanceNumber" type="xs:string" minOccurs="0"/>
+							<xs:element name="USSupplementaryRecordType" type="xs:string" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

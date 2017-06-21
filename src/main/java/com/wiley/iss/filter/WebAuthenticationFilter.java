@@ -26,8 +26,10 @@ import com.wiley.util.ldap.LDAPService;
 import com.wiley.util.ldap.WileyLDAPServiceImpl;
 
 
-/* This filter only applicable to file upload(/upload).
- * To ensure only admin can upload the file.
+/*
+ * This filter set the user details from LDAP and sets into httpsession.
+ * User details are required, To ensure only admin can upload the file.
+ * TODO: Need to create User Roles for admin
  */
 public class WebAuthenticationFilter implements Filter {
 

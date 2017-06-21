@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	 xmlns="http://www.tibco.com/schemas/ISS_SM_OTC_VAT_VALIDATION/Test/Schema.xsd"
+	 targetNamespace="http://www.tibco.com/schemas/ISS_SM_OTC_VAT_VALIDATION/Test/Schema.xsd"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+	<xs:element name="root">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="countryCode" type="xs:string"/>
+				<xs:element name="taxRegistrationNumber" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

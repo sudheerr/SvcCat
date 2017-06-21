@@ -35,7 +35,7 @@ public class SvcCatApplication extends SpringBootServletInitializer {
         return registrationBean;
     }
 }
-
+//Uncomment when application need to run using Spring boot.
 //public class Application {
 //    public static void main(String[] args) {
 //        SpringApplication.run(Application.class, args);

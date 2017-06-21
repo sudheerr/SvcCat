@@ -1,4 +1,4 @@
-package com.wiley.iss.mapper;
+package com.wiley.iss.model.mapper;
 
 import com.wiley.iss.model.ServiceRecord;
 import org.springframework.jdbc.core.RowMapper;
@@ -9,7 +9,7 @@ import java.sql.SQLException;
 /**
  * Created by ravuri on 4/19/17.
  */
-public class ServiceResultMapper implements RowMapper<ServiceRecord>
+public class ServiceRecordMapper implements RowMapper<ServiceRecord>
 {
     public ServiceRecord mapRow(ResultSet rs, int rowNum) throws SQLException {
         ServiceRecord serviceRecord = new ServiceRecord();

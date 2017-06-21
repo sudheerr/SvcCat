@@ -1,0 +1,1323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+	<xs:element name="PDH-Message">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element name="CONTRIBUTOR" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="ECID" type="xs:long" minOccurs="0"/>
+										<xs:element name="FIRST_NAME" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="LAST_NAME" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="FULL_NAME" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="EMAIL_ADDR" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="START_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="END_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="PRIMARY_IND" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="4"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DELETED_IND" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="4"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="DH_REFERENCE_DATA" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REF_TYPE" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="100"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REF_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REF_DESCR" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="IDENTIFIER" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODTYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_PROD_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_TYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="IDENT_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="IDENT_SUBTYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="100"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="START_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="END_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="STATUS" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="100"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PRICE" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODTYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_PROD_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODREG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_REG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REG_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REG_DESC" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="200"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_PRICE_TYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_CUST_TYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_SUBSCR_TYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_COUNTRY_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_CURRENCY_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_UOM_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="PDH_EFFECTIVE_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="PRICE_AMT" type="xs:long" minOccurs="0"/>
+										<xs:element name="START_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="END_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="QTY_BREAK_FROM" type="xs:long" minOccurs="0"/>
+										<xs:element name="QTY_BREAK_TO" type="xs:long" minOccurs="0"/>
+										<xs:element name="COMMENTS" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="4000"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PRODUCT" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_TYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_PROD_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="SUBTYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="STATUS" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="100"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="START_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="END_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="LANGUAGE_CD" type="xs:long" minOccurs="0"/>
+										<xs:element name="DESCR" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="4000"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="SHORT_DESCR" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="800"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_PUB_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="EDITION_NUM" type="xs:long" minOccurs="0"/>
+										<xs:element name="PUB_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="OUT_OF_PRINT_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="SUBSCRIPTION_TYPE" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="100"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_OWNER_REG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="OWNER_REG_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="OWNER_REG_DESC" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="200"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DELETED_IND" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="1"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PRODUCT_CODES" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODTYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_PROD_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODREG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_REG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REG_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REG_DESC" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="200"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_TYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="ORDINAL_CODE_POS" type="xs:long" minOccurs="0"/>
+										<xs:element name="REF_CODE_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REF_CODE_TYPE" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="12"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="CODE_VALUE" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="START_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="END_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PRODUCT_CONTRIBUTOR" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODTYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_PROD_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODREG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_REG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REG_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REG_DESC" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="200"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_ROLETYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="22"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="ORDER_SEQ_NUM" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_CONTRIB_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="ECID" type="xs:long" minOccurs="0"/>
+										<xs:element name="FIRST_NAME" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="LAST_NAME" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="EMAIL_ADDR" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="FULL_NAME" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="START_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="END_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="PRIMARY_IND" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="4"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DELETED_IND" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="4"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PRODUCT_DATES" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODTYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_PROD_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODREG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_REG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REG_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REG_DESC" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="200"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_DATE_TYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DATE_VALUE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PRODUCT_DIMENSION" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODTYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_PROD_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODREG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_REG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REG_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REG_DESC" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="200"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_DIM_TYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DIM_VALUE" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="200"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PRODUCT_EXTENSION" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODTYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_PROD_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODREG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_REG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REG_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REG_DESC" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="200"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_EXT_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="EXT_VALUE" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="800"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="EXT_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="START_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="END_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PRODUCT_GROUP" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODTYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_PROD_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODREG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_REG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REG_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REG_DESC" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="200"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_PRODGRP_TYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="GROUP_DESC" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PRODUCT_IMAGES" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODTYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_PROD_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODREG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_REG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REG_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REG_DESC" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="200"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_TYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="IMAGE_LINK" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="4000"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="START_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="END_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PRODUCT_INVENTORY" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODTYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_PROD_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODREG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_REG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REG_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REG_DESC" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="200"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_INV_TYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="QTY" type="xs:long" minOccurs="0"/>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PRODUCT_REGION" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODTYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_PROD_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_REG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REG_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REG_DESC" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="200"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="STATUS" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="100"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PRODUCT_RELATION" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODTYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_PAR_PRODTYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_CHILD_PRODTYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_REL_TYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_PAR_PRODREG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PAR_PROD_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_REG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REG_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REG_DESC" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="200"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_CHILD_PRODREG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_CHILD_PROD_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="ORDER_SEQ_NUM" type="xs:long" minOccurs="0"/>
+										<xs:element name="START_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="END_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PRODUCT_STATUS" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODTYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_PROD_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODREG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_REG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REG_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REG_DESC" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="200"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_STAT_TYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_STATUS_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="STATUS_VALUE" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="START_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="END_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PRODUCT_TAXONOMY" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODTYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_REG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REG_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REG_DESC" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="200"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_TAXNODE_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODREG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="ORDER_SEQ_NUM" type="xs:long" minOccurs="0"/>
+										<xs:element name="PRIMARY_IND" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="4"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PRODUCT_URL" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODTYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_PROD_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODREG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_REG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REG_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REG_DESC" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="200"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_TYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="URL" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="4000"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="STATUS" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="100"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="REGION" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REG_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REG_DESC" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="200"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="SRC_REFERENCE_DATA" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REF_TYPE" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="100"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_REG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REG_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REG_DESC" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="200"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REF_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REF_DESCR" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="120"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REF_DESCR_FULL" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="4000"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TAXONOMY_NODES" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_REG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REG_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REG_DESC" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="200"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_TAXONOMY_LEVEL_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_TAXONOMY_LEVEL_DESCR" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="NODE_NAME" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="NODE_DESCR" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="PRIMARY_IND" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="4"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TAXONOMY_RELATION" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_REG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REG_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REG_DESC" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="200"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_PAR_TAXNODE_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_CHILD_TAXNODE_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="PRIMARY_IND" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="4"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TITLE" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROW" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DH_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODTYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_PROD_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_PRODREG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="DH_REG_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="REG_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="REG_DESC" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="200"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DH_TITLE_TYPE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="400"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="TITLE_TEXT" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="4000"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="PRIMARY_IND" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="4"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="START_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="END_DATE" type="xs:dateTime" minOccurs="0"/>
+										<xs:element name="DH_SRC_LANGUAGE_ID" type="xs:long" minOccurs="0"/>
+										<xs:element name="LANGUAGE_CD" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="40"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="LAST_UPDATE_DATE" type="xs:dateTime" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+			<xs:attribute name="batchid" type="xs:long"/>
+			<xs:attribute name="id" type="xs:long"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -92,9 +92,7 @@ public class ApplicationController {
         List<ServiceRecord> results = catalogService.fetchResults();
         Node<String> parent = new Node<>("Business Domains");
         Node<String> temp;
-        for (int i = 0; i < results.size(); i++) {
-            ServiceRecord svc = results.get(i);
-
+        for (ServiceRecord svc : results) {
             temp = parent.addChildIfNotExists(svc.getDomainName());
             temp = temp.addChildIfNotExists(svc.getSvcName());
             temp = temp.addChildIfNotExists("" + svc.getVersionId());
@@ -120,20 +118,17 @@ public class ApplicationController {
             response.setMessage("Unable to fetch User details from session.");
             return  response;
 		}
-
         LOGGER.info("Logged in : " + user.toString());
+
         if (strAr.length < 2
                 || !strAr[strAr.length - 1].equalsIgnoreCase("xlsx")) {
             LOGGER.info("File Type Mismatch : " + fileDetail.getOriginalFilename());
+
             response.setMessage("File Type has to be xlsx.");
+            return response;
         } else {
-            try {
-                response = fileUploadService.uploadFile(fileDetail.getInputStream(), user);
-            } catch (SQLException e) {
-                LOGGER.info("SQLException : " + e.getMessage());
-            }
+            return fileUploadService.uploadFile(fileDetail.getInputStream(), user);
         }
-        return response;
     }
 
     @RequestMapping(value = "/user", method = RequestMethod.GET)

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	 xmlns="http://www.tibco.com/schemas/ISS_ESB_AS2.0_UserManagement/BusinessProcesses/BusinessProcess_ALM/Resources/SchemaDefinitions/Schemas/ALM/Core/Schema.xsd"
+	 targetNamespace="http://www.tibco.com/schemas/ISS_ESB_AS2.0_UserManagement/BusinessProcesses/BusinessProcess_ALM/Resources/SchemaDefinitions/Schemas/ALM/Core/Schema.xsd"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+	<xs:element name="Request">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="immutableId" type="xs:string" minOccurs="0"/>
+				<xs:element name="userId" type="xs:string" minOccurs="0"/>
+				<xs:element name="password" type="xs:string" minOccurs="0"/>
+				<xs:element name="email" type="xs:string" minOccurs="0"/>
+				<xs:element name="phoneNumber" type="xs:string" minOccurs="0"/>
+				<xs:element name="titleCode" type="xs:string" minOccurs="0"/>
+				<xs:element name="firstName" type="xs:string" minOccurs="0"/>
+				<xs:element name="lastName" type="xs:string" minOccurs="0"/>
+				<xs:element name="middleName" type="xs:string" minOccurs="0"/>
+				<xs:element name="suffixCode" type="xs:string" minOccurs="0"/>
+				<xs:element name="role" type="xs:string" minOccurs="0"/>
+				<xs:element name="studentId" type="xs:string" minOccurs="0"/>
+				<xs:element name="enrolledInSchool" type="xs:string" minOccurs="0"/>
+				<xs:element name="schoolId" type="xs:string" minOccurs="0"/>
+				<xs:element name="major" type="xs:string" minOccurs="0"/>
+				<xs:element name="graduationMonth" type="xs:int" minOccurs="0"/>
+				<xs:element name="graduationYear" type="xs:int" minOccurs="0"/>
+				<xs:element name="subscribeOnWileyPromos" type="xs:boolean" minOccurs="0"/>
+				<xs:element name="organizationalSapAccountNumber" type="xs:string" minOccurs="0"/>
+				<xs:element name="organizationalEcidNumber" type="xs:string" minOccurs="0"/>
+				<xs:element name="userAddress" minOccurs="0">
+					<xs:complexType>
+						<xs:all>
+							<xs:element name="Address" type="xs:string" minOccurs="0"/>
+							<xs:element name="Street" type="xs:string" minOccurs="0"/>
+							<xs:element name="State" type="xs:string" minOccurs="0"/>
+							<xs:element name="Country" type="xs:string" minOccurs="0"/>
+							<xs:element name="ZipCode" type="xs:string" minOccurs="0"/>
+						</xs:all>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="userSecurityQuestions" minOccurs="0">
+					<xs:complexType>
+						<xs:all>
+							<xs:element name="UserSecurityQuestionsMap">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="entry" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:all>
+													<xs:element name="key" type="xs:string" minOccurs="0"/>
+													<xs:element name="value" type="xs:string" minOccurs="0"/>
+												</xs:all>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:all>
+					</xs:complexType>
+				</xs:element>
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

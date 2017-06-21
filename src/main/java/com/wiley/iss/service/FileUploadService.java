@@ -2,13 +2,12 @@ package com.wiley.iss.service;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.sql.CallableStatement;
-import java.sql.Connection;
-import java.sql.SQLException;
+import java.util.Map;
 
 import javax.activation.UnsupportedDataTypeException;
 
 import com.wiley.iss.model.ExcelRow;
+import oracle.jdbc.OracleTypes;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Row.MissingCellPolicy;
@@ -22,6 +21,10 @@ import com.wiley.iss.model.Response;
 import com.wiley.iss.user.UserDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.SqlOutParameter;
+import org.springframework.jdbc.core.SqlParameter;
+import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
+import org.springframework.jdbc.core.simple.SimpleJdbcCall;
 import org.springframework.stereotype.Service;
 
 /**
@@ -39,16 +42,14 @@ public class FileUploadService {
 		this.jdbcTemplate = jdbcTemplate;
 	}
 
-
-	private static final String insertServiceConsumer = "{call svc_catalog_pkg.svc_update_svc_consumer(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)}";
-	public Response uploadFile(InputStream inputStream, UserDTO user) throws SQLException {
+	public Response uploadFile(InputStream inputStream, UserDTO user){
 		
 		ExcelRow entry;
 		Cell cell;
 		Workbook wb;
 		Sheet uploadTemplate;
 		Response response = new Response();
-		response.setMessage("Upload failed!");// Default Status
+		response.setMessage("Upload failed!");// Default Status for any unexpected exceptions
 		
 		try {
 			wb = new XSSFWorkbook(inputStream);
@@ -63,60 +64,66 @@ public class FileUploadService {
 			return response;
 		}
 		
-		boolean partialSuccess =false;
-		boolean checkSum = true;
-		
+		boolean partialSuccess =false, checkSum = true;
 		StringBuilder details = new StringBuilder();
-		
-		Connection connection = jdbcTemplate.getDataSource().getConnection();
-		if(connection ==null){
-			response.setMessage("DataBase Connection Exception!");
-			LOGGER.error("DataBase Connection Exception!");
-			try {
-				wb.close();
-			} catch (IOException e1) {
-				LOGGER.error("Exception closing wb "+e1.getMessage());
-			}
-			return response;
-		}
-		
+
+
+		SimpleJdbcCall simpleJdbcCall = new SimpleJdbcCall(jdbcTemplate);
+		simpleJdbcCall.withSchemaName("eissvccat").withCatalogName("svc_catalog_pkg").withProcedureName("svc_update_svc_consumer");
+
+		simpleJdbcCall.declareParameters(new SqlParameter("servc_name", OracleTypes.VARCHAR));
+		simpleJdbcCall.declareParameters(new SqlParameter("servc_version", OracleTypes.NUMBER));
+		simpleJdbcCall.declareParameters(new SqlParameter("cons_name", OracleTypes.VARCHAR));
+		simpleJdbcCall.declareParameters(new SqlParameter("cons_desc", OracleTypes.VARCHAR));
+		simpleJdbcCall.declareParameters(new SqlParameter("decomm_comments", OracleTypes.VARCHAR));
+		simpleJdbcCall.declareParameters(new SqlParameter("user_name", OracleTypes.VARCHAR));
+		simpleJdbcCall.declareParameters(new SqlParameter("servc_desc", OracleTypes.VARCHAR));
+		simpleJdbcCall.declareParameters(new SqlParameter("servc_provider", OracleTypes.VARCHAR));
+		simpleJdbcCall.declareParameters(new SqlParameter("servc_type", OracleTypes.VARCHAR));
+		simpleJdbcCall.declareParameters(new SqlParameter("servc_networkscope", OracleTypes.VARCHAR));
+		simpleJdbcCall.declareParameters(new SqlParameter("servc_oper", OracleTypes.VARCHAR));
+		simpleJdbcCall.declareParameters(new SqlParameter("ver_transport_type", OracleTypes.VARCHAR));
+		simpleJdbcCall.declareParameters(new SqlParameter("ver_canonicalData", OracleTypes.VARCHAR));
+		simpleJdbcCall.declareParameters(new SqlParameter("ver_event_type", OracleTypes.VARCHAR));
+		simpleJdbcCall.declareParameters(new SqlParameter("ver_frequency", OracleTypes.VARCHAR));
+		simpleJdbcCall.declareParameters(new SqlParameter("dom_name", OracleTypes.VARCHAR));
+		simpleJdbcCall.declareParameters(new SqlParameter("servc_security", OracleTypes.VARCHAR));
+		simpleJdbcCall.declareParameters(new SqlParameter("ver_comments", OracleTypes.VARCHAR));
+		simpleJdbcCall.declareParameters(new SqlParameter("ver_status_id", OracleTypes.NUMBER));
+		simpleJdbcCall.declareParameters( new SqlOutParameter("out_error_code",OracleTypes.VARCHAR));
+
+
 		for (Row row : uploadTemplate) {
 			cell = row.getCell(1, MissingCellPolicy.RETURN_BLANK_AS_NULL);
 			// Ignore Header(0) & Empty Records
 			if (row.getRowNum() > 0 && cell != null && !cell.toString().isEmpty()) {
 				try {
 					entry = new ExcelRow(row);
-					CallableStatement callStmt = connection.prepareCall(insertServiceConsumer);
-					callStmt.setString(1, entry.getServiceName());
-					callStmt.setFloat(2, entry.getServiceVersion());
-					callStmt.setString(3, entry.getConsumerName());
-					//callStmt.setString(4, entry.getComments());
-					callStmt.setString(4, entry.getConsumerDescription());
-					callStmt.setString(5, entry.getDecomissioningComments());
-					callStmt.setString(6, user.getUid());
-					
-					callStmt.setString(7, entry.getServiceDescription());
-					//callStmt.setString(9, entry.getSecurity());
-					callStmt.setString(8, entry.getProvider());
-					callStmt.setString(9, entry.getServiceType());
-					callStmt.setString(10, entry.getNetworkScope());
-					callStmt.setString(11, entry.getOperations());
 
-					callStmt.setString(12, entry.getTransportType());
-					callStmt.setString(13, entry.getCanonicalDataModel());
-					callStmt.setString(14, entry.getEventType());
-					callStmt.setString(15, entry.getDomainName());
-					callStmt.setString(16, entry.getSecurity());
-					callStmt.setString(17, entry.getComments());
-					callStmt.setInt(18, entry.getStatusId());
+					MapSqlParameterSource in = new MapSqlParameterSource();
+					in.addValue("servc_name", entry.getServiceName());
+					in.addValue("servc_version", entry.getServiceVersion());
+					in.addValue("cons_name", entry.getConsumerName());
+					in.addValue("cons_desc", entry.getConsumerDescription());
+					in.addValue("decomm_comments", entry.getDecomissioningComments());
+					in.addValue("user_name", user.getUid());
+					in.addValue("servc_desc", entry.getServiceDescription());
+					in.addValue("servc_provider", entry.getProvider());
+					in.addValue("servc_type", entry.getServiceType());
+					in.addValue("servc_networkscope", entry.getNetworkScope());
+					in.addValue("servc_oper", entry.getOperations());
+					in.addValue("ver_transport_type", entry.getTransportType());
+					in.addValue("ver_canonicalData", entry.getCanonicalDataModel());
+					in.addValue("ver_event_type", entry.getEventType());
+					in.addValue("ver_frequency", entry.getFrequency());
+					in.addValue("dom_name", entry.getDomainName());
+					in.addValue("servc_security", entry.getSecurity());
+					in.addValue("ver_comments", entry.getComments());
+					in.addValue("ver_status_id", entry.getStatusId());
 
-					callStmt.registerOutParameter(19, java.sql.Types.VARCHAR);
+					Map out = simpleJdbcCall.execute(in);
+					String errorCode = out.get("out_error_code").toString();
 
-					callStmt.execute();
-					String errorCode = callStmt.getString(19);
-					
-					callStmt.close();
-					
 					if(errorCode.equals("09")){//Error code from stored proc
 						LOGGER.error("Code from stored proc : " + errorCode);
 						details.append("<i class=\"fa fa-times\" aria-hidden=\"true\"></i>&nbsp;Row "+row.getRowNum()+" : Failed : Exception occurred while saving the record.<br/>");
@@ -129,17 +136,14 @@ public class FileUploadService {
 					LOGGER.error("Exception loading record : "+ row.getRowNum() + " , " + ex.getMessage());
 					details.append("<i class=\"fa fa-times\" aria-hidden=\"true\"></i>&nbsp;Row "+row.getRowNum()+" : Failed : "+ex.getMessage()+"<br/>");
 					checkSum  = false;
-				}catch(SQLException e){
-					response.setMessage("Upload failed! "+e.getMessage());
 				}
 			}
 		}
 		response.setDetails(details.toString());
 		
 		try {
-			connection.close();
 			wb.close();
-		} catch (IOException |SQLException e) {
+		} catch (IOException e) {
 			LOGGER.error("Exception closing resources "+e.getMessage());
 		}
 
