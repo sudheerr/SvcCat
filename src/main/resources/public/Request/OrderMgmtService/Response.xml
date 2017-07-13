@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Body>
+		<ns0:orderResponse xmlns:ns0="http://www.wiley.com/schemas/eis/orderResponse">
+			<ns0:response>
+				<ns1:code xmlns:ns1="http://www.wiley.com/schemas/eis/common">EIS_0000</ns1:code>
+				<ns1:message xmlns:ns1="http://www.wiley.com/schemas/eis/common">Success</ns1:message>
+				<ns1:guid xmlns:ns1="http://www.wiley.com/schemas/eis/common">EF1CF5B1-0AC8-2068-1524-726429A515C3</ns1:guid>
+			</ns0:response>
+			<ns0:order>
+				<ns1:details xmlns:ns1="http://www.wiley.com/schemas/eis/order">
+					<ns2:common xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+						<ns2:number>4001760615</ns2:number>
+						<ns2:detail>&lt;ns:__caret_reply_caret_ZQTC__INBOUND__SAP__ORDERS__FM_caret_ZQTC__INBOUND__SAP__ORDERS__FM xmlns:ns="http://www.tibco.com/xmlns/ae2xsd/2002/05/ae/740/basic/functionModules" xmlns:ae="http://www.tibco.com/xmlns/ae2xsd/2002/05" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns:__caret_reply_caret_ZQTC__INBOUND__SAP__ORDERS__FM_caret_ZQTC__INBOUND__SAP__ORDERS__FM"&gt;     &lt;__caret_hasException_caret_&gt;false&lt;/__caret_hasException_caret_&gt;     &lt;EX__MESSAGE&gt;         &lt;item&gt;             &lt;TYPE&gt;I&lt;/TYPE&gt;             &lt;ID&gt;V1&lt;/ID&gt;             &lt;NUMBER&gt;311&lt;/NUMBER&gt;             &lt;MESSAGE&gt;Subscription Order 4001760615 has been saved&lt;/MESSAGE&gt;             &lt;LOG__NO xsi:nil="true"/&gt;             &lt;LOG__MSG__NO&gt;000000&lt;/LOG__MSG__NO&gt;             &lt;MESSAGE__V1&gt;Subscription Order&lt;/MESSAGE__V1&gt;             &lt;MESSAGE__V2&gt;4001760615&lt;/MESSAGE__V2&gt;             &lt;MESSAGE__V3 xsi:nil="true"/&gt;             &lt;MESSAGE__V4 xsi:nil="true"/&gt;             &lt;COMPONENT xsi:nil="true"/&gt;             &lt;SYSTEM xsi:nil="true"/&gt;         &lt;/item&gt;     &lt;/EX__MESSAGE&gt;     &lt;EX__VBELN&gt;4001760615&lt;/EX__VBELN&gt; &lt;/ns:__caret_reply_caret_ZQTC__INBOUND__SAP__ORDERS__FM_caret_ZQTC__INBOUND__SAP__ORDERS__FM&gt;</ns2:detail>
+					</ns2:common>
+				</ns1:details>
+			</ns0:order>
+			<ns0:extensions>
+				<ns1:property xmlns:ns1="http://www.wiley.com/schemas/eis/common">
+					<ns1:name>BPID</ns1:name>
+					<ns1:value>1001813184</ns1:value>
+				</ns1:property>
+			</ns0:extensions>
+		</ns0:orderResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

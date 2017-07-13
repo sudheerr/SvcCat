@@ -1,19 +1,6 @@
 var AppUtil;
 AppUtil = (function() {
 
-    function readTextFile(url, element) {
-        var rawFile = new XMLHttpRequest();
-        rawFile.open("GET", url, false);
-        rawFile.onreadystatechange = function() {
-            if (rawFile.readyState === 4) {
-                if (rawFile.status === 200 || rawFile.status === 0) {
-                    element.textContent = rawFile.responseText;
-                }
-            }
-        };
-        rawFile.send(null);
-    }
-
     function renderServiceData(data) {
         var details = $('#details');
 
@@ -51,10 +38,10 @@ AppUtil = (function() {
         var svcUsage = $('#svcUsage');
         var formControls = svcUsage.find('.form-control');
         if (data['sampleRequest']) {
-            readTextFile(data['sampleRequest'], formControls[0]);
+            ServiceCatalog.readTextFile(data['sampleRequest'], formControls[0]);
         }
         if (data['sampleResponse']) {
-            readTextFile(data['sampleResponse'], formControls[1]);
+            ServiceCatalog.readTextFile(data['sampleResponse'], formControls[1]);
         }
         formControls[2].textContent = data['comments'];
     }

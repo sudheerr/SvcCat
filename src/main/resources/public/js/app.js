@@ -185,9 +185,6 @@ $(document).ready(function() {
             },{
                 data: 'initiative',
                 defaultContent: ''
-            },{
-                data: 'svcId',
-                width: '70px'
             }
         ],
         columnDefs: [{
@@ -197,7 +194,7 @@ $(document).ready(function() {
             "targets": [0,2]
         }, {
             "render": function(data, type, row) {
-                if (data && data.indexOf('.xsd') > -1) {
+                if (data && data.indexOf('.') > -1) {
                     var path = ServiceCatalog.getContextPath();
                     return '<a target="_blank" href="' + path + '/xsd/' + data + '">' + data + '</a>';
                 } else {
@@ -210,9 +207,9 @@ $(document).ready(function() {
             render: $.fn.dataTable.render.ellipsis(40)
         }],
         language: {
-            info: '<strong>_START_</strong>-<strong>_END_</strong> of <strong>_TOTAL_</strong> (Consumer Count)',
+            info: '<strong>_START_</strong>-<strong>_END_</strong> of <strong>_TOTAL_</strong>',
             infoFiltered: '(filtered from _MAX_ total entries)',
-            infoPostFix: '',
+            infoPostFix: ' (Consumer Count)',
             paginate: {
                 next: "<i class='glyphicon glyphicon-menu-right'></i>",
                 previous: "<i class='glyphicon glyphicon-menu-left'></i>"

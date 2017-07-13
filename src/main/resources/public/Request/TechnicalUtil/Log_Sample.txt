@@ -1,0 +1,45 @@
+==================
+Log Sample
+==================
+
+<?xml version = "1.0" encoding = "UTF-8"?>
+<LogMessageCollection>
+                <ns0:LogMessageCollection xmlns:ns0 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Logging/Service/Business/V1">
+                                <ns0:LogMessageRequest>
+                                                <ns0:SenderSystem>
+                                                                <ns1:SystemID xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">LMS-ESB-APPLN</ns1:SystemID>
+                                                                <ns1:SystemName xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">WX</ns1:SystemName>
+                                                                <ns1:IPAddress xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">IBM554-PC09K3Z3</ns1:IPAddress>
+                                                </ns0:SenderSystem>
+                                                <ns0:ServiceContext>
+                                                                <ns1:BusinessProcessName xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">BusinessProcesses/GradeBookSync_Service/Processes/StarterProcesses/JMS/GBS_Publication_Service_StartProc.process</ns1:BusinessProcessName>
+                                                                <ns1:Activity xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">Log_GradeScorePayLoad</ns1:Activity>
+                                                                <ns1:ServiceName xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">ISS_LMSI_GBS_Publication_Service</ns1:ServiceName>
+                                                </ns0:ServiceContext>
+                                                <ns0:LogEventID>
+                                                                <ns1:ProcessInstanceID xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Logging/Common/V1">47002</ns1:ProcessInstanceID>
+                                                                <ns1:LogCorrelationID xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Logging/Common/V1">F572B8BC-0A04-2278-4A90-2E59B2186418</ns1:LogCorrelationID>
+                                                </ns0:LogEventID>
+                                                <ns0:LogDetails>
+                                                                <ns1:LogTimestamp xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Logging/Common/V1">2017-06-29T16:02:35.527-04:00</ns1:LogTimestamp>
+                                                                <ns1:GeneralLogMessage LogMesgCategory = "GENERAL" xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Logging/Common/V1">
+                                                                                <ns1:GeneralLogMesg> Started Processing. : BusinessProcesses/GradeBookSync_Service/Processes/StarterProcesses/JMS/GBS_Publication_Service_StartProc.process</ns1:GeneralLogMesg>
+                                                                </ns1:GeneralLogMessage>
+                                                                <ns1:TxnLogMessag LogMesgCategory = "TXNLOG" xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Logging/Common/V1">
+                                                                                <ns1:TransactionID>Started_Main</ns1:TransactionID>
+                                                                                <ns1:TransactionType>Debug</ns1:TransactionType>
+                                                                                <ns1:TxnLogMessage>F572B8BC-0A04-2278-4A90-2E59B2186418~Started_Main~BusinessProcesses/GradeBookSync_Service/Processes/StarterProcesses/JMS/GBS_Publication_Service_StartProc.process~&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;Body>{   "GradePayload":{     "event_type":"OPEN_ASSIGNMENT",     "event_source":"WP",     "grades":[       {         "user_id":"22531",         "context_id":"5427",         "custom_resourceid":"0",         "resource_link_id":"351",         "student_score":100.0,         "max_score":400.0,         "custom_courseid":"ISBNEPROF13891",         "consumer_key":"pNryidyApe",         "lis_result_sourcedid":"{\"data\":{\"instanceid\":\"351\",\"userid\":\"22531\",\"launchid\":1107022982},\"hash\":\"f527c1819a77efc9731c64a5789c0aee64d353e133c1b49d04d16469ab8beb65\"}",         "event_id":"gbse23399894"       }     ]   } }&lt;/Body>
+                                                                                </ns1:TxnLogMessage>
+                                                                </ns1:TxnLogMessag>
+                                                                <ns1:extendedDataArea xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Logging/Common/V1">
+                                                                                <ns2:ExtendedArea xmlns:ns2 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">{   "GradePayload":{     "event_type":"OPEN_ASSIGNMENT",     "event_source":"WP",     "grades":[       {         "user_id":"22531",         "context_id":"5427",         "custom_resourceid":"0",         "resource_link_id":"351",         "student_score":100.0,         "max_score":400.0,         "custom_courseid":"ISBNEPROF13891",         "consumer_key":"pNryidyApe",         "lis_result_sourcedid":"{\"data\":{\"instanceid\":\"351\",\"userid\":\"22531\",\"launchid\":1107022982},\"hash\":\"f527c1819a77efc9731c64a5789c0aee64d353e133c1b49d04d16469ab8beb65\"}",         "event_id":"gbse23399894"       }     ]   } }</ns2:ExtendedArea>
+                                                                </ns1:extendedDataArea>
+                                                </ns0:LogDetails>
+                                </ns0:LogMessageRequest>
+                </ns0:LogMessageCollection>
+                <Severity>
+                                <Loglevel>0</Loglevel>
+                                <SkipHigherLogLevels>3</SkipHigherLogLevels>
+                </Severity>
+</LogMessageCollection>

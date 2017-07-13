@@ -1,0 +1,19 @@
+Response Header
+
+
+    Status Code: 200 OK
+    Connection: keep-alive
+    Content-Length: 200
+    Content-Type: application/json
+    Date: Tue, 03 May 2016 14:21:58 GMT
+    Server: Jakarta-HttpComponents-NIO/1.1
+
+
+{
+  "Status":"FAILURE",
+  "Error":{
+    "ErrorCode":"ALM905",
+    "ErrorMessage":"User ID already exists",
+    "StackTrace":"AS-ALM-0004ESB_ADMIN_ERRORBUSINESSUser ID already existsALM905MEDIUM"
+  }
+}

@@ -1,0 +1,53 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<inputMessage>
+	<ns0:customerRequest xmlns:ns0 = "http://www.wiley.com/schemas/eis/customerRequest">
+		<ns0:requester>
+			<ns1:name xmlns:ns1 = "http://www.wiley.com/schemas/eis/common">BCS</ns1:name>
+			<ns1:id xmlns:ns1 = "http://www.wiley.com/schemas/eis/common">I0200.10</ns1:id>
+		</ns0:requester>
+		<ns0:customer>
+			<ns1:contactInfo xmlns:ns1 = "http://www.wiley.com/schemas/eis/customer">
+				<ns2:identity xmlns:ns2 = "http://www.wiley.com/schemas/eis/contact">
+					<ns3:ecId xmlns:ns3 = "http://www.wiley.com/schemas/eis/common">I110810992</ns3:ecId>
+					<ns3:property xmlns:ns3 = "http://www.wiley.com/schemas/eis/common">
+						<ns3:name>CreatedDate</ns3:name>
+						<ns3:value>20161202</ns3:value>
+					</ns3:property>
+				</ns2:identity>
+				<ns2:name xmlns:ns2 = "http://www.wiley.com/schemas/eis/contact">
+					<ns3:salutation xmlns:ns3 = "http://www.wiley.com/schemas/eis/common">Mr</ns3:salutation>
+					<ns3:firstName xmlns:ns3 = "http://www.wiley.com/schemas/eis/common">Rakesh</ns3:firstName>
+					<ns3:lastName xmlns:ns3 = "http://www.wiley.com/schemas/eis/common">Kumar</ns3:lastName>
+				</ns2:name>
+				<ns2:address xmlns:ns2 = "http://www.wiley.com/schemas/eis/contact">
+					<ns3:street xmlns:ns3 = "http://www.wiley.com/schemas/eis/address">
+						<ns3:addressLine>809 Grand Ave</ns3:addressLine>
+						<ns3:addressLine>AddressLine2</ns3:addressLine>
+					</ns3:street>
+					<ns3:city xmlns:ns3 = "http://www.wiley.com/schemas/eis/address">CityName</ns3:city>
+					<ns3:region xmlns:ns3 = "http://www.wiley.com/schemas/eis/address">
+						<ns3:stateCode>NJ</ns3:stateCode>
+					</ns3:region>
+					<ns3:postalZip xmlns:ns3 = "http://www.wiley.com/schemas/eis/address">
+						<ns3:postalCode>07047</ns3:postalCode>
+					</ns3:postalZip>
+					<ns3:country xmlns:ns3 = "http://www.wiley.com/schemas/eis/address">
+						<ns3:countryCode>USA</ns3:countryCode>
+					</ns3:country>
+				</ns2:address>
+				<ns2:email xmlns:ns2 = "http://www.wiley.com/schemas/eis/contact">
+					<ns3:name xmlns:ns3 = "http://www.wiley.com/schemas/eis/common">Email</ns3:name>
+					<ns3:value xmlns:ns3 = "http://www.wiley.com/schemas/eis/common">rakkumar@wiley.com</ns3:value>
+				</ns2:email>
+				<ns2:phone xmlns:ns2 = "http://www.wiley.com/schemas/eis/contact">
+					<ns3:name xmlns:ns3 = "http://www.wiley.com/schemas/eis/common">Phone</ns3:name>
+					<ns3:value xmlns:ns3 = "http://www.wiley.com/schemas/eis/common">5519981305</ns3:value>
+				</ns2:phone>
+				<ns2:fax xmlns:ns2 = "http://www.wiley.com/schemas/eis/contact">
+					<ns3:name xmlns:ns3 = "http://www.wiley.com/schemas/eis/common">Fax</ns3:name>
+					<ns3:value xmlns:ns3 = "http://www.wiley.com/schemas/eis/common">23454</ns3:value>
+				</ns2:fax>
+			</ns1:contactInfo>
+		</ns0:customer>
+	</ns0:customerRequest>
+</inputMessage>

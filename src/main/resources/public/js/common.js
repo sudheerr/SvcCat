@@ -15,6 +15,19 @@ ServiceCatalog.getURLParameter = function(sParam) {
     }
 };
 
+ServiceCatalog.readTextFile = function (url, element) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", url, false);
+    rawFile.onreadystatechange = function() {
+        if (rawFile.readyState === 4) {
+            if (rawFile.status === 200 || rawFile.status === 0) {
+                element.textContent = rawFile.responseText;
+            }
+        }
+    };
+    rawFile.send(null);
+};
+
 $(document).ready(function($) {
 
     $body = $('body');

@@ -22,21 +22,24 @@ public class ServiceDetailMapper implements RowMapper<ServiceDetail>
         details.setProvider(rs.getString(7));
 
         details.setVersionId(rs.getFloat(9));
+        details.setCanonicalDataModel(rs.getString(10));
         details.setStatus(rs.getString(11));
 
         details.setTransportType(rs.getString(12));
         details.setDesignDoc(rs.getString(13));
-        details.setDesignDocUrl(rs.getString(14));
-        details.setVersionImgUrl(rs.getString(15));
-        details.setSchemaDefs(rs.getString(16));
+        details.setVersionImgUrl(rs.getString(14));
 
-        details.setComments(rs.getString(17));
+        details.setComments(rs.getString(15));
 
-        details.setConsumerName(rs.getString(18));
-        details.setDomainName(rs.getString(19));
+        details.setConsumerName(rs.getString(16));
+        details.setDomainName(rs.getString(17));
+        details.setProvConsMapping(rs.getString(18));
+        details.setSampleRequest(rs.getString(19));
+        details.setSampleResponse(rs.getString(20));
+
 
         while (rs.next()) {
-            details.setConsumerName(details.getConsumerName().concat(", " + rs.getString(18)));
+            details.setConsumerName(details.getConsumerName().concat(", " + rs.getString(16)));
         }
         return  details;
     }

@@ -1,0 +1,30 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Body>
+      <ns0:ISSPhoneValidationResponse xmlns:ns0="http://www.tibco.com/schemas/PhoneValidationResponse/Schema.xsd">
+         <ns0:Result>
+            <ns0:phone_webserviceRequestReturn>
+               <ns0:COUNTRY_CODE>1</ns0:COUNTRY_CODE>
+               <ns0:COUNTRY_CODE_SOURCE>FROM_NUMBER_WITH_PLUS_SIGN</ns0:COUNTRY_CODE_SOURCE>
+               <ns0:DEFAULTCOUNTRY_ENTERED>US</ns0:DEFAULTCOUNTRY_ENTERED>
+               <ns0:GETNUMBERTYPE>FIXED_LINE_OR_MOBILE</ns0:GETNUMBERTYPE>
+               <ns0:INTERNATIONAL_FORMAT>+1 201-345-6789</ns0:INTERNATIONAL_FORMAT>
+               <ns0:ISPOSSIBLENUMBER>true</ns0:ISPOSSIBLENUMBER>
+               <ns0:ISVALIDNUMBER>true</ns0:ISVALIDNUMBER>
+               <ns0:ISVALIDNUMBERFORREGION>true</ns0:ISVALIDNUMBERFORREGION>
+               <ns0:ITALIAN_LEADING_ZERO>false</ns0:ITALIAN_LEADING_ZERO>
+               <ns0:LOCATION>New Jersey</ns0:LOCATION>
+               <ns0:NATIONAL_FORMAT>(201) 345-6789</ns0:NATIONAL_FORMAT>
+               <ns0:NATIONAL_NUMBER>2013456789</ns0:NATIONAL_NUMBER>
+               <ns0:ORIGINAL_FORMAT>2013456789</ns0:ORIGINAL_FORMAT>
+               <ns0:OUT_OF_COUNTRY_FORMAT_FROM_CH>00 1 201-345-6789</ns0:OUT_OF_COUNTRY_FORMAT_FROM_CH>
+               <ns0:OUT_OF_COUNTRY_FORMAT_FROM_US>1 (201) 345-6789</ns0:OUT_OF_COUNTRY_FORMAT_FROM_US>
+               <ns0:PHONE_NUMBER_ENTERED>2013456789</ns0:PHONE_NUMBER_ENTERED>
+               <ns0:PHONE_NUMBER_REGION>US</ns0:PHONE_NUMBER_REGION>
+               <ns0:RAW_INPUT>2013456789</ns0:RAW_INPUT>
+               <ns0:TIME_ZONES>America/New_York</ns0:TIME_ZONES>
+               <ns0:e164_FORMAT>+12013456789</ns0:e164_FORMAT>
+            </ns0:phone_webserviceRequestReturn>
+         </ns0:Result>
+      </ns0:ISSPhoneValidationResponse>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

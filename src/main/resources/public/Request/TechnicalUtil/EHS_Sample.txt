@@ -1,0 +1,48 @@
+========================
+EHS SAMPLE
+======================
+
+<?xml version = "1.0" encoding = "UTF-8"?>
+<ErrorEventMessage>
+                <ns0:ErrorEventCollection xmlns:ns0 = "http://wiley.foundationservices.com/MessageObjects/Foundation/EHS/Business/V1">
+                                <ns0:ErrorServiceRequest>
+                                                <ns0:SenderSystem>
+                                                                <ns1:SystemID xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">LMS-ESB-APPLN</ns1:SystemID>
+                                                                <ns1:SystemName xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">WX</ns1:SystemName>
+                                                                <ns1:IPAddress xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">IBM554-PC09K3Z3</ns1:IPAddress>
+                                                </ns0:SenderSystem>
+                                                <ns0:ServiceContext>
+                                                                <ns1:BusinessProcessName xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">BusinessProcesses/GradeBookSync_Service/Processes/StarterProcesses/JMS/GBS_Publication_Service_StartProc.process</ns1:BusinessProcessName>
+                                                                <ns1:Activity xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">GBSErrorHandlingLog_SubProc</ns1:Activity>
+                                                                <ns1:ServiceName xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">ISS_LMSI_GBS_Publication_Service</ns1:ServiceName>
+                                                </ns0:ServiceContext>
+                                                <ns0:ErrorEventDtls>
+                                                                <ns1:ProcessInstanceID xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/EHS/Common/V1">48000</ns1:ProcessInstanceID>
+                                                                <ns1:SenderCorrelationID xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/EHS/Common/V1">F572B8BC-0A04-2278-4A90-2E59B2186418</ns1:SenderCorrelationID>
+                                                </ns0:ErrorEventDtls>
+                                                <ns0:ErrorDetails>
+                                                                <ns1:ErrorDateTime xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/EHS/Common/V1">2017-06-29T16:04:48.297-04:00</ns1:ErrorDateTime>
+                                                                <ns1:ErrorCode xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/EHS/Common/V1">WX-UHE-1000</ns1:ErrorCode>
+                                                                <ns1:ErrorDescription xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/EHS/Common/V1">Variable not set</ns1:ErrorDescription>
+                                                                <ns1:ErrorCategory xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/EHS/Common/V1">SYSTEM</ns1:ErrorCategory>
+                                                                <ns1:ErrorType xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/EHS/Common/V1">DATA_ERROR</ns1:ErrorType>
+                                                                <ns1:ErrorStack xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/EHS/Common/V1">Job-48000 Error in [BusinessProcesses/GradeBookSync_Service/Processes/StarterProcesses/JMS/GBS_Publication_Service_StartProc.process/GetVariable_StatusInfo]
+Variable not set
+                at com.tibco.pe.core.GetSharedVariableActivity.eval(Unknown Source)
+                at com.tibco.pe.plugin.Activity.eval(Unknown Source)
+                at com.tibco.pe.core.TaskImpl.eval(Unknown Source)
+                at com.tibco.pe.core.Job.a(Unknown Source)
+                at com.tibco.pe.core.Job.k(Unknown Source)
+                at com.tibco.pe.core.JobDispatcher$JobCourier.a(Unknown Source)
+                at com.tibco.pe.core.JobDispatcher$JobCourier.run(Unknown Source)
+                                                                </ns1:ErrorStack>
+                                                </ns0:ErrorDetails>
+                                                <ns0:BusinessKeys/>
+                                                <ns0:Payload>
+                                                                <ns1:Payload xmlns:ns1 = "http://wiley.foundationservices.com/MessageObjects/Foundation/Common/DataTypes/V1">&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;GradePayload>&lt;event_type>OPEN_ASSIGNMENT&lt;/event_type>&lt;event_source>WP&lt;/event_source>&lt;grades>&lt;user_id>22531&lt;/user_id>&lt;context_id>5427&lt;/context_id>&lt;custom_resourceid>0&lt;/custom_resourceid>&lt;resource_link_id>351&lt;/resource_link_id>&lt;student_score>100.0&lt;/student_score>&lt;max_score>400.0&lt;/max_score>&lt;custom_courseid>ISBNEPROF13891&lt;/custom_courseid>&lt;consumer_key>pNryidyApe&lt;/consumer_key>&lt;lis_result_sourcedid>{"data":{"instanceid":"351","userid":"22531","launchid":1107022982},"hash":"f527c1819a77efc9731c64a5789c0aee64d353e133c1b49d04d16469ab8beb65"}&lt;/lis_result_sourcedid>&lt;event_id>gbse23399894&lt;/event_id>&lt;/grades>&lt;/GradePayload>
+                                                                </ns1:Payload>
+                                                </ns0:Payload>
+                                </ns0:ErrorServiceRequest>
+                </ns0:ErrorEventCollection>
+</ErrorEventMessage>

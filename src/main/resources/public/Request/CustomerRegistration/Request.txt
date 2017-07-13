@@ -1,0 +1,33 @@
+http://localhost:15201/ISSService/customers?contentFormat=json
+http://esbdevaus02.wiley.com:15201/ISSService/customers
+https://qap.api.wiley.com/wiley/ecommerce/ecomm_svc/v1/customers
+
+
+Header Info  :
+
+Src  WSSR
+
+Method post
+
+{
+                "immutableId": "876hyb",
+                "userId": "uber11@hybris.com",
+                "password": "ABc567",
+                "email": "uber11@hybris.com",
+                "phoneNumber":"hellok",
+                "titleCode": "Mr.",
+                "firstName": "Santosh",
+                "lastName": "Singh",
+                "middleName": "Kumar",
+                "suffixCode": "xzs",
+                "role": "b2buser",
+                "studentId": "sss",
+                "enrolledInSchool": "stahs",
+                "schoolId": "SIB ",
+                "major": "asdf",
+                "graduationMonth": "12",
+                "graduationYear": "2018",
+                "subscribeOnWileyPromos": "false",
+                "organizationalSapAccountNumber": "Pronto3736",
+                "organizationalEcidNumber": "87650001"
+}

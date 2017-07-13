@@ -24,9 +24,18 @@ var AppUtil = (function() {
         formControls[4].textContent = data['dataType'];
 
         formControls[5].textContent = data['integrationType'];
-        formControls[6].innerHTML = '<a href="' + data["designDocUrl"] + '">' + data['designDoc'] + '</a>';
-        formControls[7].innerHTML = '<a href=""></a>';
-        //formControls[8].textContent = data['comments'];
+        formControls[6].innerHTML = '<a href="' + data["designDoc"] + '">Design Document</a>';
+        if(data.provConsMapping){
+            formControls[7].innerHTML = '<a href="' + data["provConsMapping"] + '">Prov Consumer Mapping</a>';
+        }
+
+        if(data.canonicalDataModel && data.canonicalDataModel.indexOf('.') > -1){
+            var path = ServiceCatalog.getContextPath();
+            var url = '<a target="_blank" href="' + path + '/xsd/' + data.canonicalDataModel + '">' + data.canonicalDataModel + '</a>';
+            formControls[8].innerHTML = url;
+        }else{
+            formControls[8].textContent = 'NA';
+        }
 
         $('#flowDiagram').attr('src', 'images/' + data['versionImgUrl']);
     }
@@ -34,8 +43,13 @@ var AppUtil = (function() {
     function renderUsageData(data) {
         var svcUsage = $('#svcUsage');
         var formControls = svcUsage.find('.form-control');
-        formControls[0].textContent = data['sampleRequest'];
-        formControls[1].textContent = data['sampleResponse'];
+        
+        if (data['sampleRequest']) {
+            ServiceCatalog.readTextFile(data['sampleRequest'], formControls[0]);
+        }
+        if (data['sampleResponse']) {
+            ServiceCatalog.readTextFile(data['sampleResponse'], formControls[1]);
+        }
         formControls[2].textContent = data['comments'];
     }
 

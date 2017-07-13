@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:add="http://www.wiley.com/schemas/eis/address" xmlns:com="http://www.wiley.com/schemas/eis/common" xmlns:con="http://www.wiley.com/schemas/eis/contact" xmlns:cus="http://www.wiley.com/schemas/eis/customer" xmlns:ord="http://www.wiley.com/schemas/eis/orderRequest" xmlns:ord1="http://www.wiley.com/schemas/eis/order" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.xmlsoap.org/soap/envelope/ http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Header />
+	<soapenv:Body>
+		<ord:orderRequest>
+			<ord:requester>
+				<com:name>PDM</com:name>
+				<com:id>I0343</com:id>
+				<com:type>0300</com:type>
+			</ord:requester>
+			<ord:order>
+				<ord1:details>
+					<com:common>
+						<com:type>1</com:type>
+						<com:number />
+						<com:detail>Personal: Print Only</com:detail>
+						<com:property>
+							<com:name>ADDRESSTYPE</com:name>
+							<com:value>SAME</com:value>
+						</com:property>
+						<com:property>
+							<com:name>COMPANYCODE</com:name>
+							<com:value>1001</com:value>
+						</com:property>
+					</com:common>
+					<com:date>
+						<com:name>PURCHASEORDERDATE</com:name>
+						<com:value>20170628</com:value>
+					</com:date>
+					<com:reference>
+						<com:name>SUBSORDREFNO</com:name>
+						<com:value>BJ477536</com:value>
+					</com:reference>
+					<com:cost>
+						<com:price>
+							<com:name>TOTALPRICE</com:name>
+							<com:value>123.00</com:value>
+						</com:price>
+						<com:price>
+							<com:name>PRICEREF</com:name>
+							<com:value>123</com:value>
+						</com:price>
+						<com:tax />
+						<com:fee />
+						<com:discount>
+							<com:name>DISCOUNTCODE</com:name>
+							<com:value>VMRW5</com:value>
+						</com:discount>
+						<com:discount>
+							<com:name>DISCOUNTAMOUNTS</com:name>
+							<com:value>0</com:value>
+						</com:discount>
+						<com:promotion />
+						<com:currency>
+							<com:name>CURRENCYCODE</com:name>
+							<com:value>USD</com:value>
+						</com:currency>
+						<com:property />
+					</com:cost>
+					<com:payment>
+						<com:common>
+							<com:number />
+							<com:property />
+						</com:common>
+						<com:method>
+							<com:card>
+								<com:common>
+									<com:type>MASTERCARD</com:type>
+									<com:number>XXXXXX</com:number>
+									<com:property />
+								</com:common>
+								<com:activation>
+									<com:endDate>XXXX</com:endDate>
+									<com:property />
+								</com:activation>
+								<com:address />
+								<com:property />
+							</com:card>
+							<com:other>
+								<com:property />
+							</com:other>
+						</com:method>
+						<com:property />
+					</com:payment>
+				</ord1:details>
+				<ord1:item>
+					<com:common>
+						<com:number>10913777</com:number>
+						<com:property />
+					</com:common>
+					<com:reference />
+					<com:status />
+					<com:extensions>
+						<com:property>
+							<com:name>CONTRACTDATESTART</com:name>
+							<com:value>201706281</com:value>
+						</com:property>
+					</com:extensions>
+				</ord1:item>
+				<ord1:customer>
+					<cus:contacts>
+						<cus:contact>
+							<con:identity>
+								<com:property>
+									<com:name/>
+									<com:value>12345</com:value>
+								</com:property>
+							</con:identity>
+							<con:name>
+								<com:salutation>Ms</com:salutation>
+								<com:firstName>ABC</com:firstName>
+								<com:lastName>ZZZZZZ</com:lastName>
+								<com:property />
+							</con:name>
+							<con:address>
+								<add:street>
+									<add:addressLine>YY St</add:addressLine>
+									<add:addressLine>Dept</add:addressLine>
+									<add:property />
+								</add:street>
+								<add:city>CITY</add:city>
+								<add:region>
+									<add:stateCode>NY</add:stateCode>
+									<add:property />
+								</add:region>
+								<add:postalZip>
+									<add:postalCode>07030</add:postalCode>
+									<add:property />
+								</add:postalZip>
+								<add:country>
+									<add:countryCode>USA</add:countryCode>
+									<add:property />
+								</add:country>
+							</con:address>
+							<con:email>
+								<com:name>EMAIL</com:name>
+								<com:value>abc@mail.com</com:value>
+							</con:email>
+							<con:phone>
+								<com:name>TELNO</com:name>
+								<com:value/>
+							</con:phone>
+							<con:extensions>
+								<com:property>
+									<com:name>TITLE</com:name>
+									<com:value>The Volunteer Management Report</com:value>
+								</com:property>
+								<com:property>
+									<com:name>RELATIONSHIPCATEGORY</com:name>
+									<com:value>Society Hosted Website Member</com:value>
+								</com:property>
+							</con:extensions>
+						</cus:contact>
+						<cus:contact>
+							<con:name>
+								<com:salutation>Ms</com:salutation>
+								<com:firstName>ABC</com:firstName>
+								<com:lastName>ZZZZ</com:lastName>
+								<com:property />
+							</con:name>
+							<con:address>
+								<add:street>
+									<add:addressLine>DEF St</add:addressLine>
+									<add:addressLine>Dept</add:addressLine>
+									<add:property />
+								</add:street>
+								<add:city>CITY</add:city>
+								<add:region>
+									<add:stateName/>
+									<add:stateCode>NY</add:stateCode>
+									<add:property />
+								</add:region>
+								<add:postalZip>
+									<add:postalCode>07030</add:postalCode>
+									<add:property />
+								</add:postalZip>
+								<add:country>
+									<add:countryCode>USA</add:countryCode>
+									<add:property />
+								</add:country>
+							</con:address>
+							<con:email>
+								<com:name>EMAIL</com:name>
+								<com:value>email@email.com</com:value>
+							</con:email>
+							<con:phone>
+								<com:name>BILLTELNO</com:name>
+								<com:value/>
+							</con:phone>
+						</cus:contact>
+					</cus:contacts>
+					<cus:extensions>
+						<com:property>
+							<com:name>DATECREATED</com:name>
+							<com:value>201706281</com:value>
+						</com:property>
+					</cus:extensions>
+				</ord1:customer>
+			</ord:order>
+		</ord:orderRequest>
+	</soapenv:Body>
+</soapenv:Envelope>

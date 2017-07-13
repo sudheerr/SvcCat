@@ -1,0 +1,48 @@
+<ns0:taxCalculationRequest xmlns:ns0="http://www.sabrix.com/services/taxcalculationservice/2011-09-01">
+   <ns0:INDATA version="G">
+      <ns0:COMPANY_ROLE>S</ns0:COMPANY_ROLE>
+      <ns0:EXTERNAL_COMPANY_ID>JWSI_US</ns0:EXTERNAL_COMPANY_ID>
+      <ns0:HOST_SYSTEM>ECO</ns0:HOST_SYSTEM>
+      <ns0:CALLING_SYSTEM_NUMBER>ECO</ns0:CALLING_SYSTEM_NUMBER>
+      <ns0:INVOICE>
+         <BILL_TO xmlns="http://www.sabrix.com/services/taxcalculationservice/2011-09-01" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://xmlns.wiley.com/EnterpriseBusinessObjects/TaxEBO/V1" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.sabrix.com/services/taxcalculationservice/2011-09-01" xmlns:v11="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/Meta/V1" xmlns:v12="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/DataTypes/V1">
+            <COUNTRY>IT</COUNTRY>
+         </BILL_TO>
+         <ns0:COMPANY_ROLE>S</ns0:COMPANY_ROLE>
+         <ns0:CURRENCY_CODE>USD</ns0:CURRENCY_CODE>
+         <ns0:CUSTOMER_NUMBER/>
+         <ns0:INVOICE_DATE>2017-04-12</ns0:INVOICE_DATE>
+         <ns0:INVOICE_NUMBER>0</ns0:INVOICE_NUMBER>
+         <ns0:IS_AUDITED>false</ns0:IS_AUDITED>
+         <ns0:IS_CREDIT>false</ns0:IS_CREDIT>
+         <ns0:LINE ID="01">
+            <BUYER_PRIMARY xmlns="http://www.sabrix.com/services/taxcalculationservice/2011-09-01" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://xmlns.wiley.com/EnterpriseBusinessObjects/TaxEBO/V1" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.sabrix.com/services/taxcalculationservice/2011-09-01" xmlns:v11="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/Meta/V1" xmlns:v12="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/DataTypes/V1">
+               <COUNTRY>IT</COUNTRY>
+            </BUYER_PRIMARY>
+            <ns0:DELIVERY_TERMS/>
+            <ns0:GROSS_AMOUNT>100</ns0:GROSS_AMOUNT>
+            <ns0:ITEM_VALUE>100</ns0:ITEM_VALUE>
+            <ns0:LINE_NUMBER>1</ns0:LINE_NUMBER>
+            <ORDER_ACCEPTANCE xmlns="http://www.sabrix.com/services/taxcalculationservice/2011-09-01" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://xmlns.wiley.com/EnterpriseBusinessObjects/TaxEBO/V1" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.sabrix.com/services/taxcalculationservice/2011-09-01" xmlns:v11="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/Meta/V1" xmlns:v12="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/DataTypes/V1">
+               <COUNTRY>US</COUNTRY>
+            </ORDER_ACCEPTANCE>
+            <ns0:PART_NUMBER>CNCR</ns0:PART_NUMBER>
+            <ns0:PRODUCT_CODE>eBooks</ns0:PRODUCT_CODE>
+            <ns0:QUANTITY>1</ns0:QUANTITY>
+            <SELLER_PRIMARY xmlns="http://www.sabrix.com/services/taxcalculationservice/2011-09-01" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://xmlns.wiley.com/EnterpriseBusinessObjects/TaxEBO/V1" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.sabrix.com/services/taxcalculationservice/2011-09-01" xmlns:v11="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/Meta/V1" xmlns:v12="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/DataTypes/V1">
+               <COUNTRY>GB</COUNTRY>
+            </SELLER_PRIMARY>
+            <SHIP_FROM xmlns="http://www.sabrix.com/services/taxcalculationservice/2011-09-01" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://xmlns.wiley.com/EnterpriseBusinessObjects/TaxEBO/V1" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.sabrix.com/services/taxcalculationservice/2011-09-01" xmlns:v11="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/Meta/V1" xmlns:v12="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/DataTypes/V1">
+               <COUNTRY>GB</COUNTRY>
+            </SHIP_FROM>
+            <SHIP_TO xmlns="http://www.sabrix.com/services/taxcalculationservice/2011-09-01" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://xmlns.wiley.com/EnterpriseBusinessObjects/TaxEBO/V1" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.sabrix.com/services/taxcalculationservice/2011-09-01" xmlns:v11="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/Meta/V1" xmlns:v12="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/DataTypes/V1">
+               <COUNTRY>IT</COUNTRY>
+            </SHIP_TO>
+            <SUPPLY xmlns="http://www.sabrix.com/services/taxcalculationservice/2011-09-01" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://xmlns.wiley.com/EnterpriseBusinessObjects/TaxEBO/V1" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.sabrix.com/services/taxcalculationservice/2011-09-01" xmlns:v11="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/Meta/V1" xmlns:v12="http://xmlns.wiley.com/EnterpriseBusinessObjects/Common/DataTypes/V1">
+               <COUNTRY>GB</COUNTRY>
+            </SUPPLY>
+            <ns0:TRANSACTION_TYPE>ES</ns0:TRANSACTION_TYPE>
+         </ns0:LINE>
+      </ns0:INVOICE>
+   </ns0:INDATA>
+</ns0:taxCalculationRequest>

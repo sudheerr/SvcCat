@@ -1,0 +1,51 @@
+==========================
+Get Licence Choice Response
+==========================
+{
+    "DH_ID":123321,
+    "responseCode":200,
+    "responseDescription":"OK",
+    "licenseTypes":{
+      "licenseType":[
+        {
+          "hasElectronicTemplate":true,
+          "_content_":"CC-BY"
+        },
+        {
+          "hasElectronicTemplate":true,
+          "_content_":"CC-BY-NC"
+        },
+        {
+          "hasElectronicTemplate":true,
+          "_content_":"CC-BY-NC-ND"
+        }
+      ]
+    }
+  }
+=======================
+Get License Text Response
+========================
+
+{ "DH_ID":12345, 
+  "responseCode":404,
+  "responseDescription":"QXJ0aWNsZSB3aXRoIGRoaWQgPSAxMjM0NSBpcyBub3QgZm91bmQ=", 
+  "mimeType":"PDF" 
+} 
+
+=======================
+Sign License Response
+========================
+{
+    "DH_ID":123321,
+    "responseCode":200,
+    "responseDescription":"OK"
+}
+=======================
+Upload License Response
+========================
+{
+    "DH_ID":123321,
+    "responseCode":200,
+    "responseDescription":"OK"
+}
+

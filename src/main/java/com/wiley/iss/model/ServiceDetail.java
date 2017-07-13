@@ -17,13 +17,12 @@ public class ServiceDetail {
 	private String serviceFrequency;
 	private String transportType;
 
+	private String canonicalDataModel;
+
 	private String dataType;
 	private String designDoc;
-	private String designDocUrl;
 	private String provConsMapping;
-	private String provConsMappingUrl;
 	private String versionImgUrl;
-	private String schemaDefs;
 	private String testEnvs;
 	private String domainName;
 	private String sampleRequest;
@@ -42,10 +41,9 @@ public class ServiceDetail {
 				+ integrationType + ", serviceType=" + serviceType
 				+ ", serviceFrequency=" + serviceFrequency + ", transportType="
 				+ transportType + ", dataType=" + dataType + ", designDoc="
-				+ designDoc + ", designDocUrl=" + designDocUrl
+				+ designDoc
 				+ ", provConsMapping=" + provConsMapping
-				+ ", provConsMappingUrl=" + provConsMappingUrl
-				+ ", schemaDefs=" + schemaDefs + ", testEnvs=" + testEnvs
+				+ ", testEnvs=" + testEnvs
 				+ ", sampleRequest=" + sampleRequest + ", sampleResponse="
 				+ sampleResponse + ", otherServices=" + otherServices
 				+ ", comments=" + comments + "]";
@@ -172,29 +170,11 @@ public class ServiceDetail {
 	public void setDesignDoc(String designDoc) {
 		this.designDoc = designDoc;
 	}
-	public String getDesignDocUrl() {
-		return designDocUrl;
-	}
-	public void setDesignDocUrl(String designDocUrl) {
-		this.designDocUrl = designDocUrl;
-	}
 	public String getProvConsMapping() {
 		return provConsMapping;
 	}
 	public void setProvConsMapping(String provConsMapping) {
 		this.provConsMapping = provConsMapping;
-	}
-	public String getProvConsMappingUrl() {
-		return provConsMappingUrl;
-	}
-	public void setProvConsMappingUrl(String provConsMappingUrl) {
-		this.provConsMappingUrl = provConsMappingUrl;
-	}
-	public String getSchemaDefs() {
-		return schemaDefs;
-	}
-	public void setSchemaDefs(String schemaDefs) {
-		this.schemaDefs = schemaDefs;
 	}
 	public String getTestEnvs() {
 		return testEnvs;
@@ -259,5 +239,13 @@ public class ServiceDetail {
 		this.versionImgUrl = versionImgUrl;
 	}
 
+
+	public String getCanonicalDataModel() {
+		return canonicalDataModel;
+	}
+
+	public void setCanonicalDataModel(String canonicalDataModel) {
+		this.canonicalDataModel = canonicalDataModel;
+	}
 
 }

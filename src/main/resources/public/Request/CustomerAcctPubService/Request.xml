@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:customerRequest xmlns:ns0="http://www.wiley.com/schemas/eis/customerRequest">
+	<ns0:requester>
+		<ns1:name xmlns:ns1="http://www.wiley.com/schemas/eis/common">SAP</ns1:name>
+		<ns1:id xmlns:ns1="http://www.wiley.com/schemas/eis/common">F4190703-0AC8-2069-0AF9-332B1612EAE5</ns1:id>
+		<ns1:number xmlns:ns1="http://www.wiley.com/schemas/eis/common">0000000034798751</ns1:number>
+	</ns0:requester>
+	<ns0:customer>
+		<ns1:contactInfo xmlns:ns1="http://www.wiley.com/schemas/eis/customer">
+			<ns2:identity xmlns:ns2="http://www.wiley.com/schemas/eis/contact">
+				<ns3:ecId xmlns:ns3="http://www.wiley.com/schemas/eis/common"/>
+				<ns3:bpId xmlns:ns3="http://www.wiley.com/schemas/eis/common">1001813197</ns3:bpId>
+				<ns3:taxId xmlns:ns3="http://www.wiley.com/schemas/eis/common"/>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>ACCOUNT_GROUP_TYPE</ns3:name>
+					<ns3:value>01</ns3:value>
+				</ns3:property>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>CUSTOMER_GROUP1</ns3:name>
+					<ns3:value>Individual</ns3:value>
+				</ns3:property>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>CUSTOMER_GROUP2</ns3:name>
+					<ns3:value/>
+				</ns3:property>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>CUSTOMER_GROUP3</ns3:name>
+					<ns3:value/>
+				</ns3:property>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>STCEG</ns3:name>
+					<ns3:value/>
+				</ns3:property>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>EXNR</ns3:name>
+					<ns3:value/>
+				</ns3:property>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>EXDT</ns3:name>
+					<ns3:value/>
+				</ns3:property>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>DELIVERY_BLOCK</ns3:name>
+					<ns3:value/>
+				</ns3:property>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>WINTOUCHID</ns3:name>
+					<ns3:value/>
+				</ns3:property>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>ZUSLNO</ns3:name>
+					<ns3:value/>
+				</ns3:property>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>BP_CATEGORY</ns3:name>
+					<ns3:value>Individual</ns3:value>
+				</ns3:property>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>BP_CATEGORY2</ns3:name>
+					<ns3:value>Organization</ns3:value>
+				</ns3:property>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>BPID2</ns3:name>
+					<ns3:value/>
+				</ns3:property>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>CURRENCY_CODE</ns3:name>
+					<ns3:value>USD</ns3:value>
+				</ns3:property>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>CREATE_DATE</ns3:name>
+					<ns3:value>00000000</ns3:value>
+				</ns3:property>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>RELATIONSHIP_CATEGORY</ns3:name>
+					<ns3:value/>
+				</ns3:property>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>VALID_START_DATE</ns3:name>
+					<ns3:value/>
+				</ns3:property>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>VALID_END_DATE</ns3:name>
+					<ns3:value/>
+				</ns3:property>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>CHANGE_DATE</ns3:name>
+					<ns3:value>00000000</ns3:value>
+				</ns3:property>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>ACCOUNT_GROUP</ns3:name>
+					<ns3:value>Sold-to</ns3:value>
+				</ns3:property>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>DELETE_FLAG</ns3:name>
+					<ns3:value/>
+				</ns3:property>
+			</ns2:identity>
+			<ns2:name xmlns:ns2="http://www.wiley.com/schemas/eis/contact">
+				<ns3:salutation xmlns:ns3="http://www.wiley.com/schemas/eis/common">MR.</ns3:salutation>
+				<ns3:firstName xmlns:ns3="http://www.wiley.com/schemas/eis/common">fname lname</ns3:firstName>
+				<ns3:lastName xmlns:ns3="http://www.wiley.com/schemas/eis/common"/>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>NAME_CO</ns3:name>
+					<ns3:value/>
+				</ns3:property>
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>BU_SORT1</ns3:name>
+					<ns3:value>LNAME</ns3:value>
+				</ns3:property>
+			</ns2:name>
+			<ns2:address xmlns:ns2="http://www.wiley.com/schemas/eis/contact">
+				<ns3:street xmlns:ns3="http://www.wiley.com/schemas/eis/address">
+					<ns3:addressLine>923 Skippers CV</ns3:addressLine>
+					<ns3:addressLine/>
+					<ns3:addressLine/>
+				</ns3:street>
+				<ns3:city xmlns:ns3="http://www.wiley.com/schemas/eis/address">Bullhead City</ns3:city>
+				<ns3:region xmlns:ns3="http://www.wiley.com/schemas/eis/address">
+					<ns3:stateCode>AZ</ns3:stateCode>
+					<ns3:countyName/>
+				</ns3:region>
+				<ns3:postalZip xmlns:ns3="http://www.wiley.com/schemas/eis/address">
+					<ns3:postalCode>86442</ns3:postalCode>
+					<ns3:property/>
+				</ns3:postalZip>
+				<ns3:country xmlns:ns3="http://www.wiley.com/schemas/eis/address">
+					<ns3:countryName>US</ns3:countryName>
+					<ns3:countryCode>USA</ns3:countryCode>
+				</ns3:country>
+				<ns3:extensions xmlns:ns3="http://www.wiley.com/schemas/eis/address">
+					<ns4:property xmlns:ns4="http://www.wiley.com/schemas/eis/common">
+						<ns4:name>CURRENCY</ns4:name>
+						<ns4:value>USD</ns4:value>
+					</ns4:property>
+					<ns4:property xmlns:ns4="http://www.wiley.com/schemas/eis/common">
+						<ns4:name>CUST_DEPARTMENT</ns4:name>
+						<ns4:value/>
+					</ns4:property>
+					<ns4:property xmlns:ns4="http://www.wiley.com/schemas/eis/common">
+						<ns4:name>CUST_ORGANIZATION</ns4:name>
+						<ns4:value/>
+					</ns4:property>
+				</ns3:extensions>
+			</ns2:address>
+			<ns2:email xmlns:ns2="http://www.wiley.com/schemas/eis/contact">
+				<ns3:name xmlns:ns3="http://www.wiley.com/schemas/eis/common">EMAIL</ns3:name>
+				<ns3:value xmlns:ns3="http://www.wiley.com/schemas/eis/common">tbanerjee@wiley.com</ns3:value>
+			</ns2:email>
+			<ns2:phone xmlns:ns2="http://www.wiley.com/schemas/eis/contact">
+				<ns3:name xmlns:ns3="http://www.wiley.com/schemas/eis/common">TELEPHONE</ns3:name>
+				<ns3:value xmlns:ns3="http://www.wiley.com/schemas/eis/common"/>
+			</ns2:phone>
+			<ns2:phone xmlns:ns2="http://www.wiley.com/schemas/eis/contact">
+				<ns3:name xmlns:ns3="http://www.wiley.com/schemas/eis/common">TELEPHONE_EXTENS</ns3:name>
+				<ns3:value xmlns:ns3="http://www.wiley.com/schemas/eis/common"/>
+			</ns2:phone>
+			<ns2:fax xmlns:ns2="http://www.wiley.com/schemas/eis/contact">
+				<ns3:name xmlns:ns3="http://www.wiley.com/schemas/eis/common">FAX_EXTENS</ns3:name>
+				<ns3:value xmlns:ns3="http://www.wiley.com/schemas/eis/common"/>
+			</ns2:fax>
+			<ns2:fax xmlns:ns2="http://www.wiley.com/schemas/eis/contact">
+				<ns3:name xmlns:ns3="http://www.wiley.com/schemas/eis/common">FAX</ns3:name>
+				<ns3:value xmlns:ns3="http://www.wiley.com/schemas/eis/common"/>
+			</ns2:fax>
+			<ns2:extensions xmlns:ns2="http://www.wiley.com/schemas/eis/contact">
+				<ns3:property xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+					<ns3:name>KVGR1</ns3:name>
+					<ns3:value>III</ns3:value>
+				</ns3:property>
+			</ns2:extensions>
+		</ns1:contactInfo>
+		<ns1:contacts xmlns:ns1="http://www.wiley.com/schemas/eis/customer"/>
+	</ns0:customer>
+</ns0:customerRequest>

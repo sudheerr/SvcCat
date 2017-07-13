@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<outputMessage>
+	<ns0:customerResponse xmlns:SOAP-ENV = "http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns0 = "http://www.wiley.com/schemas/eis/customerResponse">
+		<ns0:response>
+			<ns1:code xmlns:ns1 = "http://www.wiley.com/schemas/eis/common">EIS_0000</ns1:code>
+			<ns1:message xmlns:ns1 = "http://www.wiley.com/schemas/eis/common">Success</ns1:message>
+			<ns1:guid xmlns:ns1 = "http://www.wiley.com/schemas/eis/common">FA510925-0AC8-4052-6700-872250A59300</ns1:guid>
+		</ns0:response>
+		<ns0:customer>
+			<ns1:contactInfo xmlns:ns1 = "http://www.wiley.com/schemas/eis/customer">
+				<ns2:identity xmlns:ns2 = "http://www.wiley.com/schemas/eis/contact">
+					<ns3:ecId xmlns:ns3 = "http://www.wiley.com/schemas/eis/common">I110810992</ns3:ecId>
+					<ns3:bpId xmlns:ns3 = "http://www.wiley.com/schemas/eis/common">1001813184</ns3:bpId>
+				</ns2:identity>
+			</ns1:contactInfo>
+		</ns0:customer>
+	</ns0:customerResponse>
+</outputMessage>

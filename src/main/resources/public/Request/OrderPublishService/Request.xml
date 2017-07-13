@@ -1,0 +1,207 @@
+<ns0:requester>
+	<ns1:name xmlns:ns1="http://www.wiley.com/schemas/eis/common">FUL</ns1:name>
+	<ns1:type xmlns:ns1="http://www.wiley.com/schemas/eis/common">DFUE</ns1:type>
+	<ns1:number xmlns:ns1="http://www.wiley.com/schemas/eis/common">0000000034803269</ns1:number>
+	<ns1:code xmlns:ns1="http://www.wiley.com/schemas/eis/common">DFUE</ns1:code>
+	<ns1:property xmlns:ns1="http://www.wiley.com/schemas/eis/common"/>
+</ns0:requester>
+<ns0:order>
+	<ns1:details xmlns:ns1="http://www.wiley.com/schemas/eis/order">
+		<ns2:common xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:id>1</ns2:id>
+			<ns2:number>4001770605</ns2:number>
+		</ns2:common>
+		<ns2:date xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>HOLDINGSYEAR</ns2:name>
+			<ns2:value>0629</ns2:value>
+		</ns2:date>
+		<ns2:date xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>PODATE</ns2:name>
+			<ns2:value>20170629</ns2:value>
+		</ns2:date>
+		<ns2:date xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>SALESDOCUMENTDATE</ns2:name>
+			<ns2:value>20170629</ns2:value>
+		</ns2:date>
+		<ns2:date xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>ALMSALESDOCUMENTDATE</ns2:name>
+			<ns2:value>20170629160530</ns2:value>
+		</ns2:date>
+		<ns2:reference xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>SOLDTOITEMYOURREFERENCE</ns2:name>
+			<ns2:value>E00000000052</ns2:value>
+		</ns2:reference>
+		<ns2:status xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>ALMSTATUS</ns2:name>
+			<ns2:value>000</ns2:value>
+		</ns2:status>
+		<ns2:status xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>ORDERITEMOVERALLSTATUS</ns2:name>
+			<ns2:value>A</ns2:value>
+		</ns2:status>
+		<ns2:status xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>ORDEROVERALLSTATUS</ns2:name>
+			<ns2:value>B</ns2:value>
+		</ns2:status>
+		<ns2:status xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>PQPAYMENTSTATUS</ns2:name>
+			<ns2:value>A</ns2:value>
+		</ns2:status>
+		<ns2:cost xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:currency>
+				<ns2:name>CURRENCYCODE</ns2:name>
+				<ns2:value>USD</ns2:value>
+			</ns2:currency>
+		</ns2:cost>
+		<ns2:payment xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:common>
+				<ns2:name>1</ns2:name>
+			</ns2:common>
+			<ns2:method>
+				<ns2:card>
+					<ns2:common>
+						<ns2:detail>ZD00</ns2:detail>
+					</ns2:common>
+					<ns2:activation>
+						<ns2:status>A</ns2:status>
+					</ns2:activation>
+				</ns2:card>
+				<ns2:other/>
+			</ns2:method>
+		</ns2:payment>
+		<ns2:extensions xmlns:ns2="http://www.wiley.com/schemas/eis/common"/>
+	</ns1:details>
+	<ns1:item xmlns:ns1="http://www.wiley.com/schemas/eis/order">
+		<ns2:common xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>ZDON</ns2:name>
+			<ns2:id>5060000002</ns2:id>
+			<ns2:type>ZDON</ns2:type>
+			<ns2:number>5060000002</ns2:number>
+		</ns2:common>
+		<ns2:quantity xmlns:ns2="http://www.wiley.com/schemas/eis/common">0.000</ns2:quantity>
+		<ns2:extensions xmlns:ns2="http://www.wiley.com/schemas/eis/common"/>
+	</ns1:item>
+	<ns1:customer xmlns:ns1="http://www.wiley.com/schemas/eis/order">
+		<ns2:contactInfo xmlns:ns2="http://www.wiley.com/schemas/eis/customer">
+			<ns3:identity xmlns:ns3="http://www.wiley.com/schemas/eis/contact">
+				<ns4:type xmlns:ns4="http://www.wiley.com/schemas/eis/common">04</ns4:type>
+			</ns3:identity>
+			<ns3:extensions xmlns:ns3="http://www.wiley.com/schemas/eis/contact"/>
+		</ns2:contactInfo>
+		<ns2:contacts xmlns:ns2="http://www.wiley.com/schemas/eis/customer">
+			<ns2:contact>
+				<ns3:name xmlns:ns3="http://www.wiley.com/schemas/eis/contact">
+					<ns4:firstName xmlns:ns4="http://www.wiley.com/schemas/eis/common">ABC </ns4:firstName>
+				</ns3:name>
+				<ns3:address xmlns:ns3="http://www.wiley.com/schemas/eis/contact">
+					<ns4:street xmlns:ns4="http://www.wiley.com/schemas/eis/address">
+						<ns4:addressLine>ABC ST</ns4:addressLine>
+					</ns4:street>
+					<ns4:city xmlns:ns4="http://www.wiley.com/schemas/eis/address">CITY</ns4:city>
+					<ns4:postalZip xmlns:ns4="http://www.wiley.com/schemas/eis/address">
+						<ns4:postalCode>07030</ns4:postalCode>
+					</ns4:postalZip>
+					<ns4:country xmlns:ns4="http://www.wiley.com/schemas/eis/address">
+						<ns4:countryCode>US</ns4:countryCode>
+					</ns4:country>
+				</ns3:address>
+				<ns3:email xmlns:ns3="http://www.wiley.com/schemas/eis/contact">
+					<ns4:value xmlns:ns4="http://www.wiley.com/schemas/eis/common">ABC@WILEY.COM</ns4:value>
+				</ns3:email>
+				<ns3:extensions xmlns:ns3="http://www.wiley.com/schemas/eis/contact"/>
+			</ns2:contact>
+		</ns2:contacts>
+		<ns2:payment xmlns:ns2="http://www.wiley.com/schemas/eis/customer">
+			<ns3:method xmlns:ns3="http://www.wiley.com/schemas/eis/common">
+				<ns3:card>
+					<ns3:common/>
+					<ns3:activation/>
+				</ns3:card>
+				<ns3:other/>
+			</ns3:method>
+		</ns2:payment>
+	</ns1:customer>
+	<ns1:sales xmlns:ns1="http://www.wiley.com/schemas/eis/order">
+		<ns2:extensions xmlns:ns2="http://www.wiley.com/schemas/eis/common"/>
+	</ns1:sales>
+	<ns1:extensions xmlns:ns1="http://www.wiley.com/schemas/eis/order">
+		<ns2:property xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>ITEMNUMBER</ns2:name>
+			<ns2:value>000010</ns2:value>
+		</ns2:property>
+		<ns2:property xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>MULTIPLEJOURNALS</ns2:name>
+			<ns2:value>CO</ns2:value>
+		</ns2:property>
+		<ns2:property xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>STANDARDQUOTE</ns2:name>
+			<ns2:value>PC</ns2:value>
+		</ns2:property>
+		<ns2:property xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>SUBSCRIPTIONMEDIUM</ns2:name>
+			<ns2:value>DI</ns2:value>
+		</ns2:property>
+		<ns2:property xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>SUBSCRIPTIONTYPE</ns2:name>
+			<ns2:value>RR</ns2:value>
+		</ns2:property>
+		<ns2:property xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>SALESORDERNUMBER</ns2:name>
+			<ns2:value>4001770605</ns2:value>
+		</ns2:property>
+		<ns2:property xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>SHIPTOITEMYOURREFERENCE</ns2:name>
+			<ns2:value>E00000000052</ns2:value>
+		</ns2:property>
+		<ns2:property xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>ALMSOLDTOITEMYOURREFERENCE</ns2:name>
+			<ns2:value>N9000001180</ns2:value>
+		</ns2:property>
+		<ns2:property xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>ISMIDENTCODE</ns2:name>
+			<ns2:value/>
+		</ns2:property>
+		<ns2:property xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>ORDERFLAG</ns2:name>
+			<ns2:value>000</ns2:value>
+		</ns2:property>
+		<ns2:property xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>CANCELLATIONCODE</ns2:name>
+			<ns2:value>A</ns2:value>
+		</ns2:property>
+		<ns2:property xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>ORDERITEMFLAG</ns2:name>
+			<ns2:value>000</ns2:value>
+		</ns2:property>
+		<ns2:property xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>CONTRACTSTARTDATE</ns2:name>
+			<ns2:value>20170629</ns2:value>
+		</ns2:property>
+		<ns2:property xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>CONTRACTENDDATE</ns2:name>
+			<ns2:value>20180628</ns2:value>
+		</ns2:property>
+		<ns2:property xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>EALACCOUNTNUMBER</ns2:name>
+			<ns2:value/>
+		</ns2:property>
+		<ns2:property xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>PAYER</ns2:name>
+			<ns2:value>1001813201</ns2:value>
+		</ns2:property>
+		<ns2:property xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>HEADERSHIPTOPARTY</ns2:name>
+			<ns2:value>1001813201</ns2:value>
+		</ns2:property>
+		<ns2:property xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>SOLDTOPARTY</ns2:name>
+			<ns2:value>1001813201</ns2:value>
+		</ns2:property>
+		<ns2:property xmlns:ns2="http://www.wiley.com/schemas/eis/common">
+			<ns2:name>BILLTOPAY</ns2:name>
+			<ns2:value>1001813201</ns2:value>
+		</ns2:property>
+		<ns2:data xmlns:ns2="http://www.wiley.com/schemas/eis/common"/>
+	</ns1:extensions>
+</ns0:order>
+</ns0:orderRequest>

@@ -1,0 +1,99 @@
+============================
+ALM Create User Request
+=============================
+
+{
+  "CreateUserAttributes": {
+    "LastName": "Shiwani",
+    "FirstName": "Prakash",
+    "Email":"shaaaa@gmail.com",
+    "Password":"Passwo12rd",
+    "UserStatus": "Active",
+    "SourceSystem": "authorServices",
+    "CustomerType": "User",
+    "TCFlag": "N",
+    "ECID": "379999",
+    "UserAddress": {
+      "Country": "IND",
+      "State": "GJ",
+      "Street": "Main Street",
+      "Address": "New Delhi",
+      "ZipCode": "360007"
+    },
+    "UserSecurityQuestions": {
+      "UserSecurityQuestionsMap": {
+        "entry": [
+          {
+            "key": "What is your mother's maiden name?",
+            "value": "mom"
+          },
+          {
+            "key": "What is your first pet's name?",
+            "value": "white"
+          },
+          {
+            "key": "What city were you born in?",
+            "value": "Kolkata"
+          }
+        ]
+      }
+    }
+  }
+}
+=============================
+ALM Update User Request
+=============================
+{
+  "UpdateUserAttributes": {
+    "LastName": "Kumar",
+    "FirstName": "Shiwani",
+    "Email": "rakumar3456@gmail.com",
+    "ECID": "379999",
+    "UserStatus": "Active",
+    "SourceSystem": "authorServices",
+    "UserAddress": {
+                "Address": "New Delhi",
+                "Street": "Main Street",
+     "State": "Delhi",
+     "Country": "IND",
+     "ZipCode": "360007"
+    },
+    "CustomerType": "User",
+    "TCFlag": "N",
+    "SendEmail": "Yes"
+  }
+}
+================================
+LOCK UNLOCK User Request
+=================================
+{
+  "UpdateUserSecurityAttributes": {
+    "ExistingEmail": "try@gmail.com",
+    "SourceSystem": "authorServices"
+  }
+}
+===================================
+Update Password Request
+===================================
+{
+  "UpdateUserSecurityAttributes": {
+    "ExistingEmail": "mKumar123@gmail.com",
+    "ExistingPassword": "Passwo12@rd",
+    "NewPassword": "Passwo1234@rd",
+    "SourceSystem": "authorServices"
+  }
+}
+
+===================================
+Update User ID Request
+===================================
+{
+  "UpdateUserSecurityAttributes": {
+    "ExistingEmail": "try@gmail.com",
+    "NewEmail": "mKumar123@gmail.com",
+    "SourceSystem": "AS"
+  }
+}
+
+
+

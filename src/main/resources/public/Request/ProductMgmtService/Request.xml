@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:productRequest xmlns:ns0="http://www.wiley.com/schemas/eis/productRequest">
+	<ns0:requester/>
+	<ns0:product>
+		<ns1:details xmlns:ns1="http://www.wiley.com/schemas/eis/product">
+			<ns1:id mod="">JPHP-0069-0002-P</ns1:id>
+			<ns1:code>
+				<ns1:name mod="">JOURNALCODE</ns1:name>
+				<ns1:value>JPHP</ns1:value>
+			</ns1:code>
+			<ns1:description mod="">J. pharm. pharmacol.</ns1:description>
+			<ns1:mediaCode mod="">A</ns1:mediaCode>
+			<ns1:highLevelMediaProduct mod="">JPHPP</ns1:highLevelMediaProduct>
+			<ns1:extensions>
+				<ns1:extension>
+					<ns1:name mod="">JPCMSISSUEIDCODE</ns1:name>
+					<ns1:value>JPHP.69:2.ISS</ns1:value>
+				</ns1:extension>
+			</ns1:extensions>
+		</ns1:details>
+		<ns1:identity xmlns:ns1="http://www.wiley.com/schemas/eis/product">
+			<ns1:materialNumber mod="">JPHP00690000002P</ns1:materialNumber>
+			<ns1:legacyMaterialNumber mod="">JPHP2017692</ns1:legacyMaterialNumber>
+			<ns1:materialGroup mod="">JR</ns1:materialGroup>
+			<ns1:extensions>
+				<ns1:extension>
+					<ns1:name mod="">MATERIALGROUP4</ns1:name>
+					<ns1:value>JO</ns1:value>
+				</ns1:extension>
+			</ns1:extensions>
+		</ns1:identity>
+		<ns1:status xmlns:ns1="http://www.wiley.com/schemas/eis/product">
+			<ns1:name mod="">STATUS</ns1:name>
+			<ns1:value>S</ns1:value>
+		</ns1:status>
+		<ns1:date xmlns:ns1="http://www.wiley.com/schemas/eis/product">
+			<ns1:publicationDate mod="">1170117</ns1:publicationDate>
+			<ns1:extensions>
+				<ns1:extension>
+					<ns1:name mod="">REVISEDPUBDATE</ns1:name>
+					<ns1:value>1170703</ns1:value>
+				</ns1:extension>
+			</ns1:extensions>
+		</ns1:date>
+		<ns1:issue xmlns:ns1="http://www.wiley.com/schemas/eis/product">
+			<ns1:number mod="">2</ns1:number>
+			<ns1:yearNumber mod="">2017</ns1:yearNumber>
+			<ns1:copyNumber mod="">69</ns1:copyNumber>
+			<ns1:runDate mod="">1170622</ns1:runDate>
+		</ns1:issue>
+		<ns1:categorization xmlns:ns1="http://www.wiley.com/schemas/eis/product">
+			<ns1:pubSource mod="">C</ns1:pubSource>
+		</ns1:categorization>
+	</ns0:product>
+</ns0:productRequest>

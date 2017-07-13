@@ -1,0 +1,2 @@
+REQUEST Query String
+http://esbqa02tx.wiley.com:8091/VATIDVALIDATION?countryCode=CZE&taxRegistrationNumber=49612158

@@ -1,0 +1,39 @@
+============================
+ALM Create User Response
+=============================
+{
+  "Status":"SUCCESS",
+  "AlmInternalkey":"ALM-11486707"
+}
+=============================
+ALM Update User Response
+=============================
+{
+  "Status": "SUCCESS"
+}
+================================
+LOCK UNLOCK User Response
+=================================
+{
+  "Status": "SUCCESS"
+}
+===================================
+Update Password Response
+===================================
+{
+  "Status":"FAILURE",
+  "Error":{
+    "ErrorCode":"ALM951",
+    "ErrorMessage":"Existing Password does not match",
+    "StackTrace":"AS-ALM-0004ESB_ADMIN_ERRORBUSINESSExisting Password does not matchALM951MEDIUM"
+  }
+}
+===================================
+Update User ID Response
+===================================
+{
+  "Status":"SUCCESS"
+}
+
+
+
